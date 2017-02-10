@@ -1,31 +1,58 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+	ViewBag.Title = "Home Page";
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Michael Carey's ePortfolio</h1>
+		</div>
+		<div class="col-md-2">
+			<img class="img-responsive" src="~/Media/fbMichael_Carey.jpg" title="Michael Carey" alt="Michael Carey" />
+		</div>
+		<div class="col-md-8">
+			<p>I'm excited that you're here! Please feel free to look around, check it out, and let me know what you think.</p>
+		</div>
+	</div>
 </div>
 
 <div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
+	<div class="col-md-12">
+		<h2>About Me</h2>
+		<p>
+			I have had the opportunity to develop on both personal and corporate large scale applications, primarily in web and API services. 
+			During my career I have successfully developed from conception to release four different web based applications, 
+			refactored a SaaS application into an N-Tier structure and helped release two new services, a SOA Layer and Notification Service. 
+			I also pave the way for the development and release of a mobile application for iOS and Android. 
+			Additionally, I functioned as the development lead of six other developers working closely with the project manager where I was tasked with various responsibilities. 
+			I additionally implemented Continuous Integration with automated deployment and functioned as the release manager for all services, 
+			which included developing SQL update scripts for deployments. Most recently I was the principle QA Automation Engineer where I designed
+			and began implementation for a customized load testing framework for large translation system workflows. 
+			Lastly, I had the distinct privilege of working with and mentoring an intern from Weber State University in the testing of 
+			REST APIs and quality assurance responsibilities and duties.
+		</p>
+	</div>
+	<div class="col-md-4">
+		<h2>Projects</h2>
+		<p>
+			Michael has had the opportunity to work on some amazing software applications.
+		</p>
+		<p>
+			@Html.ActionLink( "Learn more >>", "Index", "Projects", null, new { style="background:blue; color:white; font-weight:bold;", @class = "btn btn-default" } )
+		</p>
+	</div>
+	<div class="col-md-4">
+		<h2>Skills</h2>
+		<p>Michael's top skills.</p>
+		<p>
+			@Html.ActionLink( "Learn more >>", "Index", "Skills", null, new { style = "background:blue; color:white; font-weight:bold;", @class = "btn btn-default" } )
+		</p>
+	</div>
+	<div class="col-md-4">
+		<h2>Experience</h2>
+		<p>Personal experiences inside and outside the work place.</p>
+		<p>
+			@Html.ActionLink( "Learn more >>", "Index", "Experience", null, new { style = "background:blue; color:white; font-weight:bold;", @class = "btn btn-default" } )
+		</p>
+	</div>
 </div>

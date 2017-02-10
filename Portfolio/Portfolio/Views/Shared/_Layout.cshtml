@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>@ViewBag.Title - My ASP.NET Application</title>
+	<title>@ViewBag.Title - Michael's ePortfolio</title>
 	@Styles.Render( "~/Content/css" )
 	@Scripts.Render( "~/bundles/modernizr" )
 </head>
@@ -23,25 +23,38 @@
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-inverse">
 						<li>
+							<a style="color: white;" class="dropdown-toggle" data-toggle="dropdown" role="button">Experience <span class="caret"></span></a>
+							<ul class="dropdown-menu navbar-inverse" role="menu">
+								<li>
+									@Html.ActionLink( "Work History", "Index", "Experience", null, new { style = "color: white;" } )
+								</li>
+							</ul>
+						</li>
+						<li class="divider-horizontal"></li>
+						<li>
 							<a style="color: white;" class="dropdown-toggle" data-toggle="dropdown" role="button">Projects <span class="caret"></span></a>
 							<ul class="dropdown-menu navbar-inverse" role="menu">
-								<li>@Html.ActionLink( "Home", "Index", "Home", null, new { style = "color: white;" } )</li>
-								<li>@Html.ActionLink( "About", "About", "Home", null, new { style = "color: white;" } )</li>
-								<li>@Html.ActionLink( "Contact", "Contact", "Home", null, new { style = "color: white;" } )</li>
+								<li>@Html.ActionLink( "AdverTran", "AdverTran", "Projects", null, new { style = "color: white;" } )</li>
+								<li>@Html.ActionLink( "CIT 261", "Cit261", "Projects", null, new { style = "color: white;" } )</li>
+								<li>@Html.ActionLink( "CS 313", "Cs313", "Projects", null, new { style = "color: white;" } )</li>
+								<li>@Html.ActionLink( "MLMLinkup", "MlmLinkup", "Projects", null, new { style = "color: white;" } )</li>
 							</ul>
 						</li>
 						<li class="divider-horizontal"></li>
 						<li>
 							<a style="color: white;" class="dropdown-toggle" data-toggle="dropdown" role="button">Skills <span class="caret"></span></a>
 							<ul class="dropdown-menu navbar-inverse" role="menu">
-								<li class="">
-									<a style="color: white;" href="teach03.php">Teach 03</a>
+								<li>
+									@Html.ActionLink( "Languages", "Languages", "Skills", null, new { style = "color: white;" } )
+								</li>
+								<li>
+									@Html.ActionLink( "Leadership", "Leadership", "Skills", null, new { style = "color: white;" } )
 								</li>
 							</ul>
 						</li>
 						<li class="divider-horizontal"></li>
 						<li>
-							<a style="color: white;" href="https://github.com/MCLifeLeader/CareyMichael_Cs313.git" target="_blank">Git</a>
+							@Html.ActionLink( "Git", "Git", "Home", null, new { style = "color: white;" } )
 						</li>
 					</ul>
 				</div>
