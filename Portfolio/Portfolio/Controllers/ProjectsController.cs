@@ -14,17 +14,27 @@ namespace Portfolio.Controllers
 			return View();
 		}
 
-		public ActionResult Cs313()
-		{
-			return View();
-		}
-
 		public ActionResult Cit261()
 		{
 			return View();
 		}
 
+		public ActionResult Cs313()
+		{
+			return View();
+		}
+
+		public ActionResult Encompass()
+		{
+			return View();
+		}
+
 		public ActionResult MlmLinkup()
+		{
+			return View();
+		}
+
+		public ActionResult RedheadMobile()
 		{
 			return View();
 		}
