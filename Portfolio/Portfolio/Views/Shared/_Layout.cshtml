@@ -4,6 +4,35 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>@ViewBag.Title - Michael's ePortfolio</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Reply-to" content="support@AGameEmpowerment.com">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Language" content="en-us">
+	<meta name="DESCRIPTION" content="Michael Carey's ePortfolio. This portfolio highlights the skills, abilities, expirence, and projects Michael has been involved in or done. This ePortfolio is here for research and reference while researching Michael Carey's expirence.">
+	<meta name="KEYWORDS" content="ePortfolio, Portfolio, Michael, Carey, Resume, Michael Carey, Technical, Software, Engineer, Senior Engineer, Developer, Skills, Experience, Projects">
+	<meta name="Robots" content="Follow, Index">
+	<meta name="Copyright" content="Michael Carey, @DateTime.Now.Year">
+	<meta name="Distribution" content="Worldwide">
+	<meta name="Rating" content="General">
+	<meta name="revisit-after" content="15 days">
+	<link rel="alternate" hreflang="x-default" href="http://www.AGameEmpowerment.com/" />
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] ||
+				function () {
+					(i[r].q = i[r].q || []).push(arguments);
+				}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m);
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-17815932-37', 'auto');
+		ga('send', 'pageview');
+	</script>
+
 	@Styles.Render( "~/Content/css" )
 	@Scripts.Render( "~/bundles/modernizr" )
 </head>
@@ -37,7 +66,9 @@
 								<li>@Html.ActionLink( "AdverTran", "AdverTran", "Projects", null, new { style = "color: white;" } )</li>
 								<li>@Html.ActionLink( "CIT 261", "Cit261", "Projects", null, new { style = "color: white;" } )</li>
 								<li>@Html.ActionLink( "CS 313", "Cs313", "Projects", null, new { style = "color: white;" } )</li>
+								<li>@Html.ActionLink( "Encompass", "Encompass", "Projects", null, new { style = "color: white;" } )</li>
 								<li>@Html.ActionLink( "MLMLinkup", "MlmLinkup", "Projects", null, new { style = "color: white;" } )</li>
+								<li>@Html.ActionLink( "Redhead Mobile", "RedheadMobile", "Projects", null, new { style = "color: white;" } )</li>
 							</ul>
 						</li>
 						<li class="divider-horizontal"></li>
