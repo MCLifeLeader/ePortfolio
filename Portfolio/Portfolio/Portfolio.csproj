@@ -192,6 +192,11 @@
     <Content Include="Views\Skills\Leadership.cshtml" />
     <Content Include="Views\Projects\RedheadMobile.cshtml" />
     <Content Include="Views\Projects\Encompass.cshtml" />
+    <Content Include="Views\Skills\CSharpe.cshtml" />
+    <Content Include="Views\Skills\Java.cshtml" />
+    <Content Include="Views\Skills\Database.cshtml" />
+    <Content Include="Views\Skills\Web.cshtml" />
+    <Content Include="Views\Skills\WebApi.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

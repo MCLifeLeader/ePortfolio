@@ -18,5 +18,30 @@ namespace Portfolio.Controllers
 		{
 			return View();
 		}
+
+		public ActionResult CSharpe()
+		{
+			return View();
+		}
+
+		public ActionResult Java()
+		{
+			return View();
+		}
+
+		public ActionResult Database()
+		{
+			return View();
+		}
+
+		public ActionResult Web()
+		{
+			return View();
+		}
+
+		public ActionResult WebApi()
+		{
+			return View();
+		}
 	}
 }
