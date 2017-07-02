@@ -197,6 +197,7 @@
     <Content Include="Views\Skills\Database.cshtml" />
     <Content Include="Views\Skills\Web.cshtml" />
     <Content Include="Views\Skills\WebApi.cshtml" />
+    <Content Include="Views\Projects\FamilyKey.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

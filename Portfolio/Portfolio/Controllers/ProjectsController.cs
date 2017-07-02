@@ -38,5 +38,10 @@ namespace Portfolio.Controllers
 		{
 			return View();
 		}
+
+		public ActionResult FamilyKey()
+		{
+			return View();
+		}
 	}
 }
