@@ -19,12 +19,17 @@ namespace Portfolio.Controllers
 			return View();
 		}
 
-		public ActionResult Cs313()
-		{
-			return View();
-		}
+	    public ActionResult Cs313()
+	    {
+	        return View();
+	    }
 
-		public ActionResult Encompass()
+	    public ActionResult Cs364()
+	    {
+	        return View();
+	    }
+
+        public ActionResult Encompass()
 		{
 			return View();
 		}
