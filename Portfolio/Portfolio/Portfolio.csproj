@@ -151,7 +151,7 @@
     <Content Include="Media\CS364_ECR.pdf" />
     <None Include="Properties\PublishProfiles\FileSystem.pubxml" />
     <None Include="Properties\PublishProfiles\InuYasha Deploy.pubxml" />
-    <Content Include="Media\fbMichael_Carey.jpg" />
+    <Content Include="Media\fbMichael_B_Carey.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.2.1.intellisense.js" />
