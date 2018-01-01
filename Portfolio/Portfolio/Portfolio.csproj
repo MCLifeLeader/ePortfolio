@@ -194,7 +194,7 @@
     <Content Include="Views\Projects\Cit261.cshtml" />
     <Content Include="Views\Projects\MlmLinkup.cshtml" />
     <Content Include="Views\Projects\AdverTran.cshtml" />
-    <Content Include="Views\Skills\Languages.cshtml" />
+    <Content Include="Views\Skills\Technologies.cshtml" />
     <Content Include="Views\Skills\Leadership.cshtml" />
     <Content Include="Views\Projects\RedheadMobile.cshtml" />
     <Content Include="Views\Projects\Encompass.cshtml" />

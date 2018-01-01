@@ -9,7 +9,7 @@ namespace Portfolio.Controllers
 			return View();
 		}
 
-		public ActionResult Languages()
+		public ActionResult Technologies()
 		{
 			return View();
 		}
