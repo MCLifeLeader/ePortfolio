@@ -39,6 +39,11 @@ namespace Portfolio.Controllers
 			return View();
 		}
 
+		public ActionResult VSTS()
+		{
+			return View();
+		}
+
 		public ActionResult WebApi()
 		{
 			return View();

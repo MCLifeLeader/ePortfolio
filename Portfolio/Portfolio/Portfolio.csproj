@@ -206,6 +206,7 @@
     <Content Include="Views\Projects\FamilyKey.cshtml" />
     <Content Include="Views\Projects\Cs364.cshtml" />
     <Content Include="Views\Skills\CPlus.cshtml" />
+    <Content Include="Views\Skills\VSTS.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
