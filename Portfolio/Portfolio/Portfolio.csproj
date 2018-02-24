@@ -149,6 +149,7 @@
     <Content Include="Media\CS364_SDD.pdf" />
     <Content Include="Media\CS364_SRS.pdf" />
     <Content Include="Media\CS364_ECR.pdf" />
+    <Content Include="Media\2018_Scrum_Master.pptx" />
     <None Include="Properties\PublishProfiles\FileSystem.pubxml" />
     <None Include="Properties\PublishProfiles\InuYasha Deploy.pubxml" />
     <Content Include="Media\fbMichael_B_Carey.jpg" />
