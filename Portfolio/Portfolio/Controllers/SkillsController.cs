@@ -19,7 +19,7 @@ namespace Portfolio.Controllers
 			return View();
 		}
 
-		public ActionResult CSharpe()
+		public ActionResult CSharp()
 		{
 			return View();
 		}
