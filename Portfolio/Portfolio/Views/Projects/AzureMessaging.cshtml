@@ -1,0 +1,38 @@
+﻿@{
+   ViewBag.Title = "Azure Messaging Service Bus";
+}
+<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message</h3>
+
+<div class="row">
+   <div class="col-md-12">
+      <h3>Azure Message Bus</h3>
+      <p>
+         My development and implementation of a messaging service handler for Academy Mortgage was based on the needs to improve performance and get
+         database specific data back to a client application where the company client applications would not be directly connected to our internal network.
+         The @Html.ActionLink("Encompass", "Encompass", "Projects", null, new { style = "background:#2e86c1; color:white; font-weight:bold;", @class = "btn btn-default" })
+         application is utilized for tracking the loan origination process and is a third-party application developed by Ellie Mae.
+      </p>
+      <p>
+         Through customized development we added a plugin that allowed us to make data request calls securely through the Azure Messaging services and then 
+         return the results back to the client application for further processing. This customization reduced our typical client wait time from 60 to 120 
+         seconds and more down to under 15 seconds for the vast majority of requests.
+      </p>
+      <p>
+         <ul class="list-group">
+            <li class="list-group-item">ASP.NET</li>
+            <li class="list-group-item">C#</li>
+            <li class="list-group-item">MVC</li>
+            <li class="list-group-item">Azure Message Bus</li>
+            <li class="list-group-item">RESTful API</li>
+            <li class="list-group-item">JSON</li>
+            <li class="list-group-item">Log4net</li>
+            <li class="list-group-item">Active Directory</li>
+            <li class="list-group-item">Java Web Token (JWT)</li>
+         </ul>
+      </p>
+      <p>
+         <a style="background: #2e86c1; color: white; font-weight: bold;" class="btn btn-default" href="https://academymortgage.com/" target="_blank">Academy Mortgage >></a>
+      </p>
+   </div>
+</div>

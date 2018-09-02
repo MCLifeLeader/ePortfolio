@@ -208,6 +208,7 @@
     <Content Include="Views\Projects\Cs364.cshtml" />
     <Content Include="Views\Skills\CPlus.cshtml" />
     <Content Include="Views\Skills\VSTS.cshtml" />
+    <Content Include="Views\Projects\AzureMessaging.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

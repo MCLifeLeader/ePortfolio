@@ -48,5 +48,10 @@ namespace Portfolio.Controllers
 		{
 			return View();
 		}
-	}
+
+	   public ActionResult AzureMessaging()
+	   {
+	      return View();
+	   }
+   }
 }
