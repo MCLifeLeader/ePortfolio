@@ -14,7 +14,12 @@ namespace Portfolio.Controllers
 			return View();
 		}
 
-		public ActionResult Cit261()
+      public ActionResult AGameEmpowerment()
+      {
+         return View();
+      }
+
+      public ActionResult Cit261()
 		{
 			return View();
 		}
