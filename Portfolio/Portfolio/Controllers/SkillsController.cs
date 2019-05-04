@@ -1,57 +1,80 @@
 ﻿using System.Web.Mvc;
+using log4net;
 
 namespace Portfolio.Controllers
 {
 	public class SkillsController : Controller
 	{
-		public ActionResult Index()
+      private readonly ILog _logger = LogManager.GetLogger(typeof(SkillsController));
+
+      public ActionResult Index()
 		{
-			return View();
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Index));
+
+         return View();
 		}
 
 		public ActionResult Technologies()
 		{
-			return View();
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Technologies));
+
+         return View();
 		}
 
 		public ActionResult Leadership()
 		{
-			return View();
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Leadership));
+
+         return View();
 		}
 
 		public ActionResult CSharp()
 		{
-			return View();
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(CSharp));
+
+         return View();
 		}
 
 		public ActionResult Java()
 		{
-			return View();
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Java));
+
+         return View();
 		}
 
 		public ActionResult Database()
 		{
-			return View();
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Database));
+
+         return View();
 		}
 
 		public ActionResult Web()
 		{
-			return View();
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Web));
+
+         return View();
 		}
 
 		public ActionResult VSTS()
 		{
-			return View();
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(VSTS));
+
+         return View();
 		}
 
 		public ActionResult WebApi()
 		{
-			return View();
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(WebApi));
+
+         return View();
 		}
 
 		public ActionResult CPlus()
 		{
-			return View();
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(CPlus));
+
+         return View();
 		}
 	}
 }

@@ -1,62 +1,87 @@
 ﻿using System.Web.Mvc;
+using log4net;
 
 namespace Portfolio.Controllers
 {
-	public class ProjectsController : Controller
-	{
-		public ActionResult Index()
-		{
-			return View();
-		}
+   public class ProjectsController : Controller
+   {
+      private readonly ILog _logger = LogManager.GetLogger(typeof(ProjectsController));
 
-		public ActionResult AdverTran()
-		{
-			return View();
-		}
+      public ActionResult Index()
+      {
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Index));
+
+         return View();
+      }
+
+      public ActionResult AdverTran()
+      {
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(AdverTran));
+
+         return View();
+      }
 
       public ActionResult AGameEmpowerment()
       {
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(AGameEmpowerment));
+
          return View();
       }
 
       public ActionResult Cit261()
-		{
-			return View();
-		}
+      {
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Cit261));
 
-	    public ActionResult Cs313()
-	    {
-	        return View();
-	    }
+         return View();
+      }
 
-	    public ActionResult Cs364()
-	    {
-	        return View();
-	    }
+      public ActionResult Cs313()
+      {
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Cs313));
 
-        public ActionResult Encompass()
-		{
-			return View();
-		}
+         return View();
+      }
 
-		public ActionResult MlmLinkup()
-		{
-			return View();
-		}
+      public ActionResult Cs364()
+      {
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Cs364));
 
-		public ActionResult RedheadMobile()
-		{
-			return View();
-		}
+         return View();
+      }
 
-		public ActionResult FamilyKey()
-		{
-			return View();
-		}
+      public ActionResult Encompass()
+      {
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Encompass));
 
-	   public ActionResult AzureMessaging()
-	   {
-	      return View();
-	   }
+         return View();
+      }
+
+      public ActionResult MlmLinkup()
+      {
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(MlmLinkup));
+
+         return View();
+      }
+
+      public ActionResult RedheadMobile()
+      {
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(RedheadMobile));
+
+         return View();
+      }
+
+      public ActionResult FamilyKey()
+      {
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(FamilyKey));
+
+         return View();
+      }
+
+      public ActionResult AzureMessaging()
+      {
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(AzureMessaging));
+
+         return View();
+      }
    }
 }

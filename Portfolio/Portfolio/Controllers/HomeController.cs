@@ -1,27 +1,38 @@
 ﻿using System.Web.Mvc;
+using log4net;
 
 namespace Portfolio.Controllers
 {
 	public class HomeController : Controller
 	{
-		public ActionResult Index()
+      private readonly ILog _logger = LogManager.GetLogger(typeof(HomeController));
+
+      public ActionResult Index()
 		{
-			return View();
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Index));
+
+         return View();
 		}
 
 		public ActionResult About()
 		{
-			return View();
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(About));
+
+         return View();
 		}
 
 		public ActionResult Contact()
 		{
-			return View();
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Contact));
+
+         return View();
 		}
 
 		public ActionResult Git()
 		{
-			return View();
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Git));
+
+         return View();
 		}
 	}
 }
