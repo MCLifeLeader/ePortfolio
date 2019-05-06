@@ -43,7 +43,7 @@ namespace Portfolio {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://AGameEmpowerment.com")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://api.AGameEmpowerment.com")]
         public string AGameWebUrl {
             get {
                 return ((string)(this["AGameWebUrl"]));
