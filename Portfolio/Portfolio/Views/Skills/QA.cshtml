@@ -1,0 +1,97 @@
+﻿@{
+   ViewBag.Title = "Quality Assurance";
+}
+<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message</h3>
+
+<div class="row">
+   <div class="col-md-12">
+      <h3>Test Case Development</h3>
+      <p>
+         Tech Details here
+      </p>
+      <h3>Selenium WebDriver</h3>
+      <p>
+         Tech Details here
+      </p>
+      <h3>Manual and Automation Testing</h3>
+      <p>
+         Tech Details here
+      </p>
+      <h3>Filing Defects / Bugs</h3>
+      <p>
+         The process for filing defects or bugs will depend on the company or department that you are in.
+         One of the most important aspects of filing defects is the ability to communicate the steps necessary
+         to replicate the issue that was found. As a Quality Assurance Engineer in Software Testing you need to
+         balance the level of details so that you are not being overly verbose but providing enough clarity for
+         the issue to be replicated step by step. The other benefit to creating clear reproduction steps is that
+         these new steps become the details to be included as a new test case in your test suite.
+      </p>
+      <p>
+         Something that I have also found that greatly helps in the remediation of a defect is the use of screen
+         capture or video recording software during the testing cycle. Using such tools makes it perfectly clear
+         what happened how and when. However, relying solely on video or screen capture is not sufficient. It is
+         still important to convert the video reproduction into verbal steps so that you can add it to your test
+         suite later and often the written word is faster to follow than watching a video. Videos and screen
+         captures serve to supply nuanced details that maybe missed through written reproduction steps.
+      </p>
+      <p>
+         Lastly, as QA it was important to have a level of separation of concerns when triaging defects. QA was
+         responsible for setting the severity of the defect and the product owner set the priority for fixing the
+         defect. Listed below was the basic severity breakdown that we used when classifying defects.
+      </p>
+      <ul class="list-group">
+         <li class="list-group-item list-group-item-text">
+            Severity 1
+            <ul class="list-group">
+               <li class="list-group-item list-group-item-text">
+                  Completely broken and unable to proceed and the functionality of the software is non-functional.
+                  There is a code stack trace with exception details, or the functionality does not work at all.
+                  This would also extend to translations that are offensive or completely wrong.
+               </li>
+            </ul>
+         </li>
+         <li class="list-group-item list-group-item-text">
+            Severity 2
+            <ul class="list-group">
+               <li class="list-group-item list-group-item-text">
+                  The functionality is badly broken from a UX / UI perspective. There is a work around for the
+                  user but may involve support manually making changes in the database or working with the user
+                  one on one to work past the broken point.
+               </li>
+            </ul>
+         </li>
+         <li class="list-group-item list-group-item-text">
+            Severity 3
+            <ul class="list-group">
+               <li class="list-group-item list-group-item-text">
+                  The functionality is working but not optimally. There is a relatively easy work around that
+                  the user can be trained to follow. This would also be the defect level for most UX / UI issues.
+               </li>
+            </ul>
+         </li>
+         <li class="list-group-item list-group-item-text">
+            Severity 4
+            <ul class="list-group">
+               <li class="list-group-item list-group-item-text">
+                  Minor UI / UX issue and would include grammatical issues such as spelling or punctuation
+                  that is incorrect.
+               </li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+   <div class="col-md-6">
+      <h3>Summary</h3>
+      <ul class="list-group">
+         <li class="list-group-item list-group-item-text">Selenium WebDriver - C#</li>
+         <li class="list-group-item list-group-item-text">Ranorex - C#</li>
+         <li class="list-group-item list-group-item-text">Custom QA Frameworks</li>
+         <li class="list-group-item list-group-item-text">MS SQL</li>
+      </ul>
+   </div>
+   <div class="col-md-6">
+      <h3>External Links</h3>
+      <a class="btn btn-default" href="https://www.google.com/" target="_blank" style="background: #2e86c1; color: white; font-weight: bold;">Link Example >></a><br />
+   </div>
+</div>

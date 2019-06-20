@@ -70,11 +70,18 @@ namespace Portfolio.Controllers
          return View();
 		}
 
-		public ActionResult CPlus()
-		{
+      public ActionResult CPlus()
+      {
          _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(CPlus));
 
          return View();
-		}
-	}
+      }
+
+      public ActionResult QA()
+      {
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(QA));
+
+         return View();
+      }
+   }
 }
