@@ -163,6 +163,7 @@
     <None Include="Properties\PublishProfiles\InuYasha Deploy.pubxml" />
     <Content Include="Media\fbMichael_B_Carey.jpg" />
     <None Include="Properties\PublishProfiles\kb7ppbWeb - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\mbcarey - Web Deploy.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
