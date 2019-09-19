@@ -3,72 +3,72 @@ using log4net;
 
 namespace Portfolio.Controllers
 {
-	public class SkillsController : Controller
-	{
+   public class SkillsController : Controller
+   {
       private readonly ILog _logger = LogManager.GetLogger(typeof(SkillsController));
 
       public ActionResult Index()
-		{
+      {
          _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Index));
 
          return View();
-		}
+      }
 
-		public ActionResult Technologies()
-		{
+      public ActionResult Technologies()
+      {
          _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Technologies));
 
          return View();
-		}
+      }
 
-		public ActionResult Leadership()
-		{
+      public ActionResult Leadership()
+      {
          _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Leadership));
 
          return View();
-		}
+      }
 
-		public ActionResult CSharp()
-		{
+      public ActionResult CSharp()
+      {
          _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(CSharp));
 
          return View();
-		}
+      }
 
-		public ActionResult Java()
-		{
+      public ActionResult Java()
+      {
          _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Java));
 
          return View();
-		}
+      }
 
-		public ActionResult Database()
-		{
+      public ActionResult Database()
+      {
          _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Database));
 
          return View();
-		}
+      }
 
-		public ActionResult Web()
-		{
+      public ActionResult Web()
+      {
          _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Web));
 
          return View();
-		}
+      }
 
-		public ActionResult VSTS()
-		{
+      public ActionResult VSTS()
+      {
          _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(VSTS));
 
          return View();
-		}
+      }
 
-		public ActionResult WebApi()
-		{
+      public ActionResult WebApi()
+      {
          _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(WebApi));
 
          return View();
-		}
+      }
 
       public ActionResult CPlus()
       {
