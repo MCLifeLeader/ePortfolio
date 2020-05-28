@@ -311,7 +311,7 @@
     <Content Include="Views\Projects\Cs364.cshtml" />
     <Content Include="Views\Skills\CPlus.cshtml" />
     <Content Include="Views\Skills\VSTS.cshtml" />
-    <Content Include="Views\Projects\AzureMessaging.cshtml" />
+    <Content Include="Views\Projects\AzureServices.cshtml" />
     <Content Include="Views\Projects\AGameEmpowerment.cshtml" />
     <Content Include="Views\Skills\QA.cshtml" />
     <Content Include="Scripts\umd\popper.min.js.map" />

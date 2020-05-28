@@ -77,9 +77,9 @@ namespace Portfolio.Controllers
          return View();
       }
 
-      public ActionResult AzureMessaging()
+      public ActionResult AzureServices()
       {
-         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(AzureMessaging));
+         _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(AzureServices));
 
          return View();
       }
