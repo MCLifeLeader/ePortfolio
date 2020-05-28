@@ -13,12 +13,17 @@
       </p>
       <h3>Academy Message Bus API</h3>
       <p>
-
          My development and implementation of a messaging service handler for Academy Mortgage was based
          on the needs to improve performance and get database specific data back to a client application
          where the company client applications would not be directly connected to our internal network.
          The @Html.ActionLink("Encompass", "Encompass", "Projects", null, null) application is utilized
          for tracking the loan origination process and is a third-party application developed by Ellie Mae.
+      </p>
+      <p>
+         Through customized development we added a plugin that allowed us to make data request calls securely
+         through the Azure Messaging services and then return the results back to the client application for
+         further processing. This customization reduced our typical client wait time from 60 to well over
+         120 seconds down to under 15 seconds for most requests.
       </p>
       <h3>Amy Email API</h3>
       <p>
@@ -61,32 +66,32 @@
          of their loan data to perform analytics and reporting.
       </p>
       <p>
-         The problem that this solution is to address is the replacement of the inbound data stream 
+         The problem that this solution is to address is the replacement of the inbound data stream
          that we established using the Encompass SDK to pull data from Encompass into our own data warehouse.
          When this was developed, Ellie Mae had yet to provide a resource such as Data Connect, and we had to
-         develop our own solution in house. In researching Data Connect, we really liked the solution but 
+         develop our own solution in house. In researching Data Connect, we really liked the solution but
          felt that the price point being asked was much higher than the value provided, primarily because we
          have multiple lanes in addition to our production environment raising the overall monthly costs beyond
-         what we are ready to pay for as a company. Additionally, our aged Encompass SDK solution’s stability 
+         what we are ready to pay for as a company. Additionally, our aged Encompass SDK solution’s stability
          has always been in question and has required a great deal of maintenance and manual care to keep
          running on an annual basis.
       </p>
       <p>
          To resolve this problem I created a proof of concept that leveraged the built in event based Webhook
-         broadcast logic built into Encompass, and received those messages through a Function App micro 
-         service that then stored those messages in a Service Bus queue. Following a similar design to the 
-         Amy Email API solution I created a series of Webhook Listeners that Encompass could post messages to. 
-         These messages when received are sent to an Azure Service Bus for later processing when the Logic App 
-         puller is called. I then setup a puller service that makes a call to the Logic App event Web API event 
+         broadcast logic built into Encompass, and received those messages through a Function App micro
+         service that then stored those messages in a Service Bus queue. Following a similar design to the
+         Amy Email API solution I created a series of Webhook Listeners that Encompass could post messages to.
+         These messages when received are sent to an Azure Service Bus for later processing when the Logic App
+         puller is called. I then setup a puller service that makes a call to the Logic App event Web API event
          listener that then pulls a message from the Service Bus Queue and returns it to the service puller application.
          From there I then made a call into Encompass to retrieve the Loan Object by establishing a connection
          to Encompass and calling the Get Loan API call through Dev Connect.
       </p>
       <p>
          This payload of JSON data is then stored in a simple database that I created to store both the original
-         event request and the full loan data payload object. Conceptionally from this point the 
-         Enterprise Data Team could read the data from the database and extract all relevant information 
-         from the JSON payload and store into our data warehouse for analysis processing and reporting for the 
+         event request and the full loan data payload object. Conceptually from this point the
+         Enterprise Data Team could read the data from the database and extract all relevant information
+         from the JSON payload and store into our data warehouse for analysis processing and reporting for the
          executive teams.
       </p>
       <p>
