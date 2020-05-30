@@ -8,10 +8,10 @@
    <div class="col-md-12">
       <p>
          <h2>Further Details coming soon.</h2>
-         <h3>This section is incomplete and still being fleshed out, see my Resume for greater details.</h3>
+         <h3>This section is incomplete and still being fleshed out, see my Experience and Resume for greater details.</h3>
       </p>
       <p>
-         <a class="btn btn-info" href="~/media/resume.pdf" target="_blank" rel="noopener" style="background:#2e86c1; color:white; font-weight:bold;">Resume >></a>
+         @Html.ActionLink("Experience / Resume >>", "Index", "Experience", null, new { style = "background:#2e86c1; color:white; font-weight:bold;", @class = "btn btn-info" } )
       </p>
    </div>
    <div class="col-md-4">
@@ -84,6 +84,50 @@
       </p>
       <p>
          @Html.ActionLink("Learn more >>", "WebApi", "Skills", null, new { style = "background:#2e86c1; color:white; font-weight:bold;", @class = "btn btn-info" })
+      </p>
+   </div>
+   <div class="col-12">
+      <h3>Technical Trainings</h3>
+      <p>
+         <ul class="list-group">
+            <li class="list-group-item list-group-item-primary font-weight-bolder">
+               Courses and Trainings Completed
+            </li>
+            <li class="list-group-item list-group-item-info font-weight-bolder">
+               <a href="https://app.pluralsight.com/library/courses/javascript-design-patterns/table-of-contents" target="_blank" rel="noopener">JavaScript Design Patterns</a> <span class="font-weight-normal">by Pluralsight</span>
+            </li>
+            <li class="list-group-item list-group-item-info font-weight-bolder">
+               <a href="https://app.pluralsight.com/library/courses/microsoft-azure-service-brokered-messaging/table-of-contents" target="_blank" rel="noopener">Microsoft Azure Service Bus Brokered Messaging In-Depth</a> <span class="font-weight-normal">by Pluralsight</span>
+            </li>
+            <li class="list-group-item list-group-item-info font-weight-bolder">
+               <a href="https://app.pluralsight.com/library/courses/implementing-devops-real-world/table-of-contents" target="_blank" rel="noopener">Implementing DevOps in the Real World</a> <span class="font-weight-normal">by Pluralsight</span>
+            </li>
+            <li class="list-group-item list-group-item-info font-weight-bolder">
+               <a href="https://app.pluralsight.com/library/courses/devops-executive-briefing/table-of-contents" target="_blank" rel="noopener">What Is DevOps: Executive Briefing</a> <span class="font-weight-normal">by Pluralsight</span>
+            </li>
+         </ul>
+      </p>
+      <p>
+         <ul class="list-group">
+            <li class="list-group-item list-group-item-primary font-weight-bolder">
+               Courses and Trainings In-Progress
+            </li>
+            <li class="list-group-item list-group-item-info font-weight-bolder">
+               <a href="https://app.pluralsight.com/library/courses/asp-dot-net-core-restful-api-building/table-of-contents" target="_blank" rel="noopener">Building a RESTful API with ASP.NET Core</a> <span class="font-weight-normal">by Pluralsight</span>
+            </li>
+            <li class="list-group-item list-group-item-info font-weight-bolder">
+               <a href="https://app.pluralsight.com/library/courses/entity-framework-core-2-getting-started/table-of-contents" target="_blank" rel="noopener">Entity Framework Core 2: Getting Started</a> <span class="font-weight-normal">by Pluralsight</span>
+            </li>
+            <li class="list-group-item list-group-item-info font-weight-bolder">
+               <a href="https://app.pluralsight.com/library/courses/agile-fundamentals/table-of-contents" target="_blank" rel="noopener">Agile Fundamentals</a> <span class="font-weight-normal">by Pluralsight</span>
+            </li>
+            <li class="list-group-item list-group-item-info font-weight-bolder">
+               <a href="https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents" target="_blank" rel="noopener">React: Getting Started</a> <span class="font-weight-normal">by Pluralsight</span>
+            </li>
+            <li class="list-group-item list-group-item-info font-weight-bolder">
+               <a href="https://app.pluralsight.com/library/courses/getting-started-blazor/table-of-contents" target="_blank" rel="noopener">Blazor: Getting Started</a> <span class="font-weight-normal">by Pluralsight</span>
+            </li>
+         </ul>
       </p>
    </div>
 </div>
