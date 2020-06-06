@@ -1,11 +1,45 @@
 ﻿@{
-	ViewBag.Title = "C/C++";
+   ViewBag.Title = "C/C++";
 }
 <h2>@ViewBag.Title</h2>
 <h3>@ViewBag.Message</h3>
 
 <div class="row">
    <div class="col-md-12">
+      <h3>CS235</h3>
+      <p>
+         <h4>BYU-Idaho study course work completed in 2004</h4>
+
+         This class is a data structures class. Here I learned a great deal more about actual real programming. This was one of the first real classes that I gained
+         a much better and deeper understanding of real development.<br />
+         See my Github repo: <a href="https://github.com/MCLifeLeader/CS235" target="_blank" rel="noopener">CS235</a>
+      </p>
+      <h3>CS165</h3>
+      <p>
+         <h4>BYU-Idaho study course work completed in 2003</h4>
+
+         Before this class I had a fairly solid understanding of basic programming principles and skills. I had followed a self-directed educational program and
+         learned the ANSI C Programming language. Here was my first experience into C++ and Object Oriented programming. I actually skipped the prerequisite
+         class for CS165 which was CS124. After reviewing CS124 it was way too basic for me. So instead, I got an A grade in CS165 and requested a vertical credit for CS124.<br />
+         See my Github repo: <a href="https://github.com/MCLifeLeader/CS165" target="_blank" rel="noopener">CS165</a>
+      </p>
+      <h3>GEDCOM SQL Database Import Process</h3>
+      <p>
+         The first question is what is a <a href="https://www.bing.com/search?form=MOZLBR&pc=MOZI&q=gedcom+file" target="_blank" rel="noopener">GEDCOM</a> file? Answer: A GEDCOM file
+         is a genealogical database flat file that contains familial relational data and information typically for family history research. These files were popular with various
+         programs such as Family Tree and Personal Ancestral File. One of the projects that I worked on with a group of friends was attempting to create a family history and
+         social media website called FamilyKey. One of the primary challenges was getting the ancestral data uploaded to the web and it was my task to import the data into the
+         database. After users created their account they could then upload their GEDCOM file to create a family history tree based website. The process that I created read
+         and then inserted into the database the records and relational links to family members so the website could display the content and familial links on the web. Sadly,
+         the company Kumusoft and its partnership failed and the project was shutdown.
+      </p>
+      <p>
+         In this solution I wanted to parse and process the file in a single pass, attempting to make this the most efficient as possible additionally the relational linkage
+         had to reestablished following a parent / child structure. As I processed the data I created individual node records using a simple linked list
+         for each person found in the data and then after parsing I found and established the relationships between each person with the
+         appropriate parent / child relationship. All of this information was eventually inserted into the database using manual scripting and OLEDB connection and
+         scripted database calls.
+      </p>
       <h3>Misc Projects</h3>
       <p>
          This collection of C and C++ code examples represents my personal study and development in programming on my own without the aid of
@@ -13,40 +47,24 @@
          approached problems early on highlights my tenacity to learn and the hunger I had to become a software engineer.
       </p>
       <p>
-         This repository contains a collection of projects that I have created that show understanding of coding skills. These projects are intended 
-         to be functional and demonstrate understanding in the concept area highlighted but are not intended to be inclusive of a fully functional product. 
+         This repository contains a collection of projects that I have created that show understanding of coding skills. These projects are intended
+         to be functional and demonstrate understanding in the concept area highlighted but are not intended to be inclusive of a fully functional product.
          These are proof of concept and skills exposé coding projects.
       </p>
       <p>
          These were written early when I was still learning programming from my early teens to my early twenties representing time approx from 1990 to 1999.
-      </p>
-      <h3>CS165</h3>
-      <p>
-         BYU-Idaho study course work completed in 2003
-
-         Before this class I had a fairly solid understanding of basic programming principles and skills.
-         I had followed a self-directed educational program and learned the ANSI C Programming language.
-         Here was my first experience into C++ and Object Oriented programming. I actually skipped the
-         prerequisite class for CS165 which was CS124. After reviewing CS124 it was way too basic for me.
-         So instead, I got an A grade in CS165 and requested a vertical credit for CS124.
-      </p>
-      <h3>CS235</h3>
-      <p>
-         BYU-Idaho study course work completed in 2004
-
-         This class is a data structures class. Here I learned a great deal more about actual real programming.
-         This was one of the first real classes that I gained a much better and deeper understanding of real
-         development.
+         My first few programs were written in Basic, then Pascal, and finally in ANSI C. I grabbed my dad's programming book and began going through the
+         examples one at a time until I was doing file IO.<br />
+         See my Github repo: <a href="https://github.com/MCLifeLeader/MiscProjects" target="_blank" rel="noopener">Misc Projects</a>.
       </p>
    </div>
-	<div class="col-md-6">
-		<h3>Summary</h3>
-		<ul class="list-group">
-			<li class="list-group-item list-group-item-info font-weight-bolder">List Item 1</li>
-			<li class="list-group-item list-group-item-info font-weight-bolder">List Item 2</li>
-			<li class="list-group-item list-group-item-info font-weight-bolder">List Item 3</li>
-		</ul>
-	</div>
+   <div class="col-md-6">
+      <h3>Summary</h3>
+      <ul class="list-group">
+         <li class="list-group-item list-group-item-info font-weight-bolder">Linked Lists</li>
+         <li class="list-group-item list-group-item-info font-weight-bolder">SQL Server</li>
+      </ul>
+   </div>
    <div class="col-md-6">
       <h3>External Links</h3>
       <a class="btn btn-info" href="https://github.com/MCLifeLeader/MiscProjects" target="_blank" rel="noopener" style="background: #2e86c1; color: white; font-weight: bold;">Misc Projects >></a><br />
