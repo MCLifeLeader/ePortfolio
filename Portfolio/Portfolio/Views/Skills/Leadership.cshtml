@@ -25,7 +25,26 @@
       </p>
       <p>
          The primary tool that we managed as a part of our day to day processes was Azure DevOps from Microsoft where we managed projects, source code repositories, and
-         the building and deployment of code through Continuous Integration / Continuous Deployment (CI/CD) process pipelines.
+         the building and deployment of code through Continuous Integration / Continuous Deployment (CI/CD) process pipelines. We created pipelines for a number of
+         deployment scenarios and depending upon the specified branch we would have an automatic build begin to build that particular branch's code. One the build was
+         complete and the artifacts were stored on the build server the next job would begin, deployment. From there the deployment job would be initiated and would
+         grab the newly created artifacts and push it out to the target deployment server.
+      </p>
+      <p>
+         Production build and deployments were handled slightly differently. Anyone could start a build for the production <span class="font-weight-bolder">master</span>
+         branch. However, deployments would need to go through an approval process. This was handled through our Change Advisory Board, which I was a member of.
+         Change requests would be created detailing the change item, when it was to be deployed, risk assessment, rollback plans, tests, business approval, and most importantly
+         impact communication plan.
+      </p>
+      <p>
+         Something that is very important to me is self development and improvement and while I was the DevOps and QA manager for Academy Mortgage I had taken up
+         additional activities around training and education. Each month I hosted a brown bag lunch for anyone who would like to attend and was interested
+         in becoming a better Citizen Developer. This included various technologies and skill sets such as QA, Power Apps, Power Automate, C#, JavaScript,
+         or any coding project. The Citizen Developer project was something that I organized and promoted within Academy Mortgage. What I would do was host a lunch and learn
+         at least once a month where anyone who was a Software Engineer all the way down to a regular team member wanting to be a Citizen Developer and contributor
+         could participate. Ideally, a different team would present at the lunch and learn and the presentation would be recorded. I would take the recording, edit it,
+         and then post the video for everyone to have access to it on Microsoft's Stream video hosting service. Additional resources and materials were also posted on
+         The Citizen Developer SharePoint site.
       </p>
    </div>
    <div class="col-6">
