@@ -1,0 +1,15 @@
+﻿@{
+	ViewBag.Title = "Fun Projects";
+}
+<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message</h3>
+
+<div class="row">
+	<div class="col-md-4">
+	    <h3>Ham Radio Go-Kit</h3>
+	    <p>This is a how to guide to build a Ham Radio Go-Kit for VHF and UHF mobile radio.</p>
+		<p>
+			@Html.ActionLink( "Learn more >>", "HamRadioVHFGoKit", "FunProjects", null, new { style = "background:#2e86c1; color:white; font-weight:bold;", @class = "btn btn-info" } )
+		</p>
+	</div>
+</div>
