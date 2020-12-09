@@ -2,23 +2,8 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Portfolio" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="ReCaptchaPublic" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">PublicKey</Value>
-    </Setting>
-    <Setting Name="ReCaptchaSecret" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">PrivateSecretKey</Value>
-    </Setting>
     <Setting Name="AGameWebUrl" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">https://api.AGameEmpowerment.com</Value>
-    </Setting>
-    <Setting Name="AGameClientId" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">ClientId</Value>
-    </Setting>
-    <Setting Name="AGameSecret" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Secret</Value>
-    </Setting>
-    <Setting Name="FromEmail" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">support@AGameEmpowerment.com</Value>
+      <Value Profile="(Default)">https://msa.agameempowerment.com</Value>
     </Setting>
   </Settings>
 </SettingsFile>
