@@ -5,5 +5,11 @@
     <Setting Name="AGameWebUrl" Type="System.String" Scope="Application">
       <Value Profile="(Default)">https://msa.agameempowerment.com</Value>
     </Setting>
+    <Setting Name="ReCaptchaPublic" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ReCaptchaSecret" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>

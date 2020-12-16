@@ -1,4 +1,5 @@
-﻿@model Portfolio.Models.EmailMessage
+﻿@using hbehr.recaptcha
+@model Portfolio.Models.EmailMessage
 @{
    ViewBag.Title = "Contact";
    string statusMessage = ViewBag.Message;
@@ -31,7 +32,7 @@
             <div class="card bg-light">
                <div class="row mt-0">
                   <div class="col-md-12 ">
-                     <h4 class="">Contact Us</h4>
+                     <h4 class="">Contact Me</h4>
                      <p>Use the form below to share your questions, ideas, comments and feedback</p>
                   </div>
                </div>
@@ -60,10 +61,16 @@
                   </div>
                </div>
                <div class="form-group row justify-content-center mb-0">
-                  <div class="col-md-12 px-3"> <input type="submit" value="Submit" class="btn btn-block btn-purple rm-border"> </div>
+                  <div class="col-md-12 px-3">
+                     <input type="submit" value="Submit" class="btn btn-block btn-purple rm-border">
+
+                     @ReCaptcha.GetCaptcha()
+                  </div>
                </div>
             </div>
          }
       </div>
    </div>
 </div>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>

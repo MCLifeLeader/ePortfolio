@@ -31,5 +31,23 @@ namespace Portfolio {
                 return ((string)(this["AGameWebUrl"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ReCaptchaPublic {
+            get {
+                return ((string)(this["ReCaptchaPublic"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ReCaptchaSecret {
+            get {
+                return ((string)(this["ReCaptchaSecret"]));
+            }
+        }
     }
 }

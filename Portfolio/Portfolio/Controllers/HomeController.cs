@@ -2,6 +2,7 @@
 using System.Net;
 using System.Threading.Tasks;
 using System.Web.Mvc;
+using hbehr.recaptcha;
 using log4net;
 using Portfolio.Extensions;
 using Portfolio.Models;
@@ -36,12 +37,21 @@ namespace Portfolio.Controllers
       }
 
       [HttpPost]
-      public async Task<ActionResult> Contact(Models.EmailMessage emailMessage)
+      public async Task<ActionResult> Contact(EmailMessage emailMessage, FormCollection form)
       {
          _logger.DebugFormat("'{0}.{1}' called", GetType().Name, nameof(Contact));
 
          ViewBag.Message = "Message Failed";
 
+         string userResponse = HttpContext.Request.Params["g-recaptcha-response"];
+         if (!await ReCaptcha.ValidateCaptchaAsync(userResponse))
+         {
+            ViewBag.Message = "Please Try again. Captcha not valid";
+            _logger.WarnFormat("Captia was not valid: {0}", userResponse);
+            // Bot Attack, non validated !
+            return View();
+         }
+         
          if (ModelState.IsValid)
          {
             if (!string.IsNullOrEmpty(emailMessage.FromAddress) && !string.IsNullOrEmpty(emailMessage.MessageContent))

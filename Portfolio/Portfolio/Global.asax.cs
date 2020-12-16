@@ -1,7 +1,9 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Reflection;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using hbehr.recaptcha;
 using log4net;
 
 namespace Portfolio
@@ -23,6 +25,21 @@ namespace Portfolio
          _logger.Debug("Application Start - Debug Logging level Check");
 
          _logger.Info($"Version: {Assembly.GetExecutingAssembly().GetName()}");
+
+         // Configure and activate the ReCaptcha code in the application
+         string reCaptchaPublic = Environment.GetEnvironmentVariable("ReCaptchaPublic");
+         string reCaptchaSecret = Environment.GetEnvironmentVariable("ReCaptchaSecret");
+         
+#if DEBUG
+         if (string.IsNullOrEmpty(reCaptchaPublic))
+            reCaptchaPublic = Settings.Default.ReCaptchaPublic;
+         
+         if (string.IsNullOrEmpty(reCaptchaSecret))
+            reCaptchaPublic = Settings.Default.ReCaptchaSecret;
+#endif
+         
+         ReCaptcha.Configure(reCaptchaPublic, reCaptchaSecret);
+
 
          AreaRegistration.RegisterAllAreas();
 			FilterConfig.RegisterGlobalFilters( GlobalFilters.Filters );
