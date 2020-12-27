@@ -34,7 +34,7 @@ namespace Portfolio {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("PublicKey")]
         public string ReCaptchaPublic {
             get {
                 return ((string)(this["ReCaptchaPublic"]));
@@ -43,7 +43,7 @@ namespace Portfolio {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("PrivateKey")]
         public string ReCaptchaSecret {
             get {
                 return ((string)(this["ReCaptchaSecret"]));
