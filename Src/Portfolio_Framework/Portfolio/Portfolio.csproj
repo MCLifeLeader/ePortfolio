@@ -200,6 +200,13 @@
     <Content Include="Media\Image045.jpg" />
     <Content Include="Media\Image046.jpg" />
     <Content Include="Media\Image047.jpg" />
+    <Content Include="Media\Image048.jpg" />
+    <Content Include="Media\Image049.jpg" />
+    <Content Include="Media\Image051.jpg" />
+    <Content Include="Media\Image052.jpg" />
+    <Content Include="Media\Image053.jpg" />
+    <Content Include="Media\Image054.jpg" />
+    <Content Include="Media\Image050.jpg" />
     <Content Include="Media\Resume.pdf" />
     <Content Include="Media\CS364_SDD.pdf" />
     <Content Include="Media\CS364_SRS.pdf" />
