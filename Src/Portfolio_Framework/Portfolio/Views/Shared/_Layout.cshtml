@@ -45,7 +45,8 @@
                         Experience
                      </a>
                      <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                        @Html.ActionLink("Work History", "Index", "Experience", null, new { @class = "nav-link text-light" })
+                        @Html.ActionLink("Education", "Education", "Experience", null, new { @class = "nav-link text-light" })
+                        @Html.ActionLink("Work History", "WorkHistory", "Experience", null, new { @class = "nav-link text-light" })
                      </div>
                   </li>
                   <li class="nav-item dropdown">
@@ -71,8 +72,8 @@
                         Skills
                      </a>
                      <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                        @Html.ActionLink("Technical", "Technologies", "Skills", null, new { @class = "nav-link text-light" })
                         @Html.ActionLink("Leadership", "Leadership", "Skills", null, new { @class = "nav-link text-light" })
+                        @Html.ActionLink("Technical", "Technologies", "Skills", null, new { @class = "nav-link text-light" })
                      </div>
                   </li>
                   <li class="nav-item">

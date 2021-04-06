@@ -396,6 +396,8 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\FunProjects\Index.cshtml" />
     <Content Include="Views\FunProjects\HamRadioVHFGoKit.cshtml" />
+    <Content Include="Views\Experience\WorkHistory.cshtml" />
+    <Content Include="Views\Experience\Education.cshtml" />
     <None Include="Web.Azure.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
