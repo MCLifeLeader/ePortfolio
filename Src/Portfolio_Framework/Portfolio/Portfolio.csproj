@@ -15,7 +15,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Portfolio</RootNamespace>
     <AssemblyName>Portfolio</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort>
@@ -84,9 +84,9 @@
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
@@ -222,6 +222,7 @@
     <Content Include="Media\CS364_SRS.pdf" />
     <Content Include="Media\CS364_ECR.pdf" />
     <Content Include="Media\2018_Scrum_Master.pptx" />
+    <Content Include="Media\fbMichael_B_Carey.jpg" />
     <Content Include="Content\bootstrap.rtl.min.css.map" />
     <Content Include="Content\bootstrap.rtl.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
@@ -239,7 +240,6 @@
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
     <None Include="packages.config" />
-    <Content Include="Media\fbMichael_B_Carey.jpg" />
     <None Include="Properties\PublishProfiles\mbcarey - Web Deploy.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -400,16 +400,6 @@
     <Content Include="Views\Projects\AzureServices.cshtml" />
     <Content Include="Views\Projects\AGameEmpowerment.cshtml" />
     <Content Include="Views\Skills\QA.cshtml" />
-    <Content Include="Scripts\umd\popper.min.js.map" />
-    <Content Include="Scripts\umd\popper.js.map" />
-    <Content Include="Scripts\umd\popper.js.flow" />
-    <Content Include="Scripts\umd\popper-utils.min.js.map" />
-    <Content Include="Scripts\umd\popper-utils.js.map" />
-    <Content Include="Scripts\README.md" />
-    <Content Include="Scripts\popper.min.js.map" />
-    <Content Include="Scripts\popper.js.map" />
-    <Content Include="Scripts\popper-utils.min.js.map" />
-    <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\FunProjects\Index.cshtml" />
     <Content Include="Views\FunProjects\HamRadioVHFGoKit.cshtml" />
     <Content Include="Views\Experience\WorkHistory.cshtml" />
@@ -422,6 +412,16 @@
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.6.0.min.map" />
+    <Content Include="Scripts\umd\popper.min.js.map" />
+    <Content Include="Scripts\umd\popper.js.map" />
+    <Content Include="Scripts\umd\popper.js.flow" />
+    <Content Include="Scripts\umd\popper-utils.min.js.map" />
+    <Content Include="Scripts\umd\popper-utils.js.map" />
+    <Content Include="Scripts\README.md" />
+    <Content Include="Scripts\popper.min.js.map" />
+    <Content Include="Scripts\popper.js.map" />
+    <Content Include="Scripts\popper-utils.min.js.map" />
+    <Content Include="Scripts\popper-utils.js.map" />
     <None Include="Web.Azure.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
