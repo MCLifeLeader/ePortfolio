@@ -207,6 +207,18 @@
     <Content Include="Media\Image053.jpg" />
     <Content Include="Media\Image054.jpg" />
     <Content Include="Media\Image050.jpg" />
+    <Content Include="Media\Image055.jpg" />
+    <Content Include="Media\Image056.jpg" />
+    <Content Include="Media\Image057.jpg" />
+    <Content Include="Media\Image058.jpg" />
+    <Content Include="Media\Image059.jpg" />
+    <Content Include="Media\Image060.jpg" />
+    <Content Include="Media\Image061.jpg" />
+    <Content Include="Media\Image062.jpg" />
+    <Content Include="Media\Image063.jpg" />
+    <Content Include="Media\Image064.jpg" />
+    <Content Include="Media\Image065.jpg" />
+    <Content Include="Media\Image066.jpg" />
     <Content Include="Media\Resume.pdf" />
     <Content Include="Media\CS364_SDD.pdf" />
     <Content Include="Media\CS364_SRS.pdf" />
@@ -233,6 +245,7 @@
     <Content Include="Media\zzz_AC_SL1500.jpg" />
     <Content Include="Media\zzz_AntennaTripod.jpg" />
     <Content Include="Media\zzz_asr-ss-30m_xl.jpg" />
+    <Content Include="Media\zzz_Yeasu-FT891_HF50.jpg" />
     <Content Include="Media\zzz_Kenwood.jpg" />
     <Content Include="Media\zzz_KRS-V71-USB-2.jpg" />
     <Content Include="Media\zzz_Placeholder.jpg" />
