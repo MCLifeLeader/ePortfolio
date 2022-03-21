@@ -246,6 +246,8 @@
     <Content Include="Media\zzz_AC_SL1500.jpg" />
     <Content Include="Media\zzz_AntennaTripod.jpg" />
     <Content Include="Media\zzz_asr-ss-30m_xl.jpg" />
+    <Content Include="Media\zzz_PowerGate_Front.jpg" />
+    <Content Include="Media\zzz_PowerGate_Side.jpg" />
     <Content Include="Media\zzz_Yeasu-FT891_HF50.jpg" />
     <Content Include="Media\zzz_Kenwood.jpg" />
     <Content Include="Media\zzz_KRS-V71-USB-2.jpg" />
