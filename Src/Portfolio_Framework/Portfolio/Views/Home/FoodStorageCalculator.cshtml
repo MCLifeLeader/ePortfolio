@@ -1,0 +1,598 @@
+﻿@{
+    ViewBag.Title = "Food Storage Calculator";
+}
+<h2>@ViewBag.Title</h2>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+    // Source idea came from: https://www.thefoodguys.com/foodcalc.html
+
+    function ClearInput(form) {
+        form.wheat.value = "";
+        form.flour.value = "";
+        form.cornmeal.value = "";
+        form.oats.value = "";
+        form.rice.value = "";
+        form.pasta.value = "";
+        form.sugar.value = "";
+        form.brown.value = "";
+        form.honey.value = "";
+        form.jello.value = "";
+        form.cornsyrup.value = "";
+        form.jams.value = "";
+        form.molasses.value = "";
+        form.fruitdrink.value = "";
+        form.milk.value = "";
+        form.evaporated.value = "";
+        form.other.value = "";
+        form.dairy.value = "";
+        form.oil.value = "";
+        form.fats.value = "";
+        form.shortening.value = "";
+        form.mayo.value = "";
+        form.dressing.value = "";
+        form.vinegar.value = "";
+        form.beans.value = "";
+        form.lentils.value = "";
+        form.split.value = "";
+        form.lima.value = "";
+        form.soy.value = "";
+        form.drysoup.value = "";
+        form.peanut.value = "";
+        form.yeast.value = "";
+        form.soda.value = "";
+        form.powder.value = "";
+        form.salt.value = "";
+        form.water.value = "";
+        form.bleach.value = "";
+        form.grain.value = "";
+        form.sugars.value = "";
+        form.legumes.value = "";
+        form.children.value = "";
+        form.adult.value = "";
+        form.corn.value = "";
+        form.peas.value = "";
+        form.greenbeans.value = "";
+        form.carrots.value = "";
+        form.potatoes.value = "";
+        form.apples.value = "";
+        form.applesauce.value = "";
+        form.banana.value = "";
+        form.fruitmix.value = "";
+        form.fruitjuice.value = "";
+
+        return true;
+    }
+
+    function SizeCalc(form) {
+        var children = form.children.value;
+        var wheat1 = children * 75;
+        var flour1 = children * 12;
+        var cornmeal1 = children * 12;
+        var oats1 = children * 12;
+        var rice1 = children * 25;
+        var pasta1 = children * 12;
+        var beans1 = children * 15;
+        var lima1 = children * 1;
+        var soy1 = children * 5;
+        var split1 = children * 1;
+        var lentils1 = children * 1;
+        var drysoup1 = children * 1;
+        var oil1 = children * 1;
+        var shortening1 = children * 2;
+        var mayo1 = children * 1;
+        var dressing1 = children * 1;
+        var peanut1 = children * 2;
+        var milk1 = children * 30;
+        var evaporated1 = children * 6;
+        var other1 = children * 6;
+        var sugar1 = children * 20;
+        var brown1 = children * 1;
+        var molasses1 = children * 1;
+        var honey1 = children * 1;
+        var cornsyrup1 = children * 1;
+        var jams1 = children * 1;
+        var fruitdrink1 = children * 3;
+        var jello1 = children * 1;
+        var yeast1 = children * .5;
+        var soda1 = children * 1;
+        var powder1 = children * 1;
+        var vinegar1 = children * .5;
+        var salt1 = children * 3;
+        var water1 = children * 14;
+        var apples1 = children * 20;
+        var applesauce1 = children * 20;
+        var banana1 = children * 15;
+        var fruitmix1 = children * 17.5;
+        var fruitjuice1 = children * 20;
+        var corn1 = children * 15;
+        var peas1 = children * 15;
+        var greenbeans1 = children * 15;
+        var carrots1 = children * 15;
+        var potatoes1 = children * 20;
+        var onions1 = children * 2.5;
+        var tomatoes1 = children * 10;
+
+        var adult = form.adult.value;
+        var wheat4 = adult * 150;
+        var flour4 = adult * 25;
+        var cornmeal4 = adult * 25;
+        var oats4 = adult * 25;
+        var rice4 = adult * 50;
+        var pasta4 = adult * 25;
+        var beans4 = adult * 30;
+        var lima4 = adult * 5;
+        var soy4 = adult * 10;
+        var split4 = adult * 5;
+        var lentils4 = adult * 5;
+        var drysoup4 = adult * 5;
+        var oil4 = adult * 2;
+        var shortening4 = adult * 4;
+        var mayo4 = adult * 2;
+        var dressing4 = adult * 1;
+        var peanut4 = adult * 4;
+        var milk4 = adult * 60;
+        var evaporated4 = adult * 12;
+        var other4 = adult * 13;
+        var sugar4 = adult * 40;
+        var brown4 = adult * 3;
+        var molasses4 = adult * 1;
+        var honey4 = adult * 3;
+        var cornsyrup4 = adult * 3;
+        var jams4 = adult * 3;
+        var fruitdrink4 = adult * 6;
+        var jello4 = adult * 1;
+        var yeast4 = adult * .5;
+        var soda4 = adult * 1;
+        var powder4 = adult * 1;
+        var vinegar4 = adult * .5;
+        var salt4 = adult * 5;
+        var water4 = adult * 14;
+        var apples4 = adult * 40;
+        var applesauce4 = adult * 40;
+        var banana4 = adult * 30;
+        var fruitmix4 = adult * 35;
+        var fruitjuice4 = adult * 40;
+        var corn4 = adult * 30;
+        var peas4 = adult * 30;
+        var greenbeans4 = adult * 30;
+        var carrots4 = adult * 30;
+        var potatoes4 = adult * 40;
+        var onions4 = adult * 5;
+        var tomatoes4 = adult * 20;
+
+        form.wheat.value = wheat1 + wheat4;
+        form.flour.value = flour1 + flour4;
+        form.cornmeal.value = cornmeal1 + cornmeal4;
+        form.oats.value = oats1 + oats4;
+        form.rice.value = rice1 + rice4;
+        form.pasta.value = pasta1 + pasta4;
+        form.grain.value = wheat1 + wheat4 + flour1 + flour4 + cornmeal1 + cornmeal4 + oats1 + oats4 + rice1 + rice4 + pasta1 + pasta4;
+        form.beans.value = beans1 + beans4;
+        form.lima.value = lima1 + lima4;
+        form.soy.value = soy1 + soy4;
+        form.split.value = split1 + split4;
+        form.lentils.value = lentils1 + lentils4;
+        form.drysoup.value = drysoup1 + drysoup4;
+        form.legumes.value = beans1 + beans4 + lima1 + lima4 + soy1 + soy4 + + split1 + split4 + lentils1 + lentils4 + drysoup1 + drysoup4;
+        form.oil.value = oil1 + oil4;
+        form.shortening.value = shortening1 + shortening4;
+        form.mayo.value = mayo1 + mayo4;
+        form.dressing.value = dressing1 + dressing4;
+        form.peanut.value = peanut1 + peanut4;
+        form.fats.value = ((oil1 + oil4) * 7) + shortening1 + shortening4 + peanut1 + peanut4 + ((mayo1 + mayo4) * 1) + ((dressing1 + dressing4) * 1);
+        form.milk.value = milk1 + milk4;
+        form.evaporated.value = evaporated1 + evaporated4;
+        form.other.value = other1 + other4;
+        form.dairy.value = milk1 + milk4 + ((adult * 2) + (children * 1)) + other1 + other4;
+        form.sugar.value = sugar1 + sugar4;
+        form.brown.value = brown1 + brown4;
+        form.molasses.value = molasses1 + molasses4;
+        form.honey.value = honey1 + honey4;
+        form.cornsyrup.value = cornsyrup1 + cornsyrup4;
+        form.jams.value = jams1 + jams4;
+        form.fruitdrink.value = fruitdrink1 + fruitdrink4;
+        form.jello.value = jello1 + jello4;
+        form.sugars.value = sugar1 + sugar4 + brown1 + brown4 + molasses1 + molasses4 + honey1 + honey4 + cornsyrup1 + cornsyrup4 + jams1 + jams4 + fruitdrink1 + fruitdrink4 + jello1 + jello4;
+        form.yeast.value = yeast1 + yeast4;
+        form.soda.value = soda1 + soda4;
+        form.powder.value = powder1 + powder4;
+        form.vinegar.value = vinegar1 + vinegar4;
+        form.salt.value = salt1 + salt4;
+        form.water.value = water1 + water4;
+        form.bleach.value = (children * 1) + (adult * 1);
+        form.apples.value = apples1 + apples4;
+        form.applesauce.value = applesauce1 + applesauce4;
+        form.banana.value = banana1 + banana4;
+        form.fruitmix.value = fruitmix1 + fruitmix4;
+        form.fruitjuice.value = fruitjuice1 + fruitjuice4;
+        form.tfruits.value = ((apples1 + apples4 + applesauce1 + applesauce4 + banana1 + banana4 + fruitmix1 + fruitmix4 + fruitjuice1 + fruitjuice4) * 1);
+        form.corn.value = corn1 + corn4;
+        form.peas.value = peas1 + peas4;
+        form.greenbeans.value = greenbeans1 + greenbeans4;
+        form.carrots.value = carrots1 + carrots4;
+        form.potatoes.value = potatoes1 + potatoes4;
+        form.onions.value = onions1 + onions4;
+        form.tomatoes.value = tomatoes1 + tomatoes4;
+        form.tveggies.value = ((corn1 + corn4 + peas1 + peas4 + greenbeans1 + greenbeans4 + carrots1 + carrots4 + potatoes1 + potatoes4 + onions1 + onions4 + tomatoes1 + tomatoes4) * 1);
+
+        return true;
+    }
+</SCRIPT>
+
+<div class="row">
+    <div class="col-12" style="background-color: #000099;">
+        &nbsp;
+    </div>
+    <div class="col-12">
+        <table border=0 width=96% cellpadding=0 cellspacing=0 align="center">
+            <tr>
+                <td valign=top height="983">
+                    <table border=0 width=100% cellpadding=0 cellspacing=0 align="center">
+                        <tr>
+                            <td valign=top height="954">
+                                <form method=POST>
+                                <font size="3" face="Times New Roman, Times, serif">
+                                    The following
+                                    calculator will help you figure the minimum food storage amounts
+                                    needed for your family. These amounts are based on the recommendations
+                                    listed in the LDS Church's Home Production and Storage manual. These
+                                    figures are recommendations, and are basic year supply minimums
+                                    only. You will need to choose the best options and foods you should
+                                    store for your family. <br>
+                                </font>
+                                <br>
+                                    <table width="361" border="0" cellspacing="0" cellpadding="0" align="center">
+                                        <tr>
+                                            <td width="333" align="left" valign="top" height="2">
+                                                <font size="3">
+                                                    <b>
+                                                        <font face="Times New Roman, Times, serif">
+                                                            Number
+                                                            of Family Members, Ages 7 and Older..:<br>
+                                                        </font>
+                                                    </b>
+                                                </font>
+                                            </td>
+                                            <td width="28" align="left" valign="top" height="2">
+                                                <font size="3">
+                                                    <b>
+                                                        <font face="Times New Roman, Times, serif">
+                                                            <input type=text name=adult value="" size=2>
+                                                        </font>
+                                                    </b>
+                                                </font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="333" align="left" valign="top">
+                                                <font size="3">
+                                                    <b>
+                                                        <font face="Times New Roman, Times, serif">
+                                                            Number
+                                                            of Family Members, Ages 0-6................:
+                                                        </font>
+                                                    </b>
+                                                </font>
+                                            </td>
+                                            <td width="28" align="left" valign="top">
+                                                <font size="3">
+                                                    <b>
+                                                        <font face="Times New Roman, Times, serif">
+                                                            <input type=text name=children value="" size=2>
+                                                        </font>
+                                                    </b>
+                                                </font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" align="left" valign="top">
+                                                <div align="center">
+                                                    <font size="4">
+                                                        <input type=button name=Button value="Calculate" onClick="SizeCalc(this.form)">
+                                                        <input type=button name=Button value="Reset" onClick="ClearInput(this.form)">
+                                                    </font>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div align="center">
+                                        <table width="660" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td colspan="3" align="left" valign="top">
+                                                    <b>
+                                                        <font size="4" face="Times New Roman, Times, serif">
+                                                            Your
+                                                            Family Will Need:
+                                                        </font>
+                                                    </b>
+                                                </td>
+                                            </tr>
+                                            <tr bgcolor="#000099">
+                                                <td colspan="3" align="left" valign="top" height="13">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td width="224" align="left" valign="top">
+                                                    <font size="2">
+                                                        <b>
+                                                            <font face="Times New Roman, Times, serif" color="#FF0000">Grains</font>
+                                                            <font face="Times New Roman, Times, serif">
+                                                                <br>
+                                                            </font>
+                                                        </b>
+                                                        <font face="Times New Roman, Times, serif">
+                                                            <b>
+                                                                <input type=text name=wheat value="" size=6>
+                                                                lbs of Wheat<br>
+                                                                <input type=text name=flour value="" size=6>
+                                                                lbs of Flour<br>
+                                                                <input type=text name=cornmeal value="" size=6>
+                                                                lbs of Corn Meal<br>
+                                                                <input type=text name=oats value="" size=6>
+                                                                lbs of Oats<br>
+                                                                <input type=text name=rice value="" size=6>
+                                                                lbs of Rice<br>
+                                                                <input type=text name=pasta value="" size=6>
+                                                                lbs of Pasta
+                                                            </b><br>
+                                                        </font>
+                                                    </font>
+                                                    <hr width="200" align="left">
+                                                    <font face="Times New Roman, Times, serif" size="2">
+                                                        <b>
+                                                            <input type=text name=grain value="" size=6>
+                                                            lbs Total Grains
+                                                        </b>
+                                                    </font>
+                                                    <font size="2">
+                                                        <br>
+                                                        <br>
+                                                        <font color="#000000">
+                                                            <b>
+                                                                <font color="#FF0000">Legumes</font>
+                                                            </b><br>
+                                                            <font face="Times New Roman, Times, serif">
+                                                                <b>
+                                                                    <input type=text name=beans value="" size=6>
+                                                                    lbs of Dry Beans<br>
+                                                                    <input type=text name=lima value="" size=6>
+                                                                    lbs of Lima Beans<br>
+                                                                    <input type=text name=soy value="" size=6>
+                                                                    lbs of Soy Beans<br>
+                                                                    <input type=text name=split value="" size=6>
+                                                                    lbs of Split Peas<br>
+                                                                    <input type=text name=lentils value="" size=6>
+                                                                    lbs of Lentils<br>
+                                                                    <input type=text name=drysoup value="" size=6>
+                                                                    lbs of Dry Soup Mix<br>
+                                                                </b>
+                                                            </font>
+                                                        </font>
+                                                    </font>
+                                                    <hr width="200" align="left">
+                                                    <font size="2">
+                                                        <b>
+                                                            <font face="Times New Roman, Times, serif">
+                                                                <input type=text name=legumes value="" size=6>
+                                                                lbs Total Legumes
+                                                            </font>
+                                                        </b><br>
+                                                        <font color="#000000">
+                                                            <br>
+                                                            <b>
+                                                                <font face="Times New Roman, Times, serif" color="#FF0000">
+                                                                    Fats
+                                                                    and Oils
+                                                                </font>
+                                                                <font face="Times New Roman, Times, serif">
+                                                                    <br>
+                                                                    <input type=text name=shortening value="" size=6>
+                                                                    lbs of Shortening<br>
+                                                                    <input type=text name=oil value="" size=6>
+                                                                    gal of Vegtable Oil<br>
+                                                                    <input type=text name=mayo value="" size=6>
+                                                                    qts of Mayonaise<br>
+                                                                    <input type=text name=dressing value="" size=6>
+                                                                    qts of Salad Dressing<br>
+                                                                    <input type=text name=peanut value="" size=6>
+                                                                    lbs of Peanut Butter<br>
+                                                                </font>
+                                                            </b>
+                                                        </font>
+                                                    </font>
+                                                    <hr width="200" align="left">
+                                                    <font color="#000000" size="2" face="Times New Roman, Times, serif">
+                                                        <b>
+                                                            <input type=text name=fats value="" size=6>
+                                                            lbs Total Fats and Oils
+                                                        </b>
+                                                    </font><font color="#000000" size="2">
+                                                        <br>
+                                                        <br>
+                                                    </font>
+                                                </td>
+                                                <td width="233" align="left" valign="top">
+                                                    <font size="2">
+                                                        <b>
+                                                            <font color="#FF0000">
+                                                                Milk and Dairy
+                                                            </font><br>
+                                                        </b> <b>
+                                                            <font face="Times New Roman, Times, serif">
+                                                                <input type=text name=milk value="" size=6>
+                                                                lbs of Dry Milk <br>
+                                                                <input type=text name=evaporated value="" size=6>
+                                                                cans of Evaporated Milk<br>
+                                                                <input type=text name=other value="" size=6>
+                                                                lbs of Other Dairy
+                                                            </font>
+                                                        </b><font face="Times New Roman, Times, serif">
+                                                            <b>
+                                                                <br>
+                                                            </b>
+                                                        </font>
+                                                    </font>
+                                                    <hr width="200" align="left">
+                                                    <font face="Times New Roman, Times, serif" size="2">
+                                                        <b>
+                                                            <input type=text name=dairy value="" size=6>
+                                                            lbs of Total Milk and Dairy<br>
+                                                            <br>
+                                                            <font color="#FF0000">Sugars</font><br>
+                                                            <input type=text name=honey value="" size=6>
+                                                            lbs of Honey <br>
+                                                            <input type=text name=sugar value="" size=6>
+                                                            lbs of Sugar<br>
+                                                            <input type=text name=brown value="" size=6>
+                                                            lbs of Brown Sugar<br>
+                                                            <input type=text name=molasses value="" size=6>
+                                                            lbs of Molasses<br>
+                                                            <input type=text name=cornsyrup value="" size=6>
+                                                            lbs of Corn Syrup<br>
+                                                            <input type=text name=jams value="" size=6>
+                                                            lbs of Jams<br>
+                                                            <input type=text name=fruitdrink value="" size=6>
+                                                            lbs of Powdered Fruit Drink <br>
+                                                            <input type=text name=jello value="" size=6>
+                                                            lbs of Flavored Gelatin<br>
+                                                        </b>
+                                                    </font>
+                                                    <hr width="200" align="left">
+                                                    <font size="2">
+                                                        <b>
+                                                            <font face="Times New Roman, Times, serif">
+                                                                <input type=text name=sugars value="" size=6>
+                                                                lbs Total Sugars<br>
+                                                                <br>
+                                                                <font color="#FF0000">Cooking Essentials </font><br>
+                                                                <input type=text name=powder value="" size=6>
+                                                                lbs of Baking Powder<br>
+                                                                <input type=text name=soda value="" size=6>
+                                                                lbs of Baking Soda<br>
+                                                                <input type=text name=yeast value="" size=6>
+                                                                lbs of Yeast <br>
+                                                                <input type=text name=salt value="" size=6>
+                                                                lbs of Salt <br>
+                                                                <input type=text name=vinegar value="" size=6>
+                                                                gal of Vinegar<br>
+                                                                <br>
+                                                            </font>
+                                                            <font face="Times New Roman, Times, serif" color="#FF0000">
+                                                                Water *
+                                                            </font>
+                                                            <font face="Times New Roman, Times, serif">
+                                                                <br>
+                                                                <input type=text name=water value="" size=6>
+                                                                gal of Water<br>
+                                                                <input type=text name=bleach value="" size=6>
+                                                                gal of Bleach
+                                                            </font>
+                                                        </b>
+                                                    </font>
+                                                </td>
+                                                <td width="203" align="left" valign="top">
+                                                    <font size="2">
+                                                        <b>
+                                                            <font face="Times New Roman, Times, serif">
+                                                                <font color="#FF0000">Fruits</font>
+                                                                <br>
+                                                                <input type=text name=apples value="" size=6>
+                                                                lbs of Flavored Apples<br>
+                                                                <input type=text name=applesauce value="" size=6>
+                                                                lbs of Applesauce<br>
+                                                                <input type=text name=banana value="" size=6>
+                                                                lbs of Banana Chips<br>
+                                                                <input type=text name=fruitmix value="" size=6>
+                                                                lbs of Fruit Mixture<br>
+                                                                <input type=text name=fruitjuice value="" size=6>
+                                                                lbs of Fruit Juices<br>
+                                                            </font>
+                                                        </b>
+                                                    </font>
+                                                    <hr width="200" align="left">
+                                                    <font size="2">
+                                                        <b>
+                                                            <font size="2">
+                                                                <b>
+                                                                    <font face="Times New Roman, Times, serif">
+                                                                        <input type=text name=tfruits value="" size=6>
+                                                                        lbs
+                                                                    </font>
+                                                                </b>
+                                                            </font>
+                                                            <font face="Times New Roman, Times, serif">
+                                                                Total Fruits
+                                                            </font>
+                                                        </b>
+                                                    </font><br>
+                                                    <font size="2">
+                                                        <b>
+                                                            <font face="Times New Roman, Times, serif">
+                                                            </font>
+                                                        </b>
+                                                    </font>
+                                                    <p>
+                                                        <font size="2">
+                                                            <b>
+                                                                <font color="#FF0000" face="Times New Roman, Times, serif">Vegetables</font>
+                                                                <font face="Times New Roman, Times, serif">
+                                                                    <br>
+                                                                    <input type=text name=corn value="" size=6>
+                                                                    lbs of Corn<br>
+                                                                    <input type=text name=peas value="" size=6>
+                                                                    lbs of Peas<br>
+                                                                    <input type=text name=greenbeans value="" size=6>
+                                                                    lbs of Green Beans<br>
+                                                                    <input type=text name=carrots value="" size=6>
+                                                                    lbs of Carrots<br>
+                                                                    <input type=text name=potatoes value="" size=6>
+                                                                    lbs of Potatoes<br>
+                                                                    <input type=text name=onions value="" size=6>
+                                                                    lbs of Onions<br>
+                                                                    <input type=text name=tomatoes value="" size=6>
+                                                                    lbs of Tomatoes<br>
+                                                                </font>
+                                                            </b>
+                                                        </font>
+                                                    </p>
+                                                    <hr width="200" align="left">
+                                                    <font size="2">
+                                                        <b>
+                                                            <font size="2">
+                                                                <b>
+                                                                    <font face="Times New Roman, Times, serif">
+                                                                        <input type=text name=tveggies value="" size=6>
+                                                                        lbs
+                                                                    </font>
+                                                                </b>
+                                                            </font>
+                                                            <font face="Times New Roman, Times, serif">
+                                                                Total Vegetables <br>
+                                                                <br>
+                                                            </font>
+                                                            <font face="Times New Roman, Times, serif">
+                                                                <br>
+                                                                <br>
+                                                            </font>
+                                                        </b>
+                                                    </font>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <br><br>
+                                        <font face="Times New Roman, Times, serif" color="#FF0000">*</font>
+                                        It is impractical for most families to store a year's supply of water. However, at least 14 gallons per person are suggested
+                                        as a two-week emergency reserve.<br><br>
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
