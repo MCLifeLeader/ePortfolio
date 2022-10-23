@@ -62,9 +62,10 @@ namespace Portfolio.Controllers
                     emailMessage.Subject = "Contact Form: mbcarey.com";
 
                     RestClient client = new RestClient(Settings.Default.AGameWebUrl);
-                    RestRequest request = new RestRequest($"api/PersonalEmail?code={appKey}", Method.POST, DataFormat.Json);
+                    RestRequest request = new RestRequest($"api/PersonalEmail?code={appKey}", Method.Post);
+                    request.RequestFormat = DataFormat.Json;
                     request.AddJsonBody(await emailMessage.ToJsonAsync());
-                    IRestResponse response = await client.ExecuteAsync(request);
+                    RestResponse response = await client.ExecuteAsync(request);
 
                     if (response.StatusCode == HttpStatusCode.OK)
                     {
