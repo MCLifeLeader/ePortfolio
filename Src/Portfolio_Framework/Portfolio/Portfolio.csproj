@@ -261,6 +261,7 @@
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\mbcarey - Web Deploy.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -449,7 +450,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Business\Client\" />
-    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Web\CIT261\" />
     <Folder Include="Web\CS313\" />
   </ItemGroup>
