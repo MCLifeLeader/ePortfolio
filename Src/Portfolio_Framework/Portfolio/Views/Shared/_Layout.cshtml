@@ -1,112 +1,112 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-   <meta charset="utf-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>@ViewBag.Title - Michael's ePortfolio</title>
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta http-equiv="Reply-to" content="support@AGameEmpowerment.com">
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   <meta http-equiv="Content-Language" content="en-us">
-   <meta name="DESCRIPTION" content="Michael Carey's ePortfolio. This portfolio highlights the skills, abilities, expirence, and projects Michael has been involved in or done. This ePortfolio is here for research and reference while researching Michael Carey's expirence.">
-   <meta name="KEYWORDS" content="ePortfolio, Portfolio, Michael, Carey, Resume, Michael Carey, Technical, Software, Engineer, Senior Engineer, Developer, Skills, Experience, Projects">
-   <meta name="Robots" content="Follow, Index">
-   <meta name="Copyright" content="Michael Carey, @DateTime.Now.Year">
-   <meta name="Distribution" content="Worldwide">
-   <meta name="Rating" content="General">
-   <meta name="revisit-after" content="15 days">
-   <link rel="alternate" hreflang="x-default" href="http://www.mbcarey.com/" />
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17815932-37"></script>
-   <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Michael's ePortfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Reply-to" content="support@AGameEmpowerment.com">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Language" content="en-us">
+    <meta name="DESCRIPTION" content="Michael Carey's ePortfolio. This portfolio highlights the skills, abilities, expirence, and projects Michael has been involved in or done. This ePortfolio is here for research and reference while researching Michael Carey's expirence.">
+    <meta name="KEYWORDS" content="ePortfolio, Portfolio, Michael, Carey, Resume, Michael Carey, Technical, Software, Engineer, Senior Engineer, Developer, Skills, Experience, Projects">
+    <meta name="Robots" content="Follow, Index">
+    <meta name="Copyright" content="Michael Carey, @DateTime.Now.Year">
+    <meta name="Distribution" content="Worldwide">
+    <meta name="Rating" content="General">
+    <meta name="revisit-after" content="15 days">
+    <link rel="alternate" hreflang="x-default" href="http://www.mbcarey.com/" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DGVT6099K5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-      gtag('config', 'UA-17815932-37');
-   </script>
+        gtag('config', 'G-DGVT6099K5');
+    </script>
 
-   @Styles.Render("~/Content/css")
-   @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-   <header>
-      <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
-         <div class="container">
-            @Html.ActionLink("Michael Carey", "Index", "Home", new { area = "" }, new { @class = "navbar-brand", style = "color: white;" })
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-               <ul class="navbar-nav flex-grow-1">
-                  <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#" id="ExperienceDropDown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Experience
-                     </a>
-                     <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                        @Html.ActionLink("Education", "Education", "Experience", null, new { @class = "nav-link text-light" })
-                        @Html.ActionLink("Work History", "WorkHistory", "Experience", null, new { @class = "nav-link text-light" })
-                     </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#" id="ProjectsDropDown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Projects
-                     </a>
-                     <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                        @Html.ActionLink("A Game", "AGameEmpowerment", "Projects", null, new { @class = "nav-link text-light" })
-                        @Html.ActionLink("AdverTran", "AdverTran", "Projects", null, new { @class = "nav-link text-light" })
-                        @Html.ActionLink("Azure Services", "AzureServices", "Projects", null, new { @class = "nav-link text-light" })
-                        @Html.ActionLink("CIT 261", "Cit261", "Projects", null, new { @class = "nav-link text-light" })
-                        @Html.ActionLink("CS 313", "Cs313", "Projects", null, new { @class = "nav-link text-light" })
-                        @Html.ActionLink("CS 364", "Cs364", "Projects", null, new { @class = "nav-link text-light" })
-                        @Html.ActionLink("Encompass", "Encompass", "Projects", null, new { @class = "nav-link text-light" })
-                        @Html.ActionLink("Family Key", "FamilyKey", "Projects", null, new { @class = "nav-link text-light" })
-                        @Html.ActionLink("Fun Projects", "Index", "FunProjects", null, new { @class = "nav-link text-light" })
-                        @Html.ActionLink("MLMLinkup", "MlmLinkup", "Projects", null, new { @class = "nav-link text-light" })
-                        @Html.ActionLink("Redhead Mobile", "RedheadMobile", "Projects", null, new { @class = "nav-link text-light" })
-                     </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#" id="SkillsDropDown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Skills
-                     </a>
-                     <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                        @Html.ActionLink("Leadership", "Leadership", "Skills", null, new { @class = "nav-link text-light" })
-                        @Html.ActionLink("Technical", "Technologies", "Skills", null, new { @class = "nav-link text-light" })
-                     </div>
-                  </li>
-                  <li class="nav-item">
-                     <div class="bg-dark">
-                        @Html.ActionLink("Git", "Git", "Home", null, new { @class = "nav-link text-light" })
-                     </div>
-                  </li>
-                  <li class="nav-item">
-                     <div class="bg-dark">
-                        @Html.ActionLink("Contact", "Contact", "Home", null, new { @class = "nav-link text-light" })
-                     </div>
-                  </li>
-               </ul>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+            <div class="container">
+                @Html.ActionLink("Michael Carey", "Index", "Home", new { area = "" }, new { @class = "navbar-brand", style = "color: white;" })
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="ExperienceDropDown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Experience
+                            </a>
+                            <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                @Html.ActionLink("Education", "Education", "Experience", null, new { @class = "nav-link text-light" })
+                                @Html.ActionLink("Work History", "WorkHistory", "Experience", null, new { @class = "nav-link text-light" })
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="ProjectsDropDown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Projects
+                            </a>
+                            <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                @Html.ActionLink("A Game", "AGameEmpowerment", "Projects", null, new { @class = "nav-link text-light" })
+                                @Html.ActionLink("AdverTran", "AdverTran", "Projects", null, new { @class = "nav-link text-light" })
+                                @Html.ActionLink("Azure Services", "AzureServices", "Projects", null, new { @class = "nav-link text-light" })
+                                @Html.ActionLink("CIT 261", "Cit261", "Projects", null, new { @class = "nav-link text-light" })
+                                @Html.ActionLink("CS 313", "Cs313", "Projects", null, new { @class = "nav-link text-light" })
+                                @Html.ActionLink("CS 364", "Cs364", "Projects", null, new { @class = "nav-link text-light" })
+                                @Html.ActionLink("Encompass", "Encompass", "Projects", null, new { @class = "nav-link text-light" })
+                                @Html.ActionLink("Family Key", "FamilyKey", "Projects", null, new { @class = "nav-link text-light" })
+                                @Html.ActionLink("Fun Projects", "Index", "FunProjects", null, new { @class = "nav-link text-light" })
+                                @Html.ActionLink("MLMLinkup", "MlmLinkup", "Projects", null, new { @class = "nav-link text-light" })
+                                @Html.ActionLink("Redhead Mobile", "RedheadMobile", "Projects", null, new { @class = "nav-link text-light" })
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="SkillsDropDown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Skills
+                            </a>
+                            <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                @Html.ActionLink("Leadership", "Leadership", "Skills", null, new { @class = "nav-link text-light" })
+                                @Html.ActionLink("Technical", "Technologies", "Skills", null, new { @class = "nav-link text-light" })
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="bg-dark">
+                                @Html.ActionLink("Git", "Git", "Home", null, new { @class = "nav-link text-light" })
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="bg-dark">
+                                @Html.ActionLink("Contact", "Contact", "Home", null, new { @class = "nav-link text-light" })
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-         </div>
-      </nav>
-   </header>
+        </nav>
+    </header>
 
-   <div class="container body-content">
-      <partial name="_CookieConsentPartial" />
-      <main role="main" class="pb-3">
-         @RenderBody()
-      </main>
-   </div>
+    <div class="container body-content">
+        <partial name="_CookieConsentPartial" />
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
 
-   <footer class="border-top footer text-muted">
-      <div class="container small">
-         &copy; @DateTime.Now.Year - Michael Carey - ePortfolio
-      </div>
-   </footer>
+    <footer class="border-top footer text-muted">
+        <div class="container small">
+            &copy; @DateTime.Now.Year - Michael Carey - ePortfolio
+        </div>
+    </footer>
 
-   @Scripts.Render("~/bundles/jquery")
-   @Scripts.Render("~/bundles/bootstrap")
-   @RenderSection("scripts", required: false)
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
 </body>
 </html>
