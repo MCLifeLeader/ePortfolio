@@ -3,27 +3,88 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Portfolio</title>
+    <title>@ViewData["Title"] - Michael's ePortfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Reply-to" content="support@AGameEmpowerment.com">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Language" content="en-us">
+    <meta name="DESCRIPTION" content="Michael Carey's ePortfolio. This portfolio highlights the skills, abilities, expirence, and projects Michael has been involved in or done. This ePortfolio is here for research and a reference while researching Michael Carey's expirence.">
+    <meta name="KEYWORDS" content="ePortfolio, e-Portfolio, Portfolio, Michael, Carey, Resume, Michael Carey, Engineering Manager, Manager, Technical, Software, Engineer, Senior Engineer, Development, Quality Assurance, Skills, Experience, Projects">
+    <meta name="Robots" content="Follow, Index">
+    <meta name="Copyright" content="Michael Carey, @DateTime.UtcNow.Year">
+    <meta name="Distribution" content="Worldwide">
+    <meta name="Rating" content="General">
+    <meta name="revisit-after" content="15 days">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Portfolio.styles.css" asp-append-version="true" />
+    <style>
+        .dropdown-item:hover {
+            color: #fff;
+            background-color: #000;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Portfolio</a>
+                <a class="navbar-brand text-white" asp-area="" asp-page="/Index">Michael Carey</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="ExperienceDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Experience</a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="ExperienceDropDown">
+                                <li>
+                                    <a class="dropdown-item text-light" asp-area="" asp-page="/Experience/Education">Education</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-light" asp-area="" asp-page="/Experience/WorkHistory">WorkHistory</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="ProjectsDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                            <div class="dropdown-menu bg-dark" aria-labelledby="ProjectsDropDown">
+                                <a class="dropdown-item text-light" asp-area="" asp-page="/Projects/AGameEmpowerment">A Game</a>
+                                <a class="dropdown-item text-light" asp-area="" asp-page="/Projects/AdverTran">AdverTran</a>
+                                <a class="dropdown-item text-light" asp-area="" asp-page="/Projects/AzureServices">Azure Services</a>
+                                <a class="dropdown-item text-light" asp-area="" asp-page="/Projects/Encompass">Encompass</a>
+                                <a class="dropdown-item text-light" asp-area="" asp-page="/Projects/FamilyKey">FamilyKey</a>
+                                <a class="dropdown-item text-light" asp-area="" asp-page="/Projects/FunProjects">Fun Projects</a>
+                                <a class="dropdown-item text-light" asp-area="" asp-page="/Projects/MlmLinkup">MlmLinkup</a>
+                                <a class="dropdown-item text-light" asp-area="" asp-page="/Projects/Startup">Startup Examples</a>
+                                <a class="dropdown-item text-light" asp-area="" asp-page="/Projects/RedheadMobile">Redhead Mobile</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="CollegeDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">College</a>
+                            <div class="dropdown-menu bg-dark" aria-labelledby="CollegeDropDown">
+                                <a class="dropdown-item text-light" asp-area="" asp-page="/College/Cit261">Cit261</a>
+                                <a class="dropdown-item text-light" asp-area="" asp-page="/College/Cs313">Cs313</a>
+                                <a class="dropdown-item text-light" asp-area="" asp-page="/College/Cs364">Cs364</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="SkillsDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Skills</a>
+                            <div class="dropdown-menu bg-dark" aria-labelledby="SkillsDropDown">
+                                <a class="dropdown-item text-light" asp-area="" asp-page="/Skills/Leadership">Leadership</a>
+                                <a class="dropdown-item text-light" asp-area="" asp-page="/Skills/Technologies">Technologies</a>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                            <div class="bg-dark">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Git">Git</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="bg-dark">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Contact">Contact</a>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -38,7 +99,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - Portfolio - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; @DateTime.UtcNow.Year - Michael Carey - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
 
