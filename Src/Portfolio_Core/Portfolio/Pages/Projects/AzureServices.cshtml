@@ -1,5 +1,121 @@
 ﻿@page
 @model Portfolio.Pages.Projects.AzureServicesModel
 @{
+    ViewData["Title"] = "Azure Services";
 }
-AzureServicesModel
+
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<div class="row">
+    <div class="col-md-12">
+        <p>
+            This project section will cover details around multiple projects that I either directly developed
+            independently or collectively as a part of the development and delivery team at Academy Mortgage
+            or for my own purposes related to my personal business activities.
+        </p>
+        <h3>Academy Message Bus API</h3>
+        <p>
+            My development and implementation of a messaging service handler for Academy Mortgage was based
+            on the needs to improve performance and get database specific data back to a client application
+            where the company client applications would not be directly connected to our internal network.
+            The <a asp-area="" asp-page="/Projects/Encompass">Encompass</a> application is utilized
+            for tracking the loan origination process and is a third-party application developed by Ellie Mae.
+        </p>
+        <p>
+            Through customized development we added a plugin that allowed us to make data request calls securely
+            through the Azure Messaging services and then return the results back to the client application for
+            further processing. This customization reduced our typical client wait time from 60 to well over
+            120 seconds down to under 15 seconds for most requests.
+        </p>
+        <h3>Amy Email API</h3>
+        <p>
+            As a part of improving process and decreasing the time it takes from loan application to close.
+            We now leverage various automation tools through a vendor to decrease human error and increase the
+            speed to delivery while providing greater value to our borrowers. One of difficulties that our
+            vendor experienced was attempting to use Outlook as a part of their UI based Robotic Process Automation (RPA).
+            There are a number of limitations to RPA in general including the brittle nature of point and
+            click within a UI and the time it takes to perform those operations relative to the application (Encompass)
+            it needs to interact with. This ultimately is no different than what many QA engineers use when
+            leveraging technologies such as Selenium to perform web-based UI Automation testing.
+        </p>
+        <p>
+            When our vendor attempted to expand the number of RPA client servers that operated Outlook on
+            them they hit a limitation on the number of concurrent connected instances of Outlook using the
+            same credentials to our O365 instance that was managing email communication to the RPA clients.
+            To remove this limitation, I developed an API driven service to manage in and outbound communication.
+            Not only for Email but for other methods of communication including SMS text, Encompass Event Messages,
+            and Teams or Slack communication to or from the bot servers.
+        </p>
+        <p>
+            In my implementation I created an Azure Function App to act as the primary inbound message handling
+            service or series of Webhooks for email and other requests coming inbound into the bots, including
+            one Logic App that monitored the inbound email through O365. These inbound messages are then sent to
+            an Azure Message Bus queue for later processing. On the other side I created a reader Azure Logic App
+            that handled the pulling of messages out of the queue and other micro services for sending out email and
+            other communication to clients and users. This also included sending out email messages with file
+            attachments using Azure Blob Storage as the temporary file storage for those attachments.
+        </p>
+        <h3>Encompass (Dev Connect) Sync Service</h3>
+        <p>
+            This was primarily a proof of concept project to help develop replacement processes and technology
+            of an aged data sync process using the older ESDK or Encompass SDK libraries and technology.
+            <a asp-area="" asp-page="/Projects/Encompass">Encompass</a> by Ellie Mae has several
+            services including Data Connect and Dev Connect to move data in and out of their
+            Loan Origination Service. Dev Connect is typically used for the management of the data within
+            Encompass performing various actions based on their Web API (Post, Put, Get, Delete).
+            Whereas Data Connect provides a means whereby data can quickly and easily flow back to
+            the customer in a secure and near real time manner providing the customer a SQL data store
+            of their loan data to perform analytics and reporting.
+        </p>
+        <p>
+            The problem that this solution is to address is the replacement of the inbound data stream
+            that we established using the Encompass SDK to pull data from Encompass into our own data warehouse.
+            When this was developed, Ellie Mae had yet to provide a resource such as Data Connect, and we had to
+            develop our own solution in house. In researching Data Connect, we really liked the solution but
+            felt that the price point being asked was much higher than the value provided, primarily because we
+            have multiple lanes in addition to our production environment raising the overall monthly costs beyond
+            what we are ready to pay for as a company. Additionally, our aged Encompass SDK solution’s stability
+            has always been in question and has required a great deal of maintenance and manual care to keep
+            running on an annual basis.
+        </p>
+        <p>
+            To resolve this problem I created a proof of concept that leveraged the built in event based Webhook
+            broadcast logic built into Encompass, and received those messages through a Function App micro
+            service that then stored those messages in a Service Bus queue. Following a similar design to the
+            Amy Email API solution I created a series of Webhook Listeners that Encompass could post messages to.
+            These messages when received are sent to an Azure Service Bus for later processing when the Logic App
+            puller is called. I then setup a puller service that makes a call to the Logic App event Web API event
+            listener that then pulls a message from the Service Bus Queue and returns it to the service puller application.
+            From there I then made a call into Encompass to retrieve the Loan Object by establishing a connection
+            to Encompass and calling the Get Loan API call through Dev Connect.
+        </p>
+        <p>
+            This payload of JSON data is then stored in a simple database that I created to store both the original
+            event request and the full loan data payload object. Conceptually from this point the
+            Enterprise Data Team could read the data from the database and extract all relevant information
+            from the JSON payload and store into our data warehouse for analysis processing and reporting for the
+            executive teams.
+        </p>
+        <p>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-info font-weight-bolder">ASP.NET</li>
+                <li class="list-group-item list-group-item-info font-weight-bolder">C#</li>
+                <li class="list-group-item list-group-item-info font-weight-bolder">.NET Core</li>
+                <li class="list-group-item list-group-item-info font-weight-bolder">MVC</li>
+                <li class="list-group-item list-group-item-info font-weight-bolder">Azure Function Applications</li>
+                <li class="list-group-item list-group-item-info font-weight-bolder">Azure Logic Applications</li>
+                <li class="list-group-item list-group-item-info font-weight-bolder">Azure Message Bus</li>
+                <li class="list-group-item list-group-item-info font-weight-bolder">RESTful API</li>
+                <li class="list-group-item list-group-item-info font-weight-bolder">JSON</li>
+                <li class="list-group-item list-group-item-info font-weight-bolder">Log4net</li>
+                <li class="list-group-item list-group-item-info font-weight-bolder">Active Directory</li>
+                <li class="list-group-item list-group-item-info font-weight-bolder">Java Web Token (JWT)</li>
+            </ul>
+        </p>
+        <p>
+            <a style="background: #2e86c1; color: white; font-weight: bold;" class="btn btn-info" href="https://api.agameempowerment.com/" target="_blank" rel="noopener">A-Game API Services >></a>
+            <a style="background: #2e86c1; color: white; font-weight: bold;" class="btn btn-info" href="https://www.academymortgage.com/" target="_blank" rel="noopener">Academy Mortgage >></a>
+        </p>
+    </div>
+</div>

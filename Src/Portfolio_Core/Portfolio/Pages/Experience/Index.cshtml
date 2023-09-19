@@ -1,5 +1,28 @@
 ﻿@page
 @model Portfolio.Pages.Experience.IndexModel
 @{
+    ViewData["Title"] = "Experience";
 }
-IndexModel
+
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<div class="row">
+    <div class="col-md-12">
+        <p>&nbsp;</p>
+    </div>
+    <div class="col-md-4">
+        <h3>Education</h3>
+        <p>This is a deeper dive into my scholastic education and college experience.</p>
+        <p>
+            <a style="background:#2e86c1; color:white; font-weight:bold;" class="btn btn-info" asp-area="" asp-page="/Experience/Education">Learn more >></a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h3>Work History</h3>
+        <p>This details my work history and various employment opportunities that I had.</p>
+        <p>
+            <a style="background:#2e86c1; color:white; font-weight:bold;" class="btn btn-info" asp-area="" asp-page="/Experience/WorkHistory">Learn more >></a>
+        </p>
+    </div>
+</div>

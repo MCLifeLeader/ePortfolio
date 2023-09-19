@@ -1,5 +1,45 @@
 ﻿@page
 @model IndexModel
 @{
+    ViewData["Title"] = "College";
 }
-IndexModel
+
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<div class="row">
+    <div class="col-md-12">
+        <p>&nbsp;</p>
+    </div>
+    <div class="col-md-4">
+        <h3>CIT 261 Class</h3>
+        <p>
+            CIT 261 Project work space. This is an example of class work that covered front end UI development without the use of libraries or tools.
+            This project used vanilla JavaScript and CSS.
+        </p>
+        <p>
+            <a style="background:#2e86c1; color:white; font-weight:bold;" class="btn btn-info" asp-area="" asp-page="/College/Cit261">Learn more >></a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h3>CS 313 Class</h3>
+        <p>
+            CS 313 SChool Project work space. This is an example of class work that covered PHP and Java full stack development.
+            This project included the use of Bootstrap, jQuery, and other optional libraries.
+        </p>
+        <p>
+            <a style="background:#2e86c1; color:white; font-weight:bold;" class="btn btn-info" asp-area="" asp-page="/College/Cs313">Learn more >></a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h3>CS 364 Class</h3>
+        <p>
+            CS 364 SChool Project work space. This is an example of class work that covered the creation of project related documentation used in the design and
+            development of software. The Software Requirements Specification or (SRS) and Software Design Description or (SDD).
+        </p>
+        <p>
+            <a style="background:#2e86c1; color:white; font-weight:bold;" class="btn btn-info" asp-area="" asp-page="/College/Cs364">Learn more >></a>
+        </p>
+    </div>
+</div>
+

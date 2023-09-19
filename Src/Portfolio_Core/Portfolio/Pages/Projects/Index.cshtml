@@ -1,5 +1,76 @@
 ﻿@page
 @model Portfolio.Pages.Projects.IndexModel
 @{
+    ViewData["Title"] = "Projects";
 }
-IndexModel
+
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<div class="row">
+    <div class="col-md-4">
+        <h3>Encompass / Academy Mortgage</h3>
+        <p>
+            This project focused on Loan Origination for mortgages and utilized an application developed by Ellie Mae.
+            The work performed for Academy was focused on the customization of the features and functionality surrounding the use of the Encompass software designed
+            for assisting loan officers and underwriters the ability to validate and originate loans for individuals seeking to purchase properties.
+        </p>
+        <p>
+            <a style="background:#2e86c1; color:white; font-weight:bold;" class="btn btn-info" asp-area="" asp-page="/Projects/Encompass">Learn more >></a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h3>Azure Services</h3>
+        <p>
+            This project is to highlight work that I did for Academy Mortgage and covers multiple Azure based Services. The following examples and descriptions
+            will cover work related to the development of custom API and Azure applications and services.
+        </p>
+        <p>
+            <a style="background:#2e86c1; color:white; font-weight:bold;" class="btn btn-info" asp-area="" asp-page="/Projects/AzureServices">Learn more >></a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h3>Redhead Mobile Apps</h3>
+        <p>
+            This project is based on a request by Redhead Mobile Apps to improve the user experience for their customers. This is a full stack development
+            project includes both a web dashboard, using Bootstrap, and a Web API service that drives the data for the mobile application.
+        </p>
+        <p>
+            <a style="background:#2e86c1; color:white; font-weight:bold;" class="btn btn-info" asp-area="" asp-page="/Projects/RedheadMobile">Learn more >></a>
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h3>MLMLinkup</h3>
+        <p>
+            This project is one that I personally developed in 2016 using C#.NET, MVC, Bootstrap, and other available libraries.
+            Its primary purpose was to help me learn the ins and outs of UI development specifically utilizing Bootstrap for the
+            beautification and usability of the site. This is an ongoing project.
+        </p>
+        <p>
+            <a style="background:#2e86c1; color:white; font-weight:bold;" class="btn btn-info" asp-area="" asp-page="/Projects/MlmLinkup">Learn more >></a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h3>AdverTran</h3>
+        <p>
+            This was a collaborative project that I started and began development of in 2007. It's use was for the creating and managing playlists
+            for onscreen advertising in theaters or other locations for digital media and content advertising.
+        </p>
+        <p>
+            <a style="background:#2e86c1; color:white; font-weight:bold;" class="btn btn-info" asp-area="" asp-page="/Projects/AdverTran">Learn more >></a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h3>Family Key</h3>
+        <p>
+            The Family Key project was developed as a partnership under Kumusoft, LLC. This project was originally designed to host genealogical data that would allow
+            search engines to search for your data and help you in our family quest to find your ancestors. The development for this project started before 2001 and
+            expanded about the time I came on board. Sadly, the project was terminated in 2005 and never went live.
+        </p>
+        <p>
+            <a style="background:#2e86c1; color:white; font-weight:bold;" class="btn btn-info" asp-area="" asp-page="/Projects/FamilyKey">Learn more >></a>
+        </p>
+    </div>
+</div>
