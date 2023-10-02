@@ -1,0 +1,201 @@
+﻿@page
+@model Portfolio.Pages.Skills.QAModel
+@{
+    ViewData["Title"] = "Quality Assurance";
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Test Case Development</h3>
+        <p>
+            The basic premise behind the development of test cases is to cover the functional behavior of something, typically
+            software, for verifying the functionality, quality, and usability meets design requirements. Test cases should
+            cover input, preconditions, and a set of execution steps with the expected behavior or results after completing
+            those various steps and are typically combined into a group of test cases call a test plan. A test case’s steps
+            can be manually or automatically executed though procedural scripts or code by a test engineer. The development of
+            test cases should include UX / UI testing along with the various functional tests that can be performed manually or
+            automatically. Testing for the User Experience is a vital part of application development as it helps to know how
+            your users interact with your software and how they feel about the software. If a user base has a general negative
+            feeling about the solution the adoption of the product will be much more difficult in the long run including people
+            avoiding the solution altogether.
+        </p>
+        <p>
+            My primary experience in the development of test cases and test suites has been using tools such
+            as Azure DevOps / VSTS / TFS. I would then execute those tests one by one and report on the results of those tests.
+            As a Software Development Engineer in Test or SDET I would often automate manual test cases and create automated scripts
+            or software code that would test the product in a similar and reputable process each time for regression validation or testing.
+        </p>
+        <p>
+            This list is not comprehensive but here are some key parts of a test case:
+        </p>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-info fw-bolder">Test Case ID</li>
+            <li class="list-group-item list-group-item-info fw-bolder">Summary Title</li>
+            <li class="list-group-item list-group-item-info fw-bolder">Detailed description of the test case</li>
+            <li class="list-group-item list-group-item-info fw-bolder">Test Case Steps which can include Shared Steps and expected result</li>
+            <li class="list-group-item list-group-item-info fw-bolder">Related Automation Link or ID</li>
+            <li class="list-group-item list-group-item-info fw-bolder">Attached Files</li>
+            <li class="list-group-item list-group-item-info fw-bolder">Creator of the test case</li>
+            <li class="list-group-item list-group-item-info fw-bolder">Date Test case was Created</li>
+            <li class="list-group-item list-group-item-info fw-bolder">
+                State of the test case
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-info fw-bolder">Design</li>
+                    <li class="list-group-item list-group-item-info fw-bolder">Ready</li>
+                    <li class="list-group-item list-group-item-info fw-bolder">Closed</li>
+                </ul>
+            </li>
+            <li class="list-group-item list-group-item-info fw-bolder">Test Suite Relation Link or ID</li>
+            <li class="list-group-item list-group-item-info fw-bolder">User Story or Use Case Link or ID</li>
+            <li class="list-group-item list-group-item-info fw-bolder">Discussion log</li>
+            <li class="list-group-item list-group-item-info fw-bolder">Log of Pass / Fail of test case and when the test was executed</li>
+        </ul>
+        <br />
+    </div>
+    <div class="col-md-12">
+        <h3>Filing Defects / Bugs</h3>
+        <p>
+            The process for filing defects or bugs will depend on the company or department that you are in.
+            One of the most important aspects of filing defects is the ability to communicate the steps necessary
+            to replicate the issue that was found. As a Quality Assurance Engineer in Software Testing you need to
+            balance the level of details so that you are not being overly verbose but providing enough clarity for
+            the issue to be replicated step by step. The other benefit to creating clear reproduction steps is that
+            these new steps become the details to be included as a new test case in your test suite.
+        </p>
+        <p>
+            Something that I have also found that greatly helps in the remediation of a defect is the use of screen
+            capture or video recording software during the testing cycle. Using such tools makes it perfectly clear
+            what happened how and when. However, relying solely on video or screen capture is not sufficient. It is
+            still important to convert the video reproduction into verbal steps so that you can add it to your test
+            suite later and often the written word is faster to follow than watching a video. Videos and screen
+            captures serve to supply nuanced details that maybe missed through written reproduction steps.
+        </p>
+        <p>
+            Lastly, as QA it was important to have a level of separation of concerns when triaging defects. QA was
+            responsible for setting the severity of the defect and the product owner set the priority for fixing the
+            defect. Listed below was the basic severity breakdown that we used when classifying defects.
+        </p>
+        <ul class="list-group">
+            <li class="list-group-item">
+                Severity 1
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-info fw-bolder">
+                        Completely broken and unable to proceed and the functionality of the software is non-functional.
+                        There is a code stack trace with exception details, or the functionality does not work at all.
+                        This would also extend to translations that are offensive or completely wrong.
+                    </li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                Severity 2
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-info fw-bolder">
+                        The functionality is badly broken from a UX / UI perspective. There is a work around for the
+                        user but may involve support manually making changes in the database or working with the user
+                        one on one to work past the broken point.
+                    </li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                Severity 3
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-info fw-bolder">
+                        The functionality is working but not optimally. There is a relatively easy work around that
+                        the user can be trained to follow. This would also be the defect level for most UX / UI issues.
+                    </li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                Severity 4
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-info fw-bolder">
+                        Minor UI / UX issue and would include grammatical issues such as spelling or punctuation
+                        that is incorrect.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <br />
+    </div>
+    <div class="col-md-12">
+        <h3>Manual and Automated Testing</h3>
+        <h4>Manual Testing</h4>
+        <p>
+            This is the process of having an individual or group of people test for defects in software. This can be
+            done by an engineer who is trained in the discipline of Quality Assurance or it could be completed by
+            any person off the street. Typically, a trained engineer will function in the role as if they were an
+            end user to verify that the applications features perform based on specifications and correct behavior.
+        </p>
+        <p>
+            Ad hock testing is another form of manual testing that is often performed to go “off script” from a set
+            of defined test cases to hopefully identify defects within a software application. Clearly defined test
+            cases help validate the known user acceptance paths for releaseability of the software, whereas ad hock
+            will hopefully catch those logical paths that were not directly planned or accounted for.
+        </p>
+        <p>
+            As mentioned above, manual testing can be performed by a trained or untrained individual in the Quality
+            Assurance discipline. Typically, when an untrained individual is being asked to perform quality assurance
+            tasks they are usually being asked to verify usability of the application. This form of testing is
+            often done before the software is complete and shipped so that UX / UI engineers can determine how a
+            particular product should be designed to create the best experience for the customer.
+        </p>
+        <h4>Automated Testing</h4>
+        <p>
+            This is primarily the process of taking the manual test steps that were developed in each test case and
+            leveraging software to automate the script in a repeatable fashion. The execution and testable steps can
+            be written in a number of different programming and various scripting languages to perform various
+            automated processes.
+        </p>
+        <p>
+            In the area of developing and writing automated tests falls under two general categories. Those that
+            perform actions on a User Interface (UI) or that execute certain actions completely in code.
+        </p>
+        <p>
+            Remote Process Automation (RPA) is the process of developing automation that will interact with an
+            application and click or type data into the applications fields and forms to perform the various action
+            steps like a live person would.
+        </p>
+        <p>
+            Unit or integration tests are automated tests that execute software code in the backend of the
+            application to validate individual methods and functional aspects of the software code without launching
+            the application’s user interface. These tests are designed to validate positive and negative logic
+            paths within a method or function set to validate the behavior of individual code modules or blocks.
+        </p>
+    </div>
+    <div class="col-md-12">
+        <h3>Selenium WebDriver</h3>
+        <p>
+            As test automation relates to my career and experience. The use of Selenium WebDriver has been my primary
+            platform for executing RPA vs web applications. My preferred method of developing Selenium based tests is
+            to use what is called page maps or models first and then develop the actual test execution steps later. By
+            developing the page models, I can more easily update or modify the automation code without requiring the
+            rerecording of test execution steps through an RPA recorder. This reduces the brittleness factor of the test
+            suite and increases the reliability of those same tests. By simply updating the CSS or XPath locator details
+            in the page model the test steps continue to be viable much longer without requiring recoding of the actual
+            test steps themselves.
+        </p>
+        <p>
+            Please click the External Link to my Github account to see my Selenium code example developed in C#.
+        </p>
+    </div>
+    <div class="col-md-6">
+        <h3>Summary</h3>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-info fw-bolder">Custom Quality Assurance Frameworks</li>
+            <li class="list-group-item list-group-item-info fw-bolder">Defect Reporting and Tracking</li>
+            <li class="list-group-item list-group-item-info fw-bolder">MS SQL</li>
+            <li class="list-group-item list-group-item-info fw-bolder">Ranorex - C#</li>
+            <li class="list-group-item list-group-item-info fw-bolder">Selenium WebDriver - C#</li>
+            <li class="list-group-item list-group-item-info fw-bolder">Test Case Development</li>
+            <li class="list-group-item list-group-item-info fw-bolder">Test Plans</li>
+            <li class="list-group-item list-group-item-info fw-bolder">UX / UI validation</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h3>External Links</h3>
+        <a class="btn btn-info" href="https://github.com/MCLifeLeader/SeleniumExample" target="_blank" rel="noopener" style="background: #2e86c1; color: white; font-weight: bold;">Github SeleniumExample >></a><br />
+    </div>
+</div>
