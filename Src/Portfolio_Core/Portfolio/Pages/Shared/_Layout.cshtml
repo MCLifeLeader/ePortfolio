@@ -15,7 +15,7 @@
     <meta name="Distribution" content="Worldwide">
     <meta name="Rating" content="General">
     <meta name="revisit-after" content="15 days">
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Portfolio.styles.css" asp-append-version="true" />
     <style>
@@ -37,7 +37,7 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="ExperienceDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Experience</a>
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="ExperienceDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Experience</a>
                             <ul class="dropdown-menu bg-dark" aria-labelledby="ExperienceDropDown">
                                 <li>
                                     <a class="dropdown-item text-light" asp-area="" asp-page="/Experience/Education">Education</a>
@@ -48,7 +48,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="ProjectsDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="ProjectsDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
                             <div class="dropdown-menu bg-dark" aria-labelledby="ProjectsDropDown">
                                 <a class="dropdown-item text-light" asp-area="" asp-page="/Projects/AGameEmpowerment">A Game</a>
                                 <a class="dropdown-item text-light" asp-area="" asp-page="/Projects/AdverTran">AdverTran</a>
@@ -62,7 +62,7 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="CollegeDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">College</a>
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="CollegeDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">College</a>
                             <div class="dropdown-menu bg-dark" aria-labelledby="CollegeDropDown">
                                 <a class="dropdown-item text-light" asp-area="" asp-page="/College/Cit261">Cit261</a>
                                 <a class="dropdown-item text-light" asp-area="" asp-page="/College/Cs313">Cs313</a>
@@ -70,7 +70,7 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="SkillsDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Skills</a>
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="SkillsDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Skills</a>
                             <div class="dropdown-menu bg-dark" aria-labelledby="SkillsDropDown">
                                 <a class="dropdown-item text-light" asp-area="" asp-page="/Skills/Leadership">Leadership</a>
                                 <a class="dropdown-item text-light" asp-area="" asp-page="/Skills/Technologies">Technologies</a>
@@ -103,8 +103,8 @@
         </div>
     </footer>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
