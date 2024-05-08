@@ -3,11 +3,18 @@
 
 name: Build and deploy ASP.Net Core app to Azure Web App - mbcarey
 
+env:
+    AZURE_WEBAPP_NAME: mbcarey
+    AZURE_WEBAPP_PACKAGE_PATH: './Src/build/'
+    DOTNET_VERSION: '8'
+
 on:
   push:
-    branches:
-      - master
+    branches: [ "master" ]
   workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   build:
@@ -17,16 +24,23 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Set up .NET Core
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v2
         with:
-          dotnet-version: '8'
-          include-prerelease: true
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Set up dependency caching for faster builds
+        uses: actions/cache@v3
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
 
       - name: Build with dotnet
-        run: dotnet build --configuration Release /Src/Portfolio_Core/Portfolio.sln
+        run: dotnet build /Src/Portfolio_Core/Portfolio.sln --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish /Src/Portfolio_Core/Portfolio.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
@@ -48,7 +62,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: .net-app
-      
+
       - name: Login to Azure
         uses: azure/login@v1
         with:
@@ -62,5 +76,5 @@ jobs:
         with:
           app-name: 'mbcarey'
           slot-name: 'Production'
-          package: .
-          
+          package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+
