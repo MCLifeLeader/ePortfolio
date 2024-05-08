@@ -5,7 +5,7 @@ name: Build and deploy ASP.Net Core app to Azure Web App - mbcarey
 
 env:
     AZURE_WEBAPP_NAME: mbcarey
-    AZURE_WEBAPP_PACKAGE_PATH: './Src/build/'
+    AZURE_WEBAPP_PACKAGE_PATH: 'wwwroot'
     DOTNET_VERSION: '8.x'
 
 on:
