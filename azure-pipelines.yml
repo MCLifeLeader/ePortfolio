@@ -21,6 +21,17 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
+# Task to restore libman.json client-side libraries
+- task: CmdLine@2
+  inputs:
+    script: 'dotnet tool install -g Microsoft.Web.LibraryManager.Cli'
+  displayName: 'Install LibMan CLI'
+
+- task: CmdLine@2
+  inputs:
+    script: 'libman restore'
+  displayName: 'Restore client-side libraries'
+
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
