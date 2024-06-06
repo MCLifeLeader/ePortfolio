@@ -8,3 +8,8 @@ My ePortfolio is a work in progress and will continually be an evoloving project
 1. Class assignment in CS 308 Technical Communication
 2. To provide demonstratable evidence of my skills and experience to prosepctive clients.
 3. Potentially provide ideas, thoughts, and answers to information seekers.
+
+# Codespaces
+## GitHub Configuration
+git config --global user.name "Your Name"
+git config --global user.email "youremail@yourdomain.com"
