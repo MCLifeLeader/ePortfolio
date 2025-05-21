@@ -42,12 +42,20 @@ a {
     --bs-footer-color: #adb5bd;
 }
 [data-bs-theme="light"] {
-    --bs-body-bg: #fff;
+    --bs-body-bg: #e6f2ff; /* very light blue */
     --bs-body-color: #212529;
     --bs-navbar-bg: #212529;
     --bs-navbar-color: #fff;
     --bs-footer-bg: #f8f9fa;
     --bs-footer-color: #212529;
+    --bs-header-bg: #ffd8a8; /* light pastel orange */
+    --bs-header-color: #fff;
+}
+[data-bs-theme="light"] .card-header,
+[data-bs-theme="light"] .navbar,
+[data-bs-theme="light"] header {
+    background-color: #ffd8a8 !important; /* light pastel orange */
+    color: #fff !important;
 }
 [data-bs-theme] body {
     background-color: var(--bs-body-bg);
