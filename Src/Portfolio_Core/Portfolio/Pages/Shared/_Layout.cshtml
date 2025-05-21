@@ -91,26 +91,44 @@
                             </div>
                         </li>
                     </ul>
+                    <div class="d-flex align-items-center ms-auto">
+                        <button id="themeToggle" class="btn btn-outline-light me-2" type="button" title="Toggle dark/light mode">
+                            <span id="themeIcon" class="bi bi-moon"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <div class="container py-4">
+        @RenderBody()
     </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; @DateTime.UtcNow.Year - Michael Carey - <a asp-area="" asp-page="/Privacy">Privacy</a>
+    <footer class="border-top footer text-muted bg-body-tertiary py-3 mt-4">
+        <div class="container text-center">
+            &copy; @DateTime.UtcNow.Year - Michael Carey
         </div>
     </footer>
-
-    <script src="~/lib/jquery/jquery.min.js"></script>
     <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
-    @await RenderSectionAsync("Scripts", required: false)
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.js"></script>
+    <script>
+        // Theme toggle logic
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        function setTheme(theme) {
+            document.documentElement.setAttribute('data-bs-theme', theme);
+            localStorage.setItem('theme', theme);
+            themeIcon.className = theme === 'dark' ? 'bi bi-sun' : 'bi bi-moon';
+        }
+        function toggleTheme() {
+            const current = document.documentElement.getAttribute('data-bs-theme') || (prefersDark ? 'dark' : 'light');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        }
+        themeToggle.addEventListener('click', toggleTheme);
+        // On load, set theme from localStorage or system
+        const savedTheme = localStorage.getItem('theme');
+        setTheme(savedTheme || (prefersDark ? 'dark' : 'light'));
+    </script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>
