@@ -32,3 +32,32 @@ a {
     font-weight: bold;
     margin: 2px 2px 2px 2px;
 }
+
+[data-bs-theme="dark"] {
+    --bs-body-bg: #181a1b;
+    --bs-body-color: #f8f9fa;
+    --bs-navbar-bg: #23272b;
+    --bs-navbar-color: #f8f9fa;
+    --bs-footer-bg: #23272b;
+    --bs-footer-color: #adb5bd;
+}
+[data-bs-theme="light"] {
+    --bs-body-bg: #fff;
+    --bs-body-color: #212529;
+    --bs-navbar-bg: #212529;
+    --bs-navbar-color: #fff;
+    --bs-footer-bg: #f8f9fa;
+    --bs-footer-color: #212529;
+}
+[data-bs-theme] body {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+}
+footer {
+    background-color: var(--bs-footer-bg) !important;
+    color: var(--bs-footer-color) !important;
+}
+.navbar {
+    background-color: var(--bs-navbar-bg) !important;
+    color: var(--bs-navbar-color) !important;
+}
