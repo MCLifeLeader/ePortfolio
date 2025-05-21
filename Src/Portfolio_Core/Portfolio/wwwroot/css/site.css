@@ -49,9 +49,9 @@ a {
     --bs-footer-bg: #f8f9fa;
     --bs-footer-color: #212529;
 }
-body {
-    background-color: var(--bs-body-bg) !important;
-    color: var(--bs-body-color) !important;
+[data-bs-theme] body {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
 }
 footer {
     background-color: var(--bs-footer-bg) !important;
