@@ -1,3 +1,8 @@
+/*
+  Update: Theme color variables and header backgrounds for light/dark mode.
+  - Light mode: Alice Blue background, light orange headers
+  - Dark mode: Keep background, dark orange headers
+*/
 html {
     font-size: 14px;
 }
@@ -40,9 +45,11 @@ a {
     --bs-navbar-color: #f8f9fa;
     --bs-footer-bg: #23272b;
     --bs-footer-color: #adb5bd;
+    --bs-header-bg: #b85c00; /* dark orange */
+    --bs-header-color: #fff;
 }
 [data-bs-theme="light"] {
-    --bs-body-bg: #e6f2ff; /* very light blue */
+    --bs-body-bg: aliceblue;
     --bs-body-color: #212529;
     --bs-navbar-bg: #212529;
     --bs-navbar-color: #fff;
@@ -53,8 +60,16 @@ a {
 }
 [data-bs-theme="light"] .card-header,
 [data-bs-theme="light"] .navbar,
-[data-bs-theme="light"] header {
+[data-bs-theme="light"] header,
+[data-bs-theme="light"] .div-header {
     background-color: #ffd8a8 !important; /* light pastel orange */
+    color: #fff !important;
+}
+[data-bs-theme="dark"] .card-header,
+[data-bs-theme="dark"] .navbar,
+[data-bs-theme="dark"] header,
+[data-bs-theme="dark"] .div-header {
+    background-color: #b85c00 !important; /* dark orange */
     color: #fff !important;
 }
 [data-bs-theme] body {
@@ -68,4 +83,16 @@ footer {
 .navbar {
     background-color: var(--bs-navbar-bg) !important;
     color: var(--bs-navbar-color) !important;
+}
+
+/*
+  Add .div-header class for custom DIV headers to match card-header theming.
+*/
+.div-header {
+    font-weight: bold;
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem 0.25rem 0 0;
+    background-color: var(--bs-header-bg) !important;
+    color: var(--bs-header-color) !important;
 }
