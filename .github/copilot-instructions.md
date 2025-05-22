@@ -51,7 +51,7 @@ src/
 - Avoid fat controllers and God classes.
 
 ## 🧪 Testing Guidelines
-- Use nUnit for unit and integration testing.
+- Use NUnit for unit and integration testing.
 - Use NSubstitute for mocking dependencies.
 - Follow Arrange-Act-Assert pattern in tests.
 - Validate edge cases and exceptions.
