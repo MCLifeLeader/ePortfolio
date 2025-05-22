@@ -74,7 +74,7 @@ src/
 - [Entity Framework Core Docs](https://learn.microsoft.com/en-us/ef/core/)
 - [MediatR GitHub](https://github.com/jbogard/MediatR)
 - [AutoMapper Documentation](https://automapper.org/)
-- [xUnit Documentation](https://xunit.net/)
+- [NUnit Documentation](https://nunit.org/)
 - [FluentValidation](https://docs.fluentvalidation.net/)
 - [Serilog Docs](https://serilog.net/)
 - [Clean Architecture in .NET (by Jason Taylor)](https://github.com/jasontaylordev/CleanArchitecture)
