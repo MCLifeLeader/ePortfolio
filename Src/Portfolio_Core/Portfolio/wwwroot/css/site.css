@@ -32,10 +32,17 @@ a {
 }
 
 .btn-site {
-    background: cornflowerblue;
-    color: white;
+    background: var(--bs-header-bg);
+    color: var(--bs-header-color);
     font-weight: bold;
     margin: 2px 2px 2px 2px;
+    border: none;
+    transition: background 0.2s, color 0.2s;
+}
+.btn-site:hover, .btn-site:focus {
+    background: var(--bs-header-color);
+    color: var(--bs-header-bg);
+    text-decoration: none;
 }
 
 [data-bs-theme="dark"] {
