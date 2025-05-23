@@ -32,10 +32,27 @@ a {
 }
 
 .btn-site {
-    background: cornflowerblue;
-    color: white;
+    background: #7dafff; /* softened blue for light mode */
+    color: #fff;
     font-weight: bold;
     margin: 2px 2px 2px 2px;
+    border: none;
+    transition: background 0.2s;
+}
+
+[data-bs-theme="light"] .btn,
+[data-bs-theme="light"] .btn-primary,
+[data-bs-theme="light"] .btn-site {
+    background-color: #5c94e6 !important;
+    color: #fff !important;
+    border: none;
+}
+
+[data-bs-theme="light"] .btn:hover,
+[data-bs-theme="light"] .btn-primary:hover,
+[data-bs-theme="light"] .btn-site:hover {
+    background-color: #7dafff !important;
+    color: #fff !important;
 }
 
 [data-bs-theme="dark"] {
