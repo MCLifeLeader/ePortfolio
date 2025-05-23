@@ -182,3 +182,13 @@ footer {
     background-color: var(--bs-header-bg) !important;
     color: var(--bs-header-color) !important;
 }
+
+[data-bs-theme="dark"] .btn-primary {
+    background-color: var(--bs-header-bg) !important;
+    color: var(--bs-header-color) !important;
+    border: none;
+}
+[data-bs-theme="dark"] .btn-primary:hover, [data-bs-theme="dark"] .btn-primary:focus {
+    background-color: var(--bs-header-color) !important;
+    color: var(--bs-header-bg) !important;
+}
