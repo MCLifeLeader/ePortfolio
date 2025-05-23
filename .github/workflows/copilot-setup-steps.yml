@@ -18,10 +18,10 @@ jobs:
     # If you do not check out your code, Copilot will do this for you.
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v4.4.0
 
     - name: Setup .NET
-      uses: actions/setup-dotnet@v4
+      uses: actions/setup-dotnet@v4.2.0
       with:
         dotnet-version: '9.0.x'
 
