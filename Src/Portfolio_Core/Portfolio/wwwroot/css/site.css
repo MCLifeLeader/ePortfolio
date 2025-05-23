@@ -103,9 +103,60 @@ footer {
     color: var(--bs-footer-color) !important;
 }
 
+
 .navbar {
     background-color: var(--bs-navbar-bg) !important;
     color: var(--bs-navbar-color) !important;
+    font-weight: bold;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .navbar-text,
+.navbar *[class^="nav-"] {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+    color: #ffd700 !important;
+    background-color: rgba(0,0,0,0.08);
+    font-weight: bold;
+}
+
+/* Dropdown menu background and text styling */
+
+/* Dropdown menu background matches navbar for both themes */
+.dropdown-menu {
+    background-color: var(--bs-navbar-bg) !important;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.05);
+}
+
+/* Ensure dropdown items are bold and white, and highlight on hover */
+.dropdown-item {
+    color: #fff !important;
+    font-weight: bold;
+    transition: background 0.2s, color 0.2s;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #0056b3 !important;
+    color: #ffd700 !important;
+}
+
+.dropdown-item {
+    color: #fff !important;
+    font-weight: bold;
+    transition: background 0.2s, color 0.2s;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #0056b3 !important;
+    color: #ffd700 !important;
 }
 
 .navbar .nav-link {
