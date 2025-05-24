@@ -148,17 +148,7 @@ footer {
     color: #ffd700 !important;
 }
 
-.dropdown-item {
-    color: #fff !important;
-    font-weight: bold;
-    transition: background 0.2s, color 0.2s;
-}
-
-.dropdown-item:hover, .dropdown-item:focus {
-    background-color: #0056b3 !important;
-    color: #ffd700 !important;
-}
-
+/* Removed redundant .dropdown-item block (lines 151–160) */
 .navbar .nav-link {
     color: var(--bs-navbar-color) !important;
     transition: color 0.2s, background 0.2s;
