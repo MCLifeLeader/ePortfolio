@@ -41,29 +41,29 @@ pool: default
 ####################### STAGES ##################################
 
 steps:
-- task: NuGetToolInstaller@0
 
-- task: NuGetCommand@2
+# Build the solution
+- task: DotNetCoreCLI@2
+  displayName: 'Build Solution'
   inputs:
-    restoreSolution: '$(solution)'
+    command: 'build'
+    projects: '$(solution)'
+    arguments: '--configuration $(buildConfiguration) /p:Version=$(BuildVersion) /p:EnvironmentName=Production'
 
-- task: VSBuild@1
+# Publish the project to the artifact staging directory
+- task: DotNetCoreCLI@2
+  displayName: 'Publish Project'
   inputs:
-    solution: '$(solution)'
-    MSBuildArgs: '/p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:PackageLocation="$(build.artifactStagingDirectory)" /p:Version=$(BuildVersion) /p:EnvironmentName=Production /p:BuildingInsideVisualStudio=false'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    command: 'publish'
+    publishWebProjects: false
+    projects: '$(solution)'
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory) /p:Version=$(BuildVersion) /p:EnvironmentName=Production'
+    zipAfterPublish: false
 
-- task: CopyFiles@2
-  displayName: 'Copy Artifacts to Staging Directory'
-  inputs:
-    SourceFolder: '$(Build.ArtifactStagingDirectory)'
-    Contents: '**/*'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)'
-
+# Publish the build artifacts to Azure DevOps artifact store
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifacts'
   inputs:
-    PathToPublish: '$(Build.ArtifactStagingDirectory)'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
