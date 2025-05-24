@@ -34,7 +34,6 @@ resources:
   repositories:
     - repository: MCLifeLeader
       type: github
-      endpoint: Endpoint
       name: ePortfolio
 
 ####################### STAGES ##################################
