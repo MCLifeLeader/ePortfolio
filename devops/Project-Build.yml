@@ -58,7 +58,7 @@ steps:
     publishWebProjects: false
     projects: '$(solution)'
     arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory) /p:Version=$(BuildVersion) /p:EnvironmentName=Production'
-    zipAfterPublish: false
+    zipAfterPublish: true
 
 # Publish the build artifacts to Azure DevOps artifact store
 - task: PublishBuildArtifacts@1
