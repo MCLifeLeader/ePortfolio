@@ -53,3 +53,17 @@ steps:
     msbuildArgs: '/p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:PackageLocation="$(build.artifactStagingDirectory)" /p:Version=$(BuildVersion) /p:EnvironmentName=Production /p:BuildingInsideVisualStudio=false'
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+
+- task: CopyFiles@2
+  displayName: 'Copy Artifacts to Staging Directory'
+  inputs:
+    SourceFolder: '$(build.artifactStagingDirectory)'
+    Contents: '**/*'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifacts'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
