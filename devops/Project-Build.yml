@@ -33,10 +33,10 @@ pool: default
 ####################### RESOURCES ##################################
 # resources:
 #   repositories:
-#     - repository: MCLifeLeader
+#     - repository: ePortfolio
 #       type: github
-#       name: ePortfolio
-#       endpoint: ePortfolio
+#       endpoint: MCLifeLeader
+#       name: MCLifeLeader/ePortfolio
 
 ####################### STAGES ##################################
 
@@ -48,7 +48,7 @@ steps:
   inputs:
     command: 'build'
     projects: '$(solution)'
-    arguments: '--configuration $(buildConfiguration) /p:Version=$(BuildVersion) /p:EnvironmentName=Production'
+    arguments: '--configuration $(buildConfiguration) /p:Version=$(BuildVersion) /p:EnvironmentName=Production /p:BuildingInsideVisualStudio=false'
 
 # Publish the project to the artifact staging directory
 - task: DotNetCoreCLI@2
@@ -57,7 +57,7 @@ steps:
     command: 'publish'
     publishWebProjects: false
     projects: '$(solution)'
-    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory) /p:Version=$(BuildVersion) /p:EnvironmentName=Production'
+    arguments: '/p:PackageLocation="$(build.artifactStagingDirectory)" /p:Version=$(BuildVersion) /p:EnvironmentName=Production /p:BuildingInsideVisualStudio=false'
     zipAfterPublish: true
 
 # Publish the build artifacts to Azure DevOps artifact store
