@@ -31,12 +31,12 @@ variables:
 pool: default
 
 ####################### RESOURCES ##################################
-resources:
-  repositories:
-    - repository: MCLifeLeader
-      type: github
-      name: ePortfolio
-      endpoint: ePortfolio
+# resources:
+#   repositories:
+#     - repository: MCLifeLeader
+#       type: github
+#       name: ePortfolio
+#       endpoint: ePortfolio
 
 ####################### STAGES ##################################
 
