@@ -4,13 +4,13 @@ schedules:
     displayName: Nightly build
     branches:
       include:
-        - master
+        - main
     always: true
     batch: true
 
 ####################### TRIGGER ##################################
 trigger:
-    - master
+    - main
 
 ####################### PIPELINE NAME ##################################
 name: $(ReleaseVersion).$(date:yyyy).$(date:MMdd)$(rev:.r)
@@ -50,7 +50,7 @@ steps:
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
-    msbuildArgs: '/p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:PackageLocation="$(build.artifactStagingDirectory)" /p:Version=$(BuildVersion) /p:EnvironmentName=Production /p:BuildingInsideVisualStudio=false'
+    MSBuildArgs: '/p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:PackageLocation="$(build.artifactStagingDirectory)" /p:Version=$(BuildVersion) /p:EnvironmentName=Production /p:BuildingInsideVisualStudio=false'
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
@@ -64,6 +64,6 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifacts'
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    PathToPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
