@@ -4,21 +4,22 @@ schedules:
     displayName: Nightly build
     branches:
       include:
-        - master
+        - main
     always: true
     batch: true
 
 ####################### TRIGGER ##################################
 trigger:
-    - master
+    - main
 
 ####################### PIPELINE NAME ##################################
 name: $(ReleaseVersion).$(date:yyyy).$(date:MMdd)$(rev:.r)
 
 ####################### VARIABLES ##################################
 variables:
+  - group: ePortfolio
   - name: solution
-    value: '**/*.sln'
+    value: '**/Portfolio.sln'
   - name: buildPlatform
     value: 'Any CPU'
   - name: buildConfiguration
@@ -30,25 +31,39 @@ variables:
 pool: default
 
 ####################### RESOURCES ##################################
-resources:
-  repositories:
-    - repository: MCLifeLeader
-      type: github
-      endpoint: Endpoint
-      name: ePortfolio
+# resources:
+#   repositories:
+#     - repository: MCLifeLeader
+#       type: github
+#       name: ePortfolio
+#       endpoint: ePortfolio
 
 ####################### STAGES ##################################
 
 steps:
-- task: NuGetToolInstaller@0
 
-- task: NuGetCommand@2
+# Build the solution
+- task: DotNetCoreCLI@2
+  displayName: 'Build Solution'
   inputs:
-    restoreSolution: '$(solution)'
+    command: 'build'
+    projects: '$(solution)'
+    arguments: '--configuration $(buildConfiguration) /p:Version=$(BuildVersion) /p:EnvironmentName=Production'
 
-- task: VSBuild@1
+# Publish the project to the artifact staging directory
+- task: DotNetCoreCLI@2
+  displayName: 'Publish Project'
   inputs:
-    solution: '$(solution)'
-    msbuildArgs: '/p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:PackageLocation="$(build.artifactStagingDirectory)" /p:Version=$(BuildVersion) /p:EnvironmentName=Production /p:BuildingInsideVisualStudio=false'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    command: 'publish'
+    publishWebProjects: false
+    projects: '$(solution)'
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory) /p:Version=$(BuildVersion) /p:EnvironmentName=Production'
+    zipAfterPublish: true
+
+# Publish the build artifacts to Azure DevOps artifact store
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifacts'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
