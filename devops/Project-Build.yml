@@ -57,7 +57,7 @@ steps:
     command: 'publish'
     publishWebProjects: false
     projects: '$(solution)'
-    arguments: '/p:PackageLocation="$(build.artifactStagingDirectory)" /p:Version=$(BuildVersion) /p:EnvironmentName=Production /p:BuildingInsideVisualStudio=false'
+    arguments: '/p:Version=$(BuildVersion) /p:EnvironmentName=Production /p:BuildingInsideVisualStudio=false'
     zipAfterPublish: true
 
 # Publish the build artifacts to Azure DevOps artifact store
