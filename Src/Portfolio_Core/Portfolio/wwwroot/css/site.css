@@ -32,10 +32,27 @@ a {
 }
 
 .btn-site {
-    background: cornflowerblue;
-    color: white;
+    background: #7dafff; /* softened blue for light mode */
+    color: #fff;
     font-weight: bold;
     margin: 2px 2px 2px 2px;
+    border: none;
+    transition: background 0.2s;
+}
+
+[data-bs-theme="light"] .btn,
+[data-bs-theme="light"] .btn-primary,
+[data-bs-theme="light"] .btn-site {
+    background-color: #5c94e6 !important;
+    color: #fff !important;
+    border: none;
+}
+
+[data-bs-theme="light"] .btn:hover,
+[data-bs-theme="light"] .btn-primary:hover,
+[data-bs-theme="light"] .btn-site:hover {
+    background-color: #7dafff !important;
+    color: #fff !important;
 }
 
 [data-bs-theme="dark"] {
@@ -45,9 +62,10 @@ a {
     --bs-navbar-color: #f8f9fa;
     --bs-footer-bg: #23272b;
     --bs-footer-color: #adb5bd;
-    --bs-header-bg: #b85c00; /* dark orange */
+    --bs-header-bg: #003366; /* dark blue */
     --bs-header-color: #fff;
 }
+
 [data-bs-theme="light"] {
     --bs-body-bg: aliceblue;
     --bs-body-color: #212529;
@@ -55,34 +73,92 @@ a {
     --bs-navbar-color: #fff;
     --bs-footer-bg: #f8f9fa;
     --bs-footer-color: #212529;
-    --bs-header-bg: #ffd8a8; /* light pastel orange */
+    --bs-header-bg: #80bfff; /* slightly darker pastel blue */
     --bs-header-color: #fff;
 }
-[data-bs-theme="light"] .card-header,
-[data-bs-theme="light"] .navbar,
-[data-bs-theme="light"] header,
-[data-bs-theme="light"] .div-header {
-    background-color: #ffd8a8 !important; /* light pastel orange */
-    color: #fff !important;
-}
+
+    [data-bs-theme="light"] .card-header,
+    [data-bs-theme="light"] .navbar,
+    [data-bs-theme="light"] header,
+    [data-bs-theme="light"] .div-header {
+        background-color: #80bfff !important; /* light pastel blue */
+        color: #fff !important;
+    }
+
 [data-bs-theme="dark"] .card-header,
 [data-bs-theme="dark"] .navbar,
 [data-bs-theme="dark"] header,
 [data-bs-theme="dark"] .div-header {
-    background-color: #b85c00 !important; /* dark orange */
+    background-color: #003366 !important; /* dark blue */
     color: #fff !important;
 }
+
 [data-bs-theme] body {
     background-color: var(--bs-body-bg);
     color: var(--bs-body-color);
 }
+
 footer {
     background-color: var(--bs-footer-bg) !important;
     color: var(--bs-footer-color) !important;
 }
+
+
 .navbar {
     background-color: var(--bs-navbar-bg) !important;
     color: var(--bs-navbar-color) !important;
+    font-weight: bold;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .navbar-text,
+.navbar *[class^="nav-"] {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+    color: #ffd700 !important;
+    background-color: rgba(0,0,0,0.08);
+    font-weight: bold;
+}
+
+/* Dropdown menu background and text styling */
+
+/* Dropdown menu background matches navbar for both themes */
+.dropdown-menu {
+    background-color: var(--bs-navbar-bg) !important;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.05);
+}
+
+/* Ensure dropdown items are bold and white, and highlight on hover */
+.dropdown-item {
+    color: #fff !important;
+    font-weight: bold;
+    transition: background 0.2s, color 0.2s;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #0056b3 !important;
+    color: #ffd700 !important;
+}
+
+/* Removed redundant .dropdown-item block (lines 151–160) */
+.navbar .nav-link {
+    color: var(--bs-navbar-color) !important;
+    transition: color 0.2s, background 0.2s;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+    color: #ffd700 !important; /* Gold highlight for active/hover */
+    background-color: rgba(0,0,0,0.08);
 }
 
 /*
@@ -95,4 +171,14 @@ footer {
     border-radius: 0.25rem 0.25rem 0 0;
     background-color: var(--bs-header-bg) !important;
     color: var(--bs-header-color) !important;
+}
+
+[data-bs-theme="dark"] .btn-primary {
+    background-color: var(--bs-header-bg) !important;
+    color: var(--bs-header-color) !important;
+    border: none;
+}
+[data-bs-theme="dark"] .btn-primary:hover, [data-bs-theme="dark"] .btn-primary:focus {
+    background-color: var(--bs-header-color) !important;
+    color: var(--bs-header-bg) !important;
 }

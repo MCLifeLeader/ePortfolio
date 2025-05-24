@@ -1,0 +1,54 @@
+####################### SCHEDULE ##################################
+schedules:
+  - cron: "0 19 * * *"
+    displayName: Nightly build
+    branches:
+      include:
+        - master
+    always: true
+    batch: true
+
+####################### TRIGGER ##################################
+trigger:
+    - master
+
+####################### PIPELINE NAME ##################################
+name: $(ReleaseVersion).$(date:yyyy).$(date:MMdd)$(rev:.r)
+
+####################### VARIABLES ##################################
+variables:
+  - name: solution
+    value: '**/*.sln'
+  - name: buildPlatform
+    value: 'Any CPU'
+  - name: buildConfiguration
+    value: 'Release'
+  - name: BuildVersion
+    value: '$(Build.BuildNumber)'
+
+####################### AGENT POOL ##################################
+pool: default
+
+####################### RESOURCES ##################################
+resources:
+  repositories:
+    - repository: MCLifeLeader
+      type: github
+      endpoint: Endpoint
+      name: ePortfolio
+
+####################### STAGES ##################################
+
+steps:
+- task: NuGetToolInstaller@0
+
+- task: NuGetCommand@2
+  inputs:
+    restoreSolution: '$(solution)'
+
+- task: VSBuild@1
+  inputs:
+    solution: '$(solution)'
+    msbuildArgs: '/p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:PackageLocation="$(build.artifactStagingDirectory)" /p:Version=$(BuildVersion) /p:EnvironmentName=Production /p:BuildingInsideVisualStudio=false'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
