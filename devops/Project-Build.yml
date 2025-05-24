@@ -17,8 +17,9 @@ name: $(ReleaseVersion).$(date:yyyy).$(date:MMdd)$(rev:.r)
 
 ####################### VARIABLES ##################################
 variables:
+  - group: ePortfolio
   - name: solution
-    value: '**/*.sln'
+    value: '**/Portfolio.sln'
   - name: buildPlatform
     value: 'Any CPU'
   - name: buildConfiguration
