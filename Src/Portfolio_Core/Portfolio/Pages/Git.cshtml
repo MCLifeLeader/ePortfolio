@@ -1,4 +1,4 @@
-﻿@page
+@page
 @model Portfolio.Pages.GitModel
 @{
     ViewData["Title"] = "Git Repo List";
@@ -8,91 +8,101 @@
 <h3>@ViewData["Message"]</h3>
 
 <div class="row pt-3">
-    <div class="col-md-4">
-        <h3>ePortfolio Git Repo</h3>
+    <div class="col-md-12">
         <p>
-            This is the repository for this ePortfolio site. You will be able to find a majority of projects and code here.
-            <span class="fw-bold">The project is currently under development.</span>
+            This page highlights public repositories only. It is intended to show current platform work, learning projects, portfolio code,
+            and older coursework that still helps document the range of languages and technologies I have used.
         </p>
-        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/ePortfolio" target="_blank" rel="noopener">GitHub ePortfolio &gt;&gt;</a></p>
-        <p><a class="btn btn-primary d-block mb-2" href="http://mbcarey.com/" target="_blank" rel="noopener">Michael Carey's ePortfolio (this site) &gt;&gt;</a></p>
     </div>
     <div class="col-md-4">
-        <h3>Startup Example</h3>
+        <h3>Developer-Toolbox</h3>
         <p>
-            This repository contains a demo project to highlight project architecture and provide a possible template for new .NET projects.
-            <span class="fw-bold">The project is currently under development.</span>
+            Azure and Microsoft focused developer environment template with Dev Containers, Docker, .NET 8 / 9 / 10, Node.js, Terraform,
+            PowerShell, Azure CLI, Azure Developer CLI, and repository standards.
+        </p>
+        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/AGameEmpowerment/Developer-Toolbox" target="_blank" rel="noopener">GitHub Developer-Toolbox &gt;&gt;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h3>Starter-CSharp-Api</h3>
+        <p>
+            A new public starter repository representing my current direction for opinionated C# API scaffolding and maintainable project setup.
+        </p>
+        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/AGameEmpowerment/Starter-CSharp-Api" target="_blank" rel="noopener">GitHub Starter-CSharp-Api &gt;&gt;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h3>Starter-CSharp-Azure-Function-App</h3>
+        <p>
+            A companion starter repository centered on Azure Function application setup and reusable serverless foundations in C#.
+        </p>
+        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/AGameEmpowerment/Starter-CSharp-Azure-Function-App" target="_blank" rel="noopener">GitHub Starter-CSharp-Azure-Function-App &gt;&gt;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h3>seq-mcp</h3>
+        <p>
+            TypeScript MCP server that integrates AI agents with Datalust Seq through a controlled API surface, validation, and Docker packaging.
+        </p>
+        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/seq-mcp" target="_blank" rel="noopener">GitHub seq-mcp &gt;&gt;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h3>DotNetProjectStartup</h3>
+        <p>
+            Demonstration project for organizing modern .NET solutions with Docker, Dev Containers, Azure-related tooling, Aspire, and diagnostics.
         </p>
         <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/DotNetProjectStartup" target="_blank" rel="noopener">GitHub DotNetProjectStartup &gt;&gt;</a></p>
     </div>
     <div class="col-md-4">
-        <h3>Learning Blazor</h3>
+        <h3>Blazor-Chat-App</h3>
         <p>
-            This repository contains some of my learnings around developing Blazor Applications.
-            <span class="fw-bold">The project is currently under development.</span>
+            Learning-focused Blazor application using .NET 10, Aspire AppHost, Redis output caching, SQL Server, and Entity Framework Core.
         </p>
-        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/SolarianLeague" target="_blank" rel="noopener">GitHub SolarianLeague &gt;&gt;</a></p>
+        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/Blazor-Chat-App" target="_blank" rel="noopener">GitHub Blazor-Chat-App &gt;&gt;</a></p>
     </div>
     <div class="col-md-4">
-        <h3>Interview Challenge Project</h3>
+        <h3>ePortfolio</h3>
         <p>
-            This repository contains a project that is currently under development to help me in the process of hiring new software engineers.
-            <span class="fw-bold">The project is currently under development.</span>
-            <ul>
-                <li>Software Development Engineer (SDE)</li>
-                <li>Software Development Engineer in Test (SDET)</li>
-                <li>Database Engineer (DBE)</li>
-                <li>Quality Assurance Engineer (QAE)</li>
-                <li>Systems Engineering (SE)</li>
-            </ul>
+            The repository for this portfolio website and a central place to document skills, projects, work history, and technical growth.
         </p>
-        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/InterviewChallenge" target="_blank" rel="noopener">GitHub InterviewChallenge &gt;&gt;</a></p>
+        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/ePortfolio" target="_blank" rel="noopener">GitHub ePortfolio &gt;&gt;</a></p>
+        <p><a class="btn btn-primary d-block mb-2" href="https://mbcarey.com/" target="_blank" rel="noopener">Michael Carey's ePortfolio &gt;&gt;</a></p>
     </div>
     <div class="col-md-4">
         <h3>ShortDevLessons</h3>
         <p>
-            This repository contains a project that I am creating to help home school students learn the basics of programming.
-            <span class="fw-bold">The project is currently under development.</span>
+            Teaching-oriented repository for helping homeschool students and beginners learn foundational programming concepts.
         </p>
         <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/ShortDevLessons" target="_blank" rel="noopener">GitHub ShortDevLessons &gt;&gt;</a></p>
     </div>
     <div class="col-md-4">
         <h3>SeleniumExample</h3>
         <p>
-            This repository contains a demo project for executing a Selenium WebDriver project for automation or QA purposes.
+            Simple C# Selenium WebDriver example that supports the QA and SDET side of my portfolio.
         </p>
         <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/SeleniumExample" target="_blank" rel="noopener">GitHub SeleniumExample &gt;&gt;</a></p>
     </div>
     <div class="col-md-4">
-        <h3>CIT 261 Git Repo</h3>
+        <h3>C / C++ Foundations</h3>
         <p>
-            This repository contains coding projects using HTML, CSS, and Javascript.
-            Clicking a link below will open a new browser tab to the respective site.
+            Earlier repositories that show my programming foundations in C, C++, and data structures.
         </p>
-        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/Cit261" target="_blank" rel="noopener">GitHub CIT 261 &gt;&gt;</a></p>
-        @* <p><a class="btn btn-info btn-site" href="http://dev.mbcarey.com/Web/cit261" target="_blank" rel="noopener">CIT 261 >></a></p> *@
-        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/CIT261Team" target="_blank" rel="noopener">GitHub CIT 261 Team Project &gt;&gt;</a></p>
-        @* <p><a class="btn btn-info btn-site" href="http://dev.mbcarey.com/Web/cit261Team" target="_blank" rel="noopener">CIT 261 Team Project >></a></p> *@
+        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/MiscProjects" target="_blank" rel="noopener">GitHub MiscProjects &gt;&gt;</a></p>
+        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/CS165" target="_blank" rel="noopener">GitHub CS165 &gt;&gt;</a></p>
+        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/CS235" target="_blank" rel="noopener">GitHub CS235 &gt;&gt;</a></p>
     </div>
     <div class="col-md-4">
-        <h3>CS 313 Git Repo</h3>
+        <h3>Java Repositories</h3>
         <p>
-            This repository contains coding projects using PHP, HTML, CSS, Bootstrap, jQuery, SQL, and Java.
-            Clicking a link below will open a new browser tab to the respective site.
+            Coursework and Java learning projects that document object-oriented development and team project experience.
         </p>
-        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/cs313php" target="_blank" rel="noopener">GitHub CS 313 PHP &gt;&gt;</a></p>
-        @* <p><a class="btn btn-info btn-site" href="https://evening-dawn-85312.herokuapp.com/" target="_blank" rel="noopener">Heroku Hosted Site >></a></p> *@
-        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/cs313java" target="_blank" rel="noopener">GitHub CS 313 Java &gt;&gt;</a></p>
-        @* <p><a class="btn btn-info btn-site" href="https://hidden-plateau-66868.herokuapp.com/" target="_blank" rel="noopener">Heroku Hosted Site >></a></p> *@
-        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/CS313Team" target="_blank" rel="noopener">GitHub CS 313 Team Project &gt;&gt;</a></p>
-        @* <p><a class="btn btn-info btn-site" href="https://cs313team.herokuapp.com/" target="_blank" rel="noopener">CS 313 Team Project >></a></p> *@
+        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/CS246" target="_blank" rel="noopener">GitHub CS246 &gt;&gt;</a></p>
+        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/cs313java" target="_blank" rel="noopener">GitHub cs313java &gt;&gt;</a></p>
     </div>
     <div class="col-md-4">
-        <h3>CS 364 Git Repo</h3>
+        <h3>Web Coursework Repositories</h3>
         <p>
-            This repository contains the developed raw text during the creation of the SRS and SDD. As the Project Manager (PM) for the project I had all teams submit
-            content updates through Markdown script.
+            Public coursework repositories that show raw HTML, CSS, JavaScript, PHP, and team collaboration work.
         </p>
-        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/CS364" target="_blank" rel="noopener">GitHub CS 364 Project &gt;&gt;</a></p>
+        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/Cit261" target="_blank" rel="noopener">GitHub Cit261 &gt;&gt;</a></p>
+        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/CIT261Team" target="_blank" rel="noopener">GitHub CIT261Team &gt;&gt;</a></p>
+        <p><a class="btn btn-primary d-block mb-2" href="https://github.com/MCLifeLeader/cs313php" target="_blank" rel="noopener">GitHub cs313php &gt;&gt;</a></p>
     </div>
 </div>
