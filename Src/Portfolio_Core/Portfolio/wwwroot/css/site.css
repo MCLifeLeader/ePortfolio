@@ -18,13 +18,45 @@ html {
 }
 
 html {
-    position: relative;
     min-height: 100%;
 }
 
 body {
-    margin-bottom: 60px;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
     background-color: aliceblue;
+}
+
+main.site-main {
+    flex: 1 0 auto;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+main.site-main .row {
+    row-gap: 1.5rem;
+}
+
+main.site-main h2 {
+    margin-bottom: 0.5rem;
+}
+
+main.site-main h3,
+main.site-main h4 {
+    margin-bottom: 0.75rem;
+}
+
+main.site-main p,
+main.site-main ul,
+main.site-main ol {
+    margin-bottom: 1rem;
+}
+
+main.site-main .list-group {
+    margin-bottom: 0;
 }
 
 a {
@@ -101,6 +133,10 @@ a {
 footer {
     background-color: var(--bs-footer-bg) !important;
     color: var(--bs-footer-color) !important;
+}
+
+.site-footer {
+    margin-top: auto !important;
 }
 
 
