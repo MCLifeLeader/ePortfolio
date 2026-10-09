@@ -1,0 +1,29 @@
+[
+  {
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Experience/WorkHistory.cshtml",
+    "line": 13,
+    "target": "~/content/pdf/resume.pdf",
+    "issue": "Case mismatch",
+    "alternatives": [
+      "/content/pdf/Resume.pdf"
+    ]
+  },
+  {
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Fun/HamRadioVHFGoKit.cshtml",
+    "line": 130,
+    "target": "~/content/images/Image027.JPG",
+    "issue": "Case mismatch",
+    "alternatives": [
+      "/content/images/Image027.jpg"
+    ]
+  },
+  {
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Index.cshtml",
+    "line": 140,
+    "target": "~/content/pdf/resume.pdf",
+    "issue": "Case mismatch",
+    "alternatives": [
+      "/content/pdf/Resume.pdf"
+    ]
+  }
+]

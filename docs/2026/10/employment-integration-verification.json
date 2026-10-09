@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-08",
+  "approved_items": 52,
+  "mapped_items": 52,
+  "baseline_ids_on_changed_pages_mapped": 629,
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "bytes": 23658
+    },
+    {
+      "route": "/AboutMe",
+      "status": 200,
+      "bytes": 13752
+    },
+    {
+      "route": "/Experience/WorkHistory",
+      "status": 200,
+      "bytes": 31428
+    },
+    {
+      "route": "/Experience/Education",
+      "status": 200,
+      "bytes": 11936
+    },
+    {
+      "route": "/Experience/EmploymentAccomplishments",
+      "status": 200,
+      "bytes": 17649
+    },
+    {
+      "route": "/Skills/AI",
+      "status": 200,
+      "bytes": 14998
+    },
+    {
+      "route": "/Skills/Leadership",
+      "status": 200,
+      "bytes": 37507
+    },
+    {
+      "route": "/Skills/DevOps",
+      "status": 200,
+      "bytes": 14648
+    },
+    {
+      "route": "/Projects",
+      "status": 200,
+      "bytes": 16396
+    },
+    {
+      "route": "/Projects/FamilyKey",
+      "status": 200,
+      "bytes": 10913
+    },
+    {
+      "route": "/content/pdf/Resume.pdf",
+      "status": 200,
+      "bytes": 252473
+    }
+  ],
+  "original_tracked_static_assets_unchanged": 94,
+  "resume_file_unchanged": true,
+  "resume_links_remaining_in_pages": 0,
+  "linkedin_and_github_retained": true,
+  "parallel_content_review": "All 52 substantively represented; no invented metrics/completion claims",
+  "build": "Release --no-restore: 0 warnings, 0 errors",
+  "external_document_links_followed": 0,
+  "production_deployed": false
+}

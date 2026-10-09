@@ -1,0 +1,3969 @@
+[
+  {
+    "id": "PAGE-AboutMe",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/AboutMe.cshtml",
+    "name": "AboutMe",
+    "routes": [
+      "/AboutMe"
+    ],
+    "title": "About Me",
+    "destination": "About / Personal / Community > About Me",
+    "blocks": 8,
+    "references": [
+      {
+        "line": 9,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/fbMichael_B_Carey.jpg",
+        "attributes": {
+          "class": "img-fluid",
+          "src": "~/content/images/fbMichael_B_Carey.jpg",
+          "title": "Michael B. Carey",
+          "alt": "Michael B. Carey"
+        }
+      },
+      {
+        "line": 43,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.AGameEmpowerment.com",
+        "attributes": {
+          "class": "fw-bolder",
+          "href": "https://www.AGameEmpowerment.com",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 2765
+  },
+  {
+    "id": "PAGE-College-Cit261",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/College/Cit261.cshtml",
+    "name": "College/Cit261",
+    "routes": [
+      "/College/Cit261"
+    ],
+    "title": "CIT 261",
+    "destination": "Education & Professional Development > CIT 261",
+    "blocks": 17,
+    "references": [
+      {
+        "line": 46,
+        "tag": "a",
+        "attribute": "href",
+        "target": "http://www.satellite-calculations.com",
+        "attributes": {
+          "href": "http://www.satellite-calculations.com"
+        }
+      },
+      {
+        "line": 54,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/Cit261",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/Cit261",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 56,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CIT261Team",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/CIT261Team",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 1752
+  },
+  {
+    "id": "PAGE-College-Cs313",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/College/Cs313.cshtml",
+    "name": "College/Cs313",
+    "routes": [
+      "/College/Cs313"
+    ],
+    "title": "CS 313",
+    "destination": "Education & Professional Development > CS 313",
+    "blocks": 9,
+    "references": [
+      {
+        "line": 44,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/cs313php",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/cs313php",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 46,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/cs313java",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/cs313java",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 48,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CS313Team",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/CS313Team",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 1021
+  },
+  {
+    "id": "PAGE-College-Cs364",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/College/Cs364.cshtml",
+    "name": "College/Cs364",
+    "routes": [
+      "/College/Cs364"
+    ],
+    "title": "CS 364",
+    "destination": "Education & Professional Development > CS 364",
+    "blocks": 52,
+    "references": [
+      {
+        "line": 148,
+        "tag": "a",
+        "attribute": "href",
+        "target": "~/content/pdf/CS364_SRS.pdf",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "~/content/pdf/CS364_SRS.pdf",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 162,
+        "tag": "a",
+        "attribute": "href",
+        "target": "~/content/pdf/CS364_SDD.pdf",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "~/content/pdf/CS364_SDD.pdf",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 173,
+        "tag": "a",
+        "attribute": "href",
+        "target": "~/content/pdf/CS364_ECR.pdf",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "~/content/pdf/CS364_ECR.pdf",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 178,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CS364",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/CS364",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 2915
+  },
+  {
+    "id": "PAGE-College-Index",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/College/Index.cshtml",
+    "name": "College/Index",
+    "routes": [
+      "/College",
+      "/College/Index"
+    ],
+    "title": "College",
+    "destination": "Education & Professional Development > College",
+    "blocks": 11,
+    "references": [
+      {
+        "line": 21,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/College/Cit261",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/College/Cit261"
+        }
+      },
+      {
+        "line": 31,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/College/Cs313",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/College/Cs313"
+        }
+      },
+      {
+        "line": 41,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/College/Cs364",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/College/Cs364"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 759
+  },
+  {
+    "id": "PAGE-Contact",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Contact.cshtml",
+    "name": "Contact",
+    "routes": [
+      "/Contact"
+    ],
+    "title": "Contact",
+    "destination": "Professional connections / Contact > Contact",
+    "blocks": 7,
+    "references": [
+      {
+        "line": 82,
+        "tag": "script",
+        "attribute": "src",
+        "target": "https://www.google.com/recaptcha/api.js",
+        "attributes": {
+          "src": "https://www.google.com/recaptcha/api.js"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 97
+  },
+  {
+    "id": "PAGE-Error",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Error.cshtml",
+    "name": "Error",
+    "routes": [
+      "/Error"
+    ],
+    "title": "Error",
+    "destination": "Shared site infrastructure / Error > Error",
+    "blocks": 8,
+    "references": [],
+    "anchors": [],
+    "visible_characters": 525
+  },
+  {
+    "id": "PAGE-Experience-Education",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Experience/Education.cshtml",
+    "name": "Experience/Education",
+    "routes": [
+      "/Experience/Education"
+    ],
+    "title": "Education",
+    "destination": "Education & Professional Development > Education",
+    "blocks": 11,
+    "references": [],
+    "anchors": [
+      {
+        "line": 12,
+        "id": "EarlySelfDirected"
+      },
+      {
+        "line": 22,
+        "id": "BYUIdaho"
+      },
+      {
+        "line": 32,
+        "id": "Associates"
+      },
+      {
+        "line": 39,
+        "id": "SoftwareEngineering"
+      }
+    ],
+    "visible_characters": 1707
+  },
+  {
+    "id": "PAGE-Experience-Index",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Experience/Index.cshtml",
+    "name": "Experience/Index",
+    "routes": [
+      "/Experience",
+      "/Experience/Index"
+    ],
+    "title": "Experience",
+    "destination": "Professional Experience > Experience",
+    "blocks": 11,
+    "references": [
+      {
+        "line": 18,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/AboutMe",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/AboutMe"
+        }
+      },
+      {
+        "line": 25,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Experience/Education",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Experience/Education"
+        }
+      },
+      {
+        "line": 32,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Experience/WorkHistory",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Experience/WorkHistory"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 331
+  },
+  {
+    "id": "PAGE-Experience-WorkHistory",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Experience/WorkHistory.cshtml",
+    "name": "Experience/WorkHistory",
+    "routes": [
+      "/Experience/WorkHistory"
+    ],
+    "title": "Work History",
+    "destination": "Professional Experience > Work History",
+    "blocks": 193,
+    "references": [
+      {
+        "line": 13,
+        "tag": "a",
+        "attribute": "href",
+        "target": "~/content/pdf/resume.pdf",
+        "attributes": {
+          "class": "btn btn-info",
+          "href": "~/content/pdf/resume.pdf",
+          "target": "_blank",
+          "rel": "noopener",
+          "style": "background: #2e86c1; color: white; font-weight: bold;"
+        }
+      },
+      {
+        "line": 65,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Projects/AzureServices",
+        "attributes": {
+          "asp-area": "",
+          "asp-page": "/Projects/AzureServices"
+        }
+      },
+      {
+        "line": 69,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Projects/Encompass",
+        "attributes": {
+          "asp-area": "",
+          "asp-page": "/Projects/Encompass"
+        }
+      }
+    ],
+    "anchors": [
+      {
+        "line": 20,
+        "id": "LDSChurch03"
+      },
+      {
+        "line": 53,
+        "id": "AcademyMortgage"
+      },
+      {
+        "line": 103,
+        "id": "AGameEmpowerment"
+      },
+      {
+        "line": 139,
+        "id": "LDSChurch02"
+      },
+      {
+        "line": 166,
+        "id": "SwipeClock"
+      },
+      {
+        "line": 191,
+        "id": "LDSChurch01"
+      },
+      {
+        "line": 215,
+        "id": "Microsoft"
+      },
+      {
+        "line": 238,
+        "id": "CareyAndAssoc"
+      },
+      {
+        "line": 267,
+        "id": "Kumusoft"
+      }
+    ],
+    "visible_characters": 7008
+  },
+  {
+    "id": "PAGE-Fun-HamRadioVHFGoKit",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Fun/HamRadioVHFGoKit.cshtml",
+    "name": "Fun/HamRadioVHFGoKit",
+    "routes": [
+      "/Fun/HamRadioVHFGoKit"
+    ],
+    "title": "VHF / HF Ham Radio Go-Kit",
+    "destination": "About / Personal / Community > VHF / HF Ham Radio Go-Kit",
+    "blocks": 70,
+    "references": [
+      {
+        "line": 20,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.herriman.org/ham-radio",
+        "attributes": {
+          "target": "_blank",
+          "href": "https://www.herriman.org/ham-radio"
+        }
+      },
+      {
+        "line": 33,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image047.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image047.jpg"
+        }
+      },
+      {
+        "line": 34,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image007.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image007.jpg"
+        }
+      },
+      {
+        "line": 35,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image008.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image008.jpg"
+        }
+      },
+      {
+        "line": 36,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image009.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image009.jpg"
+        }
+      },
+      {
+        "line": 37,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image010.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image010.jpg"
+        }
+      },
+      {
+        "line": 38,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image011.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image011.jpg"
+        }
+      },
+      {
+        "line": 39,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image019.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image019.jpg"
+        }
+      },
+      {
+        "line": 40,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image012.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image012.jpg"
+        }
+      },
+      {
+        "line": 41,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image013.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image013.jpg"
+        }
+      },
+      {
+        "line": 42,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image014.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image014.jpg"
+        }
+      },
+      {
+        "line": 43,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image015.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image015.jpg"
+        }
+      },
+      {
+        "line": 44,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image018.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image018.jpg"
+        }
+      },
+      {
+        "line": 45,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image021.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image021.jpg"
+        }
+      },
+      {
+        "line": 46,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image022.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image022.jpg"
+        }
+      },
+      {
+        "line": 47,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image023.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image023.jpg"
+        }
+      },
+      {
+        "line": 48,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image024.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image024.jpg"
+        }
+      },
+      {
+        "line": 49,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image025.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image025.jpg"
+        }
+      },
+      {
+        "line": 50,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image027.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image027.jpg"
+        }
+      },
+      {
+        "line": 51,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image028.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image028.jpg"
+        }
+      },
+      {
+        "line": 52,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image034.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image034.jpg"
+        }
+      },
+      {
+        "line": 53,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image036.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image036.jpg"
+        }
+      },
+      {
+        "line": 54,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image037.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image037.jpg"
+        }
+      },
+      {
+        "line": 55,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image042.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image042.jpg"
+        }
+      },
+      {
+        "line": 56,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image043.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image043.jpg"
+        }
+      },
+      {
+        "line": 57,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image044.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image044.jpg"
+        }
+      },
+      {
+        "line": 58,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image045.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image045.jpg"
+        }
+      },
+      {
+        "line": 59,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image046.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image046.jpg"
+        }
+      },
+      {
+        "line": 60,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image048.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image048.jpg"
+        }
+      },
+      {
+        "line": 61,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image050.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image050.jpg"
+        }
+      },
+      {
+        "line": 62,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image051.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image051.jpg"
+        }
+      },
+      {
+        "line": 63,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image052.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image052.jpg"
+        }
+      },
+      {
+        "line": 64,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image053.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image053.jpg"
+        }
+      },
+      {
+        "line": 65,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image054.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image054.jpg"
+        }
+      },
+      {
+        "line": 66,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image055.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image055.jpg"
+        }
+      },
+      {
+        "line": 67,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image056.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image056.jpg"
+        }
+      },
+      {
+        "line": 68,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image062.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image062.jpg"
+        }
+      },
+      {
+        "line": 69,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image063.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image063.jpg"
+        }
+      },
+      {
+        "line": 70,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image064.jpg",
+        "attributes": {
+          "class": "img-thumbnail d-block",
+          "src": "~/content/images/Image064.jpg"
+        }
+      },
+      {
+        "line": 97,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2TV4ryu",
+        "attributes": {
+          "href": "https://amzn.to/2TV4ryu",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 98,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_Kenwood.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_Kenwood.jpg",
+          "alt": "Kenwood TM-V71A - VHF / UHF radio Image",
+          "title": "Kenwood TM-V71A - VHF / UHF radio Image"
+        }
+      },
+      {
+        "line": 107,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.rtsystemsinc.com/TM-V71_c_84.html",
+        "attributes": {
+          "href": "https://www.rtsystemsinc.com/TM-V71_c_84.html",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 108,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_KRS-V71-USB-2.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_KRS-V71-USB-2.jpg",
+          "alt": "Kenwood TM-V71 - Programming Cable and Software",
+          "title": "Kenwood TM-V71 - Programming Cable and Software"
+        }
+      },
+      {
+        "line": 113,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/3I6uAlc",
+        "attributes": {
+          "href": "https://amzn.to/3I6uAlc",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 114,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_Yeasu-FT891_HF50.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_Yeasu-FT891_HF50.jpg",
+          "alt": "Yaesu FT891 - HF/50 radio Image",
+          "title": "Yaesu FT891 - HF/50 radio Image"
+        }
+      },
+      {
+        "line": 123,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.rtsystemsinc.com/FT-891_c_810.html",
+        "attributes": {
+          "href": "https://www.rtsystemsinc.com/FT-891_c_810.html",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 124,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_ADMS-891-USB-2.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_ADMS-891-USB-2.jpg",
+          "alt": "Yeasu FT-891 Radio Programming Cable and Software",
+          "title": "Yeasu FT-891 Radio Programming Cable and Software"
+        }
+      },
+      {
+        "line": 129,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2I2Mj33",
+        "attributes": {
+          "href": "https://amzn.to/2I2Mj33",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 130,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image027.JPG",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image027.JPG",
+          "alt": "X30A Dualband Base/Repeater Antenna",
+          "title": "X30A Dualband Base/Repeater Antenna"
+        }
+      },
+      {
+        "line": 135,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2TVl1yn",
+        "attributes": {
+          "href": "https://amzn.to/2TVl1yn",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 136,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_SportsmanBox.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_SportsmanBox.jpg",
+          "alt": "MTM Sportsman Plus Utility Dry Box Polymer",
+          "title": "MTM Sportsman Plus Utility Dry Box Polymer"
+        }
+      },
+      {
+        "line": 141,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/38fd1R3",
+        "attributes": {
+          "href": "https://amzn.to/38fd1R3",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 142,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_asr-ss-30m_xl.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_asr-ss-30m_xl.jpg",
+          "alt": "Astron SS Series Switching Power Supplies SS-30M",
+          "title": "Astron SS Series Switching Power Supplies SS-30M"
+        }
+      },
+      {
+        "line": 147,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=battery+backup+dc+switching+system+pwrgate&_sacat=0&LH_TitleDesc=0&_odkw=battery+backup+dc+switching+system+pwrgate&_osacat=0",
+        "attributes": {
+          "href": "https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=battery+backup+dc+switching+system+pwrgate&_sacat=0&LH_TitleDesc=0&_odkw=battery+backup+dc+switching+system+pwrgate&_osacat=0",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 148,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_PowerGate_Front.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_PowerGate_Front.jpg",
+          "alt": "Power Gate Battery Backup Automatic DC Power Switching System",
+          "title": "Power Gate Battery Backup Automatic DC Power Switching System"
+        }
+      },
+      {
+        "line": 149,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_PowerGate_Side.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_PowerGate_Side.jpg",
+          "alt": "Power Gate Battery Backup Automatic DC Power Switching System",
+          "title": "Power Gate Battery Backup Automatic DC Power Switching System"
+        }
+      },
+      {
+        "line": 154,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.gigaparts.com/west-mountain-ps-cbl-6.html",
+        "attributes": {
+          "href": "https://www.gigaparts.com/west-mountain-ps-cbl-6.html",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 155,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_ZWM-PS-CBL-6-0001.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_ZWM-PS-CBL-6-0001.jpg",
+          "alt": "West Mountain PS-CBL-6 Cable (PS/CBL/6)",
+          "title": "West Mountain PS-CBL-6 Cable (PS/CBL/6)"
+        }
+      },
+      {
+        "line": 161,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.dxengineering.com/parts/wmt-58315-1043",
+        "attributes": {
+          "href": "https://www.dxengineering.com/parts/wmt-58315-1043",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 162,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_wmt-58315-1043_xb_xl.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_wmt-58315-1043_xb_xl.jpg",
+          "alt": "West Mountain Radio RIGrunner DC Outlet Panels RR/4004/USB",
+          "title": "West Mountain Radio RIGrunner DC Outlet Panels RR/4004/USB"
+        }
+      },
+      {
+        "line": 167,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/3exgJa0",
+        "attributes": {
+          "href": "https://amzn.to/3exgJa0",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 168,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_AntennaTripod.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_AntennaTripod.jpg",
+          "alt": "Heavy Duty Portable Antenna Mounting Tripod Stand",
+          "title": "Heavy Duty Portable Antenna Mounting Tripod Stand"
+        }
+      },
+      {
+        "line": 173,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2TV4dYa",
+        "attributes": {
+          "href": "https://amzn.to/2TV4dYa",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 174,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_AC_SL1500.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_AC_SL1500.jpg",
+          "alt": "Cable Experts RG-8X Coax Cable - 25 FT PL259 M/M Connectors - Heavy Duty Indoor/Outdoor Weatherproof Jumper Cables",
+          "title": "Cable Experts RG-8X Coax Cable - 25 FT PL259 M/M Connectors - Heavy Duty Indoor/Outdoor Weatherproof Jumper Cables"
+        }
+      },
+      {
+        "line": 176,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/3p0GHHs",
+        "attributes": {
+          "href": "https://amzn.to/3p0GHHs",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 177,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_AC_SL1020.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_AC_SL1020.jpg",
+          "alt": "Bingfu UHF PL259 Male to SO239 Female RG58 Antenna Extension Coax Jumper Cable",
+          "title": "Bingfu UHF PL259 Male to SO239 Female RG58 Antenna Extension Coax Jumper Cable"
+        }
+      },
+      {
+        "line": 179,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2Gy1QHR",
+        "attributes": {
+          "href": "https://amzn.to/2Gy1QHR",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 180,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_AC_SL1000.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_AC_SL1000.jpg",
+          "alt": "Superbat UHF Male PL-259 to UHF Male PL-259 Low Loss Digital Coax UHF Jumper Cable",
+          "title": "Superbat UHF Male PL-259 to UHF Male PL-259 Low Loss Digital Coax UHF Jumper Cable"
+        }
+      },
+      {
+        "line": 182,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/3p0KFQl",
+        "attributes": {
+          "href": "https://amzn.to/3p0KFQl",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 183,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_AC_SL1001.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_AC_SL1001.jpg",
+          "alt": "MOOKEERF UHF Connector CB Radio Adapter, 2 Pack UHF PL259 Male to UHF PL259 Male Coax Cable Adapter",
+          "title": "MOOKEERF UHF Connector CB Radio Adapter, 2 Pack UHF PL259 Male to UHF PL259 Male Coax Cable Adapter"
+        }
+      },
+      {
+        "line": 185,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2IcgKUX",
+        "attributes": {
+          "href": "https://amzn.to/2IcgKUX",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 186,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_AC_SL1002.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_AC_SL1002.jpg",
+          "alt": "Ancable 2-Pack SO-239 / PL-259 UHF Female to Female Coax Cable Barrel Adapter Connector",
+          "title": "Ancable 2-Pack SO-239 / PL-259 UHF Female to Female Coax Cable Barrel Adapter Connector"
+        }
+      },
+      {
+        "line": 191,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image054.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image054.jpg",
+          "alt": "1/4 inch MDF board",
+          "title": "1/4 inch MDF board"
+        }
+      },
+      {
+        "line": 192,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image050.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image050.jpg",
+          "alt": "1/4 inch MDF board Finished Example",
+          "title": "1/4 inch MDF board Finished Example"
+        }
+      },
+      {
+        "line": 193,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image048.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image048.jpg",
+          "alt": "Wood Guides used in box",
+          "title": "Wood Guides used in box"
+        }
+      },
+      {
+        "line": 194,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image002.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image002.jpg",
+          "alt": "5/32 I.D. Inch x 5/8 Inch O.D. Washer",
+          "title": "5/32 I.D. Inch x 5/8 Inch O.D. Washer"
+        }
+      },
+      {
+        "line": 195,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image003.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image003.jpg",
+          "alt": "6 - 32x 1 1/4 Bolt",
+          "title": "6 - 32x 1 1/4 Bolt"
+        }
+      },
+      {
+        "line": 196,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image004.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image004.jpg",
+          "alt": "6 - 32 Nut",
+          "title": "6 - 32 Nut"
+        }
+      },
+      {
+        "line": 197,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image005.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image005.jpg",
+          "alt": "#8 Neoprene",
+          "title": "#8 Neoprene"
+        }
+      },
+      {
+        "line": 198,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image040.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image040.jpg",
+          "alt": "M3 X 18 .50 Pitch Washers",
+          "title": "M3 X 18 .50 Pitch Washers"
+        }
+      },
+      {
+        "line": 199,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image041.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image041.jpg",
+          "alt": "M4 Washers",
+          "title": "M4 Washers"
+        }
+      },
+      {
+        "line": 219,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image013.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image013.jpg",
+          "alt": "PVC Pipe section with End caps and Cotter Pin",
+          "title": "PVC Pipe section with End caps and Cotter Pin"
+        }
+      },
+      {
+        "line": 220,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image018.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image018.jpg",
+          "alt": "PVC Pipe mounted on Antenna Pole",
+          "title": "PVC Pipe mounted on Antenna Pole"
+        }
+      },
+      {
+        "line": 262,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image050.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image050.jpg",
+          "alt": "MDF Board Drilled Finished Example",
+          "title": "MDF Board Drilled Finished Example"
+        }
+      },
+      {
+        "line": 263,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image053.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image053.jpg",
+          "alt": "MDF Board drill whole template Part 1",
+          "title": "MDF Board drill whole template Part 1"
+        }
+      },
+      {
+        "line": 264,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image054.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image054.jpg",
+          "alt": "MDF Board drill whole template Part 2",
+          "title": "MDF Board drill whole template Part 2"
+        }
+      },
+      {
+        "line": 265,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image055.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image055.jpg",
+          "alt": "Using the Template on a Large MDF Board",
+          "title": "Using the Template on a Large MDF Board"
+        }
+      },
+      {
+        "line": 266,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image056.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image056.jpg",
+          "alt": "Basic outline for the MDF Board Cut Lines",
+          "title": "Basic outline for the MDF Board Cut Lines"
+        }
+      },
+      {
+        "line": 267,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image058.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image058.jpg",
+          "alt": "Close up of the Basic outline for the MDF Board Cut Lines",
+          "title": "Close up of the Basic outline for the MDF Board Cut Lines"
+        }
+      },
+      {
+        "line": 285,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image051.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image051.jpg",
+          "alt": "Box drill hole template jig side 1",
+          "title": "Box drill hole template jig side 1"
+        }
+      },
+      {
+        "line": 286,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image052.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image052.jpg",
+          "alt": "Box drill hole template jig side 2",
+          "title": "Box drill hole template jig side 2"
+        }
+      },
+      {
+        "line": 287,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image059.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image059.jpg",
+          "alt": "1/2 Inch Wood racks in Jig",
+          "title": "1/2 Inch Wood racks in Jig"
+        }
+      },
+      {
+        "line": 288,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image060.jpg",
+        "attributes": {
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image060.jpg",
+          "alt": "1/2 Inch Wood racks in Jig Angled Picture",
+          "title": "1/2 Inch Wood racks in Jig Angled Picture"
+        }
+      },
+      {
+        "line": 304,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image019.jpg",
+        "attributes": {
+          "class": "float-right",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image019.jpg",
+          "alt": "Cotter Pin from Welding Rod",
+          "title": "Cotter Pin from Welding Rod"
+        }
+      },
+      {
+        "line": 305,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image016.jpg",
+        "attributes": {
+          "class": "float-right",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image016.jpg",
+          "alt": "Placeholder - Replace this image",
+          "title": "Placeholder - Replace this image"
+        }
+      },
+      {
+        "line": 315,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/zzz_Placeholder.jpg",
+        "attributes": {
+          "class": "float-right",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/zzz_Placeholder.jpg",
+          "alt": "Placeholder - Replace this image",
+          "title": "Placeholder - Replace this image"
+        }
+      },
+      {
+        "line": 332,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image011.jpg",
+        "attributes": {
+          "class": "float-none",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image011.jpg",
+          "alt": "Cotter Pin attached to paracord",
+          "title": "Cotter Pin attached to paracord"
+        }
+      },
+      {
+        "line": 333,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image012.jpg",
+        "attributes": {
+          "class": "float-none",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image012.jpg",
+          "alt": "Cotter Pin attached to paracord looped through PVC Pipe and Cap 1",
+          "title": "Cotter Pin attached to paracord looped through PVC Pipe and Cap 1"
+        }
+      },
+      {
+        "line": 334,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image013.jpg",
+        "attributes": {
+          "class": "float-none",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image013.jpg",
+          "alt": "Cotter Pin attached to paracord looped through PVC Pipe and Cap 2",
+          "title": "Cotter Pin attached to paracord looped through PVC Pipe and Cap 2"
+        }
+      },
+      {
+        "line": 335,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image014.jpg",
+        "attributes": {
+          "class": "float-none",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image014.jpg",
+          "alt": "Cotter Pin attached to paracord looped through PVC Pipe and Cap 3",
+          "title": "Cotter Pin attached to paracord looped through PVC Pipe and Cap 3"
+        }
+      },
+      {
+        "line": 336,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image015.jpg",
+        "attributes": {
+          "class": "float-none",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image015.jpg",
+          "alt": "Completed PVC Pipe with cap and Cotter Pin",
+          "title": "Completed PVC Pipe with cap and Cotter Pin"
+        }
+      },
+      {
+        "line": 337,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image017.jpg",
+        "attributes": {
+          "class": "float-none",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image017.jpg",
+          "alt": "Four Completed PVC Pipe with cap and Cotter Pin",
+          "title": "Four Completed PVC Pipe with cap and Cotter Pin"
+        }
+      },
+      {
+        "line": 338,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image018.jpg",
+        "attributes": {
+          "class": "float-none",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image018.jpg",
+          "alt": "Completed PVC Pipe and cap on Antenna tripod stand",
+          "title": "Completed PVC Pipe and cap on Antenna tripod stand"
+        }
+      },
+      {
+        "line": 347,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image028.jpg",
+        "attributes": {
+          "class": "float-none",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image028.jpg",
+          "alt": "Diamond Repeater Antenna with mounting Brackets and PVC pipe",
+          "title": "Diamond Repeater Antenna with mounting Brackets and PVC pipe"
+        }
+      },
+      {
+        "line": 364,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image031.jpg",
+        "attributes": {
+          "class": "float-none",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image031.jpg",
+          "alt": "Antenna Mounting Bracket with U clamps threaded through bracket",
+          "title": "Antenna Mounting Bracket with U clamps threaded through bracket"
+        }
+      },
+      {
+        "line": 373,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image033.jpg",
+        "attributes": {
+          "class": "float-none",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image033.jpg",
+          "alt": "Antenna Mounting Bracket attached to PVC Pipe",
+          "title": "Antenna Mounting Bracket attached to PVC Pipe"
+        }
+      },
+      {
+        "line": 382,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image034.jpg",
+        "attributes": {
+          "class": "float-none",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image034.jpg",
+          "alt": "Threading coax cable through Mounting Bracket to Antenna with PVC Pipe attached",
+          "title": "Threading coax cable through Mounting Bracket to Antenna with PVC Pipe attached"
+        }
+      },
+      {
+        "line": 383,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image037.jpg",
+        "attributes": {
+          "class": "float-none",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image037.jpg",
+          "alt": "Completed assembly of mounting bracket to PVC pipe and Antenna",
+          "title": "Completed assembly of mounting bracket to PVC pipe and Antenna"
+        }
+      },
+      {
+        "line": 388,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image036.jpg",
+        "attributes": {
+          "class": "float-none",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image036.jpg",
+          "alt": "PVC Pipe with Antenna mounted on tripod antenna mounting stand",
+          "title": "PVC Pipe with Antenna mounted on tripod antenna mounting stand"
+        }
+      },
+      {
+        "line": 395,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/Image063.jpg",
+        "attributes": {
+          "class": "float-none",
+          "style": "max-width: 300px;",
+          "src": "~/content/images/Image063.jpg",
+          "alt": "Completed box with boards and both VHF / UHF and HF radios mounted in orange box with cables and wires"
+        }
+      }
+    ],
+    "anchors": [
+      {
+        "line": 31,
+        "id": "AllRadioParts"
+      }
+    ],
+    "visible_characters": 6950
+  },
+  {
+    "id": "PAGE-Fun-Index",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Fun/Index.cshtml",
+    "name": "Fun/Index",
+    "routes": [
+      "/Fun",
+      "/Fun/Index"
+    ],
+    "title": "Fun Projects",
+    "destination": "About / Personal / Community > Fun Projects",
+    "blocks": 8,
+    "references": [
+      {
+        "line": 17,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Fun/SolarianLeague",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Fun/SolarianLeague"
+        }
+      },
+      {
+        "line": 24,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Fun/HamRadioVHFGoKit",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Fun/HamRadioVHFGoKit"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 430
+  },
+  {
+    "id": "PAGE-Fun-SolarianLeague",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Fun/SolarianLeague.cshtml",
+    "name": "Fun/SolarianLeague",
+    "routes": [
+      "/Fun/SolarianLeague"
+    ],
+    "title": "Solarian League",
+    "destination": "About / Personal / Community > Solarian League",
+    "blocks": 12,
+    "references": [
+      {
+        "line": 35,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://SolarianLeague.com/",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://SolarianLeague.com/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 1011
+  },
+  {
+    "id": "PAGE-Git",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Git.cshtml",
+    "name": "Git",
+    "routes": [
+      "/Git"
+    ],
+    "title": "Git Repo List",
+    "destination": "Projects & Accomplishments > Git Repo List",
+    "blocks": 45,
+    "references": [
+      {
+        "line": 23,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/AGameEmpowerment/Developer-Toolbox",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/AGameEmpowerment/Developer-Toolbox",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 30,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/AGameEmpowerment/Starter-CSharp-Api",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/AGameEmpowerment/Starter-CSharp-Api",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 37,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/AGameEmpowerment/Starter-CSharp-Azure-Function-App",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/AGameEmpowerment/Starter-CSharp-Azure-Function-App",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 44,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/seq-mcp",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/MCLifeLeader/seq-mcp",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 51,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/DotNetProjectStartup",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/MCLifeLeader/DotNetProjectStartup",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 58,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/Blazor-Chat-App",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/MCLifeLeader/Blazor-Chat-App",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 65,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/ePortfolio",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/MCLifeLeader/ePortfolio",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 66,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://mbcarey.com/",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://mbcarey.com/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 73,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/ShortDevLessons",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/MCLifeLeader/ShortDevLessons",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 80,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/SeleniumExample",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/MCLifeLeader/SeleniumExample",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 87,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/MiscProjects",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/MCLifeLeader/MiscProjects",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 88,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CS165",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/MCLifeLeader/CS165",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 89,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CS235",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/MCLifeLeader/CS235",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 96,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CS246",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/MCLifeLeader/CS246",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 97,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/cs313java",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/MCLifeLeader/cs313java",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 104,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/Cit261",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/MCLifeLeader/Cit261",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 105,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CIT261Team",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/MCLifeLeader/CIT261Team",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 106,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/cs313php",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://github.com/MCLifeLeader/cs313php",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 2354
+  },
+  {
+    "id": "PAGE-Index",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Index.cshtml",
+    "name": "Index",
+    "routes": [
+      "/",
+      "/Index"
+    ],
+    "title": "Home page",
+    "destination": "Homepage > Home page",
+    "blocks": 34,
+    "references": [
+      {
+        "line": 9,
+        "tag": "img",
+        "attribute": "src",
+        "target": "~/content/images/fbMichael_B_Carey.jpg",
+        "attributes": {
+          "class": "img-fluid rounded shadow",
+          "src": "~/content/images/fbMichael_B_Carey.jpg",
+          "title": "Michael B. Carey",
+          "alt": "Michael B. Carey",
+          "style": "max-width: 180px;"
+        }
+      },
+      {
+        "line": 14,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.AGameEmpowerment.com",
+        "attributes": {
+          "class": "fw-bold",
+          "href": "https://www.AGameEmpowerment.com",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 14,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.upwork.com/freelancers/michaelbcarey",
+        "attributes": {
+          "class": "fw-bold",
+          "href": "https://www.upwork.com/freelancers/michaelbcarey",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 15,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://citizenportal.ai/a/pbrq3z",
+        "attributes": {
+          "class": "fw-bold",
+          "href": "https://citizenportal.ai/a/pbrq3z",
+          "rel": "noopener",
+          "target": "_blank"
+        }
+      },
+      {
+        "line": 140,
+        "tag": "a",
+        "attribute": "href",
+        "target": "~/content/pdf/resume.pdf",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "~/content/pdf/resume.pdf",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 151,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Projects/Index",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "asp-area": "",
+          "asp-page": "/Projects/Index"
+        }
+      },
+      {
+        "line": 162,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/Index",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "asp-area": "",
+          "asp-page": "/Skills/Index"
+        }
+      },
+      {
+        "line": 173,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Experience/Index",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "asp-area": "",
+          "asp-page": "/Experience/Index"
+        }
+      },
+      {
+        "line": 183,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.linkedin.com/in/michael-carey-13899627/",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://www.linkedin.com/in/michael-carey-13899627/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 184,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.facebook.com/MCLifeLeader",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://www.facebook.com/MCLifeLeader",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 185,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.youtube.com/c/AgameempowermentIntl",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://www.youtube.com/c/AgameempowermentIntl",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 186,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.instagram.com/mclifeleader/",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://www.instagram.com/mclifeleader/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 187,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://twitter.com/mclifeleader",
+        "attributes": {
+          "class": "btn btn-primary d-block mb-2",
+          "href": "https://twitter.com/mclifeleader",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 188,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader",
+        "attributes": {
+          "class": "btn btn-primary d-block",
+          "href": "https://github.com/MCLifeLeader",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 3044
+  },
+  {
+    "id": "PAGE-Privacy",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Privacy.cshtml",
+    "name": "Privacy",
+    "routes": [
+      "/Privacy"
+    ],
+    "title": "Privacy Policy",
+    "destination": "Shared site infrastructure / Privacy > Privacy Policy",
+    "blocks": 2,
+    "references": [],
+    "anchors": [],
+    "visible_characters": 69
+  },
+  {
+    "id": "PAGE-Projects-AdverTran",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Projects/AdverTran.cshtml",
+    "name": "Projects/AdverTran",
+    "routes": [
+      "/Projects/AdverTran"
+    ],
+    "title": "AdverTran",
+    "destination": "Projects & Accomplishments > AdverTran",
+    "blocks": 14,
+    "references": [
+      {
+        "line": 41,
+        "tag": "a",
+        "attribute": "href",
+        "target": "http://advertran.com",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "http://advertran.com",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 1216
+  },
+  {
+    "id": "PAGE-Projects-AGameEmpowerment",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Projects/AGameEmpowerment.cshtml",
+    "name": "Projects/AGameEmpowerment",
+    "routes": [
+      "/Projects/AGameEmpowerment"
+    ],
+    "title": "A Game Empowerment",
+    "destination": "Projects & Accomplishments > A Game Empowerment",
+    "blocks": 16,
+    "references": [
+      {
+        "line": 38,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://AGameEmpowerment.com/",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://AGameEmpowerment.com/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 39,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://api.AGameEmpowerment.com/",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://api.AGameEmpowerment.com/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 1192
+  },
+  {
+    "id": "PAGE-Projects-AzureServices",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Projects/AzureServices.cshtml",
+    "name": "Projects/AzureServices",
+    "routes": [
+      "/Projects/AzureServices"
+    ],
+    "title": "Azure Services",
+    "destination": "Projects & Accomplishments > Azure Services",
+    "blocks": 28,
+    "references": [
+      {
+        "line": 22,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Projects/Encompass",
+        "attributes": {
+          "asp-area": "",
+          "asp-page": "/Projects/Encompass"
+        }
+      },
+      {
+        "line": 63,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Projects/Encompass",
+        "attributes": {
+          "asp-area": "",
+          "asp-page": "/Projects/Encompass"
+        }
+      },
+      {
+        "line": 117,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://api.agameempowerment.com/",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://api.agameempowerment.com/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 118,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.academymortgage.com/",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://www.academymortgage.com/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 6184
+  },
+  {
+    "id": "PAGE-Projects-Encompass",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Projects/Encompass.cshtml",
+    "name": "Projects/Encompass",
+    "routes": [
+      "/Projects/Encompass"
+    ],
+    "title": "Ellie Mae Encompass",
+    "destination": "Projects & Accomplishments > Ellie Mae Encompass",
+    "blocks": 30,
+    "references": [
+      {
+        "line": 17,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://elliemae.com/mortgage-data/origination-insight-reports",
+        "attributes": {
+          "href": "https://elliemae.com/mortgage-data/origination-insight-reports",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 89,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.elliemae.com/developers/encompass-developer-connect",
+        "attributes": {
+          "href": "https://www.elliemae.com/developers/encompass-developer-connect",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 99,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/EncompassRest/EncompassRest",
+        "attributes": {
+          "href": "https://github.com/EncompassRest/EncompassRest",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 5703
+  },
+  {
+    "id": "PAGE-Projects-FamilyKey",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Projects/FamilyKey.cshtml",
+    "name": "Projects/FamilyKey",
+    "routes": [
+      "/Projects/FamilyKey"
+    ],
+    "title": "Family Key",
+    "destination": "Projects & Accomplishments > Family Key",
+    "blocks": 9,
+    "references": [],
+    "anchors": [],
+    "visible_characters": 701
+  },
+  {
+    "id": "PAGE-Projects-Index",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Projects/Index.cshtml",
+    "name": "Projects/Index",
+    "routes": [
+      "/Projects",
+      "/Projects/Index"
+    ],
+    "title": "Projects",
+    "destination": "Projects & Accomplishments > Projects",
+    "blocks": 33,
+    "references": [
+      {
+        "line": 18,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Projects/AzureServices",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Projects/AzureServices"
+        }
+      },
+      {
+        "line": 39,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/DevOps",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Skills/DevOps"
+        }
+      },
+      {
+        "line": 52,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Projects/Encompass",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Projects/Encompass"
+        }
+      },
+      {
+        "line": 72,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Projects/AdverTran",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Projects/AdverTran"
+        }
+      },
+      {
+        "line": 85,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Projects/MlmLinkup",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Projects/MlmLinkup"
+        }
+      },
+      {
+        "line": 96,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Projects/FamilyKey",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Projects/FamilyKey"
+        }
+      },
+      {
+        "line": 118,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Projects/RedheadMobile",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Projects/RedheadMobile"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 3736
+  },
+  {
+    "id": "PAGE-Projects-MlmLinkup",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Projects/MlmLinkup.cshtml",
+    "name": "Projects/MlmLinkup",
+    "routes": [
+      "/Projects/MlmLinkup"
+    ],
+    "title": "MLMLinkup",
+    "destination": "Projects & Accomplishments > MLMLinkup",
+    "blocks": 29,
+    "references": [
+      {
+        "line": 32,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://letsencrypt.org/",
+        "attributes": {
+          "href": "https://letsencrypt.org/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 56,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Projects/AGameEmpowerment",
+        "attributes": {
+          "class": "btn btn-site",
+          "asp-area": "",
+          "asp-page": "/Projects/AGameEmpowerment"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 2239
+  },
+  {
+    "id": "PAGE-Projects-RedheadMobile",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Projects/RedheadMobile.cshtml",
+    "name": "Projects/RedheadMobile",
+    "routes": [
+      "/Projects/RedheadMobile"
+    ],
+    "title": "Redhead Mobile Apps",
+    "destination": "Projects & Accomplishments > Redhead Mobile Apps",
+    "blocks": 6,
+    "references": [
+      {
+        "line": 34,
+        "tag": "a",
+        "attribute": "href",
+        "target": "http://www.redheadmobileapps.com",
+        "attributes": {
+          "class": "btn btn-site",
+          "href": "http://www.redheadmobileapps.com",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 35,
+        "tag": "a",
+        "attribute": "href",
+        "target": "http://dev.mbcarey.com/Redhead/",
+        "attributes": {
+          "class": "btn btn-site",
+          "href": "http://dev.mbcarey.com/Redhead/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 36,
+        "tag": "a",
+        "attribute": "href",
+        "target": "http://redheadapi.mbcarey.com/",
+        "attributes": {
+          "class": "btn btn-site",
+          "href": "http://redheadapi.mbcarey.com/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 718
+  },
+  {
+    "id": "PAGE-Projects-Startup",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Projects/Startup.cshtml",
+    "name": "Projects/Startup",
+    "routes": [
+      "/Projects/Startup"
+    ],
+    "title": "Startup Examples",
+    "destination": "Projects & Accomplishments > Startup Examples",
+    "blocks": 6,
+    "references": [
+      {
+        "line": 22,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/DotNetProjectStartup",
+        "attributes": {
+          "class": "btn btn-site",
+          "href": "https://github.com/MCLifeLeader/DotNetProjectStartup",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 488
+  },
+  {
+    "id": "PAGE-Skills-AI",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Skills/AI.cshtml",
+    "name": "Skills/AI",
+    "routes": [
+      "/Skills/AI"
+    ],
+    "title": "AI Technologies",
+    "destination": "AI & Innovation > AI Technologies",
+    "blocks": 27,
+    "references": [
+      {
+        "line": 62,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/seq-mcp",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/seq-mcp",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 63,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/AGameEmpowerment/Developer-Toolbox",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/AGameEmpowerment/Developer-Toolbox",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 64,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/Technologies",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Skills/Technologies"
+        }
+      },
+      {
+        "line": 65,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Experience/WorkHistory",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Experience/WorkHistory"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 2728
+  },
+  {
+    "id": "PAGE-Skills-CPlus",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Skills/CPlus.cshtml",
+    "name": "Skills/CPlus",
+    "routes": [
+      "/Skills/CPlus"
+    ],
+    "title": "C/C++",
+    "destination": "Engineering & Technology > C/C++",
+    "blocks": 22,
+    "references": [
+      {
+        "line": 18,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CS235",
+        "attributes": {
+          "href": "https://github.com/MCLifeLeader/CS235",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 27,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CS165",
+        "attributes": {
+          "href": "https://github.com/MCLifeLeader/CS165",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 31,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.bing.com/search?form=MOZLBR&pc=MOZI&q=gedcom+file",
+        "attributes": {
+          "href": "https://www.bing.com/search?form=MOZLBR&pc=MOZI&q=gedcom+file",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 61,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/MiscProjects",
+        "attributes": {
+          "href": "https://github.com/MCLifeLeader/MiscProjects",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 73,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/MiscProjects",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/MiscProjects",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 74,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CS165",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/CS165",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 75,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CS235",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/CS235",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 3700
+  },
+  {
+    "id": "PAGE-Skills-CSharp",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Skills/CSharp.cshtml",
+    "name": "Skills/CSharp",
+    "routes": [
+      "/Skills/CSharp"
+    ],
+    "title": "C#, ASP.NET, .NET Core",
+    "destination": "Engineering & Technology > C#, ASP.NET, .NET Core",
+    "blocks": 28,
+    "references": [
+      {
+        "line": 53,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/AGameEmpowerment/Developer-Toolbox",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/AGameEmpowerment/Developer-Toolbox",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 54,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/AGameEmpowerment/Starter-CSharp-Api",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/AGameEmpowerment/Starter-CSharp-Api",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 55,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/AGameEmpowerment/Starter-CSharp-Azure-Function-App",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/AGameEmpowerment/Starter-CSharp-Azure-Function-App",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 56,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/DotNetProjectStartup",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/DotNetProjectStartup",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 57,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/Blazor-Chat-App",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/Blazor-Chat-App",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 58,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/ePortfolio",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/ePortfolio",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 1880
+  },
+  {
+    "id": "PAGE-Skills-Database",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Skills/Database.cshtml",
+    "name": "Skills/Database",
+    "routes": [
+      "/Skills/Database"
+    ],
+    "title": "Database",
+    "destination": "Engineering & Technology > Database",
+    "blocks": 23,
+    "references": [
+      {
+        "line": 47,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/DotNetProjectStartup",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/DotNetProjectStartup",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 48,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/Blazor-Chat-App",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/Blazor-Chat-App",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 49,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Projects/Encompass",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Projects/Encompass"
+        }
+      },
+      {
+        "line": 50,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Experience/WorkHistory",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Experience/WorkHistory"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 1472
+  },
+  {
+    "id": "PAGE-Skills-DevOps",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Skills/DevOps.cshtml",
+    "name": "Skills/DevOps",
+    "routes": [
+      "/Skills/DevOps"
+    ],
+    "title": "Azure DevOps / VSTS / TFS",
+    "destination": "Engineering & Technology > Azure DevOps / VSTS / TFS",
+    "blocks": 23,
+    "references": [
+      {
+        "line": 59,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.visualstudio.com/team-services/",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://www.visualstudio.com/team-services/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 60,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.visualstudio.com/team-services/git/",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://www.visualstudio.com/team-services/git/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 61,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.visualstudio.com/team-services/tfvc/",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://www.visualstudio.com/team-services/tfvc/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 62,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.visualstudio.com/team-services/continuous-integration/",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://www.visualstudio.com/team-services/continuous-integration/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 63,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://www.visualstudio.com/team-services/reporting/",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://www.visualstudio.com/team-services/reporting/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 2825
+  },
+  {
+    "id": "PAGE-Skills-Index",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Skills/Index.cshtml",
+    "name": "Skills/Index",
+    "routes": [
+      "/Skills",
+      "/Skills/Index"
+    ],
+    "title": "Skills",
+    "destination": "Engineering & Technology > Skills",
+    "blocks": 11,
+    "references": [
+      {
+        "line": 18,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/Technologies",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Skills/Technologies"
+        }
+      },
+      {
+        "line": 25,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/AI",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Skills/AI"
+        }
+      },
+      {
+        "line": 32,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/Leadership",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Skills/Leadership"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 392
+  },
+  {
+    "id": "PAGE-Skills-Java",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Skills/Java.cshtml",
+    "name": "Skills/Java",
+    "routes": [
+      "/Skills/Java"
+    ],
+    "title": "Java",
+    "destination": "Engineering & Technology > Java",
+    "blocks": 15,
+    "references": [
+      {
+        "line": 42,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CS246",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/CS246",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 43,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/cs313java",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/cs313java",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 1252
+  },
+  {
+    "id": "PAGE-Skills-Leadership",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Skills/Leadership.cshtml",
+    "name": "Skills/Leadership",
+    "routes": [
+      "/Skills/Leadership"
+    ],
+    "title": "Leadership",
+    "destination": "Leadership & Mentoring > Leadership",
+    "blocks": 94,
+    "references": [
+      {
+        "line": 122,
+        "tag": "a",
+        "attribute": "href",
+        "target": "~/content/documents/2018_Scrum_Master.pptx",
+        "attributes": {
+          "class": "btn btn-site",
+          "href": "~/content/documents/2018_Scrum_Master.pptx",
+          "target": "_blank",
+          "rel": "noopener",
+          "style": "background:#2e86c1; color:white; font-weight:bold;"
+        }
+      },
+      {
+        "line": 231,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2XN9X7J",
+        "attributes": {
+          "href": "https://amzn.to/2XN9X7J",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 234,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/3LJzx7B\"",
+        "attributes": {
+          "href": "https://amzn.to/3LJzx7B\"",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 237,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/3djTD4W",
+        "attributes": {
+          "href": "https://amzn.to/3djTD4W",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 240,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/3jeUGJn",
+        "attributes": {
+          "href": "https://amzn.to/3jeUGJn",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 243,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2MbHOBV",
+        "attributes": {
+          "href": "https://amzn.to/2MbHOBV",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 246,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2ru9Lhj",
+        "attributes": {
+          "href": "https://amzn.to/2ru9Lhj",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 249,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/32yFn28",
+        "attributes": {
+          "href": "https://amzn.to/32yFn28",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 252,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/32FNfPG",
+        "attributes": {
+          "href": "https://amzn.to/32FNfPG",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 255,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/32FNfPG",
+        "attributes": {
+          "href": "https://amzn.to/32FNfPG",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 258,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2Jl5JON",
+        "attributes": {
+          "href": "https://amzn.to/2Jl5JON",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 261,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2JmEPWH",
+        "attributes": {
+          "href": "https://amzn.to/2JmEPWH",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 264,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2G0chQI",
+        "attributes": {
+          "href": "https://amzn.to/2G0chQI",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 267,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2L7fAtT",
+        "attributes": {
+          "href": "https://amzn.to/2L7fAtT",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 270,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2LaLIwt",
+        "attributes": {
+          "href": "https://amzn.to/2LaLIwt",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 273,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2GfeVm7",
+        "attributes": {
+          "href": "https://amzn.to/2GfeVm7",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 283,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2ZQtpTP",
+        "attributes": {
+          "href": "https://amzn.to/2ZQtpTP",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 286,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2G4mL1D",
+        "attributes": {
+          "href": "https://amzn.to/2G4mL1D",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 289,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2Xfuh2L",
+        "attributes": {
+          "href": "https://amzn.to/2Xfuh2L",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 292,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2JlCvzi",
+        "attributes": {
+          "href": "https://amzn.to/2JlCvzi",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 302,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2XKUjd9",
+        "attributes": {
+          "href": "https://amzn.to/2XKUjd9",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 305,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2Mf7DBa",
+        "attributes": {
+          "href": "https://amzn.to/2Mf7DBa",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 308,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2zJ24Z2",
+        "attributes": {
+          "href": "https://amzn.to/2zJ24Z2",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 311,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2zNpYmd",
+        "attributes": {
+          "href": "https://amzn.to/2zNpYmd",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 314,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/3dhJgyR",
+        "attributes": {
+          "href": "https://amzn.to/3dhJgyR",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 317,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2MfGJZS",
+        "attributes": {
+          "href": "https://amzn.to/2MfGJZS",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 320,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/3evUX59",
+        "attributes": {
+          "href": "https://amzn.to/3evUX59",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 323,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2ZSHBvy",
+        "attributes": {
+          "href": "https://amzn.to/2ZSHBvy",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 326,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2G2wO7o",
+        "attributes": {
+          "href": "https://amzn.to/2G2wO7o",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 329,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2Jo8qPO",
+        "attributes": {
+          "href": "https://amzn.to/2Jo8qPO",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 332,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2XAGI6a",
+        "attributes": {
+          "href": "https://amzn.to/2XAGI6a",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 335,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2Xvltrc",
+        "attributes": {
+          "href": "https://amzn.to/2Xvltrc",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 338,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2XxF0HG",
+        "attributes": {
+          "href": "https://amzn.to/2XxF0HG",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 346,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/3gFTk6D",
+        "attributes": {
+          "href": "https://amzn.to/3gFTk6D",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 349,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://amzn.to/2XePbPr",
+        "attributes": {
+          "href": "https://amzn.to/2XePbPr",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [
+      {
+        "line": 21,
+        "id": "SwEngArch"
+      },
+      {
+        "line": 30,
+        "id": "EngMgr"
+      },
+      {
+        "line": 40,
+        "id": "QAManager"
+      },
+      {
+        "line": 70,
+        "id": "DevOpsManager"
+      },
+      {
+        "line": 104,
+        "id": "DevManager"
+      },
+      {
+        "line": 114,
+        "id": "ScrumMaster"
+      },
+      {
+        "line": 126,
+        "id": "DevLead"
+      },
+      {
+        "line": 135,
+        "id": "TwoYearMission"
+      },
+      {
+        "line": 147,
+        "id": "PersonalityProfile"
+      },
+      {
+        "line": 224,
+        "id": "Books"
+      }
+    ],
+    "visible_characters": 13300
+  },
+  {
+    "id": "PAGE-Skills-QA",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Skills/QA.cshtml",
+    "name": "Skills/QA",
+    "routes": [
+      "/Skills/QA"
+    ],
+    "title": "Quality Assurance",
+    "destination": "Engineering & Technology > Quality Assurance",
+    "blocks": 58,
+    "references": [
+      {
+        "line": 199,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/SeleniumExample",
+        "attributes": {
+          "class": "btn btn-site",
+          "href": "https://github.com/MCLifeLeader/SeleniumExample",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 8023
+  },
+  {
+    "id": "PAGE-Skills-Technologies",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Skills/Technologies.cshtml",
+    "name": "Skills/Technologies",
+    "routes": [
+      "/Skills/Technologies"
+    ],
+    "title": "Development Technologies",
+    "destination": "Engineering & Technology > Development Technologies",
+    "blocks": 62,
+    "references": [
+      {
+        "line": 40,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/AGameEmpowerment/Developer-Toolbox",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/AGameEmpowerment/Developer-Toolbox",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 41,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/AGameEmpowerment/Starter-CSharp-Api",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/AGameEmpowerment/Starter-CSharp-Api",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 42,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/AGameEmpowerment/Starter-CSharp-Azure-Function-App",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/AGameEmpowerment/Starter-CSharp-Azure-Function-App",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 43,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/seq-mcp",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/seq-mcp",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 44,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/DotNetProjectStartup",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/DotNetProjectStartup",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 45,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/Blazor-Chat-App",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/Blazor-Chat-App",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 46,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Git",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "asp-area": "",
+          "asp-page": "/Git"
+        }
+      },
+      {
+        "line": 78,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/MiscProjects",
+        "attributes": {
+          "href": "https://github.com/MCLifeLeader/MiscProjects",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 79,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CS165",
+        "attributes": {
+          "href": "https://github.com/MCLifeLeader/CS165",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 80,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CS235",
+        "attributes": {
+          "href": "https://github.com/MCLifeLeader/CS235",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 81,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CS246",
+        "attributes": {
+          "href": "https://github.com/MCLifeLeader/CS246",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 82,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/cs313java",
+        "attributes": {
+          "href": "https://github.com/MCLifeLeader/cs313java",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 83,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/Cit261",
+        "attributes": {
+          "href": "https://github.com/MCLifeLeader/Cit261",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 84,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/CIT261Team",
+        "attributes": {
+          "href": "https://github.com/MCLifeLeader/CIT261Team",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 85,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/cs313php",
+        "attributes": {
+          "href": "https://github.com/MCLifeLeader/cs313php",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 98,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Experience/WorkHistory",
+        "attributes": {
+          "asp-area": "",
+          "asp-page": "/Experience/WorkHistory"
+        }
+      },
+      {
+        "line": 110,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/DevOps",
+        "attributes": {
+          "class": "btn btn-site",
+          "asp-area": "",
+          "asp-page": "/Skills/DevOps"
+        }
+      },
+      {
+        "line": 119,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/CSharp",
+        "attributes": {
+          "class": "btn btn-site",
+          "asp-area": "",
+          "asp-page": "/Skills/CSharp"
+        }
+      },
+      {
+        "line": 128,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/CPlus",
+        "attributes": {
+          "class": "btn btn-site",
+          "asp-area": "",
+          "asp-page": "/Skills/CPlus"
+        }
+      },
+      {
+        "line": 137,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/Database",
+        "attributes": {
+          "class": "btn btn-site",
+          "asp-area": "",
+          "asp-page": "/Skills/Database"
+        }
+      },
+      {
+        "line": 146,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/Java",
+        "attributes": {
+          "class": "btn btn-site",
+          "asp-area": "",
+          "asp-page": "/Skills/Java"
+        }
+      },
+      {
+        "line": 155,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/QA",
+        "attributes": {
+          "class": "btn btn-site",
+          "asp-area": "",
+          "asp-page": "/Skills/QA"
+        }
+      },
+      {
+        "line": 164,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/AI",
+        "attributes": {
+          "class": "btn btn-site",
+          "asp-area": "",
+          "asp-page": "/Skills/AI"
+        }
+      },
+      {
+        "line": 173,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/Web",
+        "attributes": {
+          "class": "btn btn-site",
+          "asp-area": "",
+          "asp-page": "/Skills/Web"
+        }
+      },
+      {
+        "line": 182,
+        "tag": "a",
+        "attribute": "asp-page",
+        "target": "/Skills/WebApi",
+        "attributes": {
+          "class": "btn btn-site",
+          "asp-area": "",
+          "asp-page": "/Skills/WebApi"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 4841
+  },
+  {
+    "id": "PAGE-Skills-Web",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Skills/Web.cshtml",
+    "name": "Skills/Web",
+    "routes": [
+      "/Skills/Web"
+    ],
+    "title": "Web",
+    "destination": "Engineering & Technology > Web",
+    "blocks": 22,
+    "references": [
+      {
+        "line": 46,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/ePortfolio",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/ePortfolio",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 47,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/Blazor-Chat-App",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/Blazor-Chat-App",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 48,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/Cit261",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/Cit261",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 49,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://AGameEmpowerment.com/",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://AGameEmpowerment.com/",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 1399
+  },
+  {
+    "id": "PAGE-Skills-WebApi",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Skills/WebApi.cshtml",
+    "name": "Skills/WebApi",
+    "routes": [
+      "/Skills/WebApi"
+    ],
+    "title": "Web API / REST Services",
+    "destination": "Engineering & Technology > Web API / REST Services",
+    "blocks": 22,
+    "references": [
+      {
+        "line": 46,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/AGameEmpowerment/Starter-CSharp-Api",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/AGameEmpowerment/Starter-CSharp-Api",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 47,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/AGameEmpowerment/Starter-CSharp-Azure-Function-App",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/AGameEmpowerment/Starter-CSharp-Azure-Function-App",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 48,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/seq-mcp",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/seq-mcp",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      },
+      {
+        "line": 49,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://github.com/MCLifeLeader/DotNetProjectStartup",
+        "attributes": {
+          "class": "btn btn-info btn-site",
+          "href": "https://github.com/MCLifeLeader/DotNetProjectStartup",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 1429
+  },
+  {
+    "id": "PAGE-Tribute",
+    "file": "Src/Portfolio_Core/Portfolio/Pages/Tribute.cshtml",
+    "name": "Tribute",
+    "routes": [
+      "/Tribute"
+    ],
+    "title": "Tribute",
+    "destination": "About / Personal / Community > Tribute",
+    "blocks": 12,
+    "references": [
+      {
+        "line": 12,
+        "tag": "a",
+        "attribute": "href",
+        "target": "https://tpusa.com/",
+        "attributes": {
+          "href": "https://tpusa.com/"
+        }
+      }
+    ],
+    "anchors": [],
+    "visible_characters": 2391
+  }
+]
