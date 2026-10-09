@@ -6,6 +6,8 @@ The owner requested that the same website content be replicated into the [projec
 
 The owner selected `fbMichael_B_Carey.jpg` for Michael's portrait throughout the wiki on October 9, 2026. The generator applies this wiki-specific image choice whenever exporting his portrait. Home and About Me currently display it.
 
+Home also begins with a synchronization record containing the latest remote `main` commit checked at generation, the actual rendered website source commit, any uncommitted application-change qualifier, and the portrait filename. The generator records the same metadata in its verification JSON. Compare this saved checkpoint with the current remote branch when deciding what needs synchronization; it does not update between syncs or imply that feature-branch content came from `main`.
+
 The website remains the content source. `sync_wiki.py` reads rendered local pages rather than publishing Razor source, shared templates, or private reference documents. The initial sync generates 46 public portfolio pages, `_Sidebar.md`, `_Footer.md`, and 73 referenced media files under `assets`.
 
 The copy includes the introduction, architecture, employment accomplishments, work history, education and coursework, skills and technical history, leadership and reading lists, projects and repository references, personal interests, tribute, contact information, privacy page, and Explore directory. The error page and disconnected résumé-history page are excluded. The historical résumé PDF remains disconnected.

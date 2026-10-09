@@ -10,6 +10,7 @@ import json
 from pathlib import Path
 import re
 import shutil
+import subprocess
 from urllib.parse import quote, unquote, urljoin, urlsplit
 from urllib.request import urlopen
 
@@ -44,6 +45,28 @@ def tokens(text):
     return re.findall(r"\w+", text.casefold())
 
 
+def sync_metadata():
+    source = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
+    remote = subprocess.check_output(["git", "ls-remote", "https://github.com/MCLifeLeader/ePortfolio", "refs/heads/main"], cwd=ROOT, text=True).strip()
+    if not remote:
+        raise RuntimeError("Cannot determine the current remote main commit")
+    dirty = bool(subprocess.check_output(["git", "status", "--porcelain", "--", "Src/Portfolio_Core/Portfolio"], cwd=ROOT, text=True).strip())
+    return {"source_commit": source, "source_application_dirty": dirty,
+            "remote_main_commit": remote.split()[0], "wiki_portrait": WIKI_PORTRAIT.name}
+
+
+def sync_note(metadata):
+    commit_url = "https://github.com/MCLifeLeader/ePortfolio/commit/"
+    main = metadata["remote_main_commit"]
+    source = metadata["source_commit"]
+    dirty = " (with uncommitted application changes)" if metadata["source_application_dirty"] else ""
+    return ("> **Wiki synchronization record**\n>\n"
+            f"> Latest `main` commit checked for this sync: [`{main}`]({commit_url}{main}).\n>\n"
+            f"> Rendered website source: [`{source}`]({commit_url}{source}){dirty}.\n>\n"
+            f"> Wiki portrait: `{metadata['wiki_portrait']}`.\n>\n"
+            "> The main reference records the last sync check; the rendered source identifies the content copied here.\n\n")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--base-url", default="http://localhost:5187")
@@ -55,6 +78,7 @@ def main():
     base = args.base_url.rstrip("/")
     if urlsplit(base).hostname not in {"localhost", "127.0.0.1", "::1"}:
         raise SystemExit("Render from a local application to avoid publishing stale live content")
+    metadata = sync_metadata()
     routes = {}
     for source in sorted(PAGES.rglob("*.cshtml")):
         if not source.read_text(encoding="utf-8-sig").lstrip().startswith("@page"):
@@ -145,6 +169,8 @@ def main():
         if expected_anchors != actual_anchors:
             raise AssertionError(f"Section anchors changed: {route}")
         page_text = body.strip() + f"\n\n---\n\n[View this page on the website](https://mbcarey.com{route}) · [Portfolio home]({WIKI}/Home)\n"
+        if item["name"] == "Home":
+            page_text = sync_note(metadata) + page_text
         (checkout / (item["name"] + ".md")).write_text(page_text, encoding="utf-8", newline="\n")
         report.append({"route": route, **item, "text_tokens": len(tokens(original_text)),
                        "links": len(expected_links), "images": len(expected_images),
@@ -179,7 +205,7 @@ def main():
         sidebar.append("")
     (checkout / "_Sidebar.md").write_text("\n".join(sidebar), encoding="utf-8", newline="\n")
     (checkout / "_Footer.md").write_text("[Website](https://mbcarey.com) · [GitHub project](https://github.com/MCLifeLeader/ePortfolio) · [Contact](https://github.com/MCLifeLeader/ePortfolio/wiki/Contact)\n", encoding="utf-8", newline="\n")
-    result = {"source_commit": __import__("subprocess").check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip(),
+    result = {**metadata,
               "wiki_url": WIKI, "pages": report, "assets": assets,
               "checks": {"text_roundtrip": "passed", "links_and_images": "passed", "section_anchors": "passed", "cross_page_fragments": "passed"}}
     (Path(__file__).parent / "wiki-sync-verification.json").write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
