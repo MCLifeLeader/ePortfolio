@@ -14,7 +14,6 @@ namespace Portfolio.Pages
 
         public void OnGet()
         {
-
         }
     }
 }

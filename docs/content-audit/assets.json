@@ -1,0 +1,3882 @@
+[
+  {
+    "id": "ASSET-001",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/.gitignore",
+    "public_path": "/.gitignore",
+    "bytes": 14,
+    "sha256": "c6838fd186720d5664668fd48e0bebafc8054272710b1629aab4e2425d2ab394",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-002",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/documents/2018_Scrum_Master.pptx",
+    "public_path": "/content/documents/2018_Scrum_Master.pptx",
+    "bytes": 3886205,
+    "sha256": "3ed4b82668084dd783dc0299dfcd77fbaa5c6dc1d84b669249485ba8620db71e",
+    "incoming": [
+      "/Skills/Leadership:122"
+    ],
+    "tracked": true,
+    "category": "site asset",
+    "slides": 55
+  },
+  {
+    "id": "ASSET-003",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/fbMichael_B_Carey.jpg",
+    "public_path": "/content/images/fbMichael_B_Carey.jpg",
+    "bytes": 5259,
+    "sha256": "0f70e07fabc38141b10c616bdf4fadeed84a9d02cc7af37603146b800f36f640",
+    "incoming": [
+      "/AboutMe:9",
+      "/:9"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-004",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image001.jpg",
+    "public_path": "/content/images/Image001.jpg",
+    "bytes": 302781,
+    "sha256": "8ec7cadcd5d4c98f859ee0357b64711eb1c5e6c904714041e083f7264e1440c9",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-005",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image002.jpg",
+    "public_path": "/content/images/Image002.jpg",
+    "bytes": 240558,
+    "sha256": "caad70ed8768e6a3d1cc46471562bf1fa007cfba7b564bf59ebd8483ad81093c",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:194"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-006",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image003.jpg",
+    "public_path": "/content/images/Image003.jpg",
+    "bytes": 253753,
+    "sha256": "a4d8994a9ece84ff04b0d33bbe95c595b61fae90e72efffa48521211d78d62b8",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:195"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-007",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image004.jpg",
+    "public_path": "/content/images/Image004.jpg",
+    "bytes": 194299,
+    "sha256": "3b7731a079025e7684638b400f3ab831b8a2e4f4674db231c30cefb6024147da",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:196"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-008",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image005.jpg",
+    "public_path": "/content/images/Image005.jpg",
+    "bytes": 210142,
+    "sha256": "8ea09bd1091b85c5ace8f078ef530ecc86a683775775764c598af9a229779bc8",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:197"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-009",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image006.jpg",
+    "public_path": "/content/images/Image006.jpg",
+    "bytes": 205523,
+    "sha256": "97089918865458f85382d5dfdc99aaee9bc8b418208d2e1b9e0fd6f4bc68c09b",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-010",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image007.jpg",
+    "public_path": "/content/images/Image007.jpg",
+    "bytes": 199445,
+    "sha256": "aeea106dced94033c12908192e25e12b4088c3de31c30f4abbb16a46827866d0",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:34"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-011",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image008.jpg",
+    "public_path": "/content/images/Image008.jpg",
+    "bytes": 167625,
+    "sha256": "a8daf84ff124bbdad32b6070c66204b9aaf0bc152553dad048a21d53893cd8d7",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:35"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-012",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image009.jpg",
+    "public_path": "/content/images/Image009.jpg",
+    "bytes": 218328,
+    "sha256": "238634624dbe14711b9d6a0c420718692766399dbe1c06df55e43eb8190c728b",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:36"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-013",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image010.jpg",
+    "public_path": "/content/images/Image010.jpg",
+    "bytes": 213490,
+    "sha256": "f75e0e05ae736384097b887038fce12f06703d36dfbae6931d4611dca546c846",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:37"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-014",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image011.jpg",
+    "public_path": "/content/images/Image011.jpg",
+    "bytes": 332493,
+    "sha256": "d73a3ea513c25d12cbaa2e130b2dffbb206907f903e80733cfc1d05bee42deb9",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:38",
+      "/Fun/HamRadioVHFGoKit:332"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-015",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image012.jpg",
+    "public_path": "/content/images/Image012.jpg",
+    "bytes": 292126,
+    "sha256": "1e3b175514b0088f32885c0acde8f96f289a2f04d5167c3c3dee5cb3d9fc27f3",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:40",
+      "/Fun/HamRadioVHFGoKit:333"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-016",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image013.jpg",
+    "public_path": "/content/images/Image013.jpg",
+    "bytes": 280915,
+    "sha256": "936a7e518fe9e07d850132190fab95bf28b79a0ebb32b2fbe320c06e948bbd32",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:41",
+      "/Fun/HamRadioVHFGoKit:219",
+      "/Fun/HamRadioVHFGoKit:334"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-017",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image014.jpg",
+    "public_path": "/content/images/Image014.jpg",
+    "bytes": 254946,
+    "sha256": "48d2ae579099170d36c00323220945d9d198e1e2d749f61e8b56f0be8e61a4a6",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:42",
+      "/Fun/HamRadioVHFGoKit:335"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-018",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image015.jpg",
+    "public_path": "/content/images/Image015.jpg",
+    "bytes": 249929,
+    "sha256": "56f0c24051039498d97f32efc31f48804a034c2a1c8ea519df66badbc88c7a3f",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:43",
+      "/Fun/HamRadioVHFGoKit:336"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-019",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image016.jpg",
+    "public_path": "/content/images/Image016.jpg",
+    "bytes": 329893,
+    "sha256": "7ca1514949bf9d50b1273e2bff3b8f2d43ef9b56c52667ad10e24183a4b4fbcc",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:305"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-020",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image017.jpg",
+    "public_path": "/content/images/Image017.jpg",
+    "bytes": 273435,
+    "sha256": "1114bd781cff48d668d772062088aff5830ea41eae20788aea090e9e71049fbb",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:337"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-021",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image018.jpg",
+    "public_path": "/content/images/Image018.jpg",
+    "bytes": 127529,
+    "sha256": "e713ead5e49f84f78d2e8afa5ff347f3938b7327f8cef08e185763f52bd655df",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:44",
+      "/Fun/HamRadioVHFGoKit:220",
+      "/Fun/HamRadioVHFGoKit:338"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-022",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image019.jpg",
+    "public_path": "/content/images/Image019.jpg",
+    "bytes": 277232,
+    "sha256": "c89f1e4e7fba3edd66f2aea98ce217a7e4eadc6e859a9ca712cdbcf6bed1134a",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:39",
+      "/Fun/HamRadioVHFGoKit:304"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-023",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image020.jpg",
+    "public_path": "/content/images/Image020.jpg",
+    "bytes": 545857,
+    "sha256": "797c239a6b325e3cf1ef94a20333a847955a3630a4d6a6164e392b137e45db7b",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-024",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image021.jpg",
+    "public_path": "/content/images/Image021.jpg",
+    "bytes": 166905,
+    "sha256": "d428a0ccc38c46b04199f40bc0cc966bbea6c110b351a3d58973581d77ca902f",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:45"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-025",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image022.jpg",
+    "public_path": "/content/images/Image022.jpg",
+    "bytes": 399699,
+    "sha256": "8208ca223b2b50cc64256b9213ff1d44801e8463b197d9ace40556d4b9ee3683",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:46"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-026",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image023.jpg",
+    "public_path": "/content/images/Image023.jpg",
+    "bytes": 512659,
+    "sha256": "00077029d2547a61d2160aab6624067bca57d9869719e872b498f69a6fe9a811",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:47"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-027",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image024.jpg",
+    "public_path": "/content/images/Image024.jpg",
+    "bytes": 529390,
+    "sha256": "8c36c929aebd922e8f56e80c3324d1da1fe10de193a04960024d0e3298c97571",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:48"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-028",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image025.jpg",
+    "public_path": "/content/images/Image025.jpg",
+    "bytes": 272869,
+    "sha256": "6497ad8b3528df17ceba032da0bd561a537c242adc80e9646858d10425147286",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:49"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-029",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image026.jpg",
+    "public_path": "/content/images/Image026.jpg",
+    "bytes": 530959,
+    "sha256": "cbf681e0a16959e59e197aa28d436425a79f8a16425530087c791e4cfc8cbc2b",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-030",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image027.jpg",
+    "public_path": "/content/images/Image027.jpg",
+    "bytes": 514442,
+    "sha256": "943b6a9c7a4f76c75fcc2cf6fa10f4416b8a31441e5566b00aa1aa40f61f784b",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:50",
+      "/Fun/HamRadioVHFGoKit:130"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-031",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image028.jpg",
+    "public_path": "/content/images/Image028.jpg",
+    "bytes": 535477,
+    "sha256": "2c3eeadbcc61bcbeba94cd25b90139001f01a1f6f91807e39484d8103226cd23",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:51",
+      "/Fun/HamRadioVHFGoKit:347"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-032",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image029.jpg",
+    "public_path": "/content/images/Image029.jpg",
+    "bytes": 502547,
+    "sha256": "7e6289b997277f339e5fdaf392a9c3ea775bf79f70a58def788030e098d4537e",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-033",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image030.jpg",
+    "public_path": "/content/images/Image030.jpg",
+    "bytes": 499862,
+    "sha256": "b7a8e530128deb8a872b36ba5c1529ee8c887ee11e6b8293cb921369878ad44e",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-034",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image031.jpg",
+    "public_path": "/content/images/Image031.jpg",
+    "bytes": 500543,
+    "sha256": "111c646760170bb8dc3503d23a16000fbb7c12266065373231bcd6eb248587c2",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:364"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-035",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image032.jpg",
+    "public_path": "/content/images/Image032.jpg",
+    "bytes": 492872,
+    "sha256": "966238ff16afdd6643e7bfc33598857fdd1b92a97b65c12417221be5f3be988d",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-036",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image033.jpg",
+    "public_path": "/content/images/Image033.jpg",
+    "bytes": 508171,
+    "sha256": "75967c96792906a2755a9456ac5cf25a275e6f3f9a57914de9b5eafd287ef006",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:373"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-037",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image034.jpg",
+    "public_path": "/content/images/Image034.jpg",
+    "bytes": 539286,
+    "sha256": "e656156982cfcb35abf86b44430dc3b136ba7275ffb56a8c99402a713a54b505",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:52",
+      "/Fun/HamRadioVHFGoKit:382"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-038",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image035.jpg",
+    "public_path": "/content/images/Image035.jpg",
+    "bytes": 196157,
+    "sha256": "669c41ca0a29cde8d5f3a0ace41df3c45de3447f9231bcfdac898a1d8d549415",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-039",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image036.jpg",
+    "public_path": "/content/images/Image036.jpg",
+    "bytes": 268328,
+    "sha256": "958170d74cf552f661667296967bba2630a0b7905aed6b819a0e5bb726fcf875",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:53",
+      "/Fun/HamRadioVHFGoKit:388"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-040",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image037.jpg",
+    "public_path": "/content/images/Image037.jpg",
+    "bytes": 463836,
+    "sha256": "3acf2f5ac8726acd19168c41d43726a5a7eadcbaa4002b1bd627cbc89ab443ad",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:54",
+      "/Fun/HamRadioVHFGoKit:383"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-041",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image038.jpg",
+    "public_path": "/content/images/Image038.jpg",
+    "bytes": 470692,
+    "sha256": "822f5f6d26defa3b0dad714baee9e814a3406b03fa5f6170ad0a0133c4f7e7c0",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-042",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image039.jpg",
+    "public_path": "/content/images/Image039.jpg",
+    "bytes": 514447,
+    "sha256": "683eb8fa1eb613f26ef01095cc831453366e2bc4cb3656bb4f2e4bf297e4fd5d",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-043",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image040.jpg",
+    "public_path": "/content/images/Image040.jpg",
+    "bytes": 209803,
+    "sha256": "0a83e7c6f57a573de99951dc0736aa328786817a19fd13c5ee9009ca64a11812",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:198"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-044",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image041.jpg",
+    "public_path": "/content/images/Image041.jpg",
+    "bytes": 213442,
+    "sha256": "87fcd9e3e438a0605da0fed68fda9fab892196fc8474ae94ae119a9e20a49fbd",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:199"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-045",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image042.jpg",
+    "public_path": "/content/images/Image042.jpg",
+    "bytes": 231668,
+    "sha256": "e09d606ddfe2f4af81181072cea0e3280a09627c090fbc0ce7113e6e20800076",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:55"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-046",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image043.jpg",
+    "public_path": "/content/images/Image043.jpg",
+    "bytes": 417953,
+    "sha256": "c67077ba6b7ad6257588c3e3892f8ac77bb5b7098eee3a3f5ddc51ed34b579ed",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:56"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-047",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image044.jpg",
+    "public_path": "/content/images/Image044.jpg",
+    "bytes": 437934,
+    "sha256": "da5a9381f6ae66e13683cc8ad15ec36d0cb181e9a3e365ca1dfec4674334249c",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:57"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-048",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image045.jpg",
+    "public_path": "/content/images/Image045.jpg",
+    "bytes": 464592,
+    "sha256": "37b9cbea1984b264ffd1b5f976442ea45904af9038b39d9211d8b882cd2075a5",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:58"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-049",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image046.jpg",
+    "public_path": "/content/images/Image046.jpg",
+    "bytes": 446689,
+    "sha256": "8163bb7197007694f5700dd2d33c9ec0ddeebcb1df0432587b017cceabaed96e",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:59"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-050",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image047.jpg",
+    "public_path": "/content/images/Image047.jpg",
+    "bytes": 311575,
+    "sha256": "5e2517f1b09a688d9109624415e7f5629b8500d0b493fe061319055d81ea33ef",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:33"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-051",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image048.jpg",
+    "public_path": "/content/images/Image048.jpg",
+    "bytes": 168324,
+    "sha256": "9be983b3b6a1fe7241f57d1f612c4af23b49f20f0c65db16f7d759a25254da49",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:60",
+      "/Fun/HamRadioVHFGoKit:193"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-052",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image049.jpg",
+    "public_path": "/content/images/Image049.jpg",
+    "bytes": 150022,
+    "sha256": "f340cbb0e3807ca066a84ba41e023e7f52667365daca9197bcc81d816a7996c9",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-053",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image050.jpg",
+    "public_path": "/content/images/Image050.jpg",
+    "bytes": 294052,
+    "sha256": "c6c5bfef2c19a8fe6546277ecc4b0278cb4c9b3861e7d50b123239453f8451e6",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:61",
+      "/Fun/HamRadioVHFGoKit:192",
+      "/Fun/HamRadioVHFGoKit:262"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-054",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image051.jpg",
+    "public_path": "/content/images/Image051.jpg",
+    "bytes": 313461,
+    "sha256": "243dcfb9e90618401678067c9a9bf4948b8a2507d4aede59f5427175240f89e8",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:62",
+      "/Fun/HamRadioVHFGoKit:285"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-055",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image052.jpg",
+    "public_path": "/content/images/Image052.jpg",
+    "bytes": 319103,
+    "sha256": "ad75a395a96ed39dd6c8e0571370e4b10117d1f60abebc24d48ca7cbf78983e6",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:63",
+      "/Fun/HamRadioVHFGoKit:286"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-056",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image053.jpg",
+    "public_path": "/content/images/Image053.jpg",
+    "bytes": 314672,
+    "sha256": "3df8889bd1e1e88e869174b185417098ee263a3d4aea8ab6a1f292965d6a2d32",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:64",
+      "/Fun/HamRadioVHFGoKit:263"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-057",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image054.jpg",
+    "public_path": "/content/images/Image054.jpg",
+    "bytes": 311762,
+    "sha256": "d71e25a072bcff6bf5b33890cd55bbda82c2f79db5837a12bdcbec81678df6a7",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:65",
+      "/Fun/HamRadioVHFGoKit:191",
+      "/Fun/HamRadioVHFGoKit:264"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-058",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image055.jpg",
+    "public_path": "/content/images/Image055.jpg",
+    "bytes": 1279553,
+    "sha256": "a366becf25c1264c5ee50b8efd15bd18cb21d0320fabd8d7ac425ee82873d022",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:66",
+      "/Fun/HamRadioVHFGoKit:265"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-059",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image056.jpg",
+    "public_path": "/content/images/Image056.jpg",
+    "bytes": 1191425,
+    "sha256": "bc52c4c43d38bcd966800abe39f661ee59688db0f4943bb65aeaad7e0d1dbace",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:67",
+      "/Fun/HamRadioVHFGoKit:266"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-060",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image057.jpg",
+    "public_path": "/content/images/Image057.jpg",
+    "bytes": 1375656,
+    "sha256": "dd9ae039c33a128b3cae7ceae849414c0ebf637289c96f2f7507cddac850081d",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-061",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image058.jpg",
+    "public_path": "/content/images/Image058.jpg",
+    "bytes": 1481443,
+    "sha256": "240c43c5d5b49f9e777d501990938c6859f7e32f7dc6af15ef6db0d9e08a7d46",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:267"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-062",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image059.jpg",
+    "public_path": "/content/images/Image059.jpg",
+    "bytes": 1237969,
+    "sha256": "f424a73eba3798e3f264d042308d105df7208c0237a2e3bce5f83102ccd73e9b",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:287"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-063",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image060.jpg",
+    "public_path": "/content/images/Image060.jpg",
+    "bytes": 1038770,
+    "sha256": "c48c0fae7ec5c78a413b7a1036e34557527cbc0586d7d455e911b938f218d3ba",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:288"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-064",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image061.jpg",
+    "public_path": "/content/images/Image061.jpg",
+    "bytes": 1420911,
+    "sha256": "afe7be9a49fe13489e1788393f6a2e8c21b376e676b94e32f3b5800d3756df40",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-065",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image062.jpg",
+    "public_path": "/content/images/Image062.jpg",
+    "bytes": 2426095,
+    "sha256": "2bae264a014c3a68fb57870cb5183a3ff0347f5e79ccb158acb979025cf1d02f",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:68"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-066",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image063.jpg",
+    "public_path": "/content/images/Image063.jpg",
+    "bytes": 2451302,
+    "sha256": "8c4819045b3ddd666fe47d7ec8f6c278bd7004d4faa5eacc15d1eea7a9613989",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:69",
+      "/Fun/HamRadioVHFGoKit:395"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-067",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image064.jpg",
+    "public_path": "/content/images/Image064.jpg",
+    "bytes": 4883850,
+    "sha256": "37e31eefac9b310e2b3c224aa21bdbb4982b2b3b5d228681ecf51ab71db1b6dd",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:70"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-068",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image065.jpg",
+    "public_path": "/content/images/Image065.jpg",
+    "bytes": 5733049,
+    "sha256": "346980ef8582a79553b9a1ae06ee3658e6b9281c9dc23ffd83b400da5e39a19f",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-069",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image066.jpg",
+    "public_path": "/content/images/Image066.jpg",
+    "bytes": 5134459,
+    "sha256": "03a9fa64a77a5fda7bd3d3e5c9bf04d81fb82f23aad06431a25fdaf0f6a06250",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-070",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_AC_SL1000.jpg",
+    "public_path": "/content/images/zzz_AC_SL1000.jpg",
+    "bytes": 30197,
+    "sha256": "2dd89f928e0f18b405b33f0bae2655ae212ee6bace16d64b35de2a0c85cfec8c",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:180"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-071",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_AC_SL1001.jpg",
+    "public_path": "/content/images/zzz_AC_SL1001.jpg",
+    "bytes": 79553,
+    "sha256": "9aa5e4a9b9f72552af5f57ad41825470d3ce570e0783ada33bc6480d9b9dd6b2",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:183"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-072",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_AC_SL1002.jpg",
+    "public_path": "/content/images/zzz_AC_SL1002.jpg",
+    "bytes": 62200,
+    "sha256": "e8f74a1b9230738ed5f107be5d155c6c1e29db02ae85c7ba7b91bd1b19c27ef1",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:186"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-073",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_AC_SL1020.jpg",
+    "public_path": "/content/images/zzz_AC_SL1020.jpg",
+    "bytes": 35026,
+    "sha256": "751a0157f4193956d9e33c8d2688e2c782c3dee4253e20d2f7531aa905875741",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:177"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-074",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_AC_SL1500.jpg",
+    "public_path": "/content/images/zzz_AC_SL1500.jpg",
+    "bytes": 110252,
+    "sha256": "7acd4d128f2839b37ebc04692ad6aac67fe750b76c53a1d05066c47d1cfd5477",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:174"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-075",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_ADMS-891-USB-2.jpg",
+    "public_path": "/content/images/zzz_ADMS-891-USB-2.jpg",
+    "bytes": 38694,
+    "sha256": "addf4947e7e672f1c2ada47c5c5af4742537150893a3c119a7569eed72e6eae5",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:124"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-076",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_AntennaTripod.jpg",
+    "public_path": "/content/images/zzz_AntennaTripod.jpg",
+    "bytes": 51554,
+    "sha256": "f1699e99ba691b913a55351c5e50056f200ca6dd2912598772bf7653012ade4c",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:168"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-077",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_asr-ss-30m_xl.jpg",
+    "public_path": "/content/images/zzz_asr-ss-30m_xl.jpg",
+    "bytes": 117936,
+    "sha256": "22103c00c10240ca2c7072ea64e23662ee7b70b3d82d897bc76eec6d949f3ea6",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:142"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-078",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_Kenwood.jpg",
+    "public_path": "/content/images/zzz_Kenwood.jpg",
+    "bytes": 53523,
+    "sha256": "5fc6adfacbbbb0df8b89b608fd6e656ee031cc1161f0de40af63528ed406a630",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:98"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-079",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_KRS-V71-USB-2.jpg",
+    "public_path": "/content/images/zzz_KRS-V71-USB-2.jpg",
+    "bytes": 40475,
+    "sha256": "172e97a632a2f8b5d4cdc38a23f7d42922a59884cec08dc95eb140399d11cfe4",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:108"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-080",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_Placeholder.jpg",
+    "public_path": "/content/images/zzz_Placeholder.jpg",
+    "bytes": 9487,
+    "sha256": "5e4e2c768670deb38c7126ed9cff71704da505ac76e38fa5893bd52df2b02c10",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:315"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-081",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_PowerGate_Front.jpg",
+    "public_path": "/content/images/zzz_PowerGate_Front.jpg",
+    "bytes": 25625,
+    "sha256": "e306f75a5f0af03028cf6a7c6e85a54c6aa88998d9657350d7225e2a8a9c6db4",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:148"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-082",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_PowerGate_Side.jpg",
+    "public_path": "/content/images/zzz_PowerGate_Side.jpg",
+    "bytes": 14068,
+    "sha256": "58246e6fd492e09c8729ff4702e5b3f0d748e6ce808370279826099c8bd300fd",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:149"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-083",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_SportsmanBox.jpg",
+    "public_path": "/content/images/zzz_SportsmanBox.jpg",
+    "bytes": 69966,
+    "sha256": "6a17260c34a6a5339f0804f7353c7cff8cadb718836eb0bba802b994e69d3d2c",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:136"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-084",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_wmt-58315-1043_xb_xl.jpg",
+    "public_path": "/content/images/zzz_wmt-58315-1043_xb_xl.jpg",
+    "bytes": 107380,
+    "sha256": "4566a057f96fe4681d2776a83a51ed3c4e17f83dea58601a03ef2346786e33d5",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:162"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-085",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_Yeasu-FT891_HF50.jpg",
+    "public_path": "/content/images/zzz_Yeasu-FT891_HF50.jpg",
+    "bytes": 154844,
+    "sha256": "8a88e567818b24ccd74c56297bc0b129cf747df12e2f05a5be96f7264afda3e8",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:114"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-086",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_ZWM-PS-CBL-6-0001.jpg",
+    "public_path": "/content/images/zzz_ZWM-PS-CBL-6-0001.jpg",
+    "bytes": 18347,
+    "sha256": "634a5f50f70aec84cb542d39e174df5b6f90bfd94319c1905d5ccfdcef1aeaca",
+    "incoming": [
+      "/Fun/HamRadioVHFGoKit:155"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-087",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/pdf/CS364_ECR.pdf",
+    "public_path": "/content/pdf/CS364_ECR.pdf",
+    "bytes": 565714,
+    "sha256": "53bd4d3e5d6c9e9d8d5f54fe5ec8f9ac107db97d515599ca7f77b0a63fc452a1",
+    "incoming": [
+      "/College/Cs364:173"
+    ],
+    "tracked": true,
+    "category": "site asset",
+    "pages": 8
+  },
+  {
+    "id": "ASSET-088",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/pdf/CS364_SDD.pdf",
+    "public_path": "/content/pdf/CS364_SDD.pdf",
+    "bytes": 4420590,
+    "sha256": "a125638bffe34ee6d3c14674168efe3cdac01c09be21893e9bcf5e25e1932f2d",
+    "incoming": [
+      "/College/Cs364:162"
+    ],
+    "tracked": true,
+    "category": "site asset",
+    "pages": 187
+  },
+  {
+    "id": "ASSET-089",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/pdf/CS364_SRS.pdf",
+    "public_path": "/content/pdf/CS364_SRS.pdf",
+    "bytes": 2182221,
+    "sha256": "21de5da208ab311510344182696c8f36afd2256bb16769993fce9941bd9d3cd3",
+    "incoming": [
+      "/College/Cs364:148"
+    ],
+    "tracked": true,
+    "category": "site asset",
+    "pages": 221
+  },
+  {
+    "id": "ASSET-090",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/pdf/Resume.pdf",
+    "public_path": "/content/pdf/Resume.pdf",
+    "bytes": 252473,
+    "sha256": "b759dabc8c6a24709d841116eb707da658ecafbed509a3429a615475f991aa82",
+    "incoming": [
+      "/Experience/WorkHistory:13",
+      "/:140"
+    ],
+    "tracked": true,
+    "category": "site asset",
+    "pages": 2
+  },
+  {
+    "id": "ASSET-091",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/css/site.css",
+    "public_path": "/css/site.css",
+    "bytes": 5302,
+    "sha256": "0d5d4721277d4133b62bbf8f093caf8b1854ed2673e4f7b04fd25664f8fd3003",
+    "incoming": [
+      "Shared/_Layout:19"
+    ],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-092",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/favicon.png",
+    "public_path": "/favicon.png",
+    "bytes": 4878,
+    "sha256": "4e2042978d6c2947bbc46ee1b65a4765116d30b43ec2b26ae5d479d3e4457026",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-093",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/js/site.js",
+    "public_path": "/js/site.js",
+    "bytes": 230,
+    "sha256": "e2ad63c0585a3da660afc580512aeec7a840ba1d170e0f643d2df1215ab7e88d",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  },
+  {
+    "id": "ASSET-094",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-grid.css",
+    "public_path": "/lib/bootstrap/css/bootstrap-grid.css",
+    "bytes": 70329,
+    "sha256": "632e7f841a919a6536309d532b03f6697a133baf8e8f3acb98922c0b65b2e07f",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-095",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-grid.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap-grid.css.map",
+    "bytes": 203221,
+    "sha256": "c404fe9f6e4513986f3a38f67c6e1874ec2bd5b97822500904d83a3db84b4f61",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-096",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-grid.min.css",
+    "public_path": "/lib/bootstrap/css/bootstrap-grid.min.css",
+    "bytes": 51795,
+    "sha256": "e670c73068b27d91e5dd45de3ee84b0d047d9dc3df051d4725e64b5f224d576e",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-097",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-grid.min.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap-grid.min.css.map",
+    "bytes": 115986,
+    "sha256": "9202fec7056633c20eb35e659e81edf5d691d8b44c8811bf7188143dc290398e",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-098",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-grid.rtl.css",
+    "public_path": "/lib/bootstrap/css/bootstrap-grid.rtl.css",
+    "bytes": 70403,
+    "sha256": "099c6817cce368b97256472f5420e573c09e411d70d5132bbe0631df472cf243",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-099",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-grid.rtl.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap-grid.rtl.css.map",
+    "bytes": 203225,
+    "sha256": "fec890500f325fcdf48fe70be1a98a1d8df206d9f79fccf7120f95675e5ff749",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-100",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-grid.rtl.min.css",
+    "public_path": "/lib/bootstrap/css/bootstrap-grid.rtl.min.css",
+    "bytes": 51870,
+    "sha256": "bccc5372f902e0bcbb2e2013dc6f32132f44a53afb1607b849ccd6a74effa779",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-101",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-grid.rtl.min.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap-grid.rtl.min.css.map",
+    "bytes": 116063,
+    "sha256": "ec674e970ed4ff083269e52d166c4fcf9fcca6176f5523ed54e3a54e7f5cdf74",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-102",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-reboot.css",
+    "public_path": "/lib/bootstrap/css/bootstrap-reboot.css",
+    "bytes": 12065,
+    "sha256": "968f5823cd8e174defa2376ef97391dfe0d1acb229321a7364d9876cce420cc0",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-103",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-reboot.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap-reboot.css.map",
+    "bytes": 129371,
+    "sha256": "45727f4198817c75e83ed5d1d84802f9b168da97b71ad6d93bbdb646d88b1b34",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-104",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-reboot.min.css",
+    "public_path": "/lib/bootstrap/css/bootstrap-reboot.min.css",
+    "bytes": 10126,
+    "sha256": "97cbede68a33bfde7c78c77d4c5b0f016825f4924af5829f6d54acf2672143ce",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-105",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-reboot.min.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap-reboot.min.css.map",
+    "bytes": 51369,
+    "sha256": "d1ea954fada4a912c987da13a8b7881f852742c92a56389bf219767d7c65e258",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-106",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-reboot.rtl.css",
+    "public_path": "/lib/bootstrap/css/bootstrap-reboot.rtl.css",
+    "bytes": 12058,
+    "sha256": "57ca6c9c7a094bf30f9425d6c1cfc9ded1ada7d7378061519aab08420a67f868",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-107",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-reboot.rtl.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap-reboot.rtl.css.map",
+    "bytes": 129386,
+    "sha256": "3a8415c21ec0ae9edb5682b66624f1d92fff2ab9cfad23f33d9f770aa08c85ef",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-108",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-reboot.rtl.min.css",
+    "public_path": "/lib/bootstrap/css/bootstrap-reboot.rtl.min.css",
+    "bytes": 10198,
+    "sha256": "ffc8e1f217043052b24ba8285aa9cdbbbb7713364f0867506603bab02908f2d2",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-109",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
+    "bytes": 63943,
+    "sha256": "f75d33c3eacc75c8342ece3c013a7ae6f127f2b7791ef3f138a9b6c77fc20482",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-110",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-utilities.css",
+    "public_path": "/lib/bootstrap/css/bootstrap-utilities.css",
+    "bytes": 107823,
+    "sha256": "d81b9b80d50f950485ff4c0b15c45743f623ce4f6fb146c301e2b640cfa1fb2a",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-111",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-utilities.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap-utilities.css.map",
+    "bytes": 267535,
+    "sha256": "35f8eb73852bf45bf6a0112cc10588c819cd0cff7dabe2e12fecfde79dced1c6",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-112",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-utilities.min.css",
+    "public_path": "/lib/bootstrap/css/bootstrap-utilities.min.css",
+    "bytes": 85352,
+    "sha256": "2b213dc5b28ef42b98c741d7a482a0b1622f5e401f213b62435ef68f6eb0991b",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-113",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-utilities.min.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap-utilities.min.css.map",
+    "bytes": 180381,
+    "sha256": "ac70e68a9e09673b9a18e71243541242b21b1b411bdd98daf7086a485d736085",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-114",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-utilities.rtl.css",
+    "public_path": "/lib/bootstrap/css/bootstrap-utilities.rtl.css",
+    "bytes": 107691,
+    "sha256": "1fac2405b4b08ee6b6bde2684e1268e2ecb5eb58e9f833a2653968525719eaa4",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-115",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-utilities.rtl.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap-utilities.rtl.css.map",
+    "bytes": 267476,
+    "sha256": "a74055ab955efdda2104875f6eb66ca1036ed36252b0a875834c1bca242251a5",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-116",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-utilities.rtl.min.css",
+    "public_path": "/lib/bootstrap/css/bootstrap-utilities.rtl.min.css",
+    "bytes": 85281,
+    "sha256": "18052e9ba163c10f07ad719aa054671d3a9040ba658d719abd3ee6057f04f6a5",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-117",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
+    "bytes": 180217,
+    "sha256": "a3c5cadf699c63f15f70e4350f61c9bd5b99d184d74944590cb5c22b47e741e0",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-118",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap.css",
+    "public_path": "/lib/bootstrap/css/bootstrap.css",
+    "bytes": 281046,
+    "sha256": "18a105d7cb38e01e5ed0ca255c092992a2e211b39594a7fa57262bfc6fc4ea9c",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-119",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap.css.map",
+    "bytes": 679755,
+    "sha256": "2b3355477a7b51919b6bde1d9c2b6573a8d78cae6ead23e267f78d9ca4e60e4c",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-120",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap.min.css",
+    "public_path": "/lib/bootstrap/css/bootstrap.min.css",
+    "bytes": 232803,
+    "sha256": "3c8f27e6009ccfd710a905e6dcf12d0ee3c6f2ac7da05b0572d3e0d12e736fc8",
+    "incoming": [
+      "Shared/_Layout:18"
+    ],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-121",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap.min.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap.min.css.map",
+    "bytes": 589892,
+    "sha256": "f12338536350a422c64d02d6e43ff1dea493c3156ad823fe19761cdd5d56c05b",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-122",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap.rtl.css",
+    "public_path": "/lib/bootstrap/css/bootstrap.rtl.css",
+    "bytes": 280259,
+    "sha256": "8f91385c88f5a7590d9c38b4c75b5e5fd457a21d7f14d94fbc230bf589918764",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-123",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap.rtl.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap.rtl.css.map",
+    "bytes": 679615,
+    "sha256": "ddb61652289560c65fbf6c2ae499d722c1e540a8122acfd57118af823819d61a",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-124",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap.rtl.min.css",
+    "public_path": "/lib/bootstrap/css/bootstrap.rtl.min.css",
+    "bytes": 232911,
+    "sha256": "879944ecd9bc4a4788a411c763137df6ca4fdd5b8614a97935982ca1c8a5ef39",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-125",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap.rtl.min.css.map",
+    "public_path": "/lib/bootstrap/css/bootstrap.rtl.min.css.map",
+    "bytes": 589087,
+    "sha256": "ad3cd79677a971bfef80502207e53b3834007ce9492df337818e8853b78800d9",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-126",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/js/bootstrap.bundle.js",
+    "public_path": "/lib/bootstrap/js/bootstrap.bundle.js",
+    "bytes": 207819,
+    "sha256": "9a4a11a15db88d5fab08f59c1c34796b03f1f15bb3cc928dd226e1c59f7f59a3",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-127",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/js/bootstrap.bundle.js.map",
+    "public_path": "/lib/bootstrap/js/bootstrap.bundle.js.map",
+    "bytes": 444579,
+    "sha256": "5aae1a596d6b41d27eea8020cb525073d2018c72fd4f730a7d74c136a3afd367",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-128",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/js/bootstrap.bundle.min.js",
+    "public_path": "/lib/bootstrap/js/bootstrap.bundle.min.js",
+    "bytes": 80721,
+    "sha256": "0833b2e9c3a26c258476c46266e6877fc75218625162e0460be9a3a098a61c6c",
+    "incoming": [
+      "Shared/_Layout:108"
+    ],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-129",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/js/bootstrap.bundle.min.js.map",
+    "public_path": "/lib/bootstrap/js/bootstrap.bundle.min.js.map",
+    "bytes": 332090,
+    "sha256": "5e3e0763164143baaa1ca0706b6100ba0452f911d6ce9713b48e3dbe07b35125",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-130",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/js/bootstrap.esm.js",
+    "public_path": "/lib/bootstrap/js/bootstrap.esm.js",
+    "bytes": 135829,
+    "sha256": "7b189764d243c2e7177ee8dedc26d73dbb92ebe12bcb7cfdb0ffa9826be1f270",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-131",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/js/bootstrap.esm.js.map",
+    "public_path": "/lib/bootstrap/js/bootstrap.esm.js.map",
+    "bytes": 305438,
+    "sha256": "10f44b829a9691a84bc449fa0948dd33be91218230d71747c136de1ecb2e8ffe",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-132",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/js/bootstrap.esm.min.js",
+    "public_path": "/lib/bootstrap/js/bootstrap.esm.min.js",
+    "bytes": 73935,
+    "sha256": "4197454f564d765cb8ae681406d5e65c54bd054d454dafac3deea1efde2c1514",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-133",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/js/bootstrap.esm.min.js.map",
+    "public_path": "/lib/bootstrap/js/bootstrap.esm.min.js.map",
+    "bytes": 222455,
+    "sha256": "4ec6eff33e9594d815113f31bf3ff22e8fefe622474c08f62788648633f5ac73",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-134",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/js/bootstrap.js",
+    "public_path": "/lib/bootstrap/js/bootstrap.js",
+    "bytes": 145401,
+    "sha256": "f945bcd36c2055f9e36926ddc321cb954ec056995bd164e83a5bcdd429f321a7",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-135",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/js/bootstrap.js.map",
+    "public_path": "/lib/bootstrap/js/bootstrap.js.map",
+    "bytes": 306606,
+    "sha256": "f56afb1f17bc802243a081e1e713f6f65757bc2de43761a489f423f5cf2f631e",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-136",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/js/bootstrap.min.js",
+    "public_path": "/lib/bootstrap/js/bootstrap.min.js",
+    "bytes": 60635,
+    "sha256": "de040986d9a3ed89d5d5f9ad6d5727015e9e238c2cd13af8f1b55909386d0864",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-137",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/js/bootstrap.min.js.map",
+    "public_path": "/lib/bootstrap/js/bootstrap.min.js.map",
+    "bytes": 220561,
+    "sha256": "648d357bf9ece3bdc62af0021b831c82025dc6f15f148c38c6ca704221bc61ee",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-138",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_accordion.scss",
+    "public_path": "/lib/bootstrap/scss/_accordion.scss",
+    "bytes": 5077,
+    "sha256": "fa9b933729baba34fda32581042289c78c6b138566ec39276b2eb395b82ac8ec",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-139",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_alert.scss",
+    "public_path": "/lib/bootstrap/scss/_alert.scss",
+    "bytes": 2073,
+    "sha256": "dc297fc74b4177e616093ccf2678e1cf3cf1581513763f32ab9595f3454b0fde",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-140",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_badge.scss",
+    "public_path": "/lib/bootstrap/scss/_badge.scss",
+    "bytes": 1118,
+    "sha256": "f9f0a5c8e94e30228ced951003282a65bbd7a05809c4e9b070d7222f566ad3b7",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-141",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_breadcrumb.scss",
+    "public_path": "/lib/bootstrap/scss/_breadcrumb.scss",
+    "bytes": 1751,
+    "sha256": "4520bc555867ea6812bf641df5c148e2511555fdfc7d82a7f70426bfd6bd559e",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-142",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_button-group.scss",
+    "public_path": "/lib/bootstrap/scss/_button-group.scss",
+    "bytes": 3201,
+    "sha256": "6711d68319f6eec0d5573aa1c6ea8e6c6268d23b45ac98ab543906adffee57f6",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-143",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_buttons.scss",
+    "public_path": "/lib/bootstrap/scss/_buttons.scss",
+    "bytes": 7057,
+    "sha256": "1b3b05d4373aa664739d785aed07cd6edc6e5eb3e8de99195a2c94b4ad4851ff",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-144",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_card.scss",
+    "public_path": "/lib/bootstrap/scss/_card.scss",
+    "bytes": 6979,
+    "sha256": "5968976ecc3c808671c6bdc990aa6c0c7fd83c8cf748148a8f215fb5852d147c",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-145",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_carousel.scss",
+    "public_path": "/lib/bootstrap/scss/_carousel.scss",
+    "bytes": 5862,
+    "sha256": "ebaf70e8b5857031bbb3d50c10af5ed189a0bd21ea26f8de7ac014eda7f8a539",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-146",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_close.scss",
+    "public_path": "/lib/bootstrap/scss/_close.scss",
+    "bytes": 2018,
+    "sha256": "4d28c16c142ba2cd9e284c8705c3ef2c265f7e25645828f1c53c2582aabbd866",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-147",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_containers.scss",
+    "public_path": "/lib/bootstrap/scss/_containers.scss",
+    "bytes": 1201,
+    "sha256": "efc8ba9a0e5d5bd866dd318a1e71fd068d67cdfb7f0b1efea04741c4ed6d5467",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-148",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_dropdown.scss",
+    "public_path": "/lib/bootstrap/scss/_dropdown.scss",
+    "bytes": 8093,
+    "sha256": "0dec028a3e0ea0854cf69532b702087187c0323f0d19b97385ad0c70dd24481e",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-149",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_forms.scss",
+    "public_path": "/lib/bootstrap/scss/_forms.scss",
+    "bytes": 256,
+    "sha256": "251b894d3e6fa138bbba285ad25f9f855eb54d006c5043cee47631fa5d7ccca6",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-150",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_functions.scss",
+    "public_path": "/lib/bootstrap/scss/_functions.scss",
+    "bytes": 10554,
+    "sha256": "c506cfc38c5c4c050f89952dc2f897c534b357c8e8695263eacbf7b2c8bd5996",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-151",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_grid.scss",
+    "public_path": "/lib/bootstrap/scss/_grid.scss",
+    "bytes": 683,
+    "sha256": "136625382f72e935ae470d05ef8cc8f3f4eb10949d2a376a04a3bc86a14c695d",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-152",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_helpers.scss",
+    "public_path": "/lib/bootstrap/scss/_helpers.scss",
+    "bytes": 353,
+    "sha256": "1fdebe863f6bb603111cd9dac6eecdca7166833788c50b8a9c2de21e153ed089",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-153",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_images.scss",
+    "public_path": "/lib/bootstrap/scss/_images.scss",
+    "bytes": 1158,
+    "sha256": "94a3d96bf702fa8c1c474b66afd81d772d4b01988ad48439675098a999d57700",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-154",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_list-group.scss",
+    "public_path": "/lib/bootstrap/scss/_list-group.scss",
+    "bytes": 6852,
+    "sha256": "023d4961c852959bd591ad97ae9bda235f7272b9495851739d696071811d10ad",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-155",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_maps.scss",
+    "public_path": "/lib/bootstrap/scss/_maps.scss",
+    "bytes": 6005,
+    "sha256": "9b1aaa80585969fed8e3df34eeadd1c7b5f40ad92f47de09d52c9cf1ae104562",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-156",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_mixins.scss",
+    "public_path": "/lib/bootstrap/scss/_mixins.scss",
+    "bytes": 875,
+    "sha256": "38bcf5c0366f0b5b81ce00941f2dc94cb42a62af875901fcbdd70988167b84e4",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-157",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_modal.scss",
+    "public_path": "/lib/bootstrap/scss/_modal.scss",
+    "bytes": 7662,
+    "sha256": "288a315d48c43485929ffebf9c5d68a51527908d280fe5c61e43b42df5d06e1c",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-158",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_nav.scss",
+    "public_path": "/lib/bootstrap/scss/_nav.scss",
+    "bytes": 5211,
+    "sha256": "11886d7381169d825384d767186c452814374baabb1a7143c0928648c6da2f19",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-159",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_navbar.scss",
+    "public_path": "/lib/bootstrap/scss/_navbar.scss",
+    "bytes": 9155,
+    "sha256": "804bf531632cdd6c579e984a707c8ba742d28a0e34506972054ffdaeca5fce81",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-160",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_offcanvas.scss",
+    "public_path": "/lib/bootstrap/scss/_offcanvas.scss",
+    "bytes": 4653,
+    "sha256": "8eaa786c4fb42a99c1629acf03da025d6d91f4e454524e86b653de4658ff709c",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-161",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_pagination.scss",
+    "public_path": "/lib/bootstrap/scss/_pagination.scss",
+    "bytes": 3947,
+    "sha256": "043c1381333def4edc1e5ba94ccbe2c8423192494be892a1146a685f1988f358",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-162",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_placeholders.scss",
+    "public_path": "/lib/bootstrap/scss/_placeholders.scss",
+    "bytes": 859,
+    "sha256": "ba96b7704c3174b729f8edef6a68ee9ec43641679e3b01341509c5b6f884348d",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-163",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_popover.scss",
+    "public_path": "/lib/bootstrap/scss/_popover.scss",
+    "bytes": 6907,
+    "sha256": "9ce67e18f6ae4ca9aa4f9a8f5da5d035deadcf8fe165ac51cd16628dbe07faa3",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-164",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_progress.scss",
+    "public_path": "/lib/bootstrap/scss/_progress.scss",
+    "bytes": 2016,
+    "sha256": "bd038521466d93c091bc6e9f5d65c8f3708ad42afb033bf740c2c9b5826cb8e1",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-165",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_reboot.scss",
+    "public_path": "/lib/bootstrap/scss/_reboot.scss",
+    "bytes": 12438,
+    "sha256": "f9800975b735033b68733cd06507b422e1a8c7971c250b6b156754291fb448fb",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-166",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_root.scss",
+    "public_path": "/lib/bootstrap/scss/_root.scss",
+    "bytes": 6924,
+    "sha256": "91c30cbded48f93d5f9d15e31b880cefdaffe115d4901a65934f4345ddbd6b12",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-167",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_spinners.scss",
+    "public_path": "/lib/bootstrap/scss/_spinners.scss",
+    "bytes": 2429,
+    "sha256": "a2c51983d3c93dd74db7a737836e351a756597189910b8df130f76921f27cb91",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-168",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_tables.scss",
+    "public_path": "/lib/bootstrap/scss/_tables.scss",
+    "bytes": 4946,
+    "sha256": "231256b77492bc97051bbf3435f21f552f46c5347791480a8d2eca1684cf0e71",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-169",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_toasts.scss",
+    "public_path": "/lib/bootstrap/scss/_toasts.scss",
+    "bytes": 2490,
+    "sha256": "b0a6044484a9919b52cd45912954efbed5c6e3c128300cbead07a88283f7b1a2",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-170",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_tooltip.scss",
+    "public_path": "/lib/bootstrap/scss/_tooltip.scss",
+    "bytes": 4281,
+    "sha256": "5ef70a5b0d24b8b0b0028b577911a4ce4ff972caa82c076624c42eeac5875ad6",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-171",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_transitions.scss",
+    "public_path": "/lib/bootstrap/scss/_transitions.scss",
+    "bytes": 425,
+    "sha256": "e5661be1476af60c9e453750780f86841c689dcf229de80223007c3cada148c9",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-172",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_type.scss",
+    "public_path": "/lib/bootstrap/scss/_type.scss",
+    "bytes": 1420,
+    "sha256": "e2cb44babf05837b1a9859128e553712d6dd5c1c5ab9cbb7dcc36bfcd263486d",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-173",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_utilities.scss",
+    "public_path": "/lib/bootstrap/scss/_utilities.scss",
+    "bytes": 19235,
+    "sha256": "5aebf5b2fb498505796c5a1fbc309055ecb81aa7670797e6aafc97c6fb443e5b",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-174",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_variables-dark.scss",
+    "public_path": "/lib/bootstrap/scss/_variables-dark.scss",
+    "bytes": 5057,
+    "sha256": "aa4a6afb267b2ba01123bc9f6a831434ac0db9a52c55fe587bc47a0efc120717",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-175",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/_variables.scss",
+    "public_path": "/lib/bootstrap/scss/_variables.scss",
+    "bytes": 76324,
+    "sha256": "7f28ad14c9819d12525fee497e64111ce8f567970ad901c232bff6d0e5475d00",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-176",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/bootstrap-grid.scss",
+    "public_path": "/lib/bootstrap/scss/bootstrap-grid.scss",
+    "bytes": 1183,
+    "sha256": "6e263a086e15dfc103ec847b3cbd369cb2d9572c1184b0653b4ff7bd2b7c098e",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-177",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/bootstrap-reboot.scss",
+    "public_path": "/lib/bootstrap/scss/bootstrap-reboot.scss",
+    "bytes": 189,
+    "sha256": "c2b0368bce9372699f22c2d0e736e18e5849f028de689e88df818d8715075abe",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-178",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/bootstrap-utilities.scss",
+    "public_path": "/lib/bootstrap/scss/bootstrap-utilities.scss",
+    "bytes": 306,
+    "sha256": "242ef757e99f70a87bc419baff52132f824c8abc11da4edc7a7ab2c682a979b0",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-179",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/bootstrap.scss",
+    "public_path": "/lib/bootstrap/scss/bootstrap.scss",
+    "bytes": 938,
+    "sha256": "1d0ce002e4cc698d712589fbf9eaf02a0690284526d71ca4d78afe417204ab0d",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-180",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/forms/_floating-labels.scss",
+    "public_path": "/lib/bootstrap/scss/forms/_floating-labels.scss",
+    "bytes": 2688,
+    "sha256": "85c881545a83664db75afce7168e14b524a11802dff2e16cc45886543e10c52a",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-181",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/forms/_form-check.scss",
+    "public_path": "/lib/bootstrap/scss/forms/_form-check.scss",
+    "bytes": 4854,
+    "sha256": "44ec2f4eff27069f19a6c1ada5d12310c7bb3668e996d2c01edd4018dfe65a01",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-182",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/forms/_form-control.scss",
+    "public_path": "/lib/bootstrap/scss/forms/_form-control.scss",
+    "bytes": 6590,
+    "sha256": "447be851ab7e013a5310e182129e14b038ee3ab47abff1697bd8b5fa9ffc5fee",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-183",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/forms/_form-range.scss",
+    "public_path": "/lib/bootstrap/scss/forms/_form-range.scss",
+    "bytes": 2796,
+    "sha256": "43b8639a180698db319dc6ea9ce6871551059eb90e8962fcb39cea6658a43fcb",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-184",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/forms/_form-select.scss",
+    "public_path": "/lib/bootstrap/scss/forms/_form-select.scss",
+    "bytes": 2488,
+    "sha256": "e45b168eb19cbe0f84aa491ae540f0784e4f2aad8557bb1c4510730fe9031f9d",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-185",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/forms/_form-text.scss",
+    "public_path": "/lib/bootstrap/scss/forms/_form-text.scss",
+    "bytes": 219,
+    "sha256": "82b4a5bda99445da2770a81bbd5382788fb6ee6cb8b0b7de8f7b1355eff02d4b",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-186",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/forms/_input-group.scss",
+    "public_path": "/lib/bootstrap/scss/forms/_input-group.scss",
+    "bytes": 3899,
+    "sha256": "4f0b91ec3ce9c05a0e1961e6dd427d6ca8cead7fd0c633d744a38991204f4251",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-187",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/forms/_labels.scss",
+    "public_path": "/lib/bootstrap/scss/forms/_labels.scss",
+    "bytes": 1142,
+    "sha256": "824c1fd720f5487398fe07ab0518613f0e47c8974da320f9c0d866c7f2840655",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-188",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/forms/_validation.scss",
+    "public_path": "/lib/bootstrap/scss/forms/_validation.scss",
+    "bytes": 478,
+    "sha256": "56101d0802f89ce460689a1e283b807337115cc0a58a5bec0ceb8c063d17a062",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-189",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/helpers/_clearfix.scss",
+    "public_path": "/lib/bootstrap/scss/helpers/_clearfix.scss",
+    "bytes": 37,
+    "sha256": "7fdae7a5d8899c474419f72c6f8452fee490d80953678b7b34adb8d0e4e790a9",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-190",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/helpers/_color-bg.scss",
+    "public_path": "/lib/bootstrap/scss/helpers/_color-bg.scss",
+    "bytes": 403,
+    "sha256": "c2891f272fdab5574cdb9edfde4e42747e5b2f714fd9280fa709d5a74dddb52d",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-191",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/helpers/_colored-links.scss",
+    "public_path": "/lib/bootstrap/scss/helpers/_colored-links.scss",
+    "bytes": 1755,
+    "sha256": "7fcf50ec230c03f0242f6897181fb9ca5cad7495598da0f545ba88918cd0ab4a",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-192",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/helpers/_focus-ring.scss",
+    "public_path": "/lib/bootstrap/scss/helpers/_focus-ring.scss",
+    "bytes": 385,
+    "sha256": "02f804452f7cdabd90556371a0dcf766624d9298b7b3d1acc178cf64734e7c69",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-193",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/helpers/_icon-link.scss",
+    "public_path": "/lib/bootstrap/scss/helpers/_icon-link.scss",
+    "bytes": 605,
+    "sha256": "4e628615268aedcd83f7a7f1ddd8d468bb7fe03d6d54eefed4e2f705a26e4e22",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-194",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/helpers/_position.scss",
+    "public_path": "/lib/bootstrap/scss/helpers/_position.scss",
+    "bytes": 621,
+    "sha256": "327a5b451233705aa15ac1509ea8f4ff96091dce9ab90739b6fc902cac3efb26",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-195",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/helpers/_ratio.scss",
+    "public_path": "/lib/bootstrap/scss/helpers/_ratio.scss",
+    "bytes": 399,
+    "sha256": "4f54693632997a794bd6807a3ccfe6ab01ed3c76dc0d215b106c12757c0fa7e0",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-196",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/helpers/_stacks.scss",
+    "public_path": "/lib/bootstrap/scss/helpers/_stacks.scss",
+    "bytes": 245,
+    "sha256": "2ea2dd8aa8dbc56224c8e6a73f5c9abb27a720b834e7891e7245887a33e86d40",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-197",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/helpers/_stretched-link.scss",
+    "public_path": "/lib/bootstrap/scss/helpers/_stretched-link.scss",
+    "bytes": 223,
+    "sha256": "be34b3e9209568b71b0b83046199ef3b55a81277c35f993552ad23c061b6cf22",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-198",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/helpers/_text-truncation.scss",
+    "public_path": "/lib/bootstrap/scss/helpers/_text-truncation.scss",
+    "bytes": 73,
+    "sha256": "46c904799d9b3861fbab8da4279ff97215e7d6d5480729b0a93c36dd0e3b5738",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-199",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/helpers/_visually-hidden.scss",
+    "public_path": "/lib/bootstrap/scss/helpers/_visually-hidden.scss",
+    "bytes": 136,
+    "sha256": "b226f555ead1e3429b9a04d704165e20ddd1f2c83c0c958de0368764e67fd8f8",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-200",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/helpers/_vr.scss",
+    "public_path": "/lib/bootstrap/scss/helpers/_vr.scss",
+    "bytes": 160,
+    "sha256": "c2cf35ded794cd31d196a9cb7b78f53cf70ff476c31dd54d2bd41b62651b1475",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-201",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_alert.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_alert.scss",
+    "bytes": 525,
+    "sha256": "b8a2ca089c3c5f17cf5e0209a0bf944bbf3700dacff5d60304849fc9f2d5fd58",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-202",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_backdrop.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_backdrop.scss",
+    "bytes": 328,
+    "sha256": "efb48baf3fb5d383d65180ce2c6fc89d547c5092289b1ef91268759b582cf3f7",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-203",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_banner.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_banner.scss",
+    "bytes": 223,
+    "sha256": "20b4ca3c8742f48534d41e2b5da11affbbeea4879aaabe078573630846935a82",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-204",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_border-radius.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_border-radius.scss",
+    "bytes": 2031,
+    "sha256": "5d41c0465894d7da0c61b59d628625f54f428e08a1e5c588c3eaf2df05a9a2b8",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-205",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_box-shadow.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_box-shadow.scss",
+    "bytes": 398,
+    "sha256": "96f68fadee0ab0cde1a59aef895b0bfb8cb7d6c20f5f028cf9f273a3d8293726",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-206",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_breakpoints.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_breakpoints.scss",
+    "bytes": 4580,
+    "sha256": "a7210b0fcd5ff56844b15f03f6ce6d0de394083c318689e867a674e6f19144fa",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-207",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_buttons.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_buttons.scss",
+    "bytes": 3220,
+    "sha256": "01d5b51542d071fb33533e0397ec18188095604e733cd751b4a2a277f588533b",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-208",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_caret.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_caret.scss",
+    "bytes": 1587,
+    "sha256": "3370e2a3f5bd2db2b977cd0f6cfa9804b7da16cb84f8e42ecc3dae2f3ca493de",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-209",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_clearfix.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_clearfix.scss",
+    "bytes": 147,
+    "sha256": "1bc209e877fa02389c03221784dbc923b7f8447443c386a8f3c235c37d4d3edc",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-210",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_color-mode.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_color-mode.scss",
+    "bytes": 447,
+    "sha256": "9a808a3e3f41221f6327aec48a5877540bebb588247b068f40e02b89768c3c85",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-211",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_color-scheme.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_color-scheme.scss",
+    "bytes": 167,
+    "sha256": "3d442422aabf180904b39a4e047c099b392cf19e43f1663483ac28e91502d5a5",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-212",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_container.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_container.scss",
+    "bytes": 410,
+    "sha256": "44ce3cba53404df562012a9c437a44791f6828e69c086ff048cf1e43ed57f8f8",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-213",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_deprecate.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_deprecate.scss",
+    "bytes": 613,
+    "sha256": "690780a5f568226bb755f5e601add120af65474c8f2e07764d6f10bdb586eb11",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-214",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_forms.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_forms.scss",
+    "bytes": 4578,
+    "sha256": "98bab369e97b886b98567a9e636fe121828df7ab59c3951c86fbaa8eddf928c6",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-215",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_gradients.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_gradients.scss",
+    "bytes": 1956,
+    "sha256": "8073bf9fddf94b9c87b1a5a5ee86a0563ecb0c677f0be5b177cb328bd5dba5b2",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-216",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_grid.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_grid.scss",
+    "bytes": 4734,
+    "sha256": "003e338c55fb6586e55dcccc53a3a2f5b8b6c633e7163a516783b3c15a1786b3",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-217",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_image.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_image.scss",
+    "bytes": 395,
+    "sha256": "92136f16769c22cc0e3f99d26dac9410352409a31d4e4a274062a25745280e49",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-218",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_list-group.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_list-group.scss",
+    "bytes": 581,
+    "sha256": "193f313d5b435d05d6974032ed33a8b8c8df9a35810bd6bb3b58bd62d6dc8a4d",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-219",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_lists.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_lists.scss",
+    "bytes": 168,
+    "sha256": "84717fbc7fc41ce2ba06cb7542efbf5ceca62022f32cdd48cea839c158e31624",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-220",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_pagination.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_pagination.scss",
+    "bytes": 387,
+    "sha256": "22c06d01a94c7b1ca7ee581b86b7508a690448441c9c31b1bc2dd3f0b351a383",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-221",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_reset-text.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_reset-text.scss",
+    "bytes": 495,
+    "sha256": "549cb9b53520c34a707bfc54f30bf8508c0a9bcb97f63fbeb7a123aafb6e4504",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-222",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_resize.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_resize.scss",
+    "bytes": 202,
+    "sha256": "a7f0a7d2f9904e49b70969b62d8200742f85425299efb34e2e751d35a4132ace",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-223",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_table-variants.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_table-variants.scss",
+    "bytes": 1101,
+    "sha256": "41502513f5d3e29f36cc9d0906f21c30cd8dd5bba0ad43c42a613ff8cadfadd4",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-224",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_text-truncate.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_text-truncate.scss",
+    "bytes": 168,
+    "sha256": "e85ea7e6025a8a061fe65b27706be1b1fd76fc3164c4c91d6727f91a0055ae1c",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-225",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_transition.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_transition.scss",
+    "bytes": 661,
+    "sha256": "8d453106574abf02344cf09dac1cc0f1022c7da7c267d43e4a1da8d7db18aa44",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-226",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_utilities.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_utilities.scss",
+    "bytes": 3384,
+    "sha256": "51e9790c971332320ecd173664eaf9767df1d4585a5fae250885cbc4a3a19f8f",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-227",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/mixins/_visually-hidden.scss",
+    "public_path": "/lib/bootstrap/scss/mixins/_visually-hidden.scss",
+    "bytes": 1110,
+    "sha256": "18df1ce419013ef229b9a91c6dad13a98ed53d83a434703a71fb6daf893d8439",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-228",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/utilities/_api.scss",
+    "public_path": "/lib/bootstrap/scss/utilities/_api.scss",
+    "bytes": 1737,
+    "sha256": "275bb6c0cab34896d3cddd3eee2b897c96a4942d5821646db99b2c2d9252a49c",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-229",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/scss/vendor/_rfs.scss",
+    "public_path": "/lib/bootstrap/scss/vendor/_rfs.scss",
+    "bytes": 10012,
+    "sha256": "26c40fac6306150359f8b0afdb946ffeb58723f7d7d64a186dab385bd756d834",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-230",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery/jquery.js",
+    "public_path": "/lib/jquery/jquery.js",
+    "bytes": 285314,
+    "sha256": "78a85aca2f0b110c29e0d2b137e09f0a1fb7a8e554b499f740d6744dc8962cfe",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-231",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery/jquery.min.js",
+    "public_path": "/lib/jquery/jquery.min.js",
+    "bytes": 87533,
+    "sha256": "fc9a93dd241f6b045cbff0481cf4e1901becd0e12fb45166a8f17f95823f0b1a",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-232",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery/jquery.min.map",
+    "public_path": "/lib/jquery/jquery.min.map",
+    "bytes": 134755,
+    "sha256": "cf74d51c62d299189989130ebb423b30453532fdc8988d8e2b71b1b9165a80b8",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-233",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery/jquery.slim.js",
+    "public_path": "/lib/jquery/jquery.slim.js",
+    "bytes": 232015,
+    "sha256": "520bef37cbc19203b496e3d2525dacf13225392611a061405f88e50889bd01d7",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-234",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery/jquery.slim.min.js",
+    "public_path": "/lib/jquery/jquery.slim.min.js",
+    "bytes": 70264,
+    "sha256": "9261efb3407e3a9096e4654750d8eff6b3a663422f48845c7fbcc65034c340cf",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-235",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery/jquery.slim.min.map",
+    "public_path": "/lib/jquery/jquery.slim.min.map",
+    "bytes": 107143,
+    "sha256": "f45626720b71f2a668d4e3cf88fb7f049feccf4108f1244d518b052d90c412de",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-236",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/additional-methods.js",
+    "public_path": "/lib/jquery-validate/additional-methods.js",
+    "bytes": 51529,
+    "sha256": "5a916c103430e8350a51651f9de367aaef1ba3d6ab273e051a5009ff517069af",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-237",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/additional-methods.min.js",
+    "public_path": "/lib/jquery-validate/additional-methods.min.js",
+    "bytes": 22123,
+    "sha256": "183d513c08047b4ab90b79eae47d0530a2ec8bf7d0f6275e4fde700311668ed9",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-238",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/jquery-validation-sri.json",
+    "public_path": "/lib/jquery-validate/jquery-validation-sri.json",
+    "bytes": 79980,
+    "sha256": "504d6aa29f9944aa4021dccfeef297f32c331b52fdfb05267a7179c4ef4dadb3",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-239",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/jquery.validate.js",
+    "public_path": "/lib/jquery-validate/jquery.validate.js",
+    "bytes": 52142,
+    "sha256": "938f40e6b93ba188ed7bca476f25d3a28ca9fe38fe94def3f1ce956a6926d0b2",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-240",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/jquery.validate.min.js",
+    "public_path": "/lib/jquery-validate/jquery.validate.min.js",
+    "bytes": 25067,
+    "sha256": "89cea1c4d5820772010ec5ead33e4aa4a1e67097356a79a7874c463a2d02e43c",
+    "incoming": [
+      "Shared/_ValidationScriptsPartial:1"
+    ],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-241",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ar.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ar.js",
+    "bytes": 1699,
+    "sha256": "2434df81940e48b57d9a39e8be3dfeae53e3f7f5c163ce7d3caf75e3c6a3dcc4",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-242",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ar.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ar.min.js",
+    "bytes": 1558,
+    "sha256": "6abf11b9e9a9674f69fd96e088c5780908d2e2f193e69c423ff02e60c6990071",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-243",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_az.js",
+    "public_path": "/lib/jquery-validate/localization/messages_az.js",
+    "bytes": 1718,
+    "sha256": "50f061250a7f01dd903bfff906631a420656d99d14318deb59421837794c7245",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-244",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_az.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_az.min.js",
+    "bytes": 1576,
+    "sha256": "2d13effcdfd7e849a5d509a05022175b6395d61b57df0e208cb637d43678f482",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-245",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_bg.js",
+    "public_path": "/lib/jquery-validate/localization/messages_bg.js",
+    "bytes": 1948,
+    "sha256": "c53849780f88cf99aa429fdca69ba836f66fc1ee1b3690b8bb04511e15ecae3f",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-246",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_bg.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_bg.min.js",
+    "bytes": 1791,
+    "sha256": "e5937861bb7b8beb80b01765a25d156b474c45b7b7701fc6d4e9a0f02789725b",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-247",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_bn_BD.js",
+    "public_path": "/lib/jquery-validate/localization/messages_bn_BD.js",
+    "bytes": 2293,
+    "sha256": "f7c18426e974a5734d3b3223187e62080e7d4967094ecdd921e902831ccf2009",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-248",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_bn_BD.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_bn_BD.min.js",
+    "bytes": 2152,
+    "sha256": "a0bdce8aea501ffbcc74bd26e2bf1bdda0bf9a2bd0296f187c6309a1d82c4fe4",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-249",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ca.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ca.js",
+    "bytes": 1547,
+    "sha256": "e83416272411ea4b9ec90151e50e9ef3245f19ec07241ab2c4fa9660b0bbbb56",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-250",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ca.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ca.min.js",
+    "bytes": 1412,
+    "sha256": "f298a0cadf6603af1978c5ee762c6b73b61fc8c09fe239c675c4b23f6f82272e",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-251",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_cs.js",
+    "public_path": "/lib/jquery-validate/localization/messages_cs.js",
+    "bytes": 1515,
+    "sha256": "6c32a753b7742ee18bed0d8fb17afd0d8387b077e3fbe30fc6a8ede9317b4dbb",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-252",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_cs.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_cs.min.js",
+    "bytes": 1360,
+    "sha256": "a926831a5a6eef21b6b6dd9df64566e1867e14e57a4be96a6eb457b0d3af371a",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-253",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_da.js",
+    "public_path": "/lib/jquery-validate/localization/messages_da.js",
+    "bytes": 1964,
+    "sha256": "e34daf86d9719e8099f08712d2fa25780b044576578f45c67506fb33f74203f7",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-254",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_da.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_da.min.js",
+    "bytes": 1789,
+    "sha256": "a07b438e9e2ce717c5f789126ef416d1e7a925eb97637ac653d5420a363b2da7",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-255",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_de.js",
+    "public_path": "/lib/jquery-validate/localization/messages_de.js",
+    "bytes": 4917,
+    "sha256": "2997340d61921ba5d9f7cf34732d4d937ce79753c550a7f802a8b427ac68a238",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-256",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_de.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_de.min.js",
+    "bytes": 4626,
+    "sha256": "c075bbb2e1278a958ed7cc16493c22ef64c094a677b3b975698b886144dd98af",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-257",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_el.js",
+    "public_path": "/lib/jquery-validate/localization/messages_el.js",
+    "bytes": 2183,
+    "sha256": "ad7a9ee7b2fd45eeb8e00381c7e813f05828de9b85d5a27426f88a7d047351f4",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-258",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_el.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_el.min.js",
+    "bytes": 2041,
+    "sha256": "a95217be3cc38dd52bd989c9aaad6f525146f01ea647ca3a5c3c30efe6d01d3b",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-259",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_es.js",
+    "public_path": "/lib/jquery-validate/localization/messages_es.js",
+    "bytes": 1684,
+    "sha256": "bcdba2221f65e7a7d970f25133ba79b6c62db654b794955e4ad6611eacb408ec",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-260",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_es.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_es.min.js",
+    "bytes": 1539,
+    "sha256": "8360e45ea472f0dc2b299b1d0f53650196d81e51b68ad2af226a5d4165348077",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-261",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_es_AR.js",
+    "public_path": "/lib/jquery-validate/localization/messages_es_AR.js",
+    "bytes": 1735,
+    "sha256": "9d6e4a79094647b2b4d4e28579f0123d3466f4ceecb93d957cf57d7fdb8c2b34",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-262",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_es_AR.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_es_AR.min.js",
+    "bytes": 1564,
+    "sha256": "e0bc9283dff85ad1df26a6cbc89a62c1e9eca8db5b147dca1c110e55ad9a7cf7",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-263",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_es_PE.js",
+    "public_path": "/lib/jquery-validate/localization/messages_es_PE.js",
+    "bytes": 1701,
+    "sha256": "e99e29c7ab5a954a3bfb67a55e6e22ed4a50481235173af9c3102b9248f75bbb",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-264",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_es_PE.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_es_PE.min.js",
+    "bytes": 1534,
+    "sha256": "13c66ad062ae438412accaaa7cf634fe8479ca29420339c80d2989834728702c",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-265",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_et.js",
+    "public_path": "/lib/jquery-validate/localization/messages_et.js",
+    "bytes": 1459,
+    "sha256": "6dc00ce634eb96b05e6d8d53381bb5a55bd3bfa1d493071eaaccc72381beb6bb",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-266",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_et.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_et.min.js",
+    "bytes": 1319,
+    "sha256": "7220c620dfa94ff74f2ce0760d97f6e94698a1134f240aba61b51809200b36cd",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-267",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_eu.js",
+    "public_path": "/lib/jquery-validate/localization/messages_eu.js",
+    "bytes": 1517,
+    "sha256": "08a5613e77c4c287cab4151ad21a1d8207fe7bf6caf4e7fa435b4588b9c976a9",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-268",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_eu.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_eu.min.js",
+    "bytes": 1374,
+    "sha256": "b6518b55f221e1dc6902d593fdcbf70a78b8a586dce7cbe1190e43fc9da7d0a2",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-269",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_fa.js",
+    "public_path": "/lib/jquery-validate/localization/messages_fa.js",
+    "bytes": 2042,
+    "sha256": "575968e5171285b251a3b075a1eedc66561215441a4c3b905eda70a9261469e7",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-270",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_fa.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_fa.min.js",
+    "bytes": 1888,
+    "sha256": "140500a2503798b75568755f866f3c0ad2f78f44197e751168678d6b64afcd32",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-271",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_fi.js",
+    "public_path": "/lib/jquery-validate/localization/messages_fi.js",
+    "bytes": 1570,
+    "sha256": "0e783a76e62df8d35d3d64c384f62f909d89ee5b3ddcfde6ea3b105cc51f35da",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-272",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_fi.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_fi.min.js",
+    "bytes": 1429,
+    "sha256": "c86195e4796aad15832b2e28fb1ff3ea0f324cd8de98d4cf4d6763b379d78dfb",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-273",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_fr.js",
+    "public_path": "/lib/jquery-validate/localization/messages_fr.js",
+    "bytes": 3589,
+    "sha256": "df22e3799c65243ee0a774fec64886161fbdefc91a56835625c24bf3ba3318c4",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-274",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_fr.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_fr.min.js",
+    "bytes": 3351,
+    "sha256": "3e122f98397ad6b5823ab7272327013922ceb179130b0576603802e08ff8ab66",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-275",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ge.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ge.js",
+    "bytes": 2319,
+    "sha256": "3b37af88e67dc8eaaa9172ef2112a592c21d49d242b23b9b5bf754fb2c3fe5d4",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-276",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ge.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ge.min.js",
+    "bytes": 2123,
+    "sha256": "e705567a1be02989a1ee5b37027943f435f796b0ef96e6033a113800c945af5e",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-277",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_gl.js",
+    "public_path": "/lib/jquery-validate/localization/messages_gl.js",
+    "bytes": 1737,
+    "sha256": "da089687b559fa2eb5942b18a7479b92e7fb3f7d771a812b3120c2aafd532836",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-278",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_gl.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_gl.min.js",
+    "bytes": 1559,
+    "sha256": "f2df7ae2ba5b803885cb851768d8ef708b8ffe52080b733d10f212f9a90149df",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-279",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_he.js",
+    "public_path": "/lib/jquery-validate/localization/messages_he.js",
+    "bytes": 1518,
+    "sha256": "db5fda25ea7d1dbaa9b83860d2fd383ae03a6d536f87ccdf1fada52be6e1ecc5",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-280",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_he.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_he.min.js",
+    "bytes": 1380,
+    "sha256": "157f217ecc29d6bce6c6038c4b8444ac8b4ad8efbe48a1247d2651cbe06917b4",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-281",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_hi.js",
+    "public_path": "/lib/jquery-validate/localization/messages_hi.js",
+    "bytes": 4556,
+    "sha256": "912a273141f222da80f28cb812752df3842fc664e35d03a37f3832e527f8afae",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-282",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_hi.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_hi.min.js",
+    "bytes": 4377,
+    "sha256": "5a7afece2f28b42acd87529e4976f93566de2397c4b224d118380816bd4f9c76",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-283",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_hr.js",
+    "public_path": "/lib/jquery-validate/localization/messages_hr.js",
+    "bytes": 1357,
+    "sha256": "61caf145028d10dd2a858d2a6ac140be9ec7aa96f1b5986d44677443dd3e97a4",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-284",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_hr.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_hr.min.js",
+    "bytes": 1215,
+    "sha256": "cd62dd4d10d4b84d0a157f19db7244ba97cabc9575ad03f5755212ae4e657d52",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-285",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_hu.js",
+    "public_path": "/lib/jquery-validate/localization/messages_hu.js",
+    "bytes": 1405,
+    "sha256": "0a847794c119fe1fb1b1b743ae47b8c9b48e4a48f7180113f85b05d94c935b07",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-286",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_hu.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_hu.min.js",
+    "bytes": 1267,
+    "sha256": "5db10ee5fcc7ebc4a2487d03f2439dec879296873a5cde535b6b036d15c527cb",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-287",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_hy_AM.js",
+    "public_path": "/lib/jquery-validate/localization/messages_hy_AM.js",
+    "bytes": 1772,
+    "sha256": "a5132eabff893d630fe51cec26dade88d8aa5233db5a3691ca81af23763d247b",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-288",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_hy_AM.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_hy_AM.min.js",
+    "bytes": 1615,
+    "sha256": "2f6ccd5b21197991289616eaa444d50b56311ebf4c3fbc3da01781276671c299",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-289",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_id.js",
+    "public_path": "/lib/jquery-validate/localization/messages_id.js",
+    "bytes": 1449,
+    "sha256": "f80cec3c03012835c8ffce015a99edff2c41f0a87fa3e4b595ab381685a89b5d",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-290",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_id.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_id.min.js",
+    "bytes": 1312,
+    "sha256": "2c9d6cd9123a0c16bbd9e16034d948739abd858575fc6568e710540172482a91",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-291",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_is.js",
+    "public_path": "/lib/jquery-validate/localization/messages_is.js",
+    "bytes": 1279,
+    "sha256": "73b04e1e28e86e7cc3638245c1b64a1e53bbbf63e4db966775f01d67bf793c99",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-292",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_is.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_is.min.js",
+    "bytes": 1146,
+    "sha256": "65e086fa203ea3dde6a8e16b2d7d03d4b3f58fc7640ff5bdec52e5b4b4e91564",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-293",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_it.js",
+    "public_path": "/lib/jquery-validate/localization/messages_it.js",
+    "bytes": 1562,
+    "sha256": "b86a722662b6640c3fcf20ec5f793557563a41bd3c64700a06775e929bcd8da3",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-294",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_it.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_it.min.js",
+    "bytes": 1414,
+    "sha256": "0dc599a886bcd7ad547737b65f86744acfad97a9efa9dfb7efe8826b466dfcaa",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-295",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ja.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ja.js",
+    "bytes": 1762,
+    "sha256": "67b4c21d012d9145dabc663787076786da862eb98a2cc0d89cceabb197cd0e3d",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-296",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ja.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ja.min.js",
+    "bytes": 1619,
+    "sha256": "ea02783bbff5d9fef28d97356645892a33135e7ff051930aca67f0646e6e7f44",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-297",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ka.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ka.js",
+    "bytes": 2654,
+    "sha256": "8d21ee01e27920f0904f07b0b7fb6c90338d9dcd372137e0de0d80d80b9f99d3",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-298",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ka.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ka.min.js",
+    "bytes": 2504,
+    "sha256": "b589a994b07fb826ec2d6f679bf4cb145e470ca10974b9df43ba8b8f526ff3de",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-299",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_kk.js",
+    "public_path": "/lib/jquery-validate/localization/messages_kk.js",
+    "bytes": 2153,
+    "sha256": "7884e3a4337439208ec98bbef6ae2627e7dc480b4a68796196556bf34c32915e",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-300",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_kk.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_kk.min.js",
+    "bytes": 2007,
+    "sha256": "8d7027ec477656d27b2f2e407f0384f8786593205e7461107e97938489695d3d",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-301",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ko.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ko.js",
+    "bytes": 1453,
+    "sha256": "67088a4f7b63c8ffcc549706b8f2d9cd3687e03b5a0117afef74c72951a42567",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-302",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ko.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ko.min.js",
+    "bytes": 1317,
+    "sha256": "5251aaf964a955f6b6f47202fcf8ebe9bc33c46920e47bdeeb4a47dea10e3d63",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-303",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_lt.js",
+    "public_path": "/lib/jquery-validate/localization/messages_lt.js",
+    "bytes": 1559,
+    "sha256": "80f1f0e11b120613102e73fadabdd2255fc11eed968c12d4b7a0d00e179191eb",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-304",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_lt.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_lt.min.js",
+    "bytes": 1413,
+    "sha256": "bbf182982104937d7e4be5edd4f0a10022d7e7f263a03408f415da57e240ecc2",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-305",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_lv.js",
+    "public_path": "/lib/jquery-validate/localization/messages_lv.js",
+    "bytes": 1520,
+    "sha256": "cd6f1946503e1054a06e7ec64a22f41b41849b3d754330f459a603a4d0e73b18",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-306",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_lv.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_lv.min.js",
+    "bytes": 1376,
+    "sha256": "7521382b2d436a84699e4ebabddc63268b695b49bda359dbe551be881fca1320",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-307",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_mk.js",
+    "public_path": "/lib/jquery-validate/localization/messages_mk.js",
+    "bytes": 1799,
+    "sha256": "45e3449db7364430ae8c5cc747dd17199a1c557f65fdb8178194741acd9c5b4b",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-308",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_mk.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_mk.min.js",
+    "bytes": 1637,
+    "sha256": "6ab5306796a74ee7186424446d40c07a9064114fc6e29db3eff8904a984feab4",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-309",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_my.js",
+    "public_path": "/lib/jquery-validate/localization/messages_my.js",
+    "bytes": 1461,
+    "sha256": "b6e3ef82132608e1b31d1753b2684338ec73e1988d84e30fc96c8ac76a9fd1ad",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-310",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_my.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_my.min.js",
+    "bytes": 1329,
+    "sha256": "f4ba718852c2376722bd0054cd78e8618fdc0313df9707dd6a584a46e582aa20",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-311",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_nl.js",
+    "public_path": "/lib/jquery-validate/localization/messages_nl.js",
+    "bytes": 2032,
+    "sha256": "ff44cf592485cfc9609aa240f9be15dcc03caad6365f6adf39321f2cdebbaaad",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-312",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_nl.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_nl.min.js",
+    "bytes": 1813,
+    "sha256": "ee1c1b054896edad5b5a3bbef95ff9935db4370894095fa08674f69794830e17",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-313",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_no.js",
+    "public_path": "/lib/jquery-validate/localization/messages_no.js",
+    "bytes": 1297,
+    "sha256": "b19d16287eb224d64853764a530b041ff2f6ccfb6ed272508ca05204374d7376",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-314",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_no.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_no.min.js",
+    "bytes": 1160,
+    "sha256": "ad513796a9818b72d73fc22f856d89e6adf28922704003a94429d276fb9256d8",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-315",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_pl.js",
+    "public_path": "/lib/jquery-validate/localization/messages_pl.js",
+    "bytes": 1774,
+    "sha256": "7416615609bd878153ad01336af5ac8e8e198e3ee7167a5d9e89ef3fcda7aad0",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-316",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_pl.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_pl.min.js",
+    "bytes": 1610,
+    "sha256": "2dc92caacbe402cbdb49c12823f30958449a6c4f12348642cdde67bd7cf62b0e",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-317",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_pt_BR.js",
+    "public_path": "/lib/jquery-validate/localization/messages_pt_BR.js",
+    "bytes": 5953,
+    "sha256": "48645815598210224976f798babf257d5007ea0ba72140481ac2f9b5ff448502",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-318",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_pt_BR.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_pt_BR.min.js",
+    "bytes": 5588,
+    "sha256": "37d4d5c21c615d6212326f63fa3aa33fc1fb9f6bf713ac10166c6b8256a6ba99",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-319",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_pt_PT.js",
+    "public_path": "/lib/jquery-validate/localization/messages_pt_PT.js",
+    "bytes": 1885,
+    "sha256": "d3dbfd1c8de910da663db59839cce2ec7404f4e3476229732670f6caa4c33cfa",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-320",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_pt_PT.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_pt_PT.min.js",
+    "bytes": 1710,
+    "sha256": "8b022e10d7a72015b0658b184143dc80377c498139cbc4582346735f70553bf2",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-321",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ro.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ro.js",
+    "bytes": 1649,
+    "sha256": "7b520a6ead659b753d1241b2bb9bcd3b9d575402d4d411dac9b18734912c5040",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-322",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ro.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ro.min.js",
+    "bytes": 1506,
+    "sha256": "ae1ac98ea7685c34e410a14bca2594fdc4cbaf109a68c454c8c125410ae00fe1",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-323",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ru.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ru.js",
+    "bytes": 2166,
+    "sha256": "5db54beb9573751300b44e889d6c14330fc30103279fe8bae59e1c035373d5b9",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-324",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ru.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ru.min.js",
+    "bytes": 2015,
+    "sha256": "9751d1393a63c56696825237eecf21fa1d5f1ad5bbd0f69e6444d26ef3e605e8",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-325",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_sd.js",
+    "public_path": "/lib/jquery-validate/localization/messages_sd.js",
+    "bytes": 1668,
+    "sha256": "d6accc9d9cc46579ef38692dce55ad1c28dcf81df689c952b3a5cd873b11df56",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-326",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_sd.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_sd.min.js",
+    "bytes": 1482,
+    "sha256": "786979ef303e898c27fd2ee705493d54a99dc060325f5e6bf4c890c1958f40cb",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-327",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_si.js",
+    "public_path": "/lib/jquery-validate/localization/messages_si.js",
+    "bytes": 1437,
+    "sha256": "28920b8bd16fbfc535361bb7bfaea338b69489ed8e0d2ea25242b96968362c83",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-328",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_si.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_si.min.js",
+    "bytes": 1309,
+    "sha256": "e4f0ebb466f63ec2785a210870ffa734dd2c2fea4d0ca444ef385e65fc42a1f3",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-329",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_sk.js",
+    "public_path": "/lib/jquery-validate/localization/messages_sk.js",
+    "bytes": 1240,
+    "sha256": "fb61957f24bcdbe36dfc13c5e04bb2bfc05cb0365f7febaea096d63a1d3c3b1a",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-330",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_sk.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_sk.min.js",
+    "bytes": 1088,
+    "sha256": "50df72915b81373c25f27a70e1fc830016f7ed9eb5899d49d5e7ee5658091c10",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-331",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_sl.js",
+    "public_path": "/lib/jquery-validate/localization/messages_sl.js",
+    "bytes": 1461,
+    "sha256": "33585f1fdc350c8f694afbaf3e123cedf829d2f5b012ae64d2ba6d8a26fe381c",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-332",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_sl.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_sl.min.js",
+    "bytes": 1314,
+    "sha256": "7d1a3f87c0980fcec03618b7b411e32ea6a801c0e3a3b2a025ade1c4a193b07a",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-333",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_sr.js",
+    "public_path": "/lib/jquery-validate/localization/messages_sr.js",
+    "bytes": 1855,
+    "sha256": "218087a90a2d02eb8d67c3c8fb6c148acf12169a49ef047740d2657aad0f1710",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-334",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_sr.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_sr.min.js",
+    "bytes": 1699,
+    "sha256": "f07a43d6d93aaa42ce2ad477c2bb141102c4171f53c85d3bfcd32e83ea01db57",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-335",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_sr_lat.js",
+    "public_path": "/lib/jquery-validate/localization/messages_sr_lat.js",
+    "bytes": 1446,
+    "sha256": "369cfda5d357f1ff67030c70b2e17b3351aab59298333a54170224de1913d540",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-336",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_sr_lat.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_sr_lat.min.js",
+    "bytes": 1273,
+    "sha256": "c07e5cb7d2f4ba8adf5f9a49e65e3f645f241647e796b3e1525bd132313f87f3",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-337",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_sv.js",
+    "public_path": "/lib/jquery-validate/localization/messages_sv.js",
+    "bytes": 1412,
+    "sha256": "f4f6bc7d20437085ff8daf54d7fe62bf732583f6dcb9e4d095e7284b11633459",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-338",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_sv.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_sv.min.js",
+    "bytes": 1277,
+    "sha256": "309f5ba0332b014ad78d15601c8f65ebbb7e6d5878f79847c1fe5f0c9e91f05f",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-339",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_th.js",
+    "public_path": "/lib/jquery-validate/localization/messages_th.js",
+    "bytes": 2212,
+    "sha256": "74ab8f1ee2fa75abe487be23ec1172af480dc3d9cf59844688e32a69502df46a",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-340",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_th.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_th.min.js",
+    "bytes": 2078,
+    "sha256": "da48a74952c80d2df27b7aba523706137ef527e43b06f4aeada38820d1b4d75a",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-341",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_tj.js",
+    "public_path": "/lib/jquery-validate/localization/messages_tj.js",
+    "bytes": 2066,
+    "sha256": "545d7601a6a59de3d538fe05f4e5acacab2985c4eddd18ad06d2cb10018471d0",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-342",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_tj.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_tj.min.js",
+    "bytes": 1910,
+    "sha256": "c87e81c2c8f1bc9309014f8994d014893f21c3a322e32532ca0c36c952192913",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-343",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_tr.js",
+    "public_path": "/lib/jquery-validate/localization/messages_tr.js",
+    "bytes": 1793,
+    "sha256": "0a9f15b766f56708ac8b8d935ab3fd39977dafd5ab10d270a869d4dce2b068d3",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-344",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_tr.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_tr.min.js",
+    "bytes": 1649,
+    "sha256": "959759540cdbe6c75e51200f678b14bee1c1902bc690641d023b82f12f90ae68",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-345",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_uk.js",
+    "public_path": "/lib/jquery-validate/localization/messages_uk.js",
+    "bytes": 2121,
+    "sha256": "1ca0dc558894426cae076807d90baf19e0250d11fde3d7b6a87b72488cfbbddf",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-346",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_uk.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_uk.min.js",
+    "bytes": 1962,
+    "sha256": "5768dfb339361a1714c014d02791f0841c51e5f95c67afd4e6a259c2b5c64a9b",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-347",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ur.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ur.js",
+    "bytes": 1821,
+    "sha256": "4195e72befa4859e31a14ec2f4d14dd1cf1c95a43b5cb98d62060b72bdc23433",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-348",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_ur.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_ur.min.js",
+    "bytes": 1688,
+    "sha256": "edcabb70f966f4e7bb32cd7a29889745fa7d8c614201f64da2075469ec6576d4",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-349",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_vi.js",
+    "public_path": "/lib/jquery-validate/localization/messages_vi.js",
+    "bytes": 1297,
+    "sha256": "ae081cb201c878659fef088d88c81c52166f565d60b338a4d379ece941426a08",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-350",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_vi.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_vi.min.js",
+    "bytes": 1152,
+    "sha256": "8b707ae5df75b0001198c101b5a97f62b7f1c9e515b4b890a645356f4440c6b3",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-351",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_zh.js",
+    "public_path": "/lib/jquery-validate/localization/messages_zh.js",
+    "bytes": 1401,
+    "sha256": "558d1440dbb8d010cc022857226e394f144a68c97cc29cf0b3e20621eff89e76",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-352",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_zh.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_zh.min.js",
+    "bytes": 1233,
+    "sha256": "268ebb484bcd05504ffaff70023dc50499fe9b7eb56a77b90165899c95e91aef",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-353",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_zh_TW.js",
+    "public_path": "/lib/jquery-validate/localization/messages_zh_TW.js",
+    "bytes": 1373,
+    "sha256": "4a361119362a6b0d98b6289e9f1e31825d56d575b618fffafd49263ee79c8b51",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-354",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/messages_zh_TW.min.js",
+    "public_path": "/lib/jquery-validate/localization/messages_zh_TW.min.js",
+    "bytes": 1182,
+    "sha256": "40f0ee28af7539662370ac7d5d155d0368254f21152f4b8ce367e3f3f42a35ca",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-355",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/methods_de.js",
+    "public_path": "/lib/jquery-validate/localization/methods_de.js",
+    "bytes": 688,
+    "sha256": "0165afd39bcf532f933e9f3a6518e655077c099454d53cd62432db96bad780ba",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-356",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/methods_de.min.js",
+    "public_path": "/lib/jquery-validate/localization/methods_de.min.js",
+    "bytes": 559,
+    "sha256": "ae9f882f247ba3fc1d735de2a21d7a5a6a9825e6b097e32d83c8a3da8d243ead",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-357",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/methods_es_CL.js",
+    "public_path": "/lib/jquery-validate/localization/methods_es_CL.js",
+    "bytes": 691,
+    "sha256": "7151db662f02ff3973dbe1ec8b8eca790e0b161befe0f915d9920945d792f4e6",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-358",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/methods_es_CL.min.js",
+    "public_path": "/lib/jquery-validate/localization/methods_es_CL.min.js",
+    "bytes": 559,
+    "sha256": "0930b50e34c825e29354782d06315dc1ceb623ac8286644aeb5b5f30d7b60c14",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-359",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/methods_fi.js",
+    "public_path": "/lib/jquery-validate/localization/methods_fi.js",
+    "bytes": 667,
+    "sha256": "2e4f6d0c97f1c1b3f8fd732a7f49cd77240028561264a9563279c9df9942a7d3",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-360",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/methods_fi.min.js",
+    "public_path": "/lib/jquery-validate/localization/methods_fi.min.js",
+    "bytes": 538,
+    "sha256": "1a8f93dc41985b03b58616d53a43fd672ae96634ca18da478e5eb280384daf1e",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-361",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/methods_it.js",
+    "public_path": "/lib/jquery-validate/localization/methods_it.js",
+    "bytes": 688,
+    "sha256": "34599c99323b2398d0ac8abef2ee138172c82ed6a46c2a2b866974f5455f6ac6",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-362",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/methods_it.min.js",
+    "public_path": "/lib/jquery-validate/localization/methods_it.min.js",
+    "bytes": 559,
+    "sha256": "0930b50e34c825e29354782d06315dc1ceb623ac8286644aeb5b5f30d7b60c14",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-363",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/methods_nl.js",
+    "public_path": "/lib/jquery-validate/localization/methods_nl.js",
+    "bytes": 700,
+    "sha256": "8ba8fa01b59ec16bf187737e9d811d2a68b805225f750dd83e588cafe5c62f43",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-364",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/methods_nl.min.js",
+    "public_path": "/lib/jquery-validate/localization/methods_nl.min.js",
+    "bytes": 571,
+    "sha256": "e05061a8e687932a1e967c0ed75474dc111071dff2505eff1911b031524280d4",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-365",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/methods_pt.js",
+    "public_path": "/lib/jquery-validate/localization/methods_pt.js",
+    "bytes": 554,
+    "sha256": "e9791ac5a14d47d54e2290201b321f47d8d099853478924372d49bacf3fcf727",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-366",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validate/localization/methods_pt.min.js",
+    "public_path": "/lib/jquery-validate/localization/methods_pt.min.js",
+    "bytes": 461,
+    "sha256": "43dc323f12a11116482c993f8e904bd71a535d776516aab00b746b0124836538",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-367",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+    "public_path": "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+    "bytes": 19749,
+    "sha256": "f8a6134910849e0d4c50437b200f59022151882f9758cc5983fe1f551fe5fd4d",
+    "incoming": [],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-368",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+    "public_path": "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+    "bytes": 5764,
+    "sha256": "ce4545c430810342be165e906434690f41be190f937ee1afef15e420033af61f",
+    "incoming": [
+      "Shared/_ValidationScriptsPartial:2"
+    ],
+    "tracked": false,
+    "category": "vendor dependency"
+  },
+  {
+    "id": "ASSET-369",
+    "path": "Src/Portfolio_Core/Portfolio/wwwroot/robots.txt",
+    "public_path": "/robots.txt",
+    "bytes": 31,
+    "sha256": "6299304778dbecd15f421eafe406881e81f19fcca6de684a98b186aeb6f22ac8",
+    "incoming": [],
+    "tracked": true,
+    "category": "site asset"
+  }
+]

@@ -1,142 +1,203 @@
-﻿@page
+@page
 @model Portfolio.Pages.Projects.IndexModel
 @{
     ViewData["Title"] = "Projects";
 }
-
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
-
-<div class="row pt-3">
-    <div class="col-md-4">
-        <h3>Azure Services - Academy Mortgage</h3>
-        <p>
-            This project is to highlight work that I did for Academy Mortgage and covers multiple Azure based Services. The following examples and descriptions
-            will cover work related to the development of custom API and Azure applications and services.
-        </p>
-        <p>
-            <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/AzureServices">Learn more >></a>
-        </p>
-    </div>
-    <div class="col-md-4">
-        <h3>Translation Support</h3>
-        <p>
-            In this project I was a contractor supporting primarily in the area of Quality Assurance and Automation for
-            translation services for the Church of Jesus Christ of Latter-day Saints. This project was primarily plugins for
-            the Trados software suite and customized workflows through WorldServer, a translation management system. I helped
-            support the translation of materials for the church in over 100 languages.
-        </p>
-        <p>
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-kanban" aria-hidden="true"></i> Selected work and project archive
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+    <p class="page-intro">
+        Enterprise delivery, independent software, and the experiments that shaped my engineering experience.
+    </p>
+</header>
+<section class="content-section">
+    <h2>
+        Enterprise delivery
+    </h2>
+    <div class="project-grid">
+        <article class="project-card">
+            <h3>
+                Global Education Architecture and Engineering
+            </h3>
+            <p>
+                I am an ICS (Information Communication Services) employee of The Church of Jesus Christ of Latter-day Saints, with a direct assignment to support CES (Church Education Services) services and applications. My Global Education work includes BYU-Pathway and Seminaries and Institutes.
+            </p>
+            <p>
+                My employment accomplishments span enterprise quality engineering through TAPIR and VISTA,
+                AI-assisted engineering and Software Factory adoption, enterprise AI architecture and governance,
+                security remediation, and cloud and DevOps modernization. The detailed account distinguishes
+                implementation work, recommendations, evaluations, and ongoing transition planning.
+            </p>
+            <p>
+                <a class="btn btn-site" asp-page="/Experience/EmploymentAccomplishments">Explore employment accomplishments &gt;&gt;</a>
+            </p>
+        </article>
+        <article class="project-card">
+            <h3>
+                Azure Services - Academy Mortgage
+            </h3>
+            <p>
+                This project is to highlight work that I did for Academy Mortgage and covers multiple Azure based Services. The following examples and descriptions
+                will cover work related to the development of custom API and Azure applications and services.
+            </p>
+            <p>
+                <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/AzureServices">Learn more >></a>
+            </p>
+        </article>
+        <article class="project-card">
+            <h3>
+                Translation Support
+            </h3>
+            <p>
+                In this project I was a contractor supporting primarily in the area of Quality Assurance and Automation for
+                translation services for the Church of Jesus Christ of Latter-day Saints. This project was primarily plugins for
+                the Trados software suite and customized workflows through WorldServer, a translation management system. I helped
+                support the translation of materials for the church in over 100 languages.
+            </p>
             @* <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/LDSTS">Learn more >></a>*@
-        </p>
-    </div>    <div class="col-md-4">
-        <h3>DevOps - Academy Mortgage</h3>
-        <p>
-            This project focused on setting up and configuring Azure DevOps for Academy Mortgage. I leveraged my experience as a DevOps Engineer and
-            manager to help Academy Mortgage set up their DevOps environment and processes.
-        </p>
-        <p>
-            <a class="btn btn-info btn-site" asp-area="" asp-page="/Skills/DevOps">Learn more >></a>
-        </p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-4">
-        <h3>Encompass - Academy Mortgage</h3>
-        <p>
-            This project focused on Loan Origination for mortgages and utilized an application developed by Ellie Mae.
-            The work performed for Academy was focused on the customization of the features and functionality surrounding the use of the Encompass software designed
-            for assisting loan officers and underwriters the ability to validate and originate loans for individuals seeking to purchase properties.
-        </p>
-        <p>
-            <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/Encompass">Learn more >></a>
-        </p>
-    </div>
-    <div class="col-md-4">
-        <h3>Various WordPress Sites</h3>
-        <p>
-            This has been various small projects helping to implement and support various WordPress sites.
-            This included maintenance, updates, and some custom development for the sites.
-        </p>
-        <p>
-            @* <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/WordPress">Learn more >></a>*@
-        </p>
-    </div>
-    <div class="col-md-4">
-        <h3>AdverTran - Carey and Associates</h3>
-        <p>
-            This was a collaborative project that I started and began development of in 2007. It's use was for the creating and managing playlists
-            for onscreen advertising in theaters or other locations for digital media and content advertising.
-        </p>
-        <p>
-            <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/AdverTran">Learn more >></a>
-        </p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-4">
-        <h3>MLMLinkup</h3>
-        <p>
-            This project is one that I personally developed in 2016 using C#.NET, MVC, Bootstrap, and other available libraries.
-            Its primary purpose was to help me learn the ins and outs of UI development specifically utilizing Bootstrap for the
-            beautification and usability of the site. This is an ongoing project.
-        </p>
-        <p>
-            <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/MlmLinkup">Learn more >></a>
-        </p>
-    </div>
-    <div class="col-md-4">
-        <h3>Family Key</h3>
-        <p>
-            The Family Key project was developed as a partnership under Kumusoft, LLC. This project was originally designed to host genealogical data that would allow
-            search engines to search for your data and help you in our family quest to find your ancestors. The development for this project started before 2001 and
-            expanded about the time I came on board. Sadly, the project was terminated in 2005 and never went live.
-        </p>
-        <p>
-            <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/FamilyKey">Learn more >></a>
-        </p>
-    </div>
-    <div class="col-md-4">
-        <h3>Swipeclock - Timekeeping and Payroll</h3>
-        <p>
-            I was a part of a team that supported the Swipeclock application for timekeeping and payroll.
-            This was a full stack development project supporting mid-sized companies in their timekeeping and payroll needs.
-        </p>
-        <p>
+        </article>
+        <article class="project-card">
+            <h3>
+                DevOps - Academy Mortgage
+            </h3>
+            <p>
+                This project focused on setting up and configuring Azure DevOps for Academy Mortgage. I leveraged my experience as a DevOps Engineer and
+                manager to help Academy Mortgage set up their DevOps environment and processes.
+            </p>
+            <p>
+                <a class="btn btn-info btn-site" asp-area="" asp-page="/Skills/DevOps">Learn more >></a>
+            </p>
+        </article>
+        <article class="project-card">
+            <h3>
+                Encompass - Academy Mortgage
+            </h3>
+            <p>
+                This project focused on Loan Origination for mortgages and utilized an application developed by Ellie Mae.
+                The work performed for Academy was focused on the customization of the features and functionality surrounding the use of the Encompass software designed
+                for assisting loan officers and underwriters the ability to validate and originate loans for individuals seeking to purchase properties.
+            </p>
+            <p>
+                <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/Encompass">Learn more >></a>
+            </p>
+        </article>
+        <article class="project-card">
+            <h3>
+                Swipeclock - Timekeeping and Payroll
+            </h3>
+            <p>
+                I was a part of a team that supported the Swipeclock application for timekeeping and payroll.
+                This was a full stack development project supporting mid-sized companies in their timekeeping and payroll needs.
+            </p>
             @* <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/Swipeclock">Learn more >></a>*@
-        </p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-4">
-        <h3>Redhead Mobile Apps</h3>
-        <p>
-            This project is based on a request by Redhead Mobile Apps to improve the user experience for their customers. This is a full stack development
-            project includes both a web dashboard, using Bootstrap, and a Web API service that drives the data for the mobile application.
-        </p>
-        <p>
-            <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/RedheadMobile">Learn more >></a>
-        </p>
-    </div>
-    <div class="col-md-4">
-        <h3>Membership Data Sync</h3>
-        <p>
-            This project was to replace a direct SQL Database connection with a Web API service that would allow for the synchronization of 
-            membership data between two different systems. This project was developed using C#.NET and Web API with a windows
-            service.
-        </p>
-        <p>
+        </article>
+        <article class="project-card">
+            <h3>
+                Membership Data Sync
+            </h3>
+            <p>
+                This project was to replace a direct SQL Database connection with a Web API service that would allow for the synchronization of
+                membership data between two different systems. This project was developed using C#.NET and Web API with a windows
+                service.
+            </p>
             @* <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/ServicesSync">Learn more >></a>*@
-        </p>
+        </article>
     </div>
-        <div class="col-md-4">
-        <h3>Various Jobs and Projects</h3>
-        <p>
-            Throughout my career I have had the opportunity to work on many different projects and jobs that varied in size and scope.
-            My abilities to adapt and learn quickly have helped me to be successful in many of these projects.
-        </p>
-        <p>
+</section>
+<section class="content-section">
+    <h2>
+        Independent products and other work
+    </h2>
+    <div class="project-grid">
+        <article class="project-card">
+            <h3>
+                Various WordPress Sites
+            </h3>
+            <p>
+                This has been various small projects helping to implement and support various WordPress sites.
+                This included maintenance, updates, and some custom development for the sites.
+            </p>
+            @* <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/WordPress">Learn more >></a>*@
+        </article>
+        <article class="project-card">
+            <h3>
+                AdverTran - Carey and Associates
+            </h3>
+            <p>
+                This was a collaborative project that I started and began development of in 2007. It's use was for the creating and managing playlists
+                for onscreen advertising in theaters or other locations for digital media and content advertising.
+            </p>
+            <p>
+                <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/AdverTran">Learn more >></a>
+            </p>
+        </article>
+        <article class="project-card">
+            <h3>
+                MLMLinkup
+            </h3>
+            <p>
+                This project is one that I personally developed in 2016 using C#.NET, MVC, Bootstrap, and other available libraries.
+                Its primary purpose was to help me learn the ins and outs of UI development specifically utilizing Bootstrap for the
+                beautification and usability of the site. This is an ongoing project.
+            </p>
+            <p>
+                <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/MlmLinkup">Learn more >></a>
+            </p>
+        </article>
+        <article class="project-card">
+            <h3>
+                Family Key
+            </h3>
+            <p>
+                The Family Key project was developed as a partnership under Kumusoft, LLC. This project was originally designed to host genealogical data that would allow
+                search engines to search for your data and help you in our family quest to find your ancestors. Development began around 2001,
+                and I became involved around 2002. The project ended in 2005 following a partnership failure and never went live.
+            </p>
+            <p>
+                <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/FamilyKey">Learn more >></a>
+            </p>
+        </article>
+        <article class="project-card">
+            <h3>
+                Redhead Mobile Apps
+            </h3>
+            <p>
+                This project is based on a request by Redhead Mobile Apps to improve the user experience for their customers. This is a full stack development
+                project includes both a web dashboard, using Bootstrap, and a Web API service that drives the data for the mobile application.
+            </p>
+            <p>
+                <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/RedheadMobile">Learn more >></a>
+            </p>
+        </article>
+        <article class="project-card">
+            <h3>
+                Various Jobs and Projects
+            </h3>
+            <p>
+                Throughout my career I have had the opportunity to work on many different projects and jobs that varied in size and scope.
+                My abilities to adapt and learn quickly have helped me to be successful in many of these projects.
+            </p>
             @* <a class="btn btn-info btn-site" asp-area="" asp-page="/Projects/Various">Learn more >></a>*@
-        </p>
+        </article>
     </div>
-    </div>
+</section>
+<section class="content-panel">
+    <h2>
+        Developer foundations and mentoring
+    </h2>
+    <ul class="resource-list">
+        <li>
+            <a asp-page="/Projects/Startup">Application startup examples</a>
+        </li>
+        <li>
+            <a asp-page="/Projects/AGameEmpowerment">A Game Empowerment</a>
+        </li>
+        <li>
+            <a asp-page="/Git">Public repositories</a>
+        </li>
+    </ul>
+</section>

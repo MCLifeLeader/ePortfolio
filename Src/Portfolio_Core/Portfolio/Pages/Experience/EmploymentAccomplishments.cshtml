@@ -1,0 +1,279 @@
+@page
+@{
+    ViewData["Title"] = "Employment Accomplishments";
+}
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-briefcase" aria-hidden="true"></i> Portfolio architecture &amp; engineering
+    </p>
+    <h1>
+        Employment Accomplishments
+    </h1>
+</header>
+<div class="reading-layout">
+<nav class="section-nav" aria-label="Accomplishment sections">
+    <p class="page-kicker">
+        On this page
+    </p>
+    <ul>
+        <li>
+            <a href="#software-delivery">Software Delivery and Systems Integration</a>
+        </li>
+        <li>
+            <a href="#quality-engineering">Quality Engineering and Automation</a>
+        </li>
+        <li>
+            <a href="#developer-enablement">Developer Toolbox and Engineering Enablement</a>
+        </li>
+        <li>
+            <a href="#ai-engineering">AI-Assisted Engineering and Software Factory</a>
+        </li>
+        <li>
+            <a href="#enterprise-ai">Enterprise AI Architecture and Reuse</a>
+        </li>
+        <li>
+            <a href="#portfolio-governance">Portfolio Architecture and Engineering Governance</a>
+        </li>
+        <li>
+            <a href="#security">Security and Technology Onboarding</a>
+        </li>
+        <li>
+            <a href="#hosting-transition">Application Hosting Transition Planning and Security Remediation</a>
+        </li>
+        <li>
+            <a href="#cloud-devops">Cloud, DevOps, and Platform Engineering</a>
+        </li>
+    </ul>
+    <a asp-page="/Experience/Index">Back to experience</a>
+</nav>
+<div class="reading-main">
+<p>
+    I am an ICS (Information Communication Services) employee of The Church of Jesus Christ of Latter-day Saints, with a direct assignment to support CES (Church Education Services) services and applications. My Global Education work includes BYU-Pathway and Seminaries and Institutes.
+</p>
+<p>
+    I have growing experience with Student Information Systems (SIS), helping develop and support educational applications for students. I also wired OAuth and OpenID Connect (OIDC) into my starter application using Okta.
+</p>
+<p class="page-intro" data-accomplishment-ids="E49 E51 E52">
+    My work across Global Education connects architecture, engineering, quality assurance, product leadership,
+    AI strategy, governance, and security. I created reusable starter projects, automation scaffolding, and QA templates, and developed standards,
+    frameworks, operating models, training, and roadmaps to help improve release confidence, automation maturity, security posture, and engineering effectiveness.
+</p>
+<p>
+    I currently serve as a Sr. Software Architect (Portfolio Architect), a role I began in February 2026,
+    following my Engineering Manager role from February 2021 to February 2026. The work below includes
+    established practices, implementation contributions, recommendations, evaluations, and ongoing transition planning.
+</p>
+<section aria-labelledby="software-delivery" class="content-panel prose">
+    <h2 id="software-delivery">
+        Software Delivery and Systems Integration
+    </h2>
+    <p data-accomplishment-ids="E58">
+        I have delivered full-stack production applications using these shared engineering resources.
+        The reusable starters capture working architecture, implementation patterns, and validation practices
+        that support product development.
+    </p>
+    <h3 id="shared-application-templates">
+        Shared Full-Stack Application Templates
+    </h3>
+    <p data-accomplishment-ids="E53">
+        I created C#/.NET and Node.js/React starter projects that bring together ASP.NET Core APIs,
+        Next.js clients, shared .NET libraries, Aspire orchestration, QA automation, and delivery templates.
+        The broader application foundation includes authentication integration, Redis caching,
+        feature management, configuration validation, and configurable telemetry.
+    </p>
+    <p data-accomplishment-ids="E53">
+        I wired OAuth and OpenID Connect (OIDC) into my starter application using Okta.
+    </p>
+    <h3 id="marketing-website-foundation">
+        Marketing Website Foundation
+    </h3>
+    <p data-accomplishment-ids="E53">
+        I built a focused marketing-site starter with feature-based boundaries, reusable UI components,
+        localization, and token-based light and dark themes. Its same-origin API proxy validates write payloads,
+        restricts upstream destinations, filters headers, limits payload sizes, applies timeouts,
+        and returns safe errors with trace correlation. Unit, client, and browser tests accompany the starter,
+        alongside runtime-only non-root container packaging and delivery templates.
+    </p>
+    <p>
+        <strong>Technologies:</strong> C#, .NET 10, ASP.NET Core, Node.js, Next.js, React, TypeScript,
+        .NET Aspire, Tailwind CSS, Headless UI, Zod, Storybook, NUnit, Selenium, Vitest,
+        OpenTelemetry, Redis, Auth0/OIDC, Docker, and Azure DevOps.
+    </p>
+    <h3>
+        Systems and API Integration
+    </h3>
+    <p data-accomplishment-ids="E55">
+        I integrated Zendesk, our third-party help-center documentation and training platform, with internal services
+        that provide custom role-based access. I also implemented various API integrations and services
+        to connect applications and support product functionality.
+    </p>
+</section>
+<section aria-labelledby="quality-engineering" class="content-panel prose">
+    <h2 id="quality-engineering">
+        Quality Engineering and Automation
+    </h2>
+    <p data-accomplishment-ids="E56">
+        I was the primary developer of a reusable .NET QA automation framework, carrying out nearly all
+        of its development. Its modular architecture supports API, browser, data, and container-backed test suites
+        through shared configuration, dependency injection, logging, and fixture lifecycles.
+    </p>
+    <ul>
+        <li>
+            Delivered named-site configuration and multi-browser execution across Selenium and Playwright,
+            with reusable page models and API test clients.
+        </li>
+        <li>
+            Implemented diagnostic capture, redaction, schema validation, screenshot evidence,
+            and HTML sequence reports to help teams investigate failures.
+        </li>
+        <li>
+            Built isolated container-backed validation environments with controlled resource lifecycles,
+            dynamic endpoints, API mocks, and OAuth/OIDC test flows.
+        </li>
+        <li>
+            Added schema-validated workflow specifications, application discovery, and test traceability
+            for AI-assisted authoring while keeping AI services separate from test execution.
+        </li>
+        <li>
+            Delivered reusable packages and browser execution tooling for consuming test suites.
+        </li>
+    </ul>
+    <p>
+        <strong>Technologies:</strong> C#, .NET 8/9/10, NUnit, Selenium, Playwright, Testcontainers,
+        Docker/Podman, WireMock, Keycloak, OAuth/OIDC, SQL Server, NuGet, YAML, JSON Schema,
+        and Playwright MCP for application discovery.
+    </p>
+    <p data-accomplishment-ids="E01 E02 E03 E06 E08 E12 E50">
+        I authored and drove enterprise QA modernization strategies for Global Education, bringing together
+        repository-owned testing, shared QA platform capabilities, enterprise end-to-end validation, automated
+        quality gates, and objective release governance. I helped shape TAPIR, VISTA, and shift-left quality
+        initiatives, positioning TAPIR and VISTA as enterprise confidence layers and working to increase testing
+        coverage. I defined end-to-end testing strategies, release-confidence expectations, and business-critical
+        testing paths, and led architecture work to clarify quality ownership.
+    </p>
+    <p data-accomplishment-ids="E05 E07 E09 E10 E11">
+        I standardized enterprise QA frameworks using Microsoft-, Amazon-, and Google-style maturity models,
+        organized TAPIR training and governance, and created shift-left automation frameworks. My implementation
+        contributions included directing work involving Playwright, NUnit, QA API, WireMock, and automated testing
+        standards. I also created team automation scaffolding and reusable QA templates to support consistent approaches.
+    </p>
+    <p data-accomplishment-ids="E04">
+        These strategies were documented in <cite>E2E Quality Engineering</cite>,
+        <cite>Global Ed - QA Automation Overview</cite>, and <cite>Global Ed - QA Automation Roadmap</cite>.
+    </p>
+</section>
+<section aria-labelledby="developer-enablement" class="content-panel prose">
+    <h2 id="developer-enablement">
+        Developer Toolbox and Engineering Enablement
+    </h2>
+    <p data-accomplishment-ids="E57">
+        I developed a shared developer toolbox that combines Dev Containers, local service emulators,
+        cross-platform setup and teardown scripts, and reusable AI engineering resources.
+        Consumer-repository bootstrap tooling preserves existing files while adding shared setup support.
+    </p>
+    <p>
+        The toolbox provides local database, cache, storage, messaging, email, API-mocking, and telemetry
+        services. A canonical library of engineering instructions, roles, prompts, and skills supplies
+        synchronized adapters for GitHub Copilot, Codex, and Claude Code.
+    </p>
+    <p>
+        <strong>Technologies:</strong> PowerShell, Bash, Dev Containers, Docker/Podman Compose,
+        SQL Server, PostgreSQL, Cosmos DB and DynamoDB emulators, Redis, Azurite, Azure Service Bus emulator,
+        WireMock, smtp4dev, Seq, OpenTelemetry, Azure DevOps pipeline templates, and GitHub Actions workflow definitions.
+    </p>
+</section>
+<section aria-labelledby="ai-engineering" class="content-panel prose">
+    <h2 id="ai-engineering">
+        AI-Assisted Engineering and Software Factory
+    </h2>
+    <p data-accomplishment-ids="E13 E14 E17 E20">
+        I led architecture work for AI-assisted development, AI-generated testing,
+        agent orchestration, AI governance, review workflows, and AI-enabled engineering practices.
+        I influenced Software Factory direction and helped establish portfolio adoption guidance,
+        brought architecture teams together to develop approaches to AI and quality engineering, and served as the lead for
+        engineer-focused AI enablement and technical implementation within the Education AI strategy.
+    </p>
+    <p data-accomplishment-ids="E15 E16 E18 E19">
+        I defined AI-assisted QA processes and AI-generated testing strategies, explored AI code-review approaches,
+        and established governance and review models for AI-generated artifacts. I also helped define how workforce
+        responsibilities and engineering roles can evolve in an AI-enabled future.
+    </p>
+    <p>
+        I use AI as a thinking partner while retaining human accountability, verification, appropriate testing,
+        and operational safeguards. Critical production and architecture decisions remain subject to human oversight.
+    </p>
+</section>
+<section aria-labelledby="enterprise-ai" class="content-panel prose">
+    <h2 id="enterprise-ai">
+        Enterprise AI Architecture and Reuse
+    </h2>
+    <p data-accomplishment-ids="E21 E22 E23 E24 E26 E27">
+        I helped define agent orchestration frameworks, shared marketplace models, skills governance,
+        AI reuse patterns, shared skill repositories, and agent lifecycle governance.
+    </p>
+    <p data-accomplishment-ids="E22 E23 E24 E25 E28 E29">
+        I contributed to Foundry and Bedrock evaluations and recommended shared enterprise
+        marketplaces, skill governance boards, versioning and ownership requirements, standardized deployment
+        pipelines, and reusable organizational AI capabilities.
+    </p>
+</section>
+<section aria-labelledby="portfolio-governance" class="content-panel prose">
+    <h2 id="portfolio-governance">
+        Portfolio Architecture and Engineering Governance
+    </h2>
+    <p data-accomplishment-ids="E30 E31 E32 E33 E34">
+        As a recurring participant and contributor in the Portfolio Architecture &amp; Engineering Council,
+        I helped drive portfolio architecture standards, AI architecture readiness, technology governance,
+        Software Factory strategy, cloud direction decisions, and engineering modernization efforts.
+        My contributions included AI spend governance recommendations, architecture impact analysis,
+        and contributions to cloud migration strategy and platform modernization planning.
+    </p>
+    <p data-accomplishment-ids="E54">
+        I provided technology reviews to support approval of technology adoption and implementation.
+    </p>
+</section>
+<section aria-labelledby="security" class="content-panel prose">
+    <h2 id="security">
+        Security and Technology Onboarding
+    </h2>
+    <p data-accomplishment-ids="E35 E36 E37 E38 E39">
+        My security review and governance work involving BYU-Pathway systems included security ownership analysis,
+        incident-response governance, technology onboarding controls, and security review process improvements.
+        I worked on monitoring and observability expectations, as well as shadow IT identification and remediation.
+    </p>
+</section>
+<section aria-labelledby="hosting-transition" class="content-panel prose">
+    <h2 id="hosting-transition">
+        Application Hosting Transition Planning and Security Remediation
+    </h2>
+    <p data-accomplishment-ids="E40 E41">
+        I was assigned to migrate the missionary chat application from Render and other unapproved platforms
+        into approved enterprise environments, integrating GitHub security controls and deployment processes.
+        My responsibilities included technology governance, security remediation, source-code migration,
+        GitHub security integration, hosting transition planning, and operational readiness review.
+    </p>
+    <p data-accomplishment-ids="E42">
+        Work already performed included acquiring the source code, enabling scanning and monitoring,
+        identifying security issues, and beginning transition planning toward approved hosting models.
+    </p>
+</section>
+<section aria-labelledby="cloud-devops" class="content-panel prose">
+    <h2 id="cloud-devops">
+        Cloud, DevOps, and Platform Engineering
+    </h2>
+    <p data-accomplishment-ids="E43 E44 E45 E46 E47 E48">
+        My work included CI/CD quality integration, GitHub migration efforts, automation governance,
+        and cloud architecture reviews. I contributed to migration and modernization planning for Azure and AWS,
+        including AWS adoption, Azure-to-AWS transitions, cloud governance, enterprise deployment standards,
+        and platform engineering modernization.
+    </p>
+</section>
+<p>
+    <a asp-page="/Experience/WorkHistory">Explore my full work history</a>,
+    <a asp-page="/Skills/Leadership">leadership and mentoring</a>, and
+    <a asp-page="/Skills/AI">AI engineering experience</a>.
+</p>
+</div>
+<aside class="reading-aside">
+</aside>
+</div>

@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Src/Portfolio_Core/Portfolio/bin/Debug/net8.0/Portfolio.dll",
+            "program": "${workspaceFolder}/Src/Portfolio_Core/Portfolio/bin/Debug/net10.0/Portfolio.dll",
             "args": [],
             "cwd": "${workspaceFolder}/Src/Portfolio_Core/Portfolio",
             "stopAtEntry": false,

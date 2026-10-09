@@ -1,35 +1,127 @@
-﻿@page
+@page
 @model Portfolio.Pages.Skills.IndexModel
 @{
     ViewData["Title"] = "Skills";
 }
-
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
-
-<div class="row pt-3">
-    <div class="col-md-12">
-        <p>&nbsp;</p>
-    </div>
-    <div class="col-md-4">
-        <h3>Technologies</h3>
-        <p>This is a deeper dive into the technologies and skills that I have learned and developed.</p>
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-code-slash" aria-hidden="true"></i> Capabilities
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+</header>
+<div class="prose">
+    <section aria-labelledby="capabilities">
+        <h2 id="capabilities">
+            Engineering, architecture, and leadership
+        </h2>
+        <p>
+            My background connects quality assurance, full stack software development, engineering management, architecture governance, and portfolio architecture. The detailed pages retain my technical history, proficiency distinctions, leadership development, and practical AI work.
+        </p>
+        <p>
+            <a asp-page="/Architecture">Architecture &amp; Governance</a> · <a asp-page="/Skills/TechnicalHistory">Recorded technical experience</a> · <a asp-page="/Git">Repository descriptions</a>
+        </p>
+    </section>
+</div>
+<div class="project-grid">
+    <section class="project-card prose">
+        <h2>
+            Technologies
+        </h2>
+        <p>
+            This is a deeper dive into the technologies and skills that I have learned and developed.
+        </p>
         <p>
             <a class="btn btn-info btn-site" asp-area="" asp-page="/Skills/Technologies">Learn more >></a>
         </p>
-    </div>
-    <div class="col-md-4">
-        <h3>AI Technologies</h3>
-        <p>This highlights my AI product work, AI-assisted engineering workflow, and practical use of modern AI tooling.</p>
+    </section>
+    <section class="project-card prose">
+        <h2>
+            AI Technologies
+        </h2>
+        <p>
+            This highlights my AI product work, AI-assisted engineering workflow, and practical use of modern AI tooling.
+        </p>
         <p>
             <a class="btn btn-info btn-site" asp-area="" asp-page="/Skills/AI">Learn more >></a>
         </p>
-    </div>
-    <div class="col-md-4">
-        <h3>Leadership</h3>
-        <p>This details the leadership skills and training that I have learned and applied.</p>
+    </section>
+    <section class="project-card prose">
+        <h2>
+            Leadership
+        </h2>
+        <p>
+            This details the leadership skills and training that I have learned and applied.
+        </p>
         <p>
             <a class="btn btn-info btn-site" asp-area="" asp-page="/Skills/Leadership">Learn more >></a>
         </p>
-    </div>
+    </section>
 </div>
+<section class="content-section">
+    <h2>
+        Hands-on delivery and shared engineering foundations
+    </h2>
+    <p>
+        I have delivered full-stack production applications, created shared .NET and Node.js/React application foundations,
+        implemented system integrations, and carried out nearly all development of a reusable QA automation framework.
+        My architecture and leadership work builds on that engineering experience.
+    </p>
+    <div class="project-grid">
+        <section class="project-card">
+            <h3>
+                Architecture and Governance
+            </h3>
+            <p>
+                System boundaries, maintainability, technology adoption reviews, and delivery-focused architectural leadership.
+            </p>
+            <a asp-page="/Architecture">Explore architecture &gt;&gt;</a>
+        </section>
+        <section class="project-card">
+            <h3>
+                Systems and API Integration
+            </h3>
+            <p>
+                Internal-system integrations, API services, and growing SIS experience.
+            </p>
+            <a asp-page="/Skills/SystemsIntegration">Explore integration and identity &gt;&gt;</a>
+        </section>
+        <section class="project-card">
+            <h3>
+                Developer Enablement
+            </h3>
+            <p>
+                Application starters, shared tooling, cross-platform automation, and AI engineering guidance.
+            </p>
+            <a asp-page="/Skills/DeveloperEnablement">Explore developer enablement &gt;&gt;</a>
+        </section>
+        <section class="project-card">
+            <h3>
+                Docker and Podman
+            </h3>
+            <p>
+                Containerized development, local services, image packaging, and test environments.
+            </p>
+            <a asp-page="/Skills/Containers">Explore containers &gt;&gt;</a>
+        </section>
+        <section class="project-card">
+            <h3>
+                Okta
+            </h3>
+            <p>
+                OAuth and OpenID Connect integration in my starter application.
+            </p>
+            <a asp-page="/Skills/Okta">Explore Okta &gt;&gt;</a>
+        </section>
+        <section class="project-card">
+            <h3>
+                Zendesk
+            </h3>
+            <p>
+                Help-center documentation and training integrated with internal custom role-based access services.
+            </p>
+            <a asp-page="/Skills/Zendesk">Explore Zendesk &gt;&gt;</a>
+        </section>
+    </div>
+</section>

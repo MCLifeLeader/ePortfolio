@@ -1,0 +1,1031 @@
+{
+  "date": "2026-10-08",
+  "commit": "1317bf1e1ae1a145327406cff979c92e3db3eb7e",
+  "initial_tracked_status": "M Src/Portfolio_Core/Portfolio/Portfolio.csproj",
+  "files": [
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "bytes": 1337,
+      "sha256": "515ad9bb1a0dfd31bec2446a9e9c0e4665e943430f7566f9bdea2718a39436c1"
+    },
+    {
+      "path": ".editorconfig",
+      "bytes": 16831,
+      "sha256": "ba463271fa4e1023b799965d3af656ce458d2e6cd5782c8e526063570e93e32c"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 2581,
+      "sha256": "462475ee5301e77d2a54a64757d95c3f21fc3a79e92e6ec94bdfcc8b36e48964"
+    },
+    {
+      "path": ".github/copilot-instructions.md",
+      "bytes": 3508,
+      "sha256": "120b0f5e1b72805b924c75dff31f495eecc92ed0b6dcefbbef411af5f40a4616"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "bytes": 316,
+      "sha256": "7b040b5482a1bb8202d0c41d55d05235dde03113830c859367452cc13dd0bdfb"
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "bytes": 1357,
+      "sha256": "d7158ee61fe645bd1c704142c0180c85e4853036b96f0b2893e2d608029849e3"
+    },
+    {
+      "path": ".github/workflows/master_mbcarey.yml",
+      "bytes": 2681,
+      "sha256": "88f5aad06364eb51bc7f0f6ed7dd34be5664cce2148c9f22217e1e2206a7d735"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 7357,
+      "sha256": "2eeaf7fd54f39de80c3e6157017f61c8b33272293c8f00d1e949de6257335f6e"
+    },
+    {
+      "path": ".vscode/extensions.json",
+      "bytes": 1516,
+      "sha256": "e837afd63c2a9a4018f556e9740cbc56327307fc1e5ca4e35b126c906050244e"
+    },
+    {
+      "path": ".vscode/launch.json",
+      "bytes": 1477,
+      "sha256": "80b336a1c361e5d282f7aa32c71ecd38b0d99ea695e5b9b82681c192ee870143"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "bytes": 59,
+      "sha256": "bc70cb839ad3b48daf717083dff85f6809cb25321c64f692467e041f9d36023c"
+    },
+    {
+      "path": ".vscode/tasks.json",
+      "bytes": 1251,
+      "sha256": "35beadc79edc82178e1fc25a730849073766061906c4b5788339216d2df406e3"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1091,
+      "sha256": "a84190604435ba51f42fca289a1df1afa8460aa86a5649ce0dc092cbd4fc6a57"
+    },
+    {
+      "path": "Portfolio.sln",
+      "bytes": 1594,
+      "sha256": "9a7c3398f57b282535f34feb76b72d175c43b33687ae5cbe12f37331aa8d994a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 711,
+      "sha256": "108c995c6d6882cbe4e15f61d1df811dbaffdbe96aa5caa39f705ff4a78caf4b"
+    },
+    {
+      "path": "Src/Portfolio_Core/.dockerignore",
+      "bytes": 340,
+      "sha256": "c808016968fff79cf66749abbfbb98e7790db4540d3378968c0e5c48bcf954fe"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/.config/dotnet-tools.json",
+      "bytes": 193,
+      "sha256": "48972bc6e6fdcebeb330a5fc53d4c5656133ac534d686304b2b7f956416890be"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/.gitignore",
+      "bytes": 14,
+      "sha256": "c6838fd186720d5664668fd48e0bebafc8054272710b1629aab4e2425d2ab394"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Dockerfile",
+      "bytes": 745,
+      "sha256": "bbed0dcae66c4787c8ba53298746394eb34e425bc0033ff6c0caaee1a2395137"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/AboutMe.cshtml",
+      "bytes": 3826,
+      "sha256": "7a3d5a36c2b617bab9e27d8c1adb54729da7ac0ffd802dd06c44c73e1ffce373"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/AboutMe.cshtml.cs",
+      "bytes": 220,
+      "sha256": "22968003959cde0f064dbccfc710c850e60918b87c67a44375b837ce1cbd8f42"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/College/Cit261.cshtml",
+      "bytes": 3779,
+      "sha256": "771dbf0c388e15ec09829e4d1ceac07e199704a4635b05903716819e1ef84094"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/College/Cit261.cshtml.cs",
+      "bytes": 194,
+      "sha256": "5b48b236a3d8e62ba62cea158841c41bd4875734bf949f8e5e1359473e1f11c0"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/College/Cs313.cshtml",
+      "bytes": 2768,
+      "sha256": "8b90ed1c9dc32bc966ae039a47234755908689104502d5267c23ac3a9b6bc7d4"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/College/Cs313.cshtml.cs",
+      "bytes": 193,
+      "sha256": "7acecb85e8df8eb322fc600836f6b1eee15561ef6cef312b624f96bdbeb4d103"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/College/Cs364.cshtml",
+      "bytes": 8869,
+      "sha256": "31f05caaff950f679ed0e2c32dc8a724d95fb39c45acd34186f787c16c4ba755"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/College/Cs364.cshtml.cs",
+      "bytes": 193,
+      "sha256": "04bc06cf517c852a7cc000b7f8f8a001ecbf46f47c7858ccdb98c8ecba1d7bba"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/College/Index.cshtml",
+      "bytes": 1638,
+      "sha256": "6cab8ee3c56353ffe58e112d83ad9e65f2108980e05d061041e50bc4e0b5b934"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/College/Index.cshtml.cs",
+      "bytes": 193,
+      "sha256": "798d7f4fd0904ff718d2489286b56c8fbb26426dd803eb7e01af99f3700a2f11"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Contact.cshtml",
+      "bytes": 3437,
+      "sha256": "16f94d3aac6c21b881e9580786f9588a888f7518fc5cf4455b5cf434d853c627"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Contact.cshtml.cs",
+      "bytes": 220,
+      "sha256": "920a2dff9973fac6a88d0b15399c990ef3f67f17a765c062b9d401b66f89bcc2"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Error.cshtml",
+      "bytes": 882,
+      "sha256": "bc66171ba9f1ca97b94262a5d79faf33d0f7eb4fe7f8c83d2f58010b95893606"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Error.cshtml.cs",
+      "bytes": 732,
+      "sha256": "eb793fd81b2c2b7b89b9529b701db4b87a4e1248880fc12d74f82c2f4661a75a"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Experience/Education.cshtml",
+      "bytes": 2491,
+      "sha256": "fead7e525740ef40fe2155b2c6110fab03703035301b64547aa0e69ec1f75023"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Experience/Education.cshtml.cs",
+      "bytes": 233,
+      "sha256": "23d72fdf0d4b51b8bcb42b5f69030c92ee2e8336b75b8a865095880d9cecac48"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Experience/Index.cshtml",
+      "bytes": 1136,
+      "sha256": "b02d7c8280630ab71d3c7a14bbf426574e97adecde71b372aed82e2554594806"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Experience/Index.cshtml.cs",
+      "bytes": 229,
+      "sha256": "c0809da85a4167b2fcdfc93573f1289d6ba1bfba73fdc231c70309d7ffde7674"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Experience/WorkHistory.cshtml",
+      "bytes": 21808,
+      "sha256": "cd9e9c6658a9e439dbae657b20db81b03972991c51bd8ee90fa992d790e6f265"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Experience/WorkHistory.cshtml.cs",
+      "bytes": 235,
+      "sha256": "c342aad0459ceb7a692d70524ae1cd99ccba2335a63bbfcfc767bc4b8ff356ab"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Fun/HamRadioVHFGoKit.cshtml",
+      "bytes": 34586,
+      "sha256": "f17c210be3596aae6b72b2d2491744d584029bb95c4def0e3b8e2f052aaf7266"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Fun/HamRadioVHFGoKit.cshtml.cs",
+      "bytes": 233,
+      "sha256": "3aa8313d147de0b40382a428151dc139df30280eac686e4080bacf7454fe8765"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Fun/Index.cshtml",
+      "bytes": 1006,
+      "sha256": "49dd66f87ee69a3137ea64d107f33ffc02f367888b18bb6a7d9d19a1384eb044"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Fun/Index.cshtml.cs",
+      "bytes": 222,
+      "sha256": "6634f7aa2256998bc837625881b542e8ebe1229283c694628dbf5855268bce54"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Fun/SolarianLeague.cshtml",
+      "bytes": 2016,
+      "sha256": "59956fe90239253c98e266b8613aab18e198a9152aedc8fa07fa3b6151393f79"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Fun/SolarianLeague.cshtml.cs",
+      "bytes": 198,
+      "sha256": "96b14b9bec0e38c2f6f50a6a73daafd20d97c22440b8e262cb381b442f17e08b"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Git.cshtml",
+      "bytes": 6503,
+      "sha256": "829b918f82f45f645665adcd753cbabf62f0082a2d39ae14f7a227075bf89bb5"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Git.cshtml.cs",
+      "bytes": 216,
+      "sha256": "6edb7569ef98bd6c0bffbb9484647f774d2ac4cc3c42039b0388c4d01574b6c8"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Index.cshtml",
+      "bytes": 12648,
+      "sha256": "28a34552370587b09869243a4f48e102301654fea8d6509bc4e7815ca1b02a56"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Index.cshtml.cs",
+      "bytes": 388,
+      "sha256": "c4293931ffb12e05a7d95a5b0a7800aae2cd87a12794382eec62a4315b21239f"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Index.cshtml.css",
+      "bytes": 51,
+      "sha256": "114008efa5a2d8566d6d1916c4c5b2fd831a600f16c2a82b2eec0220621ea520"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Privacy.cshtml",
+      "bytes": 172,
+      "sha256": "a24631ba09a4495f86b5e0e47a2ab6a6bf71a2c66c9b10854c09f5d521851857"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Privacy.cshtml.cs",
+      "bytes": 394,
+      "sha256": "342fd914b203f4c50cc0ac0d10d22463102fd4e10e41a1e32ba7d9bc853bc87f"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/AGameEmpowerment.cshtml",
+      "bytes": 2734,
+      "sha256": "ea4358b0a71ac5dc10e2bc3ede8b9f71fc30480a3b312104e607b0f274f64bdf"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/AGameEmpowerment.cshtml.cs",
+      "bytes": 238,
+      "sha256": "0ccb806f487c056fe1f708b95a671ddb10a1224321137c09ae07b02de3f219f2"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/AdverTran.cshtml",
+      "bytes": 2770,
+      "sha256": "d6bd662e52a257c8ec9d0b03b48ffa390b9a15ecde24c074a87f88df32eb04c7"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/AdverTran.cshtml.cs",
+      "bytes": 231,
+      "sha256": "36c986a8b6e2f150218e84d27a5511dc8fd93423f2f0f23878661e57a87ba483"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/AzureServices.cshtml",
+      "bytes": 9022,
+      "sha256": "bae34c11e3f18e2715982974cc77795eee07f9e167c3bf5e25fdf3881a6de582"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/AzureServices.cshtml.cs",
+      "bytes": 235,
+      "sha256": "93e1ca3c4831e389f39b05dba345ecea88f994f76f80ae76fe9a5deaa9152294"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/Encompass.cshtml",
+      "bytes": 8531,
+      "sha256": "a3bf9ada54ca2e4879435f8cfd3e4140fe09bc10a12ba7129d9808bcb2cf3e71"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/Encompass.cshtml.cs",
+      "bytes": 231,
+      "sha256": "f68553d89feec7741aab58e0b15e1bf08f86a801dd08cdd535d272ef0449357a"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/FamilyKey.cshtml",
+      "bytes": 1394,
+      "sha256": "9662294b72b5b61a2fa71cd18d5d8a717e6df943e11c8d8e5a8f9ed619f9d96e"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/FamilyKey.cshtml.cs",
+      "bytes": 231,
+      "sha256": "3bb485f1ef4b4eba83343704458785fd932fc51d9c023d69f6d4164efb246c85"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/Index.cshtml",
+      "bytes": 6955,
+      "sha256": "54bb1a8a056c433c4ac7fea35cee90813db4d215d8821467aedef08d7e29088e"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/Index.cshtml.cs",
+      "bytes": 227,
+      "sha256": "97dd995bb0fa1b01e018a66f53b4c6b6bf8dff94dd93390ce1d875ee40b71272"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/MlmLinkup.cshtml",
+      "bytes": 5189,
+      "sha256": "b9eac01bd389d2ea2a1c3933db846990fb8416b2e01170c20ce9120a12a89b02"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/MlmLinkup.cshtml.cs",
+      "bytes": 231,
+      "sha256": "4e2cd1675752fbc0ebd3739c41c1e80fb03c6ca3689fef25b80e0b33552163ad"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/RedheadMobile.cshtml",
+      "bytes": 1979,
+      "sha256": "a3177f1c6ac12f3361af8a579c31cc979633fe29e39d3b890da25e48cb46915f"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/RedheadMobile.cshtml.cs",
+      "bytes": 235,
+      "sha256": "ab56648767aee38a5ab58b65168c3402628dd9496edaafafb560c939bc6df23a"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/Startup.cshtml",
+      "bytes": 988,
+      "sha256": "3133485d3e6f63d6bb49aab7fa13dd75f58775097cb95b0ee2d7397230f283ad"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Projects/Startup.cshtml.cs",
+      "bytes": 229,
+      "sha256": "bdbcff8657c038b8973a60bbd16a4ae38c7d3f0d1f2c80fcf6ac75d9fb8478d7"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "bytes": 9405,
+      "sha256": "b3f65bda0ea43736fb2230ac52c73df5155302a08f06713660f2d143d9888e24"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml.css",
+      "bytes": 969,
+      "sha256": "5b522e8bb1351159b076369e3d7f869dde1cb1a017d326648d28d8ec45eda34c"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "bytes": 169,
+      "sha256": "c545b392bc6fc1891a0ddcd3567a6e1d88175148927af687f908adb4c8131ed6"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/AI.cshtml",
+      "bytes": 4762,
+      "sha256": "dfa2162eff863a8f8478b92cf3fd316d60a2ad49b37c3c7cb6a16e97d8f47452"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/AI.cshtml.cs",
+      "bytes": 222,
+      "sha256": "a76240152751445f1ab71efb91d2c88e7877ee0ab905a636f52b0867a130ea02"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/CPlus.cshtml",
+      "bytes": 5697,
+      "sha256": "399cc14a92f8783ef963047e237e6778fe62dd390efaf2f69e113af2e56cf9fe"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/CPlus.cshtml.cs",
+      "bytes": 225,
+      "sha256": "546fbfa65b3e422927f74fa123fa65ecb56c696167b240d861b75a86a3ef2470"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/CSharp.cshtml",
+      "bytes": 4269,
+      "sha256": "aa48a81d3b0f05580b42a95627a4dd9258ef60c341dd0281d5c550a57eb51b81"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/CSharp.cshtml.cs",
+      "bytes": 226,
+      "sha256": "53adf19c8f42a5235b4f71471dbf8523958e0844567e4e261deb01a358d71463"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/Database.cshtml",
+      "bytes": 3296,
+      "sha256": "268ff61d1f77b582a5c54f7500f275982f282f77c3dd69536f0dce89d98815e5"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/Database.cshtml.cs",
+      "bytes": 228,
+      "sha256": "0ce67ce4b2b3f313cf54015b9bacc53a7f586d224ff0d399057935b6056938d9"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/DevOps.cshtml",
+      "bytes": 5037,
+      "sha256": "dbb6a4f04d5e5771ede9b1517a5d6c4d016ee426d6c3b525250ca86c4e46a325"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/DevOps.cshtml.cs",
+      "bytes": 226,
+      "sha256": "ad2909a6f8427966c3213a824761d429555bfb3808879808b34b471b39028909"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/Index.cshtml",
+      "bytes": 1190,
+      "sha256": "4cdbf78ac728273c3800dc7371f640169e0e26562f068fd891be27a4a8ced1ce"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/Index.cshtml.cs",
+      "bytes": 225,
+      "sha256": "28cdc1f7a65752ee6e39045190d4be8b3a3d08d9a045060679e6ed5d169ee219"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/Java.cshtml",
+      "bytes": 2353,
+      "sha256": "3da1fd2488fed0b7d1af4d111d6f8bb9345ddb23d0896e38216fc15406829c30"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/Java.cshtml.cs",
+      "bytes": 224,
+      "sha256": "5e92eab168148ffeddd58f0d5c45f57379109a8a376d7f3e9ed2e1293eb7718f"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/Leadership.cshtml",
+      "bytes": 28073,
+      "sha256": "7c7bbd9b035f71f14bc8be6d9ed5449d5e301b99094b4353f658c9f22ad48c65"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/Leadership.cshtml.cs",
+      "bytes": 230,
+      "sha256": "c29f4dbe33a8e36a9584dd51a28a0076075e82ea4d750ef86781bb6bb22735c1"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/QA.cshtml",
+      "bytes": 13414,
+      "sha256": "2ed2489f241c3ec50816368bdccb72f603d24137f19c7eeeb832652ced7a9a11"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/QA.cshtml.cs",
+      "bytes": 222,
+      "sha256": "ec989e7c9fa0cf126f0bfc4d087ae84cb815ed6275099fe77add7a3e6d482b81"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/Technologies.cshtml",
+      "bytes": 10728,
+      "sha256": "705237938726223daea2ab754be21a39e037a06bdbcacebc28285d6efbf3cbaa"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/Technologies.cshtml.cs",
+      "bytes": 232,
+      "sha256": "cf585dfb05b2b36ce22044229b9e0017dfbfef29a1d0f38ea19d4d64f2bc55bb"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/Web.cshtml",
+      "bytes": 3180,
+      "sha256": "1ef8937933c938e1aa209573eb69b10202faf326ed5380aa323a0f13c96ab287"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/Web.cshtml.cs",
+      "bytes": 223,
+      "sha256": "209c56a5e5ad41ed984c67f5aef28646862e58960f61a4c1fe9b629db0cf0b80"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/WebApi.cshtml",
+      "bytes": 3291,
+      "sha256": "4864ca207970451cc8327c9fa6e99a9f6875e41819c61208bd2ed992739e420d"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Skills/WebApi.cshtml.cs",
+      "bytes": 226,
+      "sha256": "dd4c2c4e33346c3d4afa7f4c684447cfc8ec2d4a04211516a71cff73e9ffcbc1"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Tribute.cshtml",
+      "bytes": 3386,
+      "sha256": "5c6fd94bb27f791f18aab083968e8b64bc023cfe08f6abc50467f58a5975c092"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/Tribute.cshtml.cs",
+      "bytes": 187,
+      "sha256": "08d5e92b0a5319b4c3fca4bc7a0f60bef1d03a373beb70e95cc2c6c68db20022"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/_ViewImports.cshtml",
+      "bytes": 103,
+      "sha256": "6effb790bac19c6b7239679d93b7cd38e3a0ffa79294011cb45fc8b632ef6d91"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Pages/_ViewStart.cshtml",
+      "bytes": 35,
+      "sha256": "47e02b4da20d198892b7b1b00b12944068797c438ef2e82d20ff70b4d56bad39"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Portfolio.csproj",
+      "bytes": 721,
+      "sha256": "1d26711c6e97decbda3d5ad38a242e328020dda916ceacabb7d0cb947513a5a5"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Program.cs",
+      "bytes": 573,
+      "sha256": "c36bf3d2eeb595c1af0ac2f8c0c9997c831cfad2d764a64588bc9b0ca537531b"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/Properties/launchSettings.json",
+      "bytes": 1264,
+      "sha256": "c24ace37a432a0d1cf12053445922048272929a44a7f7573fc24360b52457fdc"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/appsettings.Development.json",
+      "bytes": 154,
+      "sha256": "2f962afb0c211ad8148abe63029bb390c3e637c40d265b57c9e29e66fda90651"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/appsettings.json",
+      "bytes": 151,
+      "sha256": "200332b434757a0054a3d356c91cde01f2c48712be8aa2bcb0f3e973619f06e3"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/libman.json",
+      "bytes": 636,
+      "sha256": "3646d95fab0f161538dc19abc5b3759fa9acc275dd18430e2c17d444e0a40d3d"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/.gitignore",
+      "bytes": 14,
+      "sha256": "c6838fd186720d5664668fd48e0bebafc8054272710b1629aab4e2425d2ab394"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/documents/2018_Scrum_Master.pptx",
+      "bytes": 3886205,
+      "sha256": "3ed4b82668084dd783dc0299dfcd77fbaa5c6dc1d84b669249485ba8620db71e"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image001.jpg",
+      "bytes": 302781,
+      "sha256": "8ec7cadcd5d4c98f859ee0357b64711eb1c5e6c904714041e083f7264e1440c9"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image002.jpg",
+      "bytes": 240558,
+      "sha256": "caad70ed8768e6a3d1cc46471562bf1fa007cfba7b564bf59ebd8483ad81093c"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image003.jpg",
+      "bytes": 253753,
+      "sha256": "a4d8994a9ece84ff04b0d33bbe95c595b61fae90e72efffa48521211d78d62b8"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image004.jpg",
+      "bytes": 194299,
+      "sha256": "3b7731a079025e7684638b400f3ab831b8a2e4f4674db231c30cefb6024147da"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image005.jpg",
+      "bytes": 210142,
+      "sha256": "8ea09bd1091b85c5ace8f078ef530ecc86a683775775764c598af9a229779bc8"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image006.jpg",
+      "bytes": 205523,
+      "sha256": "97089918865458f85382d5dfdc99aaee9bc8b418208d2e1b9e0fd6f4bc68c09b"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image007.jpg",
+      "bytes": 199445,
+      "sha256": "aeea106dced94033c12908192e25e12b4088c3de31c30f4abbb16a46827866d0"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image008.jpg",
+      "bytes": 167625,
+      "sha256": "a8daf84ff124bbdad32b6070c66204b9aaf0bc152553dad048a21d53893cd8d7"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image009.jpg",
+      "bytes": 218328,
+      "sha256": "238634624dbe14711b9d6a0c420718692766399dbe1c06df55e43eb8190c728b"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image010.jpg",
+      "bytes": 213490,
+      "sha256": "f75e0e05ae736384097b887038fce12f06703d36dfbae6931d4611dca546c846"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image011.jpg",
+      "bytes": 332493,
+      "sha256": "d73a3ea513c25d12cbaa2e130b2dffbb206907f903e80733cfc1d05bee42deb9"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image012.jpg",
+      "bytes": 292126,
+      "sha256": "1e3b175514b0088f32885c0acde8f96f289a2f04d5167c3c3dee5cb3d9fc27f3"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image013.jpg",
+      "bytes": 280915,
+      "sha256": "936a7e518fe9e07d850132190fab95bf28b79a0ebb32b2fbe320c06e948bbd32"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image014.jpg",
+      "bytes": 254946,
+      "sha256": "48d2ae579099170d36c00323220945d9d198e1e2d749f61e8b56f0be8e61a4a6"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image015.jpg",
+      "bytes": 249929,
+      "sha256": "56f0c24051039498d97f32efc31f48804a034c2a1c8ea519df66badbc88c7a3f"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image016.jpg",
+      "bytes": 329893,
+      "sha256": "7ca1514949bf9d50b1273e2bff3b8f2d43ef9b56c52667ad10e24183a4b4fbcc"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image017.jpg",
+      "bytes": 273435,
+      "sha256": "1114bd781cff48d668d772062088aff5830ea41eae20788aea090e9e71049fbb"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image018.jpg",
+      "bytes": 127529,
+      "sha256": "e713ead5e49f84f78d2e8afa5ff347f3938b7327f8cef08e185763f52bd655df"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image019.jpg",
+      "bytes": 277232,
+      "sha256": "c89f1e4e7fba3edd66f2aea98ce217a7e4eadc6e859a9ca712cdbcf6bed1134a"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image020.jpg",
+      "bytes": 545857,
+      "sha256": "797c239a6b325e3cf1ef94a20333a847955a3630a4d6a6164e392b137e45db7b"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image021.jpg",
+      "bytes": 166905,
+      "sha256": "d428a0ccc38c46b04199f40bc0cc966bbea6c110b351a3d58973581d77ca902f"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image022.jpg",
+      "bytes": 399699,
+      "sha256": "8208ca223b2b50cc64256b9213ff1d44801e8463b197d9ace40556d4b9ee3683"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image023.jpg",
+      "bytes": 512659,
+      "sha256": "00077029d2547a61d2160aab6624067bca57d9869719e872b498f69a6fe9a811"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image024.jpg",
+      "bytes": 529390,
+      "sha256": "8c36c929aebd922e8f56e80c3324d1da1fe10de193a04960024d0e3298c97571"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image025.jpg",
+      "bytes": 272869,
+      "sha256": "6497ad8b3528df17ceba032da0bd561a537c242adc80e9646858d10425147286"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image026.jpg",
+      "bytes": 530959,
+      "sha256": "cbf681e0a16959e59e197aa28d436425a79f8a16425530087c791e4cfc8cbc2b"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image027.jpg",
+      "bytes": 514442,
+      "sha256": "943b6a9c7a4f76c75fcc2cf6fa10f4416b8a31441e5566b00aa1aa40f61f784b"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image028.jpg",
+      "bytes": 535477,
+      "sha256": "2c3eeadbcc61bcbeba94cd25b90139001f01a1f6f91807e39484d8103226cd23"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image029.jpg",
+      "bytes": 502547,
+      "sha256": "7e6289b997277f339e5fdaf392a9c3ea775bf79f70a58def788030e098d4537e"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image030.jpg",
+      "bytes": 499862,
+      "sha256": "b7a8e530128deb8a872b36ba5c1529ee8c887ee11e6b8293cb921369878ad44e"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image031.jpg",
+      "bytes": 500543,
+      "sha256": "111c646760170bb8dc3503d23a16000fbb7c12266065373231bcd6eb248587c2"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image032.jpg",
+      "bytes": 492872,
+      "sha256": "966238ff16afdd6643e7bfc33598857fdd1b92a97b65c12417221be5f3be988d"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image033.jpg",
+      "bytes": 508171,
+      "sha256": "75967c96792906a2755a9456ac5cf25a275e6f3f9a57914de9b5eafd287ef006"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image034.jpg",
+      "bytes": 539286,
+      "sha256": "e656156982cfcb35abf86b44430dc3b136ba7275ffb56a8c99402a713a54b505"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image035.jpg",
+      "bytes": 196157,
+      "sha256": "669c41ca0a29cde8d5f3a0ace41df3c45de3447f9231bcfdac898a1d8d549415"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image036.jpg",
+      "bytes": 268328,
+      "sha256": "958170d74cf552f661667296967bba2630a0b7905aed6b819a0e5bb726fcf875"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image037.jpg",
+      "bytes": 463836,
+      "sha256": "3acf2f5ac8726acd19168c41d43726a5a7eadcbaa4002b1bd627cbc89ab443ad"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image038.jpg",
+      "bytes": 470692,
+      "sha256": "822f5f6d26defa3b0dad714baee9e814a3406b03fa5f6170ad0a0133c4f7e7c0"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image039.jpg",
+      "bytes": 514447,
+      "sha256": "683eb8fa1eb613f26ef01095cc831453366e2bc4cb3656bb4f2e4bf297e4fd5d"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image040.jpg",
+      "bytes": 209803,
+      "sha256": "0a83e7c6f57a573de99951dc0736aa328786817a19fd13c5ee9009ca64a11812"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image041.jpg",
+      "bytes": 213442,
+      "sha256": "87fcd9e3e438a0605da0fed68fda9fab892196fc8474ae94ae119a9e20a49fbd"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image042.jpg",
+      "bytes": 231668,
+      "sha256": "e09d606ddfe2f4af81181072cea0e3280a09627c090fbc0ce7113e6e20800076"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image043.jpg",
+      "bytes": 417953,
+      "sha256": "c67077ba6b7ad6257588c3e3892f8ac77bb5b7098eee3a3f5ddc51ed34b579ed"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image044.jpg",
+      "bytes": 437934,
+      "sha256": "da5a9381f6ae66e13683cc8ad15ec36d0cb181e9a3e365ca1dfec4674334249c"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image045.jpg",
+      "bytes": 464592,
+      "sha256": "37b9cbea1984b264ffd1b5f976442ea45904af9038b39d9211d8b882cd2075a5"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image046.jpg",
+      "bytes": 446689,
+      "sha256": "8163bb7197007694f5700dd2d33c9ec0ddeebcb1df0432587b017cceabaed96e"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image047.jpg",
+      "bytes": 311575,
+      "sha256": "5e2517f1b09a688d9109624415e7f5629b8500d0b493fe061319055d81ea33ef"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image048.jpg",
+      "bytes": 168324,
+      "sha256": "9be983b3b6a1fe7241f57d1f612c4af23b49f20f0c65db16f7d759a25254da49"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image049.jpg",
+      "bytes": 150022,
+      "sha256": "f340cbb0e3807ca066a84ba41e023e7f52667365daca9197bcc81d816a7996c9"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image050.jpg",
+      "bytes": 294052,
+      "sha256": "c6c5bfef2c19a8fe6546277ecc4b0278cb4c9b3861e7d50b123239453f8451e6"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image051.jpg",
+      "bytes": 313461,
+      "sha256": "243dcfb9e90618401678067c9a9bf4948b8a2507d4aede59f5427175240f89e8"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image052.jpg",
+      "bytes": 319103,
+      "sha256": "ad75a395a96ed39dd6c8e0571370e4b10117d1f60abebc24d48ca7cbf78983e6"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image053.jpg",
+      "bytes": 314672,
+      "sha256": "3df8889bd1e1e88e869174b185417098ee263a3d4aea8ab6a1f292965d6a2d32"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image054.jpg",
+      "bytes": 311762,
+      "sha256": "d71e25a072bcff6bf5b33890cd55bbda82c2f79db5837a12bdcbec81678df6a7"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image055.jpg",
+      "bytes": 1279553,
+      "sha256": "a366becf25c1264c5ee50b8efd15bd18cb21d0320fabd8d7ac425ee82873d022"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image056.jpg",
+      "bytes": 1191425,
+      "sha256": "bc52c4c43d38bcd966800abe39f661ee59688db0f4943bb65aeaad7e0d1dbace"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image057.jpg",
+      "bytes": 1375656,
+      "sha256": "dd9ae039c33a128b3cae7ceae849414c0ebf637289c96f2f7507cddac850081d"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image058.jpg",
+      "bytes": 1481443,
+      "sha256": "240c43c5d5b49f9e777d501990938c6859f7e32f7dc6af15ef6db0d9e08a7d46"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image059.jpg",
+      "bytes": 1237969,
+      "sha256": "f424a73eba3798e3f264d042308d105df7208c0237a2e3bce5f83102ccd73e9b"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image060.jpg",
+      "bytes": 1038770,
+      "sha256": "c48c0fae7ec5c78a413b7a1036e34557527cbc0586d7d455e911b938f218d3ba"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image061.jpg",
+      "bytes": 1420911,
+      "sha256": "afe7be9a49fe13489e1788393f6a2e8c21b376e676b94e32f3b5800d3756df40"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image062.jpg",
+      "bytes": 2426095,
+      "sha256": "2bae264a014c3a68fb57870cb5183a3ff0347f5e79ccb158acb979025cf1d02f"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image063.jpg",
+      "bytes": 2451302,
+      "sha256": "8c4819045b3ddd666fe47d7ec8f6c278bd7004d4faa5eacc15d1eea7a9613989"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image064.jpg",
+      "bytes": 4883850,
+      "sha256": "37e31eefac9b310e2b3c224aa21bdbb4982b2b3b5d228681ecf51ab71db1b6dd"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image065.jpg",
+      "bytes": 5733049,
+      "sha256": "346980ef8582a79553b9a1ae06ee3658e6b9281c9dc23ffd83b400da5e39a19f"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/Image066.jpg",
+      "bytes": 5134459,
+      "sha256": "03a9fa64a77a5fda7bd3d3e5c9bf04d81fb82f23aad06431a25fdaf0f6a06250"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/fbMichael_B_Carey.jpg",
+      "bytes": 5259,
+      "sha256": "0f70e07fabc38141b10c616bdf4fadeed84a9d02cc7af37603146b800f36f640"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_AC_SL1000.jpg",
+      "bytes": 30197,
+      "sha256": "2dd89f928e0f18b405b33f0bae2655ae212ee6bace16d64b35de2a0c85cfec8c"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_AC_SL1001.jpg",
+      "bytes": 79553,
+      "sha256": "9aa5e4a9b9f72552af5f57ad41825470d3ce570e0783ada33bc6480d9b9dd6b2"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_AC_SL1002.jpg",
+      "bytes": 62200,
+      "sha256": "e8f74a1b9230738ed5f107be5d155c6c1e29db02ae85c7ba7b91bd1b19c27ef1"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_AC_SL1020.jpg",
+      "bytes": 35026,
+      "sha256": "751a0157f4193956d9e33c8d2688e2c782c3dee4253e20d2f7531aa905875741"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_AC_SL1500.jpg",
+      "bytes": 110252,
+      "sha256": "7acd4d128f2839b37ebc04692ad6aac67fe750b76c53a1d05066c47d1cfd5477"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_ADMS-891-USB-2.jpg",
+      "bytes": 38694,
+      "sha256": "addf4947e7e672f1c2ada47c5c5af4742537150893a3c119a7569eed72e6eae5"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_AntennaTripod.jpg",
+      "bytes": 51554,
+      "sha256": "f1699e99ba691b913a55351c5e50056f200ca6dd2912598772bf7653012ade4c"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_KRS-V71-USB-2.jpg",
+      "bytes": 40475,
+      "sha256": "172e97a632a2f8b5d4cdc38a23f7d42922a59884cec08dc95eb140399d11cfe4"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_Kenwood.jpg",
+      "bytes": 53523,
+      "sha256": "5fc6adfacbbbb0df8b89b608fd6e656ee031cc1161f0de40af63528ed406a630"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_Placeholder.jpg",
+      "bytes": 9487,
+      "sha256": "5e4e2c768670deb38c7126ed9cff71704da505ac76e38fa5893bd52df2b02c10"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_PowerGate_Front.jpg",
+      "bytes": 25625,
+      "sha256": "e306f75a5f0af03028cf6a7c6e85a54c6aa88998d9657350d7225e2a8a9c6db4"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_PowerGate_Side.jpg",
+      "bytes": 14068,
+      "sha256": "58246e6fd492e09c8729ff4702e5b3f0d748e6ce808370279826099c8bd300fd"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_SportsmanBox.jpg",
+      "bytes": 69966,
+      "sha256": "6a17260c34a6a5339f0804f7353c7cff8cadb718836eb0bba802b994e69d3d2c"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_Yeasu-FT891_HF50.jpg",
+      "bytes": 154844,
+      "sha256": "8a88e567818b24ccd74c56297bc0b129cf747df12e2f05a5be96f7264afda3e8"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_ZWM-PS-CBL-6-0001.jpg",
+      "bytes": 18347,
+      "sha256": "634a5f50f70aec84cb542d39e174df5b6f90bfd94319c1905d5ccfdcef1aeaca"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_asr-ss-30m_xl.jpg",
+      "bytes": 117936,
+      "sha256": "22103c00c10240ca2c7072ea64e23662ee7b70b3d82d897bc76eec6d949f3ea6"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/images/zzz_wmt-58315-1043_xb_xl.jpg",
+      "bytes": 107380,
+      "sha256": "4566a057f96fe4681d2776a83a51ed3c4e17f83dea58601a03ef2346786e33d5"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/pdf/CS364_ECR.pdf",
+      "bytes": 565714,
+      "sha256": "53bd4d3e5d6c9e9d8d5f54fe5ec8f9ac107db97d515599ca7f77b0a63fc452a1"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/pdf/CS364_SDD.pdf",
+      "bytes": 4420590,
+      "sha256": "a125638bffe34ee6d3c14674168efe3cdac01c09be21893e9bcf5e25e1932f2d"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/pdf/CS364_SRS.pdf",
+      "bytes": 2182221,
+      "sha256": "21de5da208ab311510344182696c8f36afd2256bb16769993fce9941bd9d3cd3"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/content/pdf/Resume.pdf",
+      "bytes": 252473,
+      "sha256": "b759dabc8c6a24709d841116eb707da658ecafbed509a3429a615475f991aa82"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/css/site.css",
+      "bytes": 5302,
+      "sha256": "0d5d4721277d4133b62bbf8f093caf8b1854ed2673e4f7b04fd25664f8fd3003"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/favicon.png",
+      "bytes": 4878,
+      "sha256": "4e2042978d6c2947bbc46ee1b65a4765116d30b43ec2b26ae5d479d3e4457026"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/js/site.js",
+      "bytes": 230,
+      "sha256": "e2ad63c0585a3da660afc580512aeec7a840ba1d170e0f643d2df1215ab7e88d"
+    },
+    {
+      "path": "Src/Portfolio_Core/Portfolio/wwwroot/robots.txt",
+      "bytes": 31,
+      "sha256": "6299304778dbecd15f421eafe406881e81f19fcca6de684a98b186aeb6f22ac8"
+    },
+    {
+      "path": "devops/Project-Build.yml",
+      "bytes": 2093,
+      "sha256": "30bfb0506afebf067aa74d45ebc81612d5e9909266bc8501225c06bffc2de172"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "BRIEF",
+      "path": "C:\\Users\\MichaelBCarey\\.codex\\attachments\\a11ae667-c6a3-44b0-bd86-05f21f3e8dc1\\Pasted text.txt",
+      "sha256": "70e098159350ab56f86a7f59390b5fc7151960d8a31e5816129f7c23f108ec0d",
+      "bytes": 22293
+    },
+    {
+      "id": "SUPPLIED",
+      "path": "C:\\Users\\MichaelBCarey\\.codex\\attachments\\2a66dfda-5f14-40c3-8d73-36b2fe37a4fb\\Pasted text.txt",
+      "sha256": "a3946007cd5a817841a2ef0ab63781548f8fd94c6c15ccbd2fe1b5945f93e670",
+      "bytes": 40293
+    }
+  ]
+}

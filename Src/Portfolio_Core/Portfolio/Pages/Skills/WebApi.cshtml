@@ -3,49 +3,164 @@
 @{
     ViewData["Title"] = "Web API / REST Services";
 }
-
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
-
-<div class="row pt-3">
-    <div class="col-md-12">
-        <h3>RESTful Service Design</h3>
-        <p>
-            API and integration work has been a consistent part of my career across enterprise systems, SaaS solutions, automation, and
-            personal projects. My experience includes RESTful service development, service-to-service integration, and practical API usage
-            in business workflows where reliability and clarity matter more than novelty.
-        </p>
-        <h3>Serverless and Integration Direction</h3>
-        <p>
-            Recent public starter work includes a dedicated C# API starter and a C# Azure Function starter, reflecting my current interest
-            in creating reusable service foundations for teams. In prior work I also delivered integrations using SOAP and REST, including
-            enterprise platform integrations and API-driven automation.
-        </p>
-        <h3>Operational Thinking</h3>
-        <p>
-            My API work is shaped by QA and support experience, so I naturally think about diagnostics, failure modes, testing, and clear
-            operational behavior. The seq-mcp project extends that thinking into AI tooling by exposing a controlled service surface with
-            structured error handling, validation, Docker packaging, and observability-minded usage.
-        </p>
-    </div>
-    <div class="col-md-6">
-        <h3>Summary</h3>
-        <ul class="list-group">
-            <li class="list-group-item list-group-item-info fw-bolder">RESTful API design</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Azure Function application direction</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Service-to-service integration</li>
-            <li class="list-group-item list-group-item-info fw-bolder">SOAP and REST experience</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Structured error handling</li>
-            <li class="list-group-item list-group-item-info fw-bolder">API diagnostics and observability</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Automation and API testing</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Reusable starter architecture</li>
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-code-slash" aria-hidden="true"></i> Engineering &amp; Technology
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+</header>
+<div class="reading-layout">
+    <nav class="section-nav" aria-label="On this page">
+        <h2>
+            On this page
+        </h2>
+        <ul>
+            <li>
+                <a href="#enterprise-api-delivery">Enterprise API Delivery and Integration</a>
+            </li>
+            <li>
+                <a href="#defensive-api-boundaries">Defensive API Boundaries</a>
+            </li>
+            <li>
+                <a href="#restful-service-design">RESTful Service Design</a>
+            </li>
+            <li>
+                <a href="#serverless-and-integration-direction">Serverless and Integration Direction</a>
+            </li>
+            <li>
+                <a href="#operational-thinking">Operational Thinking</a>
+            </li>
         </ul>
+    </nav>
+    <div class="reading-main">
+        <section class="content-panel prose">
+            <h2 id="enterprise-api-delivery">
+                Enterprise API Delivery and Integration
+            </h2>
+            <p>
+                I have delivered full-stack production applications and developed API services that connect applications and support product functionality. My current employment work includes integrating Zendesk help-center documentation and training with internal services that provide custom role-based access, alongside the REST, SOAP, SaaS, and automation experience documented below.
+            </p>
+            <p>
+                The shared application foundations I built use .NET 10 ASP.NET Core APIs with layered services, repositories, shared libraries, configuration validation, resilient HTTP clients, and trace-correlated errors. Authentication integration, feature management, caching, and configurable telemetry support the broader starter's engineering baseline.
+            </p>
+            <p>
+                I wired OAuth and OpenID Connect (OIDC) into my starter application using Okta. The QA framework I primarily developed includes isolated OAuth/OIDC validation flows, API mocks, schema validation, reusable test clients, and controlled resource lifecycles.
+            </p>
+            <p>
+                <a asp-page="/Skills/Okta">Okta OAuth/OIDC integration</a> · <a asp-page="/Skills/Zendesk">Zendesk integration</a>.
+            </p>
+            <p>
+                <a asp-page="/Experience/EmploymentAccomplishments" asp-fragment="software-delivery">Explore my software delivery and systems integration</a>.
+            </p>
+        </section>
+        <section class="content-panel prose">
+            <h2 id="defensive-api-boundaries">
+                Defensive API Boundaries
+            </h2>
+            <p>
+                In the marketing-site starter, I implemented a same-origin API proxy between the Next.js client and ASP.NET Core backend. It validates write payloads with Zod, restricts upstream destinations, filters headers, limits request and response sizes, applies timeouts, and returns safe errors with trace correlation.
+            </p>
+            <p>
+                This foundation makes integration contracts and failure behavior explicit. Unit, client, and browser tests accompany the starter, while the reusable QA framework supports API, browser, data, and container-backed validation across application boundaries.
+            </p>
+            <p>
+                <a asp-page="/Experience/EmploymentAccomplishments" asp-fragment="marketing-website-foundation">Read about the marketing API boundary</a> and <a asp-page="/Experience/EmploymentAccomplishments" asp-fragment="quality-engineering">quality engineering</a>.
+            </p>
+        </section>
+        <section class="content-panel prose">
+            <h2 id="restful-service-design">
+                RESTful Service Design
+            </h2>
+            <p>
+                API and integration work has been a consistent part of my career across enterprise systems, SaaS solutions, automation, and
+                personal projects. My experience includes RESTful service development, service-to-service integration, and practical API usage
+                in business workflows where reliability and clarity matter more than novelty.
+            </p>
+            <h2 id="serverless-and-integration-direction">
+                Serverless and Integration Direction
+            </h2>
+            <p>
+                Recent public starter work includes a dedicated C# API starter and a C# Azure Function starter, reflecting my current interest
+                in creating reusable service foundations for teams. In prior work I also delivered integrations using SOAP and REST, including
+                enterprise platform integrations and API-driven automation.
+            </p>
+            <h2 id="operational-thinking">
+                Operational Thinking
+            </h2>
+            <p>
+                My API work is shaped by QA and support experience, so I naturally think about diagnostics, failure modes, testing, and clear
+                operational behavior. The seq-mcp project extends that thinking into AI tooling by exposing a controlled service surface with
+                structured error handling, validation, Docker packaging, and observability-minded usage.
+            </p>
+        </section>
     </div>
-    <div class="col-md-6">
-        <h3>External Links</h3>
-        <a class="btn btn-info btn-site" href="https://github.com/AGameEmpowerment/Starter-CSharp-Api" target="_blank" rel="noopener">Starter-CSharp-Api &gt;&gt;</a><br />
-        <a class="btn btn-info btn-site" href="https://github.com/AGameEmpowerment/Starter-CSharp-Azure-Function-App" target="_blank" rel="noopener">Starter-CSharp-Azure-Function-App &gt;&gt;</a><br />
-        <a class="btn btn-info btn-site" href="https://github.com/MCLifeLeader/seq-mcp" target="_blank" rel="noopener">seq-mcp &gt;&gt;</a><br />
-        <a class="btn btn-info btn-site" href="https://github.com/MCLifeLeader/DotNetProjectStartup" target="_blank" rel="noopener">DotNetProjectStartup &gt;&gt;</a><br />
-    </div>
+    <aside class="reading-aside">
+        <section class="content-panel prose">
+            <h2>
+                Summary
+            </h2>
+            <ul class="tag-list">
+                <li>
+                    ASP.NET Core production API delivery
+                </li>
+                <li>
+                    Internal-system and Zendesk integrations
+                </li>
+                <li>
+                    Defensive same-origin API proxy
+                </li>
+                <li>
+                    Okta OAuth / OIDC starter integration
+                </li>
+                <li>
+                    OAuth / OpenID Connect validation flows
+                </li>
+                <li>
+                    RESTful API design
+                </li>
+                <li>
+                    Azure Function application direction
+                </li>
+                <li>
+                    Service-to-service integration
+                </li>
+                <li>
+                    SOAP and REST experience
+                </li>
+                <li>
+                    Structured error handling
+                </li>
+                <li>
+                    API diagnostics and observability
+                </li>
+                <li>
+                    Automation and API testing
+                </li>
+                <li>
+                    Reusable starter architecture
+                </li>
+            </ul>
+        </section>
+        <section class="content-panel prose">
+            <h2>
+                External Links
+            </h2>
+            <ul class="resource-list">
+                <li>
+                    <a href="https://github.com/AGameEmpowerment/Starter-CSharp-Api" target="_blank" rel="noopener">Starter-CSharp-Api &gt;&gt;</a>
+                </li>
+                <li>
+                    <a href="https://github.com/AGameEmpowerment/Starter-CSharp-Azure-Function-App" target="_blank" rel="noopener">Starter-CSharp-Azure-Function-App &gt;&gt;</a>
+                </li>
+                <li>
+                    <a href="https://github.com/MCLifeLeader/seq-mcp" target="_blank" rel="noopener">seq-mcp &gt;&gt;</a>
+                </li>
+                <li>
+                    <a href="https://github.com/MCLifeLeader/DotNetProjectStartup" target="_blank" rel="noopener">DotNetProjectStartup &gt;&gt;</a>
+                </li>
+            </ul>
+        </section>
+    </aside>
 </div>

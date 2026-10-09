@@ -1,130 +1,177 @@
-﻿@page
+@page
 @model Cs364Model
 @{
     ViewData["Title"] = "CS 364";
 }
-
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
-
-<div class="row">
-    <div class="col-md-12">
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-mortarboard" aria-hidden="true"></i> Coursework case study
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+    @if (ViewData["Message"] is string pageMessage && !string.IsNullOrWhiteSpace(pageMessage))
+    {
+        <p class="page-intro">
+            @pageMessage
+        </p>
+    }
+</header>
+<div class="reading-layout">
+<nav class="section-nav" aria-label="Coursework sections">
+    <p class="page-kicker">
+        On this page
+    </p>
+    <ul>
+        <li>
+            <a href="#contributors">Course structure and contributors</a>
+        </li>
+        <li>
+            <a href="#project-management">Project management</a>
+        </li>
+        <li>
+            <a href="#requirements">SRS Project</a>
+        </li>
+        <li>
+            <a href="#design">SDD Project</a>
+        </li>
+        <li>
+            <a href="#change-request">ECR Request</a>
+        </li>
+        <li>
+            <a href="#repository">Project repository</a>
+        </li>
+    </ul>
+    <a asp-page="/College/Index">Back to coursework</a>
+</nav>
+<div class="reading-main">
+    <section class="content-panel prose" id="contributors">
+        <h2>
+            Course structure and contributors
+        </h2>
         <p>
             Software Engineering I is designed around creating a large group work experience, which simulates what will be found in the work place within the "real world" outside of
             college courses. Class members where organized into the following structure throughout the duration of the semester:
         </p>
-        <ul class="list-group">
-            <li class="list-group-item list-group-item-info fw-bolder">Product Owner: Instructor</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Project Manager: Michael Carey</li>
-            <li class="list-group-item list-group-item-info fw-bolder">
+        <ul class="resource-list">
+            <li >
+                Product Owner: Instructor
+            </li>
+            <li >
+                Project Manager: Michael Carey
+            </li>
+            <li >
                 Team Leads:
                 <ul>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Sebastian Calle
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Landon Shumway
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Zane West
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Adam Shumway
                     </li>
                 </ul>
             </li>
-            <li class="list-group-item list-group-item-info fw-bolder">
+            <li >
                 Contributors:
                 <ul>
-                    <li class="list-group-item list-group-item-primary">
+                    <li >
                         Team 1
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Jefferson Santos
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Jacob Keene
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Joseph Keene
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Dallin Snell
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Jonah Green
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Jonathan Comeau
                     </li>
-                    <li class="list-group-item list-group-item-primary">
+                    <li >
                         Team 2
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Fernando Gomez
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Marcus Rhodes
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Brian Robertson
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Austin Golding
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Micah Wilson
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Michael Flindt
                     </li>
-                    <li class="list-group-item list-group-item-primary">
+                    <li >
                         Team 3
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Aaron Shore
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Robert Nelson
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Jason Catmull
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Kylor Kersavage
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Tyler Sorenson
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Marcus Hedgecock
                     </li>
-                    <li class="list-group-item list-group-item-primary">
+                    <li >
                         Team 4
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Rex Nesbit
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Brandon Hartshorn
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         David Harris
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Keith Wheeler
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         Daniel Craig
                     </li>
-                    <li class="list-group-item list-group-item-info">
+                    <li >
                         John Memmott
                     </li>
                 </ul>
             </li>
         </ul>
-    </div>
-    <div class="col-md-12">
+    </section>
+    <section class="content-panel prose" id="project-management">
+        <h2>
+            Project management
+        </h2>
         <p>
             During this course I was asked to be the Project Manager (PM) for both the first and second halves of the semester. My experience in the course was a bit different
             than the majority of the class members, in that I managed the project through my team leads and stayed in close communication with the Product Owner.
@@ -133,49 +180,61 @@
             Software Design Description document (SDD). Lastly, we submitted an Engineering Change Request (ECR) that limited or removed from our original SRS those items that we
             would focus on in the SDD document for version 1 of our fictional product.
         </p>
-    </div>
-    <div class="col-md-12">
-        <h3>SRS Project</h3>
-        <h4>
+    </section>
+    <section class="content-panel prose" id="requirements">
+        <h2>
+            SRS Project
+        </h2>
+        <h3>
             Systems and software engineering - Life cycle processes - Requirements engineering
             ISO/IEC/IEEE 29148-2011
-        </h4>
+        </h3>
         <p>
             Our first organized team structure focused on gathering a large list of requirements for a calendar integration application for BYU-Idaho and I-Learn.
             In discussing with the instructor, as a class we gathered more requirements than any other class he had seen while instructing the class.
         </p>
         <p>
-            <a class="btn btn-info btn-site" href="~/content/pdf/CS364_SRS.pdf" target="_blank" rel="noopener">SRS Document >></a>
+            <a class="btn btn-info btn-site" href="~/content/pdf/CS364_SRS.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-text" aria-hidden="true"></i> SRS Document >></a>
         </p>
-    </div>
-    <div class="col-md-12">
-        <h3>SDD Project</h3>
-        <h4>
+    </section>
+    <section class="content-panel prose" id="design">
+        <h2>
+            SDD Project
+        </h2>
+        <h3>
             IEEE Standard for Information Technology - Systems Design - Software Design Descriptions
             IEEE Std 1016-2009
-        </h4>
+        </h3>
         <p>
             From the SRS document we chose a handful of requirements that would be fully defined in the SDD. Using this selected list we followed the IEEE specification
             and defined that selected list of features so that an engineering team could develop the software should it be submitted for actual development.
         </p>
         <p>
-            <a class="btn btn-info btn-site" href="~/content/pdf/CS364_SDD.pdf" target="_blank" rel="noopener">SDD Document >></a>
+            <a class="btn btn-info btn-site" href="~/content/pdf/CS364_SDD.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-text" aria-hidden="true"></i> SDD Document >></a>
         </p>
-    </div>
-    <div class="col-md-12">
-        <h3>ECR Request</h3>
+    </section>
+    <section class="content-panel prose" id="change-request">
+        <h2>
+            ECR Request
+        </h2>
         <p>
             Using the list of requirements we selected we then created and ECR that made an official request to narrow the original scope defined in the SRS and was fully
             defined in the SDD. This document lists the items that are included in the SDD and which items are excluded from the SDD that were originally cited as
             features wanted in the SRS document.
         </p>
         <p>
-            <a class="btn btn-info btn-site" href="~/content/pdf/CS364_ECR.pdf" target="_blank" rel="noopener">ECR Document >></a>
+            <a class="btn btn-info btn-site" href="~/content/pdf/CS364_ECR.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-text" aria-hidden="true"></i> ECR Document >></a>
         </p>
-    </div>
-    <div class="col-md-12">
+    </section>
+    <section class="content-panel prose" id="repository">
+        <h2>
+            Project repository
+        </h2>
         <p>
             <a class="btn btn-info btn-site" href="https://github.com/MCLifeLeader/CS364" target="_blank" rel="noopener">GitHub CS 364 Project >></a>
         </p>
-    </div>
+    </section>
+</div>
+<aside class="reading-aside">
+</aside>
 </div>

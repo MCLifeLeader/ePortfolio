@@ -1,52 +1,89 @@
-﻿@page
+@page
 @model Cs313Model
 @{
     ViewData["Title"] = "CS 313";
 }
-
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
-
-<div class="row">
-   <div class="col-md-12">
-      <h3>CS 313 PHP Project 2017</h3>
-      <p>
-         This class project work highlights class assignment work utilizing the PHP programming language. I was able to learn and gain a foundational understanding
-         of the PHP programming lanague and how to use it with various databases. The primary database engine that I used was PostgreSQL.
-         This project included the use of Bootstrap, jQuery, PostgreSQL and other optional libraries.
-      </p>
-       @*
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-mortarboard" aria-hidden="true"></i> Coursework case study
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+    @if (ViewData["Message"] is string pageMessage && !string.IsNullOrWhiteSpace(pageMessage))
+    {
+        <p class="page-intro">
+            @pageMessage
+        </p>
+    }
+</header>
+<div class="reading-layout">
+    <nav class="section-nav" aria-label="Coursework sections">
+        <p class="page-kicker">
+            On this page
+        </p>
+        <ul>
+            <li>
+                <a href="#php-project">CS 313 PHP Project 2017</a>
+            </li>
+            <li>
+                <a href="#java-project">CS 313 Java</a>
+            </li>
+            <li>
+                <a href="#team-project">CS 313 Team Project</a>
+            </li>
+        </ul>
+        <a asp-page="/College/Index">Back to coursework</a>
+    </nav>
+    <div class="reading-main">
+        <section class="content-panel prose" id="php-project">
+            <h2>
+                CS 313 PHP Project 2017
+            </h2>
+            <p>
+                This class project work highlights class assignment work utilizing the PHP programming language. I was able to learn and gain a foundational understanding
+                of the PHP programming lanague and how to use it with various databases. The primary database engine that I used was PostgreSQL.
+                This project included the use of Bootstrap, jQuery, PostgreSQL and other optional libraries.
+            </p>
+            @*
             <p>
                 <a class="btn btn-info btn-site" href="https://evening-dawn-85312.herokuapp.com/" target="_blank" rel="noopener">CS 313 PHP Site >></a>
             </p>
-        *@ 
-       </div>
-   <div class="col-md-12">
-      <h3>CS 313 Java</h3>
-      <p>
-         This second class project space was utilizing the Java programming language. I implemented standard Java Server Pages and various servlets to accomplish
-         class assignments. I used the Netbeans IDE and maven for building the Java applications.
-         This project included the use of Maven, Bootstrap, jQuery, and database technologies.
-      </p>
-        @*
+        *@
+        </section>
+        <section class="content-panel prose" id="java-project">
+            <h2>
+                CS 313 Java
+            </h2>
+            <p>
+                This second class project space was utilizing the Java programming language. I implemented standard Java Server Pages and various servlets to accomplish
+                class assignments. I used the Netbeans IDE and maven for building the Java applications.
+                This project included the use of Maven, Bootstrap, jQuery, and database technologies.
+            </p>
+            @*
             <p>
                 <a class="btn btn-info btn-site" href="https://hidden-plateau-66868.herokuapp.com/" target="_blank" rel="noopener">CS 313 Java Site >></a>
             </p>
-        *@   
-       </div>
-   <div class="col-md-12">
-      <h3>CS 313 Team Project</h3>
-      <p>
-         This is an example of our CS 313 Team project written in Java.
-         This project included the use of Google APIs, Bootstrap, jQuery, and other optional libraries.
-      </p>
-      <p>
-         <a class="btn btn-info btn-site" href="https://github.com/MCLifeLeader/cs313php" target="_blank" rel="noopener">GitHub CS 313 PHP >></a>
-         @* <a class="btn btn-info btn-site" href="https://evening-dawn-85312.herokuapp.com/" target="_blank" rel="noopener">Heroku Hosted Site >></a> *@
-         <a class="btn btn-info btn-site" href="https://github.com/MCLifeLeader/cs313java" target="_blank" rel="noopener">GitHub CS 313 Java >></a>
-         @* <a class="btn btn-info btn-site" href="https://hidden-plateau-66868.herokuapp.com/" target="_blank" rel="noopener">Heroku Hosted Site >></a> *@
-         <a class="btn btn-info btn-site" href="https://github.com/MCLifeLeader/CS313Team" target="_blank" rel="noopener">GitHub CS 313 Team Project >></a>
-         @* <a class="btn btn-info btn-site" href="https://cs313team.herokuapp.com/" target="_blank" rel="noopener">CS 313 Team Project >></a> *@
-      </p>
-   </div>
+        *@
+        </section>
+        <section class="content-panel prose" id="team-project">
+            <h2>
+                CS 313 Team Project
+            </h2>
+            <p>
+                This is an example of our CS 313 Team project written in Java.
+                This project included the use of Google APIs, Bootstrap, jQuery, and other optional libraries.
+            </p>
+            <p>
+                <a class="btn btn-info btn-site" href="https://github.com/MCLifeLeader/cs313php" target="_blank" rel="noopener">GitHub CS 313 PHP >></a>
+                @* <a class="btn btn-info btn-site" href="https://evening-dawn-85312.herokuapp.com/" target="_blank" rel="noopener">Heroku Hosted Site >></a> *@
+                <a class="btn btn-info btn-site" href="https://github.com/MCLifeLeader/cs313java" target="_blank" rel="noopener">GitHub CS 313 Java >></a>
+                @* <a class="btn btn-info btn-site" href="https://hidden-plateau-66868.herokuapp.com/" target="_blank" rel="noopener">Heroku Hosted Site >></a> *@
+                <a class="btn btn-info btn-site" href="https://github.com/MCLifeLeader/CS313Team" target="_blank" rel="noopener">GitHub CS 313 Team Project >></a>
+                @* <a class="btn btn-info btn-site" href="https://cs313team.herokuapp.com/" target="_blank" rel="noopener">CS 313 Team Project >></a> *@
+            </p>
+        </section>
+    </div>
+    <aside class="reading-aside">
+    </aside>
 </div>

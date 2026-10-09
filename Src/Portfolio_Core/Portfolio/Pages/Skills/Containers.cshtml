@@ -1,0 +1,110 @@
+@page
+@{ ViewData["Title"] = "Docker and Podman"; }
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-box-seam" aria-hidden="true"></i> Container engineering
+    </p>
+    <h1>
+        Docker and Podman
+    </h1>
+    <p class="page-intro">
+        Containerized development, application packaging, and repeatable validation environments.
+    </p>
+</header>
+<div class="reading-layout">
+    <nav class="section-nav" aria-label="On this page">
+        <h2>
+            On this page
+        </h2>
+        <ul>
+            <li>
+                <a href="#development">Development Environments</a>
+            </li>
+            <li>
+                <a href="#packaging">Application Packaging</a>
+            </li>
+            <li>
+                <a href="#validation">Container-Backed Testing</a>
+            </li>
+            <li>
+                <a href="#lifecycle">Runtime and Resource Ownership</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="reading-main">
+        <section class="content-panel prose">
+            <h2 id="development">
+                Development Environments
+            </h2>
+            <p>
+                I use Docker and Podman in shared developer tooling for containerized local environments. Dev Containers, Compose services, and PowerShell/Bash launchers bring application dependencies and setup conventions into repeatable workflows.
+            </p>
+            <p>
+                The developer toolbox includes local SQL Server, PostgreSQL, Redis, Cosmos DB and DynamoDB emulators, Azure Storage and Service Bus emulators, WireMock, smtp4dev, and Seq. These resources support database work, integration testing, API mocking, email capture, and diagnostics.
+            </p>
+            <h2 id="packaging">
+                Application Packaging
+            </h2>
+            <p>
+                My application foundations include container packaging for .NET and Node.js/Next.js applications. The marketing starter provides runtime-only non-root images, while this portfolio uses a multi-stage Dockerfile to restore, build, publish, and package its ASP.NET Core application.
+            </p>
+            <p>
+                I connect image packaging with build and delivery templates so application artifacts can be prepared consistently for their intended environment.
+            </p>
+            <h2 id="validation">
+                Container-Backed Testing
+            </h2>
+            <p>
+                As the primary developer of a reusable QA automation framework, I built container-backed validation infrastructure with Testcontainers, dependency-aware startup, dynamic endpoints, isolated resources, and diagnostic evidence.
+            </p>
+            <p>
+                The framework's validation environments bring together applications, data services, browser execution, API mocks, and OAuth/OpenID Connect reference flows. Resource owners retain cleanup responsibility until tests and diagnostics have finished.
+            </p>
+            <h2 id="lifecycle">
+                Runtime and Resource Ownership
+            </h2>
+            <p>
+                My tooling supports Docker/Podman runtime selection, guarded startup and teardown, and shared services with defined ownership. Test-owned resources can remain isolated while ready shared development services are reused where appropriate.
+            </p>
+            <p>
+                <a asp-page="/Skills/DeveloperEnablement">Developer enablement</a> · <a asp-page="/Skills/QA">QA framework development</a> · <a asp-page="/Skills/DevOps">Delivery and DevOps</a>
+            </p>
+        </section>
+    </div>
+    <aside class="reading-aside">
+        <section class="content-panel">
+            <h2>
+                Skills and technologies
+            </h2>
+            <ul class="tag-list">
+                <li>
+                    Docker / Podman
+                </li>
+                <li>
+                    Compose service orchestration
+                </li>
+                <li>
+                    Dev Containers
+                </li>
+                <li>
+                    Multi-stage Docker builds
+                </li>
+                <li>
+                    Runtime-only non-root images
+                </li>
+                <li>
+                    Testcontainers
+                </li>
+                <li>
+                    Isolated validation environments
+                </li>
+                <li>
+                    PowerShell / Bash automation
+                </li>
+                <li>
+                    Resource lifecycles and cleanup
+                </li>
+            </ul>
+        </section>
+    </aside>
+</div>

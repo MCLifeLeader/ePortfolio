@@ -1,26 +1,40 @@
-﻿@page
+@page
 @model Portfolio.Pages.Projects.RedheadMobileModel
 @{
     ViewData["Title"] = "Redhead Mobile Apps";
 }
-
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
-
-<div class="row pt-3">
-    <div class="col-md-12">
-        <h3>Redhead Mobile Project 2017</h3>
-        <p>
-            Redhead mobile apps provided custom mobile applications for Independent Insurance Agencies.
-            The work that was undertaken was to update their API services to enable expansion of their products and services and increase
-            the overall performance of their product. The primary data that they were attempting to include was a merger with QQ Catalyst
-            and the older Vertafore APIs. Unfortunately, the project was ended when the costs related to licensing the Vertafore
-            API’s was going to be too high.
-        </p>
-        <p>
-            Sadly it appears that the company is no longer in business and the website is no longer active.
-        </p>
-        @*         <p>
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-kanban" aria-hidden="true"></i> Project archive
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+    <p class="page-intro">
+        An API integration project for independent insurance agency applications.
+    </p>
+    <p class="historical-context">
+        Historical project description: plans, status, and technology references below reflect the recorded project period. No current status update has been supplied.
+    </p>
+</header>
+<nav class="section-nav" aria-label="Related project pages">
+    <a asp-page="/Projects/Index">All projects</a><a asp-page="/Git">Public repositories</a>
+</nav>
+<section id="section-1" class="content-panel prose">
+    <h2>
+        Redhead Mobile Project 2017
+    </h2>
+    <p>
+        Redhead mobile apps provided custom mobile applications for Independent Insurance Agencies.
+        The work that was undertaken was to update their API services to enable expansion of their products and services and increase
+        the overall performance of their product. The primary data that they were attempting to include was a merger with QQ Catalyst
+        and the older Vertafore APIs. Unfortunately, the project was ended when the costs related to licensing the Vertafore
+        API’s was going to be too high.
+    </p>
+    <p>
+        Sadly it appears that the company is no longer in business and the website is no longer active.
+    </p>
+    @*         <p>
         <a class="btn btn-info btn-site" href="http://www.redheadmobileapps.com" target="_blank" rel="noopener">RedheadMobileApps.com >></a>
         </p>
         <p>
@@ -30,10 +44,9 @@
         <a class="btn btn-info btn-site" href="http://redheadapi.mbcarey.com/" target="_blank" rel="noopener">Development API >></a>
         </p>
         *@
-        <p>
+    <p>
         <a class="btn btn-site" href="http://www.redheadmobileapps.com" target="_blank" rel="noopener">RedheadMobileApps.com &gt;&gt;</a>
         <a class="btn btn-site" href="http://dev.mbcarey.com/Redhead/" target="_blank" rel="noopener">Development Dashboard &gt;&gt;</a>
         <a class="btn btn-site" href="http://redheadapi.mbcarey.com/" target="_blank" rel="noopener">Development API &gt;&gt;</a>
-        </p>
-    </div>
-</div>
+    </p>
+</section>

@@ -1,52 +1,152 @@
-﻿@page
+@page
 @model Portfolio.Pages.AboutMeModel
 @{
     ViewData["Title"] = "About Me";
 }
-
-<div class="row pt-3">
-    <div class="col-2">
-        <img class="img-fluid" src="~/content/images/fbMichael_B_Carey.jpg" title="Michael B. Carey" alt="Michael B. Carey" />
-    </div>
-    <div class="col-10">
-        <h2>About Me</h2>
-        <p>
-            I am a software engineering leader and architect focused on building scalable systems, developing strong engineering teams,
-            and aligning technology solutions with real-world business needs.
+<header class="page-header about-header">
+    <div>
+        <p class="page-kicker">
+            <i class="bi bi-person" aria-hidden="true"></i> The person behind the work
         </p>
-        <p>
-            I served as an <strong>Engineering Manager within the Seminaries and Institutes Education portfolio for The Church of Jesus Christ of Latter-day Saints</strong>
-            from 2021 to 2026, where I led engineering teams responsible for applications supporting global religious education programs.
-            My work centered on technical leadership, team development, and delivering reliable platforms that support educators and students worldwide.
-        </p>
-        <p>
-            I currently serve as a <strong>Software Engineering Architect in the Pathway Education portfolio</strong>, helping guide system architecture
-            and technical direction for platforms that expand access to education globally. My focus is designing scalable architectures,
-            enabling engineering teams, and ensuring systems are resilient, maintainable, and aligned with organizational goals.
-        </p>
-        <p>
-            Earlier in my career, I worked at <strong>Academy Mortgage Corporation in Draper, Utah</strong>, where I served in several roles including
-            Senior Software Engineer and IT Manager across Enterprise Development, DevOps, and Quality Assurance. In these positions I led engineering teams,
-            managed budgets, hired and mentored engineers, and conducted performance management and professional development. I also served briefly as a
-            Scrum Master, helping train teams in agile methodologies while continuing to contribute as a developer.
-        </p>
-        <p>
-            My technical experience includes building large-scale <strong>web applications, RESTful APIs, and enterprise services</strong>. I have led
-            the development of multiple web applications from concept to production, refactored SaaS platforms into scalable <strong>N-Tier architectures</strong>,
-            and contributed to the release of enterprise services including SOA layers and notification systems. I have also helped enable the development
-            and release of mobile applications for iOS and Android.
-        </p>
-        <p>
-            Again, welcome to my ePortfolio. I have an entrepreneurial spirit and believe that free enterprise is a cornerstone of an industrious society
-            and one of the greatest contributors to prosperity worldwide. I encourage anyone with even the slightest idea to explore building a business,
-            even as a side venture. If you are interested, feel free to visit my developing business,
-            <a class="fw-bolder" href="https://www.AGameEmpowerment.com" target="_blank" rel="noopener">A-Game Empowerment</a>,
-            which has provided meaningful experience well beyond software engineering and broadened my perspective on business ownership.
-        </p>
-        <p>
-            Exposure to marketing, product development, and business strategy has strengthened my ability to view software not as an isolated discipline,
-            but as part of a broader system of <strong>sales, marketing, and business growth</strong>. This perspective helps me design solutions that solve
-            real problems and deliver meaningful impact.
+        <h1>
+            About Me
+        </h1>
+        <p class="page-intro">
+            Engineering, leadership, entrepreneurship, and community.
         </p>
     </div>
+    <img class="about-portrait" src="~/content/images/Michael_Carey_Large.jpg" title="Michael B. Carey" alt="Michael B. Carey" width="180" height="215"/>
+</header>
+<div class="reading-layout">
+    <div class="reading-main prose">
+        <section>
+            <h2>
+                Architecture and engineering
+            </h2>
+            <p>
+                I am a software engineering leader and architect focused on building scalable systems, developing strong engineering teams,
+                and aligning technology solutions with real-world business needs.
+            </p>
+            <p>
+                I served as an <strong>Engineering Manager within the Seminaries and Institutes Education portfolio for The Church of Jesus Christ of Latter-day Saints</strong>
+                from February 2021 to February 2026, where I led engineering teams responsible for applications supporting global religious education programs.
+                My work centered on technical leadership, team development, and delivering reliable platforms that support educators and students worldwide.
+            </p>
+            <p>
+                Since February 2026, I have served as a <strong>Sr. Software Architect (Portfolio Architect) in the Pathway Education portfolio</strong>, helping guide system architecture
+                and technical direction for platforms that expand access to education globally. My focus is designing scalable architectures,
+                enabling engineering teams, and ensuring systems are resilient, maintainable, and aligned with organizational goals.
+            </p>
+            <p>
+                I am an ICS (Information Communication Services) employee of The Church of Jesus Christ of Latter-day Saints, with a direct assignment to support CES (Church Education Services) services and applications. My Global Education work includes BYU-Pathway and Seminaries and Institutes.
+            </p>
+            <p>
+                I have growing experience with Student Information Systems (SIS), helping develop and support educational applications for students. I also wired OAuth and OpenID Connect (OIDC) into my starter application using Okta.
+            </p>
+            <p>
+                Across Global Education, my work includes quality engineering modernization, AI-assisted engineering,
+                portfolio governance, security, and cloud modernization.
+                <a asp-page="/Experience/EmploymentAccomplishments">Explore my employment accomplishments</a>.
+            </p>
+            <p>
+                Earlier in my career, I worked at <strong>Academy Mortgage Corporation in Draper, Utah</strong>, where I served in several roles including
+                Senior Software Engineer and IT Manager across Enterprise Development, DevOps, and Quality Assurance. In these positions I led engineering teams,
+                managed budgets, hired and mentored engineers, and conducted performance management and professional development. I also served briefly as a
+                Scrum Master, helping train teams in agile methodologies while continuing to contribute as a developer.
+            </p>
+            <p>
+                My technical experience includes building large-scale <strong>web applications, RESTful APIs, and enterprise services</strong>. I have led
+                the development of multiple web applications from concept to production, refactored SaaS platforms into scalable <strong>N-Tier architectures</strong>,
+                and contributed to the release of enterprise services including SOA layers and notification systems. I have also helped enable the development
+                and release of mobile applications for iOS and Android.
+            </p>
+        </section>
+        <section>
+            <h2>
+                Entrepreneurship and perspective
+            </h2>
+            <p>
+                Again, welcome to my ePortfolio. I have an entrepreneurial spirit and believe that free enterprise is a cornerstone of an industrious society
+                and one of the greatest contributors to prosperity worldwide. I encourage anyone with even the slightest idea to explore building a business,
+                even as a side venture. If you are interested, feel free to visit my developing business,
+                <a class="fw-bolder" href="https://www.AGameEmpowerment.com" target="_blank" rel="noopener">A-Game Empowerment</a>,
+                which has provided meaningful experience well beyond software engineering and broadened my perspective on business ownership.
+            </p>
+            <p>
+                Exposure to marketing, product development, and business strategy has strengthened my ability to view software not as an isolated discipline,
+                but as part of a broader system of <strong>sales, marketing, and business growth</strong>. This perspective helps me design solutions that solve
+                real problems and deliver meaningful impact.
+            </p>
+        </section>
+        <section id="community" class="content-section">
+            <h2>
+                Community
+            </h2>
+            <p>
+                I believe in being active in my community and local government. While not currently seeking office, I encourage everyone to stay informed. Check out <a class="fw-bold" href="https://citizenportal.ai/a/pbrq3z" rel="noopener" target="_blank">this AI-powered resource</a> to stay engaged!
+            </p>
+            <p>
+                Welcome to my <strong>Work in Progress</strong> ePortfolio! I'm excited that you're here. Please look around—by the time you finish, you'll have a great idea of who I am and what I can offer!
+            </p>
+        </section>
+        <section id="connections" class="content-section">
+            <h2>
+                Social Media
+            </h2>
+            <ul class="connection-list">
+                <li>
+                    <a href="https://www.linkedin.com/in/michael-carey-13899627/" target="_blank" rel="noopener">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/MCLifeLeader" target="_blank" rel="noopener">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/c/AgameempowermentIntl" target="_blank" rel="noopener">YouTube</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mclifeleader/" target="_blank" rel="noopener">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/mclifeleader" target="_blank" rel="noopener">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://github.com/MCLifeLeader" target="_blank" rel="noopener">GitHub</a>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <aside class="reading-aside">
+        <section class="content-panel">
+            <h2>
+                Beyond engineering
+            </h2>
+            <p>
+                I am a current Extra Class licensed amateur radio operator, KB7PPB.
+            </p>
+            <ul class="resource-list">
+                <li>
+                    <a asp-page="/Fun/HamRadioVHFGoKit">Amateur radio projects</a>
+                </li>
+                <li>
+                    <a asp-page="/Skills/Leadership">Leadership and books</a>
+                </li>
+                <li>
+                    <a asp-page="/Experience/WorkHistory">Career history</a>
+                </li>
+            </ul>
+        </section>
+        <nav class="content-panel" aria-label="About me sections">
+            <h2>
+                On this page
+            </h2>
+            <ul class="resource-list">
+                <li>
+                    <a href="#community">Community</a>
+                </li>
+                <li>
+                    <a href="#connections">Social Media</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
 </div>

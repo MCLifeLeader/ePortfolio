@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "width": 375,
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "width": 375,
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "passed": true
+    }
+  ],
+  "scope": "Targeted Chromium layout, dates, role separation, anchor navigation, and JavaScript checks; external requests blocked."
+}
