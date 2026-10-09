@@ -6,7 +6,7 @@ The owner requested that the same website content be replicated into the [projec
 
 The owner selected `fbMichael_B_Carey.jpg` for Michael's portrait throughout the wiki on October 9, 2026. The generator applies this wiki-specific image choice whenever exporting his portrait. Home and About Me currently display it.
 
-Home also begins with a synchronization record containing the latest remote `main` commit checked at generation, the actual rendered website source commit, any uncommitted application-change qualifier, and the portrait filename. The generator records the same metadata in its verification JSON. Compare this saved checkpoint with the current remote branch when deciding what needs synchronization; it does not update between syncs or imply that feature-branch content came from `main`.
+Home ends with a synchronization record after its website and portfolio-home footer links, containing the latest remote `main` commit checked at generation, the actual rendered website source commit, any uncommitted application-change qualifier, and the portrait filename. The generator records the same metadata in its verification JSON. Compare this saved checkpoint with the current remote branch when deciding what needs synchronization; it does not update between syncs or imply that feature-branch content came from `main`. Placement-only edits preserve the existing checkpoint fields.
 
 The website remains the content source. `sync_wiki.py` reads rendered local pages rather than publishing Razor source, shared templates, or private reference documents. The initial sync generates 46 public portfolio pages, `_Sidebar.md`, `_Footer.md`, and 73 referenced media files under `assets`.
 
@@ -108,3 +108,9 @@ The [generated verification report](wiki-sync-verification.json) records every s
 Published to the [ePortfolio wiki](https://github.com/MCLifeLeader/ePortfolio/wiki) in wiki commit `947bde49bf18c9e56c18ca3990a7e774813fbf61`. The wiki repository push succeeded. Navigation follows the website's major sections, with a wiki sidebar and footer.
 
 Live Playwright MCP checks verified Home, Leadership, Technical History, the radio build guide, and Employment Accomplishments. All five returned HTTP 200, with no broken authored section links or loaded images. GitHub sanitizes custom anchors by lowercasing them and adding `user-content-`; generated fragment links account for this behavior. This live check samples five pages; the complete 46-page conversion and media preservation are checked locally.
+
+### Home record placement — October 9, 2026
+
+Wiki commit `a91316b7d2151c0b6656f9459b3e65d2a62c9e5c` moves the existing synchronization record to the bottom of Home, after the website and portfolio-home links. No portfolio content, assets, or checkpoint fields changed; the rendered-source checkpoint and generated verification report remain from the previous content sync. The generator and skill now preserve this bottom placement on future syncs.
+
+Verification for this placement update: the published Home returned HTTP 200, and its rendered Markdown HTML showed the portfolio heading first and the synchronization record last, with both recorded SHAs unchanged. The remote wiki SHA matched the published commit and the wiki checkout was clean. No browser was available for visual inspection; the earlier five-page browser checks above remain historical evidence. Local generator placement checks passed for Home and an unaffected non-Home page, and skill validation passed.

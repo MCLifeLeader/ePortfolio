@@ -170,7 +170,7 @@ def main():
             raise AssertionError(f"Section anchors changed: {route}")
         page_text = body.strip() + f"\n\n---\n\n[View this page on the website](https://mbcarey.com{route}) · [Portfolio home]({WIKI}/Home)\n"
         if item["name"] == "Home":
-            page_text = sync_note(metadata) + page_text
+            page_text = page_text.rstrip() + "\n\n" + sync_note(metadata).rstrip() + "\n"
         (checkout / (item["name"] + ".md")).write_text(page_text, encoding="utf-8", newline="\n")
         report.append({"route": route, **item, "text_tokens": len(tokens(original_text)),
                        "links": len(expected_links), "images": len(expected_images),
