@@ -23,6 +23,7 @@ MEDIA = ROOT / "Src/Portfolio_Core/Portfolio/wwwroot"
 WIKI = "https://github.com/MCLifeLeader/ePortfolio/wiki"
 RAW = "https://raw.githubusercontent.com/wiki/MCLifeLeader/ePortfolio/"
 EXCLUDED = {"Error", "Experience/ResumeHistory"}
+WIKI_PORTRAIT = MEDIA / "content/images/fbMichael_B_Carey.jpg"
 
 
 class Converter(MarkdownConverter):
@@ -117,6 +118,8 @@ def main():
                         raise AssertionError(f"Unmapped local link in {route}: {value}")
                     if local.name.casefold() == "resume.pdf":
                         raise AssertionError("The disconnected resume must not be published")
+                    if element.name == "img" and (local.name.casefold() == "michael_carey_large.jpg" or element.get("alt", "").strip().casefold() in {"michael b. carey", "michael carey"}):
+                        local = WIKI_PORTRAIT
                     relative = Path("assets") / local.relative_to(MEDIA)
                     dest = checkout / relative
                     dest.parent.mkdir(parents=True, exist_ok=True)

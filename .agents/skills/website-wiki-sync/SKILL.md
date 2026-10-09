@@ -55,6 +55,8 @@ Route naming: `/` becomes `Home`; section `/Index` routes become their section n
 
 Images and downloadable resources are copied byte-for-byte under `assets/` and referenced through `https://raw.githubusercontent.com/wiki/MCLifeLeader/ePortfolio/`. Do not use main-repository raw URLs or relative wiki attachment URLs. Original IDs are emitted as named anchors, while links use GitHub's sanitized `#user-content-` prefix and lowercase target, for example `#user-content-books`.
 
+Use `wwwroot/content/images/fbMichael_B_Carey.jpg` for Michael's portrait on all wiki pages that show his image. This owner-approved wiki presentation choice is applied by the generator; the website's portrait remains independently maintained.
+
 Read the newly written `docs/2026/10/wiki-sync-verification.json`, not an old successful report after a failed run. It records source commit, route mapping, media hashes, text-token round-trip checks, link/image counts, preserved anchors, and cross-page fragment checks. The first sync had 46 content pages and 73 assets; these are historical counts, not limits on future additions. Inspect new untracked files separately because normal `git diff` omits them. Check reading lists, captions, historical tables, image galleries, and adjacent links for readable Markdown formatting. A failed conversion may leave a partially updated checkout; resolve the cause and rerun successfully before staging.
 
 ## Commit, publish, and verify
