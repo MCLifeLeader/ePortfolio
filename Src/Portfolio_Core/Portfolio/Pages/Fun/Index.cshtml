@@ -3,28 +3,52 @@
 @{
     ViewData["Title"] = "Fun Projects";
 }
-
-<header class="page-header"><p class="page-kicker"><i class="bi bi-controller" aria-hidden="true"></i> Personal projects &amp; community</p><h1>@ViewData["Title"]</h1>
-@if (ViewData["Message"] is string pageMessage && !string.IsNullOrWhiteSpace(pageMessage))
-{
-<p class="page-intro">@pageMessage</p>
-}
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-controller" aria-hidden="true"></i> Personal projects &amp; community
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+    @if (ViewData["Message"] is string pageMessage && !string.IsNullOrWhiteSpace(pageMessage))
+    {
+        <p class="page-intro">
+            @pageMessage
+        </p>
+    }
 </header>
-<section class="content-panel" aria-labelledby="personal-context"><h2 id="personal-context">Personal projects and community</h2><p>These pages preserve the learning, gaming, radio, literary, and technical interests behind my personal projects. My Extra Class amateur radio license is current.</p><p><a asp-page="/AboutMe">About me</a> · <a asp-page="/Tribute">Tribute</a> · <a asp-page="/Skills/TechnicalHistory" asp-fragment="achievements">Personal achievements and earlier technical experience</a> · <a asp-page="/Explore">Full portfolio directory</a></p></section>
-
+<section class="content-panel" aria-labelledby="personal-context">
+    <h2 id="personal-context">
+        Personal projects and community
+    </h2>
+    <p>
+        These pages preserve the learning, gaming, radio, literary, and technical interests behind my personal projects. My Extra Class amateur radio license is current.
+    </p>
+    <p>
+        <a asp-page="/AboutMe">About me</a> · <a asp-page="/Tribute">Tribute</a> · <a asp-page="/Skills/TechnicalHistory" asp-fragment="achievements">Personal achievements and earlier technical experience</a> · <a asp-page="/Explore">Full portfolio directory</a>
+    </p>
+</section>
 <div class="project-grid">
     <article class="project-card">
-        <h2>Solarian League Site</h2>
-        <p>This fun project was created to help me gain further understanding in the development of front-end
+        <h2>
+            Solarian League Site
+        </h2>
+        <p>
+            This fun project was created to help me gain further understanding in the development of front-end
             web applications using C# Blazor WebAsm and SPA. Data is sourced from Discord and an API pass through
-            Azure Function App that loads data from Blizzard.</p>
+            Azure Function App that loads data from Blizzard.
+        </p>
         <p>
             <a class="btn btn-info btn-site" asp-area="" asp-page="/Fun/SolarianLeague">Learn more >></a>
         </p>
     </article>
     <article class="project-card">
-        <h2>Ham Radio Go-Kit</h2>
-        <p>This is a how to guide to build a Ham Radio Go-Kit for VHF and UHF mobile radio.</p>
+        <h2>
+            Ham Radio Go-Kit
+        </h2>
+        <p>
+            This is a how to guide to build a Ham Radio Go-Kit for VHF and UHF mobile radio.
+        </p>
         <p>
             <a class="btn btn-info btn-site" asp-area="" asp-page="/Fun/HamRadioVHFGoKit">Learn more >></a>
         </p>

@@ -3,34 +3,61 @@
 @{
     ViewData["Title"] = "Experience";
 }
-
-<header class="page-header"><p class="page-kicker"><i class="bi bi-briefcase" aria-hidden="true"></i> Professional experience</p><h1>@ViewData["Title"]</h1>
-@if (ViewData["Message"] is string pageMessage && !string.IsNullOrWhiteSpace(pageMessage))
-{
-<p class="page-intro">@pageMessage</p>
-}
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-briefcase" aria-hidden="true"></i> Professional experience
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+    @if (ViewData["Message"] is string pageMessage && !string.IsNullOrWhiteSpace(pageMessage))
+    {
+        <p class="page-intro">
+            @pageMessage
+        </p>
+    }
 </header>
-<section class="content-panel" aria-labelledby="experience-context"><h2 id="experience-context">Professional experience and development</h2><p>I serve as Sr. Software Architect (Portfolio Architect), February 2026–present, following my Engineering Manager role from February 2021 to February 2026. Explore the current work and the historical chronology below.</p><p><a asp-page="/Experience/EmploymentAccomplishments">Employment accomplishments</a> · <a asp-page="/Architecture">Architecture &amp; Governance</a></p></section>
-
+<section class="content-panel" aria-labelledby="experience-context">
+    <h2 id="experience-context">
+        Professional experience and development
+    </h2>
+    <p>
+        I serve as Sr. Software Architect (Portfolio Architect), February 2026–present, following my Engineering Manager role from February 2021 to February 2026. Explore the current work and the historical chronology below.
+    </p>
+    <p>
+        <a asp-page="/Experience/EmploymentAccomplishments">Employment accomplishments</a> · <a asp-page="/Architecture">Architecture &amp; Governance</a>
+    </p>
+</section>
 <div class="project-grid">
-
     <article class="project-card">
-        <h2>About Me</h2>
-        <p>A bit more about me personally, including my background and work experience.</p>
+        <h2>
+            About Me
+        </h2>
+        <p>
+            A bit more about me personally, including my background and work experience.
+        </p>
         <p>
             <a class="btn btn-info btn-site" asp-area="" asp-page="/AboutMe">About Me >></a>
         </p>
     </article>
     <article class="project-card">
-        <h2>Education</h2>
-        <p>This is a deeper dive into my scholastic education and college experience.</p>
+        <h2>
+            Education
+        </h2>
+        <p>
+            This is a deeper dive into my scholastic education and college experience.
+        </p>
         <p>
             <a class="btn btn-info btn-site" asp-area="" asp-page="/Experience/Education">Learn more >></a>
         </p>
     </article>
     <article class="project-card">
-        <h2>Work History</h2>
-        <p>This details my work history and various employment opportunities that I had.</p>
+        <h2>
+            Work History
+        </h2>
+        <p>
+            This details my work history and various employment opportunities that I had.
+        </p>
         <p>
             <a class="btn btn-info btn-site" asp-area="" asp-page="/Experience/WorkHistory">Learn more >></a>
         </p>

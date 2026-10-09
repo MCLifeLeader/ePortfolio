@@ -1,0 +1,683 @@
+{
+  "routes": 48,
+  "cases": [
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/AboutMe",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Architecture",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/College/Cit261",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/College/Cs313",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/College/Cs364",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/College/Index",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Contact",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Error",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Experience/Education",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Experience/EmploymentAccomplishments",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Experience/Index",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Experience/ResumeHistory",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Experience/WorkHistory",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Explore",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Fun/HamRadioVHFGoKit",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Fun/Index",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Fun/SolarianLeague",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Git",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Privacy",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/AGameEmpowerment",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/AdverTran",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/AzureServices",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/Encompass",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/FamilyKey",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/Index",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/MlmLinkup",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/RedheadMobile",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/Startup",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/AI",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/CPlus",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/CSharp",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Containers",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Database",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/DevOps",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/DeveloperEnablement",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Index",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Java",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Leadership",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Okta",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/QA",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/SystemsIntegration",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/TechnicalHistory",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Technologies",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Web",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/WebApi",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Zendesk",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Tribute",
+      "width": 1440,
+      "theme": "light",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/AboutMe",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Architecture",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/College/Cit261",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/College/Cs313",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/College/Cs364",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/College/Index",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Contact",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Error",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Experience/Education",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Experience/EmploymentAccomplishments",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Experience/Index",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Experience/ResumeHistory",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Experience/WorkHistory",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Explore",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Fun/HamRadioVHFGoKit",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Fun/Index",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Fun/SolarianLeague",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Git",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Privacy",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/AGameEmpowerment",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/AdverTran",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/AzureServices",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/Encompass",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/FamilyKey",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/Index",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/MlmLinkup",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/RedheadMobile",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Projects/Startup",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/AI",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/CPlus",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/CSharp",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Containers",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Database",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/DevOps",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/DeveloperEnablement",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Index",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Java",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Leadership",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Okta",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/QA",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/SystemsIntegration",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/TechnicalHistory",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Technologies",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Web",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/WebApi",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Skills/Zendesk",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    },
+    {
+      "route": "/Tribute",
+      "width": 375,
+      "theme": "dark",
+      "content_differences": [],
+      "overflow": false
+    }
+  ],
+  "failures": [],
+  "javascript_errors": [],
+  "limitations": [
+    "Chromium desktop/light and mobile/dark checks; external requests blocked.",
+    "Request-ID diagnostic paragraphs are excluded because IDs change for each request."
+  ]
+}

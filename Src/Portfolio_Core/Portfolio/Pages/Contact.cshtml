@@ -1,11 +1,62 @@
 @page
 @model Portfolio.Pages.ContactModel
 @{ ViewData["Title"] = "Contact"; }
-<header class="page-header"><p class="page-kicker"><i class="bi bi-chat-dots" aria-hidden="true"></i> Product delivery &amp; engineering</p><h1>Contact</h1><p class="page-intro">Build reliable products with practical architecture and hands-on engineering.</p></header>
-<div class="reading-layout"><div class="reading-main"><p>The contact form is not currently available. Connect through LinkedIn about product development and engineering leadership, or explore my implementation work on GitHub.</p>
-<div class="project-grid"><section class="project-card"><h2>LinkedIn</h2><p>Professional experience and connections.</p><a class="btn btn-primary" href="https://www.linkedin.com/in/michael-carey-13899627/" target="_blank" rel="noopener">LinkedIn</a></section>
-<section class="project-card"><h2>GitHub</h2><p>Repositories and hands-on engineering work.</p><a class="btn btn-primary" href="https://github.com/MCLifeLeader" target="_blank" rel="noopener">GitHub</a></section></div></div>
-<aside class="reading-aside"><section class="content-panel"><h2>Explore further</h2><ul class="resource-list"><li><a asp-page="/Architecture">Architecture &amp; Governance</a></li><li><a asp-page="/Experience/WorkHistory">Work history</a></li><li><a asp-page="/AboutMe" asp-fragment="connections">More connections</a></li></ul></section></aside></div>
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-chat-dots" aria-hidden="true"></i> Product delivery &amp; engineering
+    </p>
+    <h1>
+        Contact
+    </h1>
+    <p class="page-intro">
+        Build reliable products with practical architecture and hands-on engineering.
+    </p>
+</header>
+<div class="reading-layout">
+    <div class="reading-main">
+        <p>
+            The contact form is not currently available. Connect through LinkedIn about product development and engineering leadership, or explore my implementation work on GitHub.
+        </p>
+        <div class="project-grid">
+            <section class="project-card">
+                <h2>
+                    LinkedIn
+                </h2>
+                <p>
+                    Professional experience and connections.
+                </p>
+                <a class="btn btn-primary" href="https://www.linkedin.com/in/michael-carey-13899627/" target="_blank" rel="noopener">LinkedIn</a>
+            </section>
+            <section class="project-card">
+                <h2>
+                    GitHub
+                </h2>
+                <p>
+                    Repositories and hands-on engineering work.
+                </p>
+                <a class="btn btn-primary" href="https://github.com/MCLifeLeader" target="_blank" rel="noopener">GitHub</a>
+            </section>
+        </div>
+    </div>
+    <aside class="reading-aside">
+        <section class="content-panel">
+            <h2>
+                Explore further
+            </h2>
+            <ul class="resource-list">
+                <li>
+                    <a asp-page="/Architecture">Architecture &amp; Governance</a>
+                </li>
+                <li>
+                    <a asp-page="/Experience/WorkHistory">Work history</a>
+                </li>
+                <li>
+                    <a asp-page="/AboutMe" asp-fragment="connections">More connections</a>
+                </li>
+            </ul>
+        </section>
+    </aside>
+</div>
 @* <div class="bg-dark rounded">
     <div class="row justify justify-content-center">
         <div class="col-11 col-md-8 col-lg-6 col-xl-5">

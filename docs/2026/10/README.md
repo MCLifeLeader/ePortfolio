@@ -65,6 +65,8 @@ The fixed baseline is [the content audit](../../content-audit/README.md), includ
 - [Page layout modernization and final review](14-layout-modernization-review.md)
 - [Product delivery language and additional accomplishments](15-delivery-language-update.md)
 - [Architectural delivery highlights from wiki references](16-architecture-delivery-highlights.md)
+- [Skills review and missing capability pages](17-skills-review.md)
+- [HTML formatting and alignment pass](18-html-formatting-review.md)
 
 ## Execution rules
 

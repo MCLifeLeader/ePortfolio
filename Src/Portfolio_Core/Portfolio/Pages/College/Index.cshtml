@@ -3,18 +3,25 @@
 @{
     ViewData["Title"] = "College";
 }
-
-<header class="page-header"><p class="page-kicker"><i class="bi bi-mortarboard" aria-hidden="true"></i> Education &amp; development</p><h1>@ViewData["Title"]</h1>
-@if (ViewData["Message"] is string pageMessage && !string.IsNullOrWhiteSpace(pageMessage))
-{
-<p class="page-intro">@pageMessage</p>
-}
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-mortarboard" aria-hidden="true"></i> Education &amp; development
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+    @if (ViewData["Message"] is string pageMessage && !string.IsNullOrWhiteSpace(pageMessage))
+    {
+        <p class="page-intro">
+            @pageMessage
+        </p>
+    }
 </header>
-
 <div class="project-grid">
-
     <article class="project-card">
-        <h2>CIT 261 Class</h2>
+        <h2>
+            CIT 261 Class
+        </h2>
         <p>
             CIT 261 Project work space. This is an example of class work that covered front end UI development without the use of libraries or tools.
             This project used vanilla JavaScript and CSS.
@@ -24,7 +31,9 @@
         </p>
     </article>
     <article class="project-card">
-        <h2>CS 313 Class</h2>
+        <h2>
+            CS 313 Class
+        </h2>
         <p>
             CS 313 SChool Project work space. This is an example of class work that covered PHP and Java full stack development.
             This project included the use of Bootstrap, jQuery, and other optional libraries.
@@ -34,7 +43,9 @@
         </p>
     </article>
     <article class="project-card">
-        <h2>CS 364 Class</h2>
+        <h2>
+            CS 364 Class
+        </h2>
         <p>
             CS 364 SChool Project work space. This is an example of class work that covered the creation of project related documentation used in the design and
             development of software. The Software Requirements Specification or (SRS) and Software Design Description or (SDD).

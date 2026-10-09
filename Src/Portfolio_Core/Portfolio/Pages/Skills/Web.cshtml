@@ -3,34 +3,161 @@
 @{
     ViewData["Title"] = "Web";
 }
-<header class="page-header"><p class="page-kicker"><i class="bi bi-code-slash" aria-hidden="true"></i> Engineering &amp; Technology</p><h1>@ViewData["Title"]</h1></header>
-<div class="reading-layout"><nav class="section-nav" aria-label="On this page"><h2>On this page</h2><ul><li><a href="#asp-net-web-development">ASP.NET Web Development</a></li><li><a href="#modern-web-direction">Modern Web Direction</a></li><li><a href="#foundational-web-skills">Foundational Web Skills</a></li></ul></nav><div class="reading-main"><section class="content-panel prose">
-<h2 id="asp-net-web-development">ASP.NET Web Development</h2>
-        <p>
-            My web development experience includes ASP.NET websites, Razor Pages, MVC applications, Blazor applications, WordPress-based
-            business sites, and responsive mobile-friendly interfaces. This portfolio itself is part of that story and reflects the ongoing
-            practice of building and refining production-style web content in .NET.
-        </p>
-        <h2 id="modern-web-direction">Modern Web Direction</h2>
-        <p>
-            More recent public work shows my continued growth into Blazor and newer .NET web application patterns. Blazor-Chat-App uses
-            .NET 10, Aspire, Redis output caching, EF Core, and a web-first application structure. Developer-Toolbox also shows attention
-            to front-end developer experience through Node.js support, React-friendly tooling, and Dev Container based setup.
-        </p>
-        <h2 id="foundational-web-skills">Foundational Web Skills</h2>
-        <p>
-            My older public repositories still matter because they show the foundations underneath the newer stack. Cit261 and CIT261Team
-            highlight direct HTML, CSS, JavaScript, DOM work, and responsive thinking. Earlier consulting and product work adds eCommerce,
-            hosted web applications, and practical customer-facing delivery experience.
-        </p>
-</section></div><aside class="reading-aside"><section class="content-panel prose"><h2>Summary</h2>
-        <ul class="tag-list">
-            <li>HTML / CSS / JavaScript</li>
-            <li>Responsive Web Design</li>
-            <li>Razor Pages</li>
-            <li>ASP.NET MVC</li>
-            <li>Blazor Web Applications</li>
-            <li>Bootstrap and common UI libraries</li>
-            <li>WordPress and hosted business sites</li>
-            <li>Mobile-friendly layout and presentation</li>
-        </ul></section><section class="content-panel prose"><h2>External Links</h2><ul class="resource-list"><li><a href="https://github.com/MCLifeLeader/ePortfolio" target="_blank" rel="noopener">ePortfolio &gt;&gt;</a></li><li><a href="https://github.com/MCLifeLeader/Blazor-Chat-App" target="_blank" rel="noopener">Blazor-Chat-App &gt;&gt;</a></li><li><a href="https://github.com/MCLifeLeader/Cit261" target="_blank" rel="noopener">Cit261 &gt;&gt;</a></li><li><a href="https://AGameEmpowerment.com/" target="_blank" rel="noopener">AGameEmpowerment.com &gt;&gt;</a></li></ul></section></aside></div>
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-code-slash" aria-hidden="true"></i> Engineering &amp; Technology
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+</header>
+<div class="reading-layout">
+    <nav class="section-nav" aria-label="On this page">
+        <h2>
+            On this page
+        </h2>
+        <ul>
+            <li>
+                <a href="#production-full-stack-web">Full-Stack Production Web Applications</a>
+            </li>
+            <li>
+                <a href="#frontend-architecture-and-quality">Frontend Architecture and Quality</a>
+            </li>
+            <li>
+                <a href="#asp-net-web-development">ASP.NET Web Development</a>
+            </li>
+            <li>
+                <a href="#modern-web-direction">Modern Web Direction</a>
+            </li>
+            <li>
+                <a href="#foundational-web-skills">Foundational Web Skills</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="reading-main">
+        <section class="content-panel prose">
+            <h2 id="production-full-stack-web">
+                Full-Stack Production Web Applications
+            </h2>
+            <p>
+                I have delivered full-stack production applications using the shared application foundations and developer resources I built. That experience includes hands-on work across ASP.NET Core APIs and Node.js, Next.js, React, and TypeScript clients, alongside the .NET web technologies documented below.
+            </p>
+            <p>
+                My shared full-stack starter combines a .NET 10 API, a Next.js frontend, reusable .NET libraries, Aspire orchestration, QA automation, and delivery templates. I also built a focused public marketing-site foundation that keeps its application boundary deliberately small and introduces additional infrastructure only when requirements justify it.
+            </p>
+            <p>
+                <a asp-page="/Experience/EmploymentAccomplishments" asp-fragment="shared-application-templates">Read about the shared application foundations</a>.
+            </p>
+        </section>
+        <section class="content-panel prose">
+            <h2 id="frontend-architecture-and-quality">
+                Frontend Architecture and Quality
+            </h2>
+            <p>
+                The marketing foundation uses strict TypeScript and feature-based boundaries, separating domain logic from App Router routes and shared components. Its frontend combines Tailwind CSS and Headless UI primitives with reusable UI compositions, Zod schemas, React Query, and Zustand.
+            </p>
+            <p>
+                Token-based light and dark themes and localization provide a reusable presentation foundation. Storybook supports component exploration, while Vitest, static checks, and browser automation accompany the starter. A same-origin API proxy keeps backend integration behind a controlled server boundary.
+            </p>
+            <p>
+                My developer toolbox supports repeatable local work with Dev Containers, containerized services, cross-platform setup scripts, and portable AI engineering guidance. Runtime-only, non-root container packaging and delivery templates accompany the application foundations.
+            </p>
+            <p>
+                <a asp-page="/Experience/EmploymentAccomplishments" asp-fragment="marketing-website-foundation">Explore the marketing-site foundation</a> and <a asp-page="/Experience/EmploymentAccomplishments" asp-fragment="developer-enablement">developer enablement</a>.
+            </p>
+        </section>
+        <section class="content-panel prose">
+            <h2 id="asp-net-web-development">
+                ASP.NET Web Development
+            </h2>
+            <p>
+                My web development experience includes ASP.NET websites, Razor Pages, MVC applications, Blazor applications, WordPress-based
+                business sites, and responsive mobile-friendly interfaces. This portfolio itself is part of that story and reflects the ongoing
+                practice of building and refining production-style web content in .NET.
+            </p>
+            <h2 id="modern-web-direction">
+                Modern Web Direction
+            </h2>
+            <p>
+                More recent public work shows my continued growth into Blazor and newer .NET web application patterns. Blazor-Chat-App uses
+                .NET 10, Aspire, Redis output caching, EF Core, and a web-first application structure. Developer-Toolbox also shows attention
+                to front-end developer experience through Node.js support, React-friendly tooling, and Dev Container based setup.
+            </p>
+            <h2 id="foundational-web-skills">
+                Foundational Web Skills
+            </h2>
+            <p>
+                My older public repositories still matter because they show the foundations underneath the newer stack. Cit261 and CIT261Team
+                highlight direct HTML, CSS, JavaScript, DOM work, and responsive thinking. Earlier consulting and product work adds eCommerce,
+                hosted web applications, and practical customer-facing delivery experience.
+            </p>
+        </section>
+    </div>
+    <aside class="reading-aside">
+        <section class="content-panel prose">
+            <h2>
+                Summary
+            </h2>
+            <ul class="tag-list">
+                <li>
+                    Full-stack production web delivery
+                </li>
+                <li>
+                    Next.js / React / TypeScript
+                </li>
+                <li>
+                    Tailwind CSS / Headless UI / Storybook
+                </li>
+                <li>
+                    Zod / React Query / Zustand
+                </li>
+                <li>
+                    Reusable themes and localization
+                </li>
+                <li>
+                    HTML / CSS / JavaScript
+                </li>
+                <li>
+                    Responsive Web Design
+                </li>
+                <li>
+                    Razor Pages
+                </li>
+                <li>
+                    ASP.NET MVC
+                </li>
+                <li>
+                    Blazor Web Applications
+                </li>
+                <li>
+                    Bootstrap and common UI libraries
+                </li>
+                <li>
+                    WordPress and hosted business sites
+                </li>
+                <li>
+                    Mobile-friendly layout and presentation
+                </li>
+            </ul>
+        </section>
+        <section class="content-panel prose">
+            <h2>
+                External Links
+            </h2>
+            <ul class="resource-list">
+                <li>
+                    <a href="https://github.com/MCLifeLeader/ePortfolio" target="_blank" rel="noopener">ePortfolio &gt;&gt;</a>
+                </li>
+                <li>
+                    <a href="https://github.com/MCLifeLeader/Blazor-Chat-App" target="_blank" rel="noopener">Blazor-Chat-App &gt;&gt;</a>
+                </li>
+                <li>
+                    <a href="https://github.com/MCLifeLeader/Cit261" target="_blank" rel="noopener">Cit261 &gt;&gt;</a>
+                </li>
+                <li>
+                    <a href="https://AGameEmpowerment.com/" target="_blank" rel="noopener">AGameEmpowerment.com &gt;&gt;</a>
+                </li>
+            </ul>
+        </section>
+    </aside>
+</div>

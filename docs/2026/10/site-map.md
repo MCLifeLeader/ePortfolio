@@ -103,7 +103,12 @@ New routes listed above are implementation targets; presence is checked below. T
 | `/Experience/EmploymentAccomplishments` | `Src/Portfolio_Core/Portfolio/Pages/Experience/EmploymentAccomplishments.cshtml` |
 | `/Experience/ResumeHistory` | `Src/Portfolio_Core/Portfolio/Pages/Experience/ResumeHistory.cshtml` |
 | `/Explore` | `Src/Portfolio_Core/Portfolio/Pages/Explore.cshtml` |
+| `/Skills/Containers` | `Src/Portfolio_Core/Portfolio/Pages/Skills/Containers.cshtml` |
+| `/Skills/DeveloperEnablement` | `Src/Portfolio_Core/Portfolio/Pages/Skills/DeveloperEnablement.cshtml` |
+| `/Skills/Okta` | `Src/Portfolio_Core/Portfolio/Pages/Skills/Okta.cshtml` |
+| `/Skills/SystemsIntegration` | `Src/Portfolio_Core/Portfolio/Pages/Skills/SystemsIntegration.cshtml` |
 | `/Skills/TechnicalHistory` | `Src/Portfolio_Core/Portfolio/Pages/Skills/TechnicalHistory.cshtml` |
+| `/Skills/Zendesk` | `Src/Portfolio_Core/Portfolio/Pages/Skills/Zendesk.cshtml` |
 
 ## Preservation and verification rules
 

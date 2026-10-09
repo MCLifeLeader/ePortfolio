@@ -3,69 +3,85 @@
 @{
     ViewData["Title"] = "Azure Services";
 }
-
 <header class="page-header">
-    <p class="page-kicker"><i class="bi bi-kanban" aria-hidden="true"></i> Enterprise engineering</p>
-    <h1>@ViewData["Title"]</h1>
-    <p class="page-intro">Messaging, automation, and data integration work for Academy Mortgage and independent services.</p>
+    <p class="page-kicker">
+        <i class="bi bi-kanban" aria-hidden="true"></i> Enterprise engineering
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+    <p class="page-intro">
+        Messaging, automation, and data integration work for Academy Mortgage and independent services.
+    </p>
 </header>
-<nav class="section-nav" aria-label="Related project pages"><a asp-page="/Projects/Index">All projects</a><a asp-page="/Git">Public repositories</a></nav>
-<div class="prose"><p>
-            This project section will cover details around multiple projects that I either directly developed
-            independently or collectively as a part of the development and delivery team at Academy Mortgage
-            or for my own purposes related to my personal business activities.
-        </p>
-        </div>
-<nav class="section-nav" aria-label="Project sections"><a href="#message-bus">Academy Message Bus API</a><a href="#email-automation">Amy Email API</a><a href="#loan-data-sync">Encompass (Dev Connect) Sync Service</a></nav>
+<nav class="section-nav" aria-label="Related project pages">
+    <a asp-page="/Projects/Index">All projects</a><a asp-page="/Git">Public repositories</a>
+</nav>
+<div class="prose">
+    <p>
+        This project section will cover details around multiple projects that I either directly developed
+        independently or collectively as a part of the development and delivery team at Academy Mortgage
+        or for my own purposes related to my personal business activities.
+    </p>
+</div>
+<nav class="section-nav" aria-label="Project sections">
+    <a href="#message-bus">Academy Message Bus API</a><a href="#email-automation">Amy Email API</a><a href="#loan-data-sync">Encompass (Dev Connect) Sync Service</a>
+</nav>
 <section id="message-bus" class="content-panel prose">
-<h2>Academy Message Bus API</h2>
-        <p>
-            My development and implementation of a messaging service handler for Academy Mortgage was based
-            on the needs to improve performance and get database specific data back to a client application
-            where the company client applications would not be directly connected to our internal network.
-            The <a asp-area="" asp-page="/Projects/Encompass">Encompass</a> application is utilized
-            for tracking the loan origination process and is a third-party application developed by Ellie Mae.
-        </p>
-        <p>
-            Through customized development we added a plugin that allowed us to make data request calls securely
-            through the Azure Messaging services and then return the results back to the client application for
-            further processing. This customization reduced our typical client wait time from 60 to well over
-            120 seconds down to under 15 seconds for most requests.
-        </p>
+    <h2>
+        Academy Message Bus API
+    </h2>
+    <p>
+        My development and implementation of a messaging service handler for Academy Mortgage was based
+        on the needs to improve performance and get database specific data back to a client application
+        where the company client applications would not be directly connected to our internal network.
+        The <a asp-area="" asp-page="/Projects/Encompass">Encompass</a> application is utilized
+        for tracking the loan origination process and is a third-party application developed by Ellie Mae.
+    </p>
+    <p>
+        Through customized development we added a plugin that allowed us to make data request calls securely
+        through the Azure Messaging services and then return the results back to the client application for
+        further processing. This customization reduced our typical client wait time from 60 to well over
+        120 seconds down to under 15 seconds for most requests.
+    </p>
 </section>
 <section id="email-automation" class="content-panel prose">
-<h2>Amy Email API</h2>
-        <p>
-            As a part of improving process and decreasing the time it takes from loan application to close.
-            We now leverage various automation tools through a vendor to decrease human error and increase the
-            speed to delivery while providing greater value to our borrowers. One of difficulties that our
-            vendor experienced was attempting to use Outlook as a part of their UI based Robotic Process Automation (RPA).
-            There are a number of limitations to RPA in general including the brittle nature of point and
-            click within a UI and the time it takes to perform those operations relative to the application (Encompass)
-            it needs to interact with. This ultimately is no different than what many QA engineers use when
-            leveraging technologies such as Selenium to perform web-based UI Automation testing.
-        </p>
-        <p>
-            When our vendor attempted to expand the number of RPA client servers that operated Outlook on
-            them they hit a limitation on the number of concurrent connected instances of Outlook using the
-            same credentials to our O365 instance that was managing email communication to the RPA clients.
-            To remove this limitation, I developed an API driven service to manage in and outbound communication.
-            Not only for Email but for other methods of communication including SMS text, Encompass Event Messages,
-            and Teams or Slack communication to or from the bot servers.
-        </p>
-        <p>
-            In my implementation I created an Azure Function App to act as the primary inbound message handling
-            service or series of Webhooks for email and other requests coming inbound into the bots, including
-            one Logic App that monitored the inbound email through O365. These inbound messages are then sent to
-            an Azure Message Bus queue for later processing. On the other side I created a reader Azure Logic App
-            that handled the pulling of messages out of the queue and other micro services for sending out email and
-            other communication to clients and users. This also included sending out email messages with file
-            attachments using Azure Blob Storage as the temporary file storage for those attachments.
-        </p>
+    <h2>
+        Amy Email API
+    </h2>
+    <p>
+        As a part of improving process and decreasing the time it takes from loan application to close.
+        We now leverage various automation tools through a vendor to decrease human error and increase the
+        speed to delivery while providing greater value to our borrowers. One of difficulties that our
+        vendor experienced was attempting to use Outlook as a part of their UI based Robotic Process Automation (RPA).
+        There are a number of limitations to RPA in general including the brittle nature of point and
+        click within a UI and the time it takes to perform those operations relative to the application (Encompass)
+        it needs to interact with. This ultimately is no different than what many QA engineers use when
+        leveraging technologies such as Selenium to perform web-based UI Automation testing.
+    </p>
+    <p>
+        When our vendor attempted to expand the number of RPA client servers that operated Outlook on
+        them they hit a limitation on the number of concurrent connected instances of Outlook using the
+        same credentials to our O365 instance that was managing email communication to the RPA clients.
+        To remove this limitation, I developed an API driven service to manage in and outbound communication.
+        Not only for Email but for other methods of communication including SMS text, Encompass Event Messages,
+        and Teams or Slack communication to or from the bot servers.
+    </p>
+    <p>
+        In my implementation I created an Azure Function App to act as the primary inbound message handling
+        service or series of Webhooks for email and other requests coming inbound into the bots, including
+        one Logic App that monitored the inbound email through O365. These inbound messages are then sent to
+        an Azure Message Bus queue for later processing. On the other side I created a reader Azure Logic App
+        that handled the pulling of messages out of the queue and other micro services for sending out email and
+        other communication to clients and users. This also included sending out email messages with file
+        attachments using Azure Blob Storage as the temporary file storage for those attachments.
+    </p>
 </section>
 <section id="loan-data-sync" class="reading-layout">
-<article class="reading-main prose">
-<h2>Encompass (Dev Connect) Sync Service</h2>
+    <article class="reading-main prose">
+        <h2>
+            Encompass (Dev Connect) Sync Service
+        </h2>
         <p>
             This was primarily a proof of concept project to help develop replacement processes and technology
             of an aged data sync process using the older ESDK or Encompass SDK libraries and technology.
@@ -106,28 +122,52 @@
             from the JSON payload and store into our data warehouse for analysis processing and reporting for the
             executive teams.
         </p>
-
         <p>
             <a class="btn btn-info btn-site" href="https://api.agameempowerment.com/" target="_blank" rel="noopener">A-Game API Services >></a>
             <a class="btn btn-info btn-site" href="https://www.academymortgage.com/" target="_blank" rel="noopener">Academy Mortgage >></a>
         </p>
-</article>
-<aside class="reading-aside content-panel" aria-label="Technology details">
-<h3>Technology</h3>
-
-<ul class="tag-list">
-                <li>ASP.NET</li>
-                <li>C#</li>
-                <li>.NET Core</li>
-                <li>MVC</li>
-                <li>Azure Function Applications</li>
-                <li>Azure Logic Applications</li>
-                <li>Azure Message Bus</li>
-                <li>RESTful API</li>
-                <li>JSON</li>
-                <li>Log4net</li>
-                <li>Active Directory</li>
-                <li>Java Web Token (JWT)</li>
-            </ul>
-</aside>
+    </article>
+    <aside class="reading-aside content-panel" aria-label="Technology details">
+        <h3>
+            Technology
+        </h3>
+        <ul class="tag-list">
+            <li>
+                ASP.NET
+            </li>
+            <li>
+                C#
+            </li>
+            <li>
+                .NET Core
+            </li>
+            <li>
+                MVC
+            </li>
+            <li>
+                Azure Function Applications
+            </li>
+            <li>
+                Azure Logic Applications
+            </li>
+            <li>
+                Azure Message Bus
+            </li>
+            <li>
+                RESTful API
+            </li>
+            <li>
+                JSON
+            </li>
+            <li>
+                Log4net
+            </li>
+            <li>
+                Active Directory
+            </li>
+            <li>
+                Java Web Token (JWT)
+            </li>
+        </ul>
+    </aside>
 </section>

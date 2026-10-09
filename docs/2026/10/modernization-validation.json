@@ -286,11 +286,19 @@
           "status": 200
         },
         {
+          "route": "/Skills/Containers",
+          "status": 200
+        },
+        {
           "route": "/Skills/Database",
           "status": 200
         },
         {
           "route": "/Skills/DevOps",
+          "status": 200
+        },
+        {
+          "route": "/Skills/DeveloperEnablement",
           "status": 200
         },
         {
@@ -306,7 +314,15 @@
           "status": 200
         },
         {
+          "route": "/Skills/Okta",
+          "status": 200
+        },
+        {
           "route": "/Skills/QA",
+          "status": 200
+        },
+        {
+          "route": "/Skills/SystemsIntegration",
           "status": 200
         },
         {
@@ -323,6 +339,10 @@
         },
         {
           "route": "/Skills/WebApi",
+          "status": 200
+        },
+        {
+          "route": "/Skills/Zendesk",
           "status": 200
         },
         {
@@ -1154,11 +1174,19 @@
         "status": 200
       },
       {
+        "route": "/Skills/Containers",
+        "status": 200
+      },
+      {
         "route": "/Skills/Database",
         "status": 200
       },
       {
         "route": "/Skills/DevOps",
+        "status": 200
+      },
+      {
+        "route": "/Skills/DeveloperEnablement",
         "status": 200
       },
       {
@@ -1174,7 +1202,15 @@
         "status": 200
       },
       {
+        "route": "/Skills/Okta",
+        "status": 200
+      },
+      {
         "route": "/Skills/QA",
+        "status": 200
+      },
+      {
+        "route": "/Skills/SystemsIntegration",
         "status": 200
       },
       {
@@ -1191,6 +1227,10 @@
       },
       {
         "route": "/Skills/WebApi",
+        "status": 200
+      },
+      {
+        "route": "/Skills/Zendesk",
         "status": 200
       },
       {

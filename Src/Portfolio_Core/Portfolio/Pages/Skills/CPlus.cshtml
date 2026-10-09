@@ -3,61 +3,140 @@
 @{
     ViewData["Title"] = "C/C++";
 }
-<header class="page-header"><p class="page-kicker"><i class="bi bi-code-slash" aria-hidden="true"></i> Engineering &amp; Technology</p><h1>@ViewData["Title"]</h1></header>
-<div class="reading-layout"><nav class="section-nav" aria-label="On this page"><h2>On this page</h2><ul><li><a href="#cs235">CS235</a></li><li><a href="#cs165">CS165</a></li><li><a href="#gedcom-sql-database-import-process">GEDCOM SQL Database Import Process</a></li><li><a href="#misc-projects">Misc Projects</a></li></ul></nav><div class="reading-main"><section class="content-panel prose">
-<h2 id="cs235">CS235</h2>
-        <div class="prose">
-            <h3>BYU-Idaho study course work completed in 2004</h3>
-
-            This class is a data structures class. Here I learned a great deal more about actual real programming. This was one of the first real classes that I gained
-            a much better and deeper understanding of real development.<br />
-            See my GitHub repo: <a href="https://github.com/MCLifeLeader/CS235" target="_blank" rel="noopener">CS235</a>
-        </div>
-        <h2 id="cs165">CS165</h2>
-        <div class="prose">
-            <h3>BYU-Idaho study course work completed in 2003</h3>
-
-            Before this class I had a fairly solid understanding of basic programming principles and skills. I had followed a self-directed educational program and
-            learned the ANSI C Programming language. Here was my first experience into C++ and Object Oriented programming. I actually skipped the prerequisite
-            class for CS165 which was CS124. After reviewing CS124 it was way too basic for me. So instead, I got an A grade in CS165 and requested a vertical credit for CS124.<br />
-            See my GitHub repo: <a href="https://github.com/MCLifeLeader/CS165" target="_blank" rel="noopener">CS165</a>
-        </div>
-        <h2 id="gedcom-sql-database-import-process">GEDCOM SQL Database Import Process</h2>
-        <p>
-            The first question is what is a <a href="https://www.bing.com/search?form=MOZLBR&pc=MOZI&q=gedcom+file" target="_blank" rel="noopener">GEDCOM</a> file? Answer: A GEDCOM file
-            is a genealogical database flat file that contains familial relational data and information typically for family history research. These files were popular with various
-            programs such as Family Tree and Personal Ancestral File. One of the projects that I worked on with a group of friends was attempting to create a family history and
-            social media website called FamilyKey. One of the primary challenges was getting the ancestral data uploaded to the web and it was my task to import the data into the
-            database. After users created their account they could then upload their GEDCOM file to create a family history tree based website. The process that I created read
-            and then inserted into the database the records and relational links to family members so the website could display the content and familial links on the web. Sadly,
-            the company Kumusoft and its partnership failed and the project was shutdown.
-        </p>
-        <p>
-            In this solution I wanted to parse and process the file in a single pass, attempting to make this the most efficient as possible additionally the relational linkage
-            had to reestablished following a parent / child structure. As I processed the data I created individual node records using a simple linked list
-            for each person found in the data and then after parsing I found and established the relationships between each person with the
-            appropriate parent / child relationship. All of this information was eventually inserted into the database using manual scripting and OLEDB connection and
-            scripted database calls.
-        </p>
-        <h2 id="misc-projects">Misc Projects</h2>
-        <p>
-            This collection of C and C++ code examples represents my personal study and development in programming on my own without the aid of
-            having taken any formal classes or courses in development or programming. This unique look at my learning process and what and how I
-            approached problems early on highlights my tenacity to learn and the hunger I had to become a software engineer.
-        </p>
-        <p>
-            This repository contains a collection of projects that I have created that show understanding of coding skills. These projects are intended
-            to be functional and demonstrate understanding in the concept area highlighted but are not intended to be inclusive of a fully functional product.
-            These are proof of concept and skills exposé coding projects.
-        </p>
-        <p>
-            These were written early when I was still learning programming from my early teens to my early twenties representing time approx from 1990 to 1999.
-            My first few programs were written in Basic, then Pascal, and finally in ANSI C. I grabbed my dad's programming book and began going through the
-            examples one at a time until I was doing file IO.<br />
-            See my GitHub repo: <a href="https://github.com/MCLifeLeader/MiscProjects" target="_blank" rel="noopener">Misc Projects</a>.
-        </p>
-</section></div><aside class="reading-aside"><section class="content-panel prose"><h2>Summary</h2>
-        <ul class="tag-list">
-            <li>Linked Lists</li>
-            <li>SQL Server</li>
-        </ul></section><section class="content-panel prose"><h2>External Links</h2><ul class="resource-list"><li><a href="https://github.com/MCLifeLeader/MiscProjects" target="_blank" rel="noopener">Misc Projects >></a></li><li><a href="https://github.com/MCLifeLeader/CS165" target="_blank" rel="noopener">CS165 Course Work >></a></li><li><a href="https://github.com/MCLifeLeader/CS235" target="_blank" rel="noopener">CS235 Course Work >></a></li></ul></section></aside></div>
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-code-slash" aria-hidden="true"></i> Engineering &amp; Technology
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+</header>
+<div class="reading-layout">
+    <nav class="section-nav" aria-label="On this page">
+        <h2>
+            On this page
+        </h2>
+        <ul>
+            <li>
+                <a href="#cs235">CS235</a>
+            </li>
+            <li>
+                <a href="#cs165">CS165</a>
+            </li>
+            <li>
+                <a href="#gedcom-sql-database-import-process">GEDCOM SQL Database Import Process</a>
+            </li>
+            <li>
+                <a href="#misc-projects">Misc Projects</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="reading-main">
+        <section class="content-panel prose">
+            <p>
+                My earlier C and C++ work established foundations in data structures, object-oriented programming, file processing, and relational data import. The projects below retain their original dates and scope.
+            </p>
+            <h2 id="cs235">
+                CS235
+            </h2>
+            <div class="prose">
+                <h3>
+                    BYU-Idaho study course work completed in 2004
+                </h3>
+                This class is a data structures class. Here I learned a great deal more about actual real programming. This was one of the first real classes that I gained
+                a much better and deeper understanding of real development.<br />
+                See my GitHub repo: <a href="https://github.com/MCLifeLeader/CS235" target="_blank" rel="noopener">CS235</a>
+            </div>
+            <h2 id="cs165">
+                CS165
+            </h2>
+            <div class="prose">
+                <h3>
+                    BYU-Idaho study course work completed in 2003
+                </h3>
+                Before this class I had a fairly solid understanding of basic programming principles and skills. I had followed a self-directed educational program and
+                learned the ANSI C Programming language. Here was my first experience into C++ and Object Oriented programming. I actually skipped the prerequisite
+                class for CS165 which was CS124. After reviewing CS124 it was way too basic for me. So instead, I got an A grade in CS165 and requested a vertical credit for CS124.<br />
+                See my GitHub repo: <a href="https://github.com/MCLifeLeader/CS165" target="_blank" rel="noopener">CS165</a>
+            </div>
+            <h2 id="gedcom-sql-database-import-process">
+                GEDCOM SQL Database Import Process
+            </h2>
+            <p>
+                The first question is what is a <a href="https://www.bing.com/search?form=MOZLBR&pc=MOZI&q=gedcom+file" target="_blank" rel="noopener">GEDCOM</a> file? Answer: A GEDCOM file
+                is a genealogical database flat file that contains familial relational data and information typically for family history research. These files were popular with various
+                programs such as Family Tree and Personal Ancestral File. One of the projects that I worked on with a group of friends was attempting to create a family history and
+                social media website called FamilyKey. One of the primary challenges was getting the ancestral data uploaded to the web and it was my task to import the data into the
+                database. After users created their account they could then upload their GEDCOM file to create a family history tree based website. The process that I created read
+                and then inserted into the database the records and relational links to family members so the website could display the content and familial links on the web. Sadly,
+                the company Kumusoft and its partnership failed and the project was shutdown.
+            </p>
+            <p>
+                In this solution I wanted to parse and process the file in a single pass, attempting to make this the most efficient as possible additionally the relational linkage
+                had to reestablished following a parent / child structure. As I processed the data I created individual node records using a simple linked list
+                for each person found in the data and then after parsing I found and established the relationships between each person with the
+                appropriate parent / child relationship. All of this information was eventually inserted into the database using manual scripting and OLEDB connection and
+                scripted database calls.
+            </p>
+            <h2 id="misc-projects">
+                Misc Projects
+            </h2>
+            <p>
+                This collection of C and C++ code examples represents my personal study and development in programming on my own without the aid of
+                having taken any formal classes or courses in development or programming. This unique look at my learning process and what and how I
+                approached problems early on highlights my tenacity to learn and the hunger I had to become a software engineer.
+            </p>
+            <p>
+                This repository contains a collection of projects that I have created that show understanding of coding skills. These projects are intended
+                to be functional and demonstrate understanding in the concept area highlighted but are not intended to be inclusive of a fully functional product.
+                These are proof of concept and skills exposé coding projects.
+            </p>
+            <p>
+                These were written early when I was still learning programming from my early teens to my early twenties representing time approx from 1990 to 1999.
+                My first few programs were written in Basic, then Pascal, and finally in ANSI C. I grabbed my dad's programming book and began going through the
+                examples one at a time until I was doing file IO.<br />
+                See my GitHub repo: <a href="https://github.com/MCLifeLeader/MiscProjects" target="_blank" rel="noopener">Misc Projects</a>.
+            </p>
+        </section>
+    </div>
+    <aside class="reading-aside">
+        <section class="content-panel prose">
+            <h2>
+                Summary
+            </h2>
+            <ul class="tag-list">
+                <li>
+                    ANSI C / C++ foundations
+                </li>
+                <li>
+                    Data structures and object-oriented programming
+                </li>
+                <li>
+                    File parsing and relational data import
+                </li>
+                <li>
+                    Linked Lists
+                </li>
+                <li>
+                    SQL Server
+                </li>
+            </ul>
+        </section>
+        <section class="content-panel prose">
+            <h2>
+                External Links
+            </h2>
+            <ul class="resource-list">
+                <li>
+                    <a href="https://github.com/MCLifeLeader/MiscProjects" target="_blank" rel="noopener">Misc Projects >></a>
+                </li>
+                <li>
+                    <a href="https://github.com/MCLifeLeader/CS165" target="_blank" rel="noopener">CS165 Course Work >></a>
+                </li>
+                <li>
+                    <a href="https://github.com/MCLifeLeader/CS235" target="_blank" rel="noopener">CS235 Course Work >></a>
+                </li>
+            </ul>
+        </section>
+    </aside>
+</div>

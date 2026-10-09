@@ -3,38 +3,73 @@
 @{
     ViewData["Title"] = "Solarian League";
 }
-
-<header class="page-header"><p class="page-kicker"><i class="bi bi-controller" aria-hidden="true"></i> Personal project / Blazor learning</p><h1>@ViewData["Title"]</h1>
-@if (ViewData["Message"] is string pageMessage && !string.IsNullOrWhiteSpace(pageMessage))
-{
-<p class="page-intro">@pageMessage</p>
-}
-</header><div class="reading-layout"><nav class="section-nav" aria-label="Personal project sections"><p class="page-kicker">On this page</p><ul><li><a href="#project-story">Project story</a></li></ul><a asp-page="/Fun/Index">Back to personal projects</a></nav><div class="reading-main">
-    <section class="content-panel prose" id="project-story">
-        <h2>Blazor Web Assembly Project</h2>
-        <p>
-            This project is a fun project that I have been working on for a while. That combines my love of the Honor Harrington series by David Weber
-            and my enjoyment of playing World Of Warcraft. This project is a web application that is designed to be a home page for my
-            guild in World Of Warcraft. It is a work in progress and I am adding more features and performance improvements as I have time.
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-controller" aria-hidden="true"></i> Personal project / Blazor learning
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+    @if (ViewData["Message"] is string pageMessage && !string.IsNullOrWhiteSpace(pageMessage))
+    {
+        <p class="page-intro">
+            @pageMessage
         </p>
-        <p>
-            The additional purpose for this site is to learn and explore the capabilities of Azure and Blazor. I am using this project to learn
-            how to develop a web application using Blazor and Azure. I am also using this project to learn how to use Azure Functions and
-            Azure Static Web Pages. I have a strong desire to improve in my front-end development skills and this project is a great
-            way to do that.
+    }
+</header>
+<div class="reading-layout">
+    <nav class="section-nav" aria-label="Personal project sections">
+        <p class="page-kicker">
+            On this page
         </p>
-        <p>
-            Some of the Technologies utilized in its development:
+        <ul>
+            <li>
+                <a href="#project-story">Project story</a>
+            </li>
+        </ul>
+        <a asp-page="/Fun/Index">Back to personal projects</a>
+    </nav>
+    <div class="reading-main">
+        <section class="content-panel prose" id="project-story">
+            <h2>
+                Blazor Web Assembly Project
+            </h2>
+            <p>
+                This project is a fun project that I have been working on for a while. That combines my love of the Honor Harrington series by David Weber
+                and my enjoyment of playing World Of Warcraft. This project is a web application that is designed to be a home page for my
+                guild in World Of Warcraft. It is a work in progress and I am adding more features and performance improvements as I have time.
             </p>
-<ul class="tag-list">
-                <li >Azure Hosted Static Web Page</li>
-                <li >Azure Function App</li>
-                <li >Bootstrap</li>
-                <li >C#.NET, Blazor, WebAsm, SPA</li>
-                <li >Discord</li>
+            <p>
+                The additional purpose for this site is to learn and explore the capabilities of Azure and Blazor. I am using this project to learn
+                how to develop a web application using Blazor and Azure. I am also using this project to learn how to use Azure Functions and
+                Azure Static Web Pages. I have a strong desire to improve in my front-end development skills and this project is a great
+                way to do that.
+            </p>
+            <p>
+                Some of the Technologies utilized in its development:
+            </p>
+            <ul class="tag-list">
+                <li >
+                    Azure Hosted Static Web Page
+                </li>
+                <li >
+                    Azure Function App
+                </li>
+                <li >
+                    Bootstrap
+                </li>
+                <li >
+                    C#.NET, Blazor, WebAsm, SPA
+                </li>
+                <li >
+                    Discord
+                </li>
             </ul>
-        <p>
-            <a class="btn btn-info btn-site" href="https://SolarianLeague.com/" target="_blank" rel="noopener">SolarianLeague.com >></a>
-        </p>
-    </section>
-</div><aside class="reading-aside"></aside></div>
+            <p>
+                <a class="btn btn-info btn-site" href="https://SolarianLeague.com/" target="_blank" rel="noopener">SolarianLeague.com >></a>
+            </p>
+        </section>
+    </div>
+    <aside class="reading-aside">
+    </aside>
+</div>

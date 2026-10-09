@@ -3,48 +3,164 @@
 @{
     ViewData["Title"] = "Azure DevOps / VSTS / TFS";
 }
-<header class="page-header"><p class="page-kicker"><i class="bi bi-code-slash" aria-hidden="true"></i> Engineering &amp; Technology</p><h1>@ViewData["Title"]</h1></header>
-<div class="reading-layout"><nav class="section-nav" aria-label="On this page"><h2>On this page</h2><ul><li><a href="#administrative-experience">Administrative Experience</a></li></ul></nav><div class="reading-main"><section class="content-panel prose">
-<h2 id="administrative-experience">Administrative Experience</h2>
-        <p>
-            My first experience with TFS was in 2011 while working on contract with the LDS Church. I learned how to create and manage
-            builds and even added Continuous Deployment to our Development / Test lanes for the project that we were developing. I
-            gained a solid understanding of the Team Foundation Version Control (TFVC) repository system including the practice and process
-            for proper branching and merging changes within TFVC.
-        </p>
-        <p>
-            After my contract I went to work for SwipeClock. While I was there I assisted in the adoption and implementation of TFS on premise.
-            I helped with team and project creation including the configuration of continuous deployment to our development servers. During this
-            time, I also functioned as a TFS Administrator for the system and Release Manager, however the majority of my time was focused on
-            writing code as one of the company’s Sr. Developers.
-        </p>
-        <p>
-            I then went back on contact to work for the LDS Church and while on the team I was the project administrator for our TFS instance and
-            functioned as the Release Manager. It was one of my focus areas in helping our entire team migrate from JIRA to TFS. We had been
-            using TFS for our code repository but we were not using the project management capabilities of the system. One of the biggest advantages
-            that we wanted was the ability to track what work was completed with what code was checked into the repository.
-            After the migration we added GIT in addition to our TFVC repository. After having worked with both Azure DevOps (VSTS / TFS) and JIRA I feel that the
-            TFS/VSTS environment is a better wholistic enterprise solution for any IT team.
-        </p>
-        <p>
-            While working for Academy Mortgage, it was decided by business to bring in Azure DevOps (VSTS / TFS) and evaluate its use
-            for our teams. Azure DevOps is the Azure cloud version of VSTS / TFS, a SaaS based solution for IT and
-            Development shops. My previous experience with TFS was invaluable for the company in evaluating the new solution. Academy was using an
-            aging instance of GO / CD / Chef deployment that was taking our DevOps team over 25% of their time just in maintenance of the system and
-            services. Working with one of the DevOps team members, we reduced the effort to create an entire deployment pipeline from two to three
-            weeks to three or four hours. I can typically create pipelines in hours; their execution time varies with the product and the complexity
-            of the build and deployment. I was later promoted to manage the DevOps team and provide best practices and governance over the
-            Azure DevOps / VSTS / TFS instance.
-        </p>
-</section></div><aside class="reading-aside"><section class="content-panel prose"><h2>Summary</h2>
-        <ul class="tag-list">
-            <li>Azure DevOps / VSTS / TFS</li>
-            <li>Reporting</li>
-            <li>Agile &amp; Team Configuration of Azure DevOps</li>
-            <li>DevOps</li>
-            <li>JIRA and Migration to TFS</li>
-            <li>Continuous Integration / Continuous Deployment (CI / CD)</li>
-            <li>Release Manager</li>
-            <li>TFVC &amp; Git</li>
-            <li>Branching and Merging Strategies</li>
-        </ul></section><section class="content-panel prose"><h2>External Links</h2><ul class="resource-list"><li><a href="https://www.visualstudio.com/team-services/" target="_blank" rel="noopener">Azure DevOps >></a></li><li><a href="https://www.visualstudio.com/team-services/git/" target="_blank" rel="noopener">Azure DevOps - Git >></a></li><li><a href="https://www.visualstudio.com/team-services/tfvc/" target="_blank" rel="noopener">Azure DevOps - TFVC >></a></li><li><a href="https://www.visualstudio.com/team-services/continuous-integration/" target="_blank" rel="noopener">Azure DevOps - CI / CD >></a></li><li><a href="https://www.visualstudio.com/team-services/reporting/" target="_blank" rel="noopener">Azure DevOps - Reporting >></a></li></ul></section></aside></div>
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-code-slash" aria-hidden="true"></i> Engineering &amp; Technology
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+    <p class="page-intro">
+        Repeatable developer environments, pipeline engineering, and delivery governance built on hands-on implementation.
+    </p>
+</header>
+<div class="reading-layout">
+    <nav class="section-nav" aria-label="On this page">
+        <h2>
+            On this page
+        </h2>
+        <ul>
+            <li>
+                <a href="#developer-delivery-foundations">Developer and Delivery Foundations</a>
+            </li>
+            <li>
+                <a href="#administrative-experience">Administrative Experience</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="reading-main">
+        <section class="content-panel prose" aria-labelledby="developer-delivery-foundations">
+            <h2 id="developer-delivery-foundations">
+                Developer and Delivery Foundations
+            </h2>
+            <p>
+                I developed a shared developer toolbox with Dev Containers, Docker/Podman Compose, and PowerShell and Bash setup and teardown scripts. Consumer-repository bootstrap tooling adds shared support while preserving existing files.
+            </p>
+            <ul>
+                <li>
+                    A repeatable local service baseline supplies database, cache, storage, messaging, email, API-mocking, and telemetry resources.
+                </li>
+                <li>
+                    Local developer services use Compose-based orchestration with Docker or Podman. The separate QA validation environment manages dependency-aware startup and cleanup for resources it owns.
+                </li>
+                <li>
+                    The toolbox brings together curated engineering instructions, roles, prompts, and skills, with synchronized adapters for GitHub Copilot, Codex, and Claude Code.
+                </li>
+                <li>
+                    For the QA platform, package delivery separates build, contract validation, container acceptance, and publication. Downstream validation checks the producing build and artifact hashes before using the binaries.
+                </li>
+            </ul>
+            <p>
+                These delivered resources complement my pipeline implementation and release-management experience below. Delivery templates provide reusable starting points; downstream configuration and validation remain part of adoption. <a asp-page="/Experience/EmploymentAccomplishments" asp-fragment="developer-enablement">Read the developer enablement accomplishments</a>, <a asp-page="/Skills/DeveloperEnablement">engineering enablement practices</a>, and <a asp-page="/Skills/Containers">Docker and Podman architecture</a>.
+            </p>
+        </section>
+        <section class="content-panel prose">
+            <h2 id="administrative-experience">
+                Administrative Experience
+            </h2>
+            <p>
+                My first experience with TFS was in 2011 while working on contract with the LDS Church. I learned how to create and manage
+                builds and even added Continuous Deployment to our Development / Test lanes for the project that we were developing. I
+                gained a solid understanding of the Team Foundation Version Control (TFVC) repository system including the practice and process
+                for proper branching and merging changes within TFVC.
+            </p>
+            <p>
+                After my contract I went to work for SwipeClock. While I was there I assisted in the adoption and implementation of TFS on premise.
+                I helped with team and project creation including the configuration of continuous deployment to our development servers. During this
+                time, I also functioned as a TFS Administrator for the system and Release Manager, however the majority of my time was focused on
+                writing code as one of the company’s Sr. Developers.
+            </p>
+            <p>
+                I then went back on contact to work for the LDS Church and while on the team I was the project administrator for our TFS instance and
+                functioned as the Release Manager. It was one of my focus areas in helping our entire team migrate from JIRA to TFS. We had been
+                using TFS for our code repository but we were not using the project management capabilities of the system. One of the biggest advantages
+                that we wanted was the ability to track what work was completed with what code was checked into the repository.
+                After the migration we added GIT in addition to our TFVC repository. After having worked with both Azure DevOps (VSTS / TFS) and JIRA I feel that the
+                TFS/VSTS environment is a better wholistic enterprise solution for any IT team.
+            </p>
+            <p>
+                While working for Academy Mortgage, it was decided by business to bring in Azure DevOps (VSTS / TFS) and evaluate its use
+                for our teams. Azure DevOps is the Azure cloud version of VSTS / TFS, a SaaS based solution for IT and
+                Development shops. My previous experience with TFS was invaluable for the company in evaluating the new solution. Academy was using an
+                aging instance of GO / CD / Chef deployment that was taking our DevOps team over 25% of their time just in maintenance of the system and
+                services. Working with one of the DevOps team members, we reduced the effort to create an entire deployment pipeline from two to three
+                weeks to three or four hours. I can typically create pipelines in hours; their execution time varies with the product and the complexity
+                of the build and deployment. I was later promoted to manage the DevOps team and provide best practices and governance over the
+                Azure DevOps / VSTS / TFS instance.
+            </p>
+        </section>
+    </div>
+    <aside class="reading-aside">
+        <section class="content-panel prose">
+            <h2>
+                Summary
+            </h2>
+            <ul class="tag-list">
+                <li>
+                    Azure DevOps / VSTS / TFS
+                </li>
+                <li>
+                    Reporting
+                </li>
+                <li>
+                    Agile &amp; Team Configuration of Azure DevOps
+                </li>
+                <li>
+                    DevOps
+                </li>
+                <li>
+                    JIRA and Migration to TFS
+                </li>
+                <li>
+                    Continuous Integration / Continuous Deployment (CI / CD)
+                </li>
+                <li>
+                    Release Manager
+                </li>
+                <li>
+                    TFVC &amp; Git
+                </li>
+                <li>
+                    Branching and Merging Strategies
+                </li>
+                <li>
+                    Dev Containers and Docker/Podman Compose
+                </li>
+                <li>
+                    PowerShell and Bash automation
+                </li>
+                <li>
+                    Local service emulators and API mocks
+                </li>
+                <li>
+                    Reusable delivery templates
+                </li>
+                <li>
+                    Package validation and artifact provenance
+                </li>
+            </ul>
+        </section>
+        <section class="content-panel prose">
+            <h2>
+                External Links
+            </h2>
+            <ul class="resource-list">
+                <li>
+                    <a href="https://www.visualstudio.com/team-services/" target="_blank" rel="noopener">Azure DevOps >></a>
+                </li>
+                <li>
+                    <a href="https://www.visualstudio.com/team-services/git/" target="_blank" rel="noopener">Azure DevOps - Git >></a>
+                </li>
+                <li>
+                    <a href="https://www.visualstudio.com/team-services/tfvc/" target="_blank" rel="noopener">Azure DevOps - TFVC >></a>
+                </li>
+                <li>
+                    <a href="https://www.visualstudio.com/team-services/continuous-integration/" target="_blank" rel="noopener">Azure DevOps - CI / CD >></a>
+                </li>
+                <li>
+                    <a href="https://www.visualstudio.com/team-services/reporting/" target="_blank" rel="noopener">Azure DevOps - Reporting >></a>
+                </li>
+            </ul>
+        </section>
+    </aside>
+</div>

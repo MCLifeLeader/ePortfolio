@@ -3,41 +3,177 @@
 @{
     ViewData["Title"] = "C#, ASP.NET, .NET Core";
 }
-<header class="page-header"><p class="page-kicker"><i class="bi bi-code-slash" aria-hidden="true"></i> Engineering &amp; Technology</p><h1>@ViewData["Title"]</h1></header>
-<div class="reading-layout"><nav class="section-nav" aria-label="On this page"><h2>On this page</h2><ul><li><a href="#modern-net-solution-design">Modern .NET Solution Design</a></li><li><a href="#application-types-and-platforms">Application Types and Platforms</a></li><li><a href="#architecture-observability-and-maintainability">Architecture, Observability, and Maintainability</a></li><li><a href="#leadership-context">Leadership Context</a></li></ul></nav><div class="reading-main"><section class="content-panel prose">
-<h2 id="modern-net-solution-design">Modern .NET Solution Design</h2>
-        <p>
-            My strongest current technical area is the Microsoft stack around C# and .NET. Recent public work reflects modern solution
-            structure, standardized repository setup, layered applications, diagnostics, container-backed local development, and reusable
-            starter patterns intended to help teams build new software faster with better consistency.
-        </p>
-        <h2 id="application-types-and-platforms">Application Types and Platforms</h2>
-        <p>
-            My public repositories include web applications, APIs, Blazor applications, Azure-oriented starter work, console tooling, and
-            engineering support projects. DotNetProjectStartup includes multiple application shapes and .NET 9 solution organization, while
-            Blazor-Chat-App demonstrates .NET 10, Blazor, Aspire AppHost, Redis output caching, Entity Framework Core 10, and SQL Server.
-        </p>
-        <h2 id="architecture-observability-and-maintainability">Architecture, Observability, and Maintainability</h2>
-        <p>
-            A recurring theme in my .NET work is engineering discipline: dependency injection, structured configuration, local environment
-            repeatability, Docker-backed dependencies, test project separation, OpenTelemetry, and Seq-oriented diagnostics. I care about
-            code that is supportable by a team, not just code that works once on a single machine.
-        </p>
-        <h2 id="leadership-context">Leadership Context</h2>
-        <p>
-            My work history adds the enterprise side of this skill set: mentoring engineers, setting code standards, reviewing solutions,
-            helping teams deliver in Azure DevOps environments, and stepping in hands-on when architecture or delivery needs help.
-        </p>
-</section></div><aside class="reading-aside"><section class="content-panel prose"><h2>Summary</h2>
-        <ul class="tag-list">
-            <li>C# / .NET 8, 9, and 10</li>
-            <li>ASP.NET Core</li>
-            <li>Blazor</li>
-            <li>Razor Pages and MVC</li>
-            <li>Azure Function starter design</li>
-            <li>Aspire AppHost and Service Defaults</li>
-            <li>OpenTelemetry and Seq diagnostics</li>
-            <li>Entity Framework Core</li>
-            <li>Dependency Injection and maintainable architecture</li>
-            <li>Unit and integration testing structure</li>
-        </ul></section><section class="content-panel prose"><h2>External Links</h2><ul class="resource-list"><li><a href="https://github.com/AGameEmpowerment/Developer-Toolbox" target="_blank" rel="noopener">Developer-Toolbox &gt;&gt;</a></li><li><a href="https://github.com/AGameEmpowerment/Starter-CSharp-Api" target="_blank" rel="noopener">Starter-CSharp-Api &gt;&gt;</a></li><li><a href="https://github.com/AGameEmpowerment/Starter-CSharp-Azure-Function-App" target="_blank" rel="noopener">Starter-CSharp-Azure-Function-App &gt;&gt;</a></li><li><a href="https://github.com/MCLifeLeader/DotNetProjectStartup" target="_blank" rel="noopener">DotNetProjectStartup &gt;&gt;</a></li><li><a href="https://github.com/MCLifeLeader/Blazor-Chat-App" target="_blank" rel="noopener">Blazor-Chat-App &gt;&gt;</a></li><li><a href="https://github.com/MCLifeLeader/ePortfolio" target="_blank" rel="noopener">ePortfolio &gt;&gt;</a></li></ul></section></aside></div>
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-code-slash" aria-hidden="true"></i> Engineering &amp; Technology
+    </p>
+    <h1>
+        @ViewData["Title"]
+    </h1>
+</header>
+<div class="reading-layout">
+    <nav class="section-nav" aria-label="On this page">
+        <h2>
+            On this page
+        </h2>
+        <ul>
+            <li>
+                <a href="#production-dotnet-delivery">Production .NET and Full-Stack Delivery</a>
+            </li>
+            <li>
+                <a href="#reusable-dotnet-qa-framework">Reusable .NET QA Framework</a>
+            </li>
+            <li>
+                <a href="#modern-net-solution-design">Modern .NET Solution Design</a>
+            </li>
+            <li>
+                <a href="#application-types-and-platforms">Application Types and Platforms</a>
+            </li>
+            <li>
+                <a href="#architecture-observability-and-maintainability">Architecture, Observability, and Maintainability</a>
+            </li>
+            <li>
+                <a href="#leadership-context">Leadership Context</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="reading-main">
+        <section class="content-panel prose">
+            <h2 id="production-dotnet-delivery">
+                Production .NET and Full-Stack Delivery
+            </h2>
+            <p>
+                I have delivered full-stack production applications using the shared engineering resources I developed. My C# work spans .NET 8, 9, and 10, combining hands-on implementation with reusable architecture, integration, testing, and delivery practices.
+            </p>
+            <p>
+                My shared application foundations bring together .NET 10 ASP.NET Core APIs, Next.js and React clients, shared .NET libraries, and Aspire orchestration. The broader starter includes authentication integration, Redis caching, feature management, configuration validation, and configurable telemetry. A focused marketing starter applies the same engineering discipline to a smaller application boundary.
+            </p>
+            <p>
+                As an ICS (Information Communication Services) employee of The Church of Jesus Christ of Latter-day Saints, I have a direct assignment supporting CES (Church Education Services) applications and services, including BYU-Pathway and Seminaries and Institutes. This work connects software delivery with the architectural needs of education systems.
+            </p>
+            <p>
+                <a asp-page="/Experience/EmploymentAccomplishments" asp-fragment="software-delivery">Explore my architecture and production-delivery contributions</a>.
+            </p>
+        </section>
+        <section class="content-panel prose">
+            <h2 id="reusable-dotnet-qa-framework">
+                Reusable .NET QA Framework
+            </h2>
+            <p>
+                I was the primary developer of a reusable .NET QA automation framework, carrying out nearly all of its development. Its modular architecture supports API, browser, data, and container-backed testing through shared configuration, dependency injection, logging, and fixture lifecycles.
+            </p>
+            <p>
+                The framework integrates NUnit, Selenium, Playwright, reusable API clients and page models, diagnostic capture, redaction, schema validation, and screenshot evidence. Isolated validation environments use controlled resource lifecycles, dynamic endpoints, API mocks, and OAuth/OIDC test flows.
+            </p>
+            <p>
+                <a asp-page="/Experience/EmploymentAccomplishments" asp-fragment="quality-engineering">Explore the framework and quality-engineering work</a>.
+            </p>
+        </section>
+        <section class="content-panel prose">
+            <h2 id="modern-net-solution-design">
+                Modern .NET Solution Design
+            </h2>
+            <p>
+                My strongest current technical area is the Microsoft stack around C# and .NET. Recent public work reflects modern solution
+                structure, standardized repository setup, layered applications, diagnostics, container-backed local development, and reusable
+                starter patterns intended to help teams build new software faster with better consistency.
+            </p>
+            <h2 id="application-types-and-platforms">
+                Application Types and Platforms
+            </h2>
+            <p>
+                My public repositories include web applications, APIs, Blazor applications, Azure-oriented starter work, console tooling, and
+                engineering support projects. DotNetProjectStartup includes multiple application shapes and .NET 9 solution organization, while
+                Blazor-Chat-App demonstrates .NET 10, Blazor, Aspire AppHost, Redis output caching, Entity Framework Core 10, and SQL Server.
+            </p>
+            <h2 id="architecture-observability-and-maintainability">
+                Architecture, Observability, and Maintainability
+            </h2>
+            <p>
+                A recurring theme in my .NET work is engineering discipline: dependency injection, structured configuration, local environment
+                repeatability, Docker-backed dependencies, test project separation, OpenTelemetry, and Seq-oriented diagnostics. I care about
+                code that is supportable by a team, not just code that works once on a single machine.
+            </p>
+            <h2 id="leadership-context">
+                Leadership Context
+            </h2>
+            <p>
+                My work history adds the enterprise side of this skill set: mentoring engineers, setting code standards, reviewing solutions,
+                helping teams deliver in Azure DevOps environments, and stepping in hands-on when architecture or delivery needs help.
+            </p>
+        </section>
+    </div>
+    <aside class="reading-aside">
+        <section class="content-panel prose">
+            <h2>
+                Summary
+            </h2>
+            <ul class="tag-list">
+                <li>
+                    Full-stack production application delivery
+                </li>
+                <li>
+                    Reusable ASP.NET Core / Next.js foundations
+                </li>
+                <li>
+                    Primary development of a .NET QA framework
+                </li>
+                <li>
+                    C# / .NET 8, 9, and 10
+                </li>
+                <li>
+                    ASP.NET Core
+                </li>
+                <li>
+                    Blazor
+                </li>
+                <li>
+                    Razor Pages and MVC
+                </li>
+                <li>
+                    Azure Function starter design
+                </li>
+                <li>
+                    Aspire AppHost and Service Defaults
+                </li>
+                <li>
+                    OpenTelemetry and Seq diagnostics
+                </li>
+                <li>
+                    Entity Framework Core
+                </li>
+                <li>
+                    Dependency Injection and maintainable architecture
+                </li>
+                <li>
+                    Unit and integration testing structure
+                </li>
+            </ul>
+        </section>
+        <section class="content-panel prose">
+            <h2>
+                External Links
+            </h2>
+            <ul class="resource-list">
+                <li>
+                    <a href="https://github.com/AGameEmpowerment/Developer-Toolbox" target="_blank" rel="noopener">Developer-Toolbox &gt;&gt;</a>
+                </li>
+                <li>
+                    <a href="https://github.com/AGameEmpowerment/Starter-CSharp-Api" target="_blank" rel="noopener">Starter-CSharp-Api &gt;&gt;</a>
+                </li>
+                <li>
+                    <a href="https://github.com/AGameEmpowerment/Starter-CSharp-Azure-Function-App" target="_blank" rel="noopener">Starter-CSharp-Azure-Function-App &gt;&gt;</a>
+                </li>
+                <li>
+                    <a href="https://github.com/MCLifeLeader/DotNetProjectStartup" target="_blank" rel="noopener">DotNetProjectStartup &gt;&gt;</a>
+                </li>
+                <li>
+                    <a href="https://github.com/MCLifeLeader/Blazor-Chat-App" target="_blank" rel="noopener">Blazor-Chat-App &gt;&gt;</a>
+                </li>
+                <li>
+                    <a href="https://github.com/MCLifeLeader/ePortfolio" target="_blank" rel="noopener">ePortfolio &gt;&gt;</a>
+                </li>
+            </ul>
+        </section>
+    </aside>
+</div>

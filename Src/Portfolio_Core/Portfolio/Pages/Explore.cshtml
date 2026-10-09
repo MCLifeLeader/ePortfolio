@@ -3,61 +3,193 @@
     ViewData["Title"] = "Explore the Portfolio";
     ViewData["Description"] = "A complete directory of professional experience, engineering, leadership, projects, coursework, and personal interests.";
 }
-<header class="page-header"><p class="page-kicker"><i class="bi bi-compass" aria-hidden="true"></i> The complete portfolio</p><h1>Explore the Portfolio</h1>
-<p class="lead">Explore current work, the principles behind it, and the full history of my engineering, leadership, education, and personal projects.</p></header>
+<header class="page-header">
+    <p class="page-kicker">
+        <i class="bi bi-compass" aria-hidden="true"></i> The complete portfolio
+    </p>
+    <h1>
+        Explore the Portfolio
+    </h1>
+    <p class="lead">
+        Explore current work, the principles behind it, and the full history of my engineering, leadership, education, and personal projects.
+    </p>
+</header>
 <div class="directory-grid">
-
-<section><h2>Architecture, experience, and education</h2><ul>
-<li><a asp-page="/Architecture">Architecture &amp; Governance</a></li>
-<li><a asp-page="/Experience/Index">Experience</a></li>
-<li><a asp-page="/Experience/WorkHistory">Work History</a></li>
-<li><a asp-page="/Experience/EmploymentAccomplishments">Employment accomplishments</a></li>
-<li><a asp-page="/Experience/Education">Education</a></li>
-</ul></section>
-<section><h2>Engineering, AI, and leadership</h2><ul>
-<li><a asp-page="/Skills/Index">Skills</a></li>
-<li><a asp-page="/Skills/TechnicalHistory">Recorded technical experience</a></li>
-<li><a asp-page="/Skills/Technologies">Development Technologies</a></li>
-<li><a asp-page="/Skills/AI">AI Technologies</a></li>
-<li><a asp-page="/Skills/Leadership">Leadership</a></li>
-<li><a asp-page="/Skills/CSharp">C#, ASP.NET, .NET Core</a></li>
-<li><a asp-page="/Skills/CPlus">C/C++</a></li>
-<li><a asp-page="/Skills/Database">Database</a></li>
-<li><a asp-page="/Skills/DevOps">Azure DevOps / VSTS / TFS</a></li>
-<li><a asp-page="/Skills/Java">Java</a></li>
-<li><a asp-page="/Skills/QA">Quality Assurance</a></li>
-<li><a asp-page="/Skills/Web">Web</a></li>
-<li><a asp-page="/Skills/WebApi">Web API / REST Services</a></li>
-</ul></section>
-<section><h2>Projects and repositories</h2><ul>
-<li><a asp-page="/Projects/Index">Projects</a></li>
-<li><a asp-page="/Projects/AGameEmpowerment">A Game Empowerment</a></li>
-<li><a asp-page="/Projects/AdverTran">AdverTran</a></li>
-<li><a asp-page="/Projects/AzureServices">Azure Services</a></li>
-<li><a asp-page="/Projects/Encompass">Ellie Mae Encompass</a></li>
-<li><a asp-page="/Projects/FamilyKey">Family Key</a></li>
-<li><a asp-page="/Projects/MlmLinkup">MLMLinkup</a></li>
-<li><a asp-page="/Projects/RedheadMobile">Redhead Mobile Apps</a></li>
-<li><a asp-page="/Projects/Startup">Startup Examples</a></li>
-<li><a asp-page="/Git">Git Repo List</a></li>
-</ul></section>
-<section><h2>College coursework</h2><ul>
-<li><a asp-page="/College/Index">College</a></li>
-<li><a asp-page="/College/Cit261">CIT 261</a></li>
-<li><a asp-page="/College/Cs313">CS 313</a></li>
-<li><a asp-page="/College/Cs364">CS 364</a></li>
-</ul></section>
-<section><h2>Personal and community</h2><ul>
-<li><a asp-page="/AboutMe">About Me</a></li>
-<li><a asp-page="/Fun/Index">Fun Projects</a></li>
-<li><a asp-page="/Fun/HamRadioVHFGoKit">VHF / HF Ham Radio Go-Kit</a></li>
-<li><a asp-page="/Fun/SolarianLeague">Solarian League</a></li>
-<li><a asp-page="/Tribute">Tribute</a></li>
-</ul></section>
-<section><h2>Connections and site information</h2><ul>
-<li><a asp-page="/Index">Homepage</a></li>
-<li><a asp-page="/Contact">Contact</a></li>
-<li><a asp-page="/Privacy">Privacy Policy</a></li>
-</ul></section>
-
+    <section>
+        <h2>
+            Architecture, experience, and education
+        </h2>
+        <ul>
+            <li>
+                <a asp-page="/Architecture">Architecture &amp; Governance</a>
+            </li>
+            <li>
+                <a asp-page="/Experience/Index">Experience</a>
+            </li>
+            <li>
+                <a asp-page="/Experience/WorkHistory">Work History</a>
+            </li>
+            <li>
+                <a asp-page="/Experience/EmploymentAccomplishments">Employment accomplishments</a>
+            </li>
+            <li>
+                <a asp-page="/Experience/Education">Education</a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>
+            Engineering, AI, and leadership
+        </h2>
+        <ul>
+            <li>
+                <a asp-page="/Skills/Index">Skills</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/TechnicalHistory">Recorded technical experience</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/Technologies">Development Technologies</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/SystemsIntegration">Systems and API Integration</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/Okta">Okta, OAuth and OpenID Connect</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/Zendesk">Zendesk Integration</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/DeveloperEnablement">Developer Enablement</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/Containers">Docker and Podman</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/AI">AI Technologies</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/Leadership">Leadership</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/CSharp">C#, ASP.NET, .NET Core</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/CPlus">C/C++</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/Database">Database</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/DevOps">Azure DevOps / VSTS / TFS</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/Java">Java</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/QA">Quality Assurance</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/Web">Web</a>
+            </li>
+            <li>
+                <a asp-page="/Skills/WebApi">Web API / REST Services</a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>
+            Projects and repositories
+        </h2>
+        <ul>
+            <li>
+                <a asp-page="/Projects/Index">Projects</a>
+            </li>
+            <li>
+                <a asp-page="/Projects/AGameEmpowerment">A Game Empowerment</a>
+            </li>
+            <li>
+                <a asp-page="/Projects/AdverTran">AdverTran</a>
+            </li>
+            <li>
+                <a asp-page="/Projects/AzureServices">Azure Services</a>
+            </li>
+            <li>
+                <a asp-page="/Projects/Encompass">Ellie Mae Encompass</a>
+            </li>
+            <li>
+                <a asp-page="/Projects/FamilyKey">Family Key</a>
+            </li>
+            <li>
+                <a asp-page="/Projects/MlmLinkup">MLMLinkup</a>
+            </li>
+            <li>
+                <a asp-page="/Projects/RedheadMobile">Redhead Mobile Apps</a>
+            </li>
+            <li>
+                <a asp-page="/Projects/Startup">Startup Examples</a>
+            </li>
+            <li>
+                <a asp-page="/Git">Git Repo List</a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>
+            College coursework
+        </h2>
+        <ul>
+            <li>
+                <a asp-page="/College/Index">College</a>
+            </li>
+            <li>
+                <a asp-page="/College/Cit261">CIT 261</a>
+            </li>
+            <li>
+                <a asp-page="/College/Cs313">CS 313</a>
+            </li>
+            <li>
+                <a asp-page="/College/Cs364">CS 364</a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>
+            Personal and community
+        </h2>
+        <ul>
+            <li>
+                <a asp-page="/AboutMe">About Me</a>
+            </li>
+            <li>
+                <a asp-page="/Fun/Index">Fun Projects</a>
+            </li>
+            <li>
+                <a asp-page="/Fun/HamRadioVHFGoKit">VHF / HF Ham Radio Go-Kit</a>
+            </li>
+            <li>
+                <a asp-page="/Fun/SolarianLeague">Solarian League</a>
+            </li>
+            <li>
+                <a asp-page="/Tribute">Tribute</a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>
+            Connections and site information
+        </h2>
+        <ul>
+            <li>
+                <a asp-page="/Index">Homepage</a>
+            </li>
+            <li>
+                <a asp-page="/Contact">Contact</a>
+            </li>
+            <li>
+                <a asp-page="/Privacy">Privacy Policy</a>
+            </li>
+        </ul>
+    </section>
 </div>
