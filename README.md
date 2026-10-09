@@ -91,6 +91,8 @@ The [Azure DevOps pipeline](devops/Project-Build.yml) builds and publishes artif
 
 ## Content maintenance and verification
 
+The repository-local [website-wiki-sync skill](.agents/skills/website-wiki-sync/SKILL.md) documents how to prepare, review, publish, and verify website-to-wiki updates. Invoke it with `$website-wiki-sync` when synchronizing the portfolio wiki.
+
 Edit public content in `Pages`, shared styling in `wwwroot/css/site.css`, and browser behavior in `wwwroot/js/site.js`. Preserve existing routes, section anchors, substantive historical information, and original media unless an owner-approved change calls for otherwise. The historical résumé PDF remains stored without public page links.
 
 The original content audit is fixed. Record subsequent content mappings and authorized changes in the separate migration ledger and decision documents.
