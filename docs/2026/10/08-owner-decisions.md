@@ -49,3 +49,9 @@ The owner explicitly requested Bootstrap Icons and updates to Bootstrap, jQuery,
 The owner authorized removing unused LibMan resources while retaining Bootstrap and Bootstrap Icons. The final manifest contains Bootstrap 5.3.8 and Bootstrap Icons 1.13.2, with eight required files. Unused jQuery, migration and validation libraries and the unused validation partial are retired. This supersedes the intermediate library upgrade; original inventory records remain intact. Bootstrap navigation and galleries remain available.
 
 The owner requested appealing, responsive image styling. Portraits use rounded frames, while article photos and diagrams retain their proportions with consistent borders, spacing and shadows. Gallery images remain contained within their frames. Intrinsic image dimensions and asynchronous decoding were added to the radio article without changing image files, alternative text or gallery order.
+
+## Portfolio wiki reference
+
+The owner supplied https://github.com/MCLifeLeader/ePortfolio/wiki and requested links from the root README and website. The shared footer and ePortfolio repository card now reference that URL. The wiki is intended as an alternate format of the website content; the owner plans to synchronize it after merging into main. No wiki contents were opened or edited. The root README now documents the application purpose, stack, local setup, build/package commands, content maintenance, and verification.
+
+Release build and preservation checks passed. Eight browser cases verified desktop/mobile footer links in both themes with no overflow; local README links resolve. Evidence: [wiki-reference-verification.json](wiki-reference-verification.json). The temporary verification server was stopped.

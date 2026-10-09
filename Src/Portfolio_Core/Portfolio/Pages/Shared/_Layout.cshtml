@@ -25,7 +25,7 @@
 <div class="theme-control"><label id="themeLabel" for="themeToggle">Dark mode</label><input class="form-check-input" type="checkbox" role="switch" id="themeToggle" aria-label="Dark mode" /></div>
 </div></div></nav></header>
 <main id="main-content" class="container site-main" tabindex="-1">@RenderBody()</main>
-<footer class="site-footer"><div class="container footer-content"><span>&copy; @DateTime.UtcNow.Year Michael B. Carey</span><nav aria-label="Footer navigation"><a id="ProjectsDropDown" asp-page="/Projects/Index">Projects</a><a id="CollegeDropDown" asp-page="/Experience/Education">Education</a><a asp-page="/Explore"><i class="bi bi-compass" aria-hidden="true"></i> Explore</a><a asp-page="/Contact">Contact</a><a asp-page="/Privacy">Privacy</a></nav></div></footer>
+<footer class="site-footer"><div class="container footer-content"><span>&copy; @DateTime.UtcNow.Year Michael B. Carey</span><nav aria-label="Footer navigation"><a id="ProjectsDropDown" asp-page="/Projects/Index">Projects</a><a id="CollegeDropDown" asp-page="/Experience/Education">Education</a><a asp-page="/Explore"><i class="bi bi-compass" aria-hidden="true"></i> Explore</a><a asp-page="/Contact">Contact</a><a asp-page="/Privacy">Privacy</a><a href="https://github.com/MCLifeLeader/ePortfolio/wiki" target="_blank" rel="noopener"><i class="bi bi-journal-text" aria-hidden="true"></i> Portfolio wiki</a></nav></div></footer>
 <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
 @RenderSection("Scripts", required: false)

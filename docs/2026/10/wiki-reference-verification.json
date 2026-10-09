@@ -1,0 +1,63 @@
+{
+  "wiki_url": "https://github.com/MCLifeLeader/ePortfolio/wiki",
+  "cases": [
+    {
+      "route": "/",
+      "width": 375,
+      "theme": "light",
+      "footer_wiki_visible": true,
+      "no_overflow": true
+    },
+    {
+      "route": "/Git",
+      "width": 375,
+      "theme": "light",
+      "footer_wiki_visible": true,
+      "no_overflow": true
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "theme": "dark",
+      "footer_wiki_visible": true,
+      "no_overflow": true
+    },
+    {
+      "route": "/Git",
+      "width": 375,
+      "theme": "dark",
+      "footer_wiki_visible": true,
+      "no_overflow": true
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "light",
+      "footer_wiki_visible": true,
+      "no_overflow": true
+    },
+    {
+      "route": "/Git",
+      "width": 1440,
+      "theme": "light",
+      "footer_wiki_visible": true,
+      "no_overflow": true
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "dark",
+      "footer_wiki_visible": true,
+      "no_overflow": true
+    },
+    {
+      "route": "/Git",
+      "width": 1440,
+      "theme": "dark",
+      "footer_wiki_visible": true,
+      "no_overflow": true
+    }
+  ],
+  "readme_local_links_valid": true,
+  "wiki_not_opened": true
+}

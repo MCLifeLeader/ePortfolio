@@ -15,14 +15,14 @@
     "routes.json": "94c347b9e3638f423d496eed8e23f7f5c8daab45e8e9d91989037ad3e13064e0"
   },
   "summary": {
-    "verified-source-identity": 62,
+    "verified-source-identity": 61,
     "baseline-retained": 483,
     "verified-source-routes": 38,
     "verified-source-value": 37,
     "verified-source-text": 989,
     "owner-authorized-exception": 27,
     "verified-source-reference": 308,
-    "implemented-source-change": 172,
+    "implemented-source-change": 173,
     "verified-source-anchor": 30,
     "implemented-editorial-change": 15,
     "owner-authorized-retirement": 4,
@@ -955,6 +955,11 @@
     {
       "ContentID": "SOURCE-010",
       "source": ".vscode/launch.json",
+      "kind": "supporting source"
+    },
+    {
+      "ContentID": "SOURCE-015",
+      "source": "README.md",
       "kind": "supporting source"
     },
     {
