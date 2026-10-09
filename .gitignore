@@ -396,4 +396,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+.wiki-sync/
 Src/Portfolio_Core/Portfolio/Properties/ServiceDependencies/mbcarey - Web Deploy/profile.arm.json

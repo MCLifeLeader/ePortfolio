@@ -1,0 +1,47 @@
+{
+  "wiki_commit": "947bde49bf18c9e56c18ca3990a7e774813fbf61",
+  "tool": "Playwright MCP",
+  "cases": [
+    {
+      "page": "/MCLifeLeader/ePortfolio/wiki",
+      "status": 200,
+      "authoredSectionLinks": 3,
+      "brokenSectionLinks": [],
+      "images": 1,
+      "brokenImages": []
+    },
+    {
+      "page": "/MCLifeLeader/ePortfolio/wiki/Skills-Leadership",
+      "status": 200,
+      "authoredSectionLinks": 12,
+      "brokenSectionLinks": [],
+      "images": 0,
+      "brokenImages": []
+    },
+    {
+      "page": "/MCLifeLeader/ePortfolio/wiki/Skills-TechnicalHistory",
+      "status": 200,
+      "authoredSectionLinks": 6,
+      "brokenSectionLinks": [],
+      "images": 0,
+      "brokenImages": []
+    },
+    {
+      "page": "/MCLifeLeader/ePortfolio/wiki/Fun-HamRadioVHFGoKit",
+      "status": 200,
+      "authoredSectionLinks": 4,
+      "brokenSectionLinks": [],
+      "images": 93,
+      "brokenImages": []
+    },
+    {
+      "page": "/MCLifeLeader/ePortfolio/wiki/Experience-EmploymentAccomplishments",
+      "status": 200,
+      "authoredSectionLinks": 9,
+      "brokenSectionLinks": [],
+      "images": 0,
+      "brokenImages": []
+    }
+  ],
+  "scope": "Five live wiki pages; authored same-page fragments and loaded images. Full content/media conversion verified separately."
+}

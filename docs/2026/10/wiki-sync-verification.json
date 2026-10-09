@@ -1,0 +1,785 @@
+{
+  "source_commit": "0a86f8644a719fa7a3c855c21f10372a4cd429e0",
+  "wiki_url": "https://github.com/MCLifeLeader/ePortfolio/wiki",
+  "pages": [
+    {
+      "route": "/AboutMe",
+      "name": "AboutMe",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/AboutMe.cshtml",
+      "title": "About Me",
+      "text_tokens": 621,
+      "links": 14,
+      "images": 1,
+      "anchors": [
+        "community",
+        "connections",
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Architecture",
+      "name": "Architecture",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Architecture.cshtml",
+      "title": "Architecture & Governance",
+      "text_tokens": 565,
+      "links": 9,
+      "images": 0,
+      "anchors": [
+        "autonomy",
+        "domain-integrity",
+        "ecosystem",
+        "evidence",
+        "innovation",
+        "main-content",
+        "modernization",
+        "priorities",
+        "standards"
+      ]
+    },
+    {
+      "route": "/College/Cit261",
+      "name": "College-Cit261",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/College/Cit261.cshtml",
+      "title": "CIT 261",
+      "text_tokens": 309,
+      "links": 6,
+      "images": 0,
+      "anchors": [
+        "main-content",
+        "personal-project",
+        "team-project"
+      ]
+    },
+    {
+      "route": "/College/Cs313",
+      "name": "College-Cs313",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/College/Cs313.cshtml",
+      "title": "CS 313",
+      "text_tokens": 181,
+      "links": 7,
+      "images": 0,
+      "anchors": [
+        "java-project",
+        "main-content",
+        "php-project",
+        "team-project"
+      ]
+    },
+    {
+      "route": "/College/Cs364",
+      "name": "College-Cs364",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/College/Cs364.cshtml",
+      "title": "CS 364",
+      "text_tokens": 505,
+      "links": 11,
+      "images": 0,
+      "anchors": [
+        "change-request",
+        "contributors",
+        "design",
+        "main-content",
+        "project-management",
+        "repository",
+        "requirements"
+      ]
+    },
+    {
+      "route": "/College/Index",
+      "name": "College",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/College/Index.cshtml",
+      "title": "College",
+      "text_tokens": 124,
+      "links": 3,
+      "images": 0,
+      "anchors": [
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Contact",
+      "name": "Contact",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Contact.cshtml",
+      "title": "Contact",
+      "text_tokens": 59,
+      "links": 5,
+      "images": 0,
+      "anchors": [
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Experience/Education",
+      "name": "Experience-Education",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Experience/Education.cshtml",
+      "title": "Education",
+      "text_tokens": 341,
+      "links": 5,
+      "images": 0,
+      "anchors": [
+        "Associates",
+        "BYUIdaho",
+        "EarlySelfDirected",
+        "SoftwareEngineering",
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Experience/EmploymentAccomplishments",
+      "name": "Experience-EmploymentAccomplishments",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Experience/EmploymentAccomplishments.cshtml",
+      "title": "Employment Accomplishments",
+      "text_tokens": 1321,
+      "links": 13,
+      "images": 0,
+      "anchors": [
+        "ai-engineering",
+        "cloud-devops",
+        "developer-enablement",
+        "enterprise-ai",
+        "hosting-transition",
+        "main-content",
+        "marketing-website-foundation",
+        "portfolio-governance",
+        "quality-engineering",
+        "security",
+        "shared-application-templates",
+        "software-delivery"
+      ]
+    },
+    {
+      "route": "/Experience/Index",
+      "name": "Experience",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Experience/Index.cshtml",
+      "title": "Experience",
+      "text_tokens": 89,
+      "links": 5,
+      "images": 0,
+      "anchors": [
+        "experience-context",
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Experience/WorkHistory",
+      "name": "Experience-WorkHistory",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Experience/WorkHistory.cshtml",
+      "title": "Work History",
+      "text_tokens": 1622,
+      "links": 14,
+      "images": 0,
+      "anchors": [
+        "AGameEmpowerment",
+        "AcademyMortgage",
+        "ArchitecturalDelivery",
+        "CareyAndAssoc",
+        "EducationSDET",
+        "EngineeringManager",
+        "Kumusoft",
+        "LDSChurch01",
+        "LDSChurch02",
+        "LDSChurch03",
+        "Microsoft",
+        "PortfolioArchitect",
+        "SwipeClock",
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Explore",
+      "name": "Explore",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Explore.cshtml",
+      "title": "Explore the Portfolio",
+      "text_tokens": 143,
+      "links": 45,
+      "images": 0,
+      "anchors": [
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Fun/HamRadioVHFGoKit",
+      "name": "Fun-HamRadioVHFGoKit",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Fun/HamRadioVHFGoKit.cshtml",
+      "title": "VHF / HF Ham Radio Go-Kit",
+      "text_tokens": 1317,
+      "links": 21,
+      "images": 93,
+      "anchors": [
+        "AllRadioParts",
+        "build-instructions",
+        "kit-introduction",
+        "main-content",
+        "parts-list"
+      ]
+    },
+    {
+      "route": "/Fun/Index",
+      "name": "Fun",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Fun/Index.cshtml",
+      "title": "Fun Projects",
+      "text_tokens": 117,
+      "links": 6,
+      "images": 0,
+      "anchors": [
+        "main-content",
+        "personal-context"
+      ]
+    },
+    {
+      "route": "/Fun/SolarianLeague",
+      "name": "Fun-SolarianLeague",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Fun/SolarianLeague.cshtml",
+      "title": "Solarian League",
+      "text_tokens": 194,
+      "links": 3,
+      "images": 0,
+      "anchors": [
+        "main-content",
+        "project-story"
+      ]
+    },
+    {
+      "route": "/Git",
+      "name": "Git",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Git.cshtml",
+      "title": "Git Repo List",
+      "text_tokens": 342,
+      "links": 19,
+      "images": 0,
+      "anchors": [
+        "main-content"
+      ]
+    },
+    {
+      "route": "/",
+      "name": "Home",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Index.cshtml",
+      "title": "Michael B. Carey",
+      "text_tokens": 254,
+      "links": 16,
+      "images": 1,
+      "anchors": [
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Privacy",
+      "name": "Privacy",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Privacy.cshtml",
+      "title": "Privacy",
+      "text_tokens": 109,
+      "links": 0,
+      "images": 0,
+      "anchors": [
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Projects/AdverTran",
+      "name": "Projects-AdverTran",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/AdverTran.cshtml",
+      "title": "AdverTran",
+      "text_tokens": 234,
+      "links": 3,
+      "images": 0,
+      "anchors": [
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Projects/AGameEmpowerment",
+      "name": "Projects-AGameEmpowerment",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/AGameEmpowerment.cshtml",
+      "title": "A Game Empowerment",
+      "text_tokens": 226,
+      "links": 4,
+      "images": 0,
+      "anchors": [
+        "main-content",
+        "section-1"
+      ]
+    },
+    {
+      "route": "/Projects/AzureServices",
+      "name": "Projects-AzureServices",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/AzureServices.cshtml",
+      "title": "Azure Services",
+      "text_tokens": 1059,
+      "links": 9,
+      "images": 0,
+      "anchors": [
+        "email-automation",
+        "loan-data-sync",
+        "main-content",
+        "message-bus"
+      ]
+    },
+    {
+      "route": "/Projects/Encompass",
+      "name": "Projects-Encompass",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/Encompass.cshtml",
+      "title": "Ellie Mae Encompass",
+      "text_tokens": 946,
+      "links": 9,
+      "images": 0,
+      "anchors": [
+        "main-content",
+        "section-1",
+        "section-2",
+        "section-3",
+        "section-4"
+      ]
+    },
+    {
+      "route": "/Projects/FamilyKey",
+      "name": "Projects-FamilyKey",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/FamilyKey.cshtml",
+      "title": "Family Key",
+      "text_tokens": 148,
+      "links": 2,
+      "images": 0,
+      "anchors": [
+        "main-content",
+        "section-1"
+      ]
+    },
+    {
+      "route": "/Projects/Index",
+      "name": "Projects",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/Index.cshtml",
+      "title": "Projects",
+      "text_tokens": 711,
+      "links": 11,
+      "images": 0,
+      "anchors": [
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Projects/MlmLinkup",
+      "name": "Projects-MlmLinkup",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/MlmLinkup.cshtml",
+      "title": "MLMLinkup",
+      "text_tokens": 409,
+      "links": 6,
+      "images": 0,
+      "anchors": [
+        "main-content",
+        "section-1",
+        "section-2"
+      ]
+    },
+    {
+      "route": "/Projects/RedheadMobile",
+      "name": "Projects-RedheadMobile",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/RedheadMobile.cshtml",
+      "title": "Redhead Mobile Apps",
+      "text_tokens": 146,
+      "links": 5,
+      "images": 0,
+      "anchors": [
+        "main-content",
+        "section-1"
+      ]
+    },
+    {
+      "route": "/Projects/Startup",
+      "name": "Projects-Startup",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/Startup.cshtml",
+      "title": "Startup Examples",
+      "text_tokens": 92,
+      "links": 3,
+      "images": 0,
+      "anchors": [
+        "main-content",
+        "section-1"
+      ]
+    },
+    {
+      "route": "/Skills/AI",
+      "name": "Skills-AI",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/AI.cshtml",
+      "title": "AI Technologies",
+      "text_tokens": 710,
+      "links": 15,
+      "images": 0,
+      "anchors": [
+        "EmploymentAI",
+        "ai-assisted-engineering-workflow",
+        "ai-product-and-platform-work",
+        "llm-voice-and-media-orchestration",
+        "main-content",
+        "modern-ai-stack-experience",
+        "practical-ai-discipline",
+        "reusable-ai-authoring-foundations"
+      ]
+    },
+    {
+      "route": "/Skills/Containers",
+      "name": "Skills-Containers",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Containers.cshtml",
+      "title": "Docker and Podman",
+      "text_tokens": 296,
+      "links": 7,
+      "images": 0,
+      "anchors": [
+        "development",
+        "lifecycle",
+        "main-content",
+        "packaging",
+        "validation"
+      ]
+    },
+    {
+      "route": "/Skills/CPlus",
+      "name": "Skills-CPlus",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/CPlus.cshtml",
+      "title": "C/C++",
+      "text_tokens": 676,
+      "links": 11,
+      "images": 0,
+      "anchors": [
+        "cs165",
+        "cs235",
+        "gedcom-sql-database-import-process",
+        "main-content",
+        "misc-projects"
+      ]
+    },
+    {
+      "route": "/Skills/CSharp",
+      "name": "Skills-CSharp",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/CSharp.cshtml",
+      "title": "C#, ASP.NET, .NET Core",
+      "text_tokens": 538,
+      "links": 14,
+      "images": 0,
+      "anchors": [
+        "application-types-and-platforms",
+        "architecture-observability-and-maintainability",
+        "leadership-context",
+        "main-content",
+        "modern-net-solution-design",
+        "production-dotnet-delivery",
+        "reusable-dotnet-qa-framework"
+      ]
+    },
+    {
+      "route": "/Skills/Database",
+      "name": "Skills-Database",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Database.cshtml",
+      "title": "Database",
+      "text_tokens": 320,
+      "links": 10,
+      "images": 0,
+      "anchors": [
+        "data-automation-and-local-services",
+        "data-integration-and-practical-problem-solving",
+        "main-content",
+        "modern-ef-core-based-development",
+        "sql-server-and-relational-design"
+      ]
+    },
+    {
+      "route": "/Skills/DeveloperEnablement",
+      "name": "Skills-DeveloperEnablement",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/DeveloperEnablement.cshtml",
+      "title": "Developer Enablement",
+      "text_tokens": 303,
+      "links": 7,
+      "images": 0,
+      "anchors": [
+        "adoption",
+        "ai-guidance",
+        "application-foundations",
+        "developer-toolbox",
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Skills/DevOps",
+      "name": "Skills-DevOps",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/DevOps.cshtml",
+      "title": "Azure DevOps / VSTS / TFS",
+      "text_tokens": 706,
+      "links": 10,
+      "images": 0,
+      "anchors": [
+        "administrative-experience",
+        "developer-delivery-foundations",
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Skills/Index",
+      "name": "Skills",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Index.cshtml",
+      "title": "Skills",
+      "text_tokens": 239,
+      "links": 12,
+      "images": 0,
+      "anchors": [
+        "capabilities",
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Skills/Java",
+      "name": "Skills-Java",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Java.cshtml",
+      "title": "Java",
+      "text_tokens": 254,
+      "links": 5,
+      "images": 0,
+      "anchors": [
+        "advertran-media-client-controller",
+        "cs246",
+        "cs313",
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Skills/Leadership",
+      "name": "Skills-Leadership",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Leadership.cshtml",
+      "title": "Leadership",
+      "text_tokens": 2556,
+      "links": 47,
+      "images": 0,
+      "anchors": [
+        "Books",
+        "DevLead",
+        "DevManager",
+        "DevOpsManager",
+        "EngMgr",
+        "PersonalityProfile",
+        "QAManager",
+        "ScrumMaster",
+        "SwEngArch",
+        "TwoYearMission",
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Skills/Okta",
+      "name": "Skills-Okta",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Okta.cshtml",
+      "title": "Okta, OAuth and OpenID Connect",
+      "text_tokens": 97,
+      "links": 3,
+      "images": 0,
+      "anchors": [
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Skills/QA",
+      "name": "Skills-QA",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/QA.cshtml",
+      "title": "Quality Assurance",
+      "text_tokens": 1545,
+      "links": 8,
+      "images": 0,
+      "anchors": [
+        "filing-defects-bugs",
+        "main-content",
+        "manual-and-automated-testing",
+        "reusable-qa-platform",
+        "selenium-webdriver",
+        "test-case-development"
+      ]
+    },
+    {
+      "route": "/Skills/SystemsIntegration",
+      "name": "Skills-SystemsIntegration",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/SystemsIntegration.cshtml",
+      "title": "Systems and API Integration",
+      "text_tokens": 318,
+      "links": 9,
+      "images": 0,
+      "anchors": [
+        "identity",
+        "integration-boundaries",
+        "main-content",
+        "student-systems",
+        "system-integrations"
+      ]
+    },
+    {
+      "route": "/Skills/TechnicalHistory",
+      "name": "Skills-TechnicalHistory",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/TechnicalHistory.cshtml",
+      "title": "Technical experience record",
+      "text_tokens": 1346,
+      "links": 13,
+      "images": 0,
+      "anchors": [
+        "achievements",
+        "employment-details",
+        "historical-record",
+        "main-content",
+        "portfolio-experience",
+        "qualifications",
+        "technical-record"
+      ]
+    },
+    {
+      "route": "/Skills/Technologies",
+      "name": "Skills-Technologies",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Technologies.cshtml",
+      "title": "Development Technologies",
+      "text_tokens": 1002,
+      "links": 38,
+      "images": 0,
+      "anchors": [
+        "architecture-and-product-delivery",
+        "broader-language-foundation",
+        "career-alignment",
+        "current-technical-profile",
+        "main-content",
+        "recent-public-work",
+        "skill-detail-pages",
+        "technical-history"
+      ]
+    },
+    {
+      "route": "/Skills/Web",
+      "name": "Skills-Web",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Web.cshtml",
+      "title": "Web",
+      "text_tokens": 471,
+      "links": 12,
+      "images": 0,
+      "anchors": [
+        "asp-net-web-development",
+        "foundational-web-skills",
+        "frontend-architecture-and-quality",
+        "main-content",
+        "modern-web-direction",
+        "production-full-stack-web"
+      ]
+    },
+    {
+      "route": "/Skills/WebApi",
+      "name": "Skills-WebApi",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/WebApi.cshtml",
+      "title": "Web API / REST Services",
+      "text_tokens": 484,
+      "links": 14,
+      "images": 0,
+      "anchors": [
+        "defensive-api-boundaries",
+        "enterprise-api-delivery",
+        "main-content",
+        "operational-thinking",
+        "restful-service-design",
+        "serverless-and-integration-direction"
+      ]
+    },
+    {
+      "route": "/Skills/Zendesk",
+      "name": "Skills-Zendesk",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Zendesk.cshtml",
+      "title": "Zendesk Integration",
+      "text_tokens": 123,
+      "links": 3,
+      "images": 0,
+      "anchors": [
+        "main-content"
+      ]
+    },
+    {
+      "route": "/Tribute",
+      "name": "Tribute",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Tribute.cshtml",
+      "title": "Tribute",
+      "text_tokens": 423,
+      "links": 1,
+      "images": 0,
+      "anchors": [
+        "main-content"
+      ]
+    }
+  ],
+  "assets": {
+    "assets/content/images/Michael_Carey_Large.jpg": "dc66a8b91a5ad34cd46a9e8940f975efa055050f523bb759d4e72fdf8ba44014",
+    "assets/content/pdf/CS364_SRS.pdf": "21de5da208ab311510344182696c8f36afd2256bb16769993fce9941bd9d3cd3",
+    "assets/content/pdf/CS364_SDD.pdf": "a125638bffe34ee6d3c14674168efe3cdac01c09be21893e9bcf5e25e1932f2d",
+    "assets/content/pdf/CS364_ECR.pdf": "53bd4d3e5d6c9e9d8d5f54fe5ec8f9ac107db97d515599ca7f77b0a63fc452a1",
+    "assets/content/images/Image047.jpg": "5e2517f1b09a688d9109624415e7f5629b8500d0b493fe061319055d81ea33ef",
+    "assets/content/images/Image007.jpg": "aeea106dced94033c12908192e25e12b4088c3de31c30f4abbb16a46827866d0",
+    "assets/content/images/Image008.jpg": "a8daf84ff124bbdad32b6070c66204b9aaf0bc152553dad048a21d53893cd8d7",
+    "assets/content/images/Image009.jpg": "238634624dbe14711b9d6a0c420718692766399dbe1c06df55e43eb8190c728b",
+    "assets/content/images/Image010.jpg": "f75e0e05ae736384097b887038fce12f06703d36dfbae6931d4611dca546c846",
+    "assets/content/images/Image011.jpg": "d73a3ea513c25d12cbaa2e130b2dffbb206907f903e80733cfc1d05bee42deb9",
+    "assets/content/images/Image019.jpg": "c89f1e4e7fba3edd66f2aea98ce217a7e4eadc6e859a9ca712cdbcf6bed1134a",
+    "assets/content/images/Image012.jpg": "1e3b175514b0088f32885c0acde8f96f289a2f04d5167c3c3dee5cb3d9fc27f3",
+    "assets/content/images/Image013.jpg": "936a7e518fe9e07d850132190fab95bf28b79a0ebb32b2fbe320c06e948bbd32",
+    "assets/content/images/Image014.jpg": "48d2ae579099170d36c00323220945d9d198e1e2d749f61e8b56f0be8e61a4a6",
+    "assets/content/images/Image015.jpg": "56f0c24051039498d97f32efc31f48804a034c2a1c8ea519df66badbc88c7a3f",
+    "assets/content/images/Image018.jpg": "e713ead5e49f84f78d2e8afa5ff347f3938b7327f8cef08e185763f52bd655df",
+    "assets/content/images/Image021.jpg": "d428a0ccc38c46b04199f40bc0cc966bbea6c110b351a3d58973581d77ca902f",
+    "assets/content/images/Image022.jpg": "8208ca223b2b50cc64256b9213ff1d44801e8463b197d9ace40556d4b9ee3683",
+    "assets/content/images/Image023.jpg": "00077029d2547a61d2160aab6624067bca57d9869719e872b498f69a6fe9a811",
+    "assets/content/images/Image024.jpg": "8c36c929aebd922e8f56e80c3324d1da1fe10de193a04960024d0e3298c97571",
+    "assets/content/images/Image025.jpg": "6497ad8b3528df17ceba032da0bd561a537c242adc80e9646858d10425147286",
+    "assets/content/images/Image027.jpg": "943b6a9c7a4f76c75fcc2cf6fa10f4416b8a31441e5566b00aa1aa40f61f784b",
+    "assets/content/images/Image028.jpg": "2c3eeadbcc61bcbeba94cd25b90139001f01a1f6f91807e39484d8103226cd23",
+    "assets/content/images/Image034.jpg": "e656156982cfcb35abf86b44430dc3b136ba7275ffb56a8c99402a713a54b505",
+    "assets/content/images/Image036.jpg": "958170d74cf552f661667296967bba2630a0b7905aed6b819a0e5bb726fcf875",
+    "assets/content/images/Image037.jpg": "3acf2f5ac8726acd19168c41d43726a5a7eadcbaa4002b1bd627cbc89ab443ad",
+    "assets/content/images/Image042.jpg": "e09d606ddfe2f4af81181072cea0e3280a09627c090fbc0ce7113e6e20800076",
+    "assets/content/images/Image043.jpg": "c67077ba6b7ad6257588c3e3892f8ac77bb5b7098eee3a3f5ddc51ed34b579ed",
+    "assets/content/images/Image044.jpg": "da5a9381f6ae66e13683cc8ad15ec36d0cb181e9a3e365ca1dfec4674334249c",
+    "assets/content/images/Image045.jpg": "37b9cbea1984b264ffd1b5f976442ea45904af9038b39d9211d8b882cd2075a5",
+    "assets/content/images/Image046.jpg": "8163bb7197007694f5700dd2d33c9ec0ddeebcb1df0432587b017cceabaed96e",
+    "assets/content/images/Image048.jpg": "9be983b3b6a1fe7241f57d1f612c4af23b49f20f0c65db16f7d759a25254da49",
+    "assets/content/images/Image050.jpg": "c6c5bfef2c19a8fe6546277ecc4b0278cb4c9b3861e7d50b123239453f8451e6",
+    "assets/content/images/Image051.jpg": "243dcfb9e90618401678067c9a9bf4948b8a2507d4aede59f5427175240f89e8",
+    "assets/content/images/Image052.jpg": "ad75a395a96ed39dd6c8e0571370e4b10117d1f60abebc24d48ca7cbf78983e6",
+    "assets/content/images/Image053.jpg": "3df8889bd1e1e88e869174b185417098ee263a3d4aea8ab6a1f292965d6a2d32",
+    "assets/content/images/Image054.jpg": "d71e25a072bcff6bf5b33890cd55bbda82c2f79db5837a12bdcbec81678df6a7",
+    "assets/content/images/Image055.jpg": "a366becf25c1264c5ee50b8efd15bd18cb21d0320fabd8d7ac425ee82873d022",
+    "assets/content/images/Image056.jpg": "bc52c4c43d38bcd966800abe39f661ee59688db0f4943bb65aeaad7e0d1dbace",
+    "assets/content/images/Image062.jpg": "2bae264a014c3a68fb57870cb5183a3ff0347f5e79ccb158acb979025cf1d02f",
+    "assets/content/images/Image063.jpg": "8c4819045b3ddd666fe47d7ec8f6c278bd7004d4faa5eacc15d1eea7a9613989",
+    "assets/content/images/Image064.jpg": "37e31eefac9b310e2b3c224aa21bdbb4982b2b3b5d228681ecf51ab71db1b6dd",
+    "assets/content/images/zzz_Kenwood.jpg": "5fc6adfacbbbb0df8b89b608fd6e656ee031cc1161f0de40af63528ed406a630",
+    "assets/content/images/zzz_KRS-V71-USB-2.jpg": "172e97a632a2f8b5d4cdc38a23f7d42922a59884cec08dc95eb140399d11cfe4",
+    "assets/content/images/zzz_Yeasu-FT891_HF50.jpg": "8a88e567818b24ccd74c56297bc0b129cf747df12e2f05a5be96f7264afda3e8",
+    "assets/content/images/zzz_ADMS-891-USB-2.jpg": "addf4947e7e672f1c2ada47c5c5af4742537150893a3c119a7569eed72e6eae5",
+    "assets/content/images/zzz_SportsmanBox.jpg": "6a17260c34a6a5339f0804f7353c7cff8cadb718836eb0bba802b994e69d3d2c",
+    "assets/content/images/zzz_asr-ss-30m_xl.jpg": "22103c00c10240ca2c7072ea64e23662ee7b70b3d82d897bc76eec6d949f3ea6",
+    "assets/content/images/zzz_PowerGate_Front.jpg": "e306f75a5f0af03028cf6a7c6e85a54c6aa88998d9657350d7225e2a8a9c6db4",
+    "assets/content/images/zzz_PowerGate_Side.jpg": "58246e6fd492e09c8729ff4702e5b3f0d748e6ce808370279826099c8bd300fd",
+    "assets/content/images/zzz_ZWM-PS-CBL-6-0001.jpg": "634a5f50f70aec84cb542d39e174df5b6f90bfd94319c1905d5ccfdcef1aeaca",
+    "assets/content/images/zzz_wmt-58315-1043_xb_xl.jpg": "4566a057f96fe4681d2776a83a51ed3c4e17f83dea58601a03ef2346786e33d5",
+    "assets/content/images/zzz_AntennaTripod.jpg": "f1699e99ba691b913a55351c5e50056f200ca6dd2912598772bf7653012ade4c",
+    "assets/content/images/zzz_AC_SL1500.jpg": "7acd4d128f2839b37ebc04692ad6aac67fe750b76c53a1d05066c47d1cfd5477",
+    "assets/content/images/zzz_AC_SL1020.jpg": "751a0157f4193956d9e33c8d2688e2c782c3dee4253e20d2f7531aa905875741",
+    "assets/content/images/zzz_AC_SL1000.jpg": "2dd89f928e0f18b405b33f0bae2655ae212ee6bace16d64b35de2a0c85cfec8c",
+    "assets/content/images/zzz_AC_SL1001.jpg": "9aa5e4a9b9f72552af5f57ad41825470d3ce570e0783ada33bc6480d9b9dd6b2",
+    "assets/content/images/zzz_AC_SL1002.jpg": "e8f74a1b9230738ed5f107be5d155c6c1e29db02ae85c7ba7b91bd1b19c27ef1",
+    "assets/content/images/Image002.jpg": "caad70ed8768e6a3d1cc46471562bf1fa007cfba7b564bf59ebd8483ad81093c",
+    "assets/content/images/Image003.jpg": "a4d8994a9ece84ff04b0d33bbe95c595b61fae90e72efffa48521211d78d62b8",
+    "assets/content/images/Image004.jpg": "3b7731a079025e7684638b400f3ab831b8a2e4f4674db231c30cefb6024147da",
+    "assets/content/images/Image005.jpg": "8ea09bd1091b85c5ace8f078ef530ecc86a683775775764c598af9a229779bc8",
+    "assets/content/images/Image040.jpg": "0a83e7c6f57a573de99951dc0736aa328786817a19fd13c5ee9009ca64a11812",
+    "assets/content/images/Image041.jpg": "87fcd9e3e438a0605da0fed68fda9fab892196fc8474ae94ae119a9e20a49fbd",
+    "assets/content/images/Image058.jpg": "240c43c5d5b49f9e777d501990938c6859f7e32f7dc6af15ef6db0d9e08a7d46",
+    "assets/content/images/Image059.jpg": "f424a73eba3798e3f264d042308d105df7208c0237a2e3bce5f83102ccd73e9b",
+    "assets/content/images/Image060.jpg": "c48c0fae7ec5c78a413b7a1036e34557527cbc0586d7d455e911b938f218d3ba",
+    "assets/content/images/Image016.jpg": "7ca1514949bf9d50b1273e2bff3b8f2d43ef9b56c52667ad10e24183a4b4fbcc",
+    "assets/content/images/zzz_Placeholder.jpg": "5e4e2c768670deb38c7126ed9cff71704da505ac76e38fa5893bd52df2b02c10",
+    "assets/content/images/Image017.jpg": "1114bd781cff48d668d772062088aff5830ea41eae20788aea090e9e71049fbb",
+    "assets/content/images/Image031.jpg": "111c646760170bb8dc3503d23a16000fbb7c12266065373231bcd6eb248587c2",
+    "assets/content/images/Image033.jpg": "75967c96792906a2755a9456ac5cf25a275e6f3f9a57914de9b5eafd287ef006",
+    "assets/content/documents/2018_Scrum_Master.pptx": "3ed4b82668084dd783dc0299dfcd77fbaa5c6dc1d84b669249485ba8620db71e"
+  },
+  "checks": {
+    "text_roundtrip": "passed",
+    "links_and_images": "passed",
+    "section_anchors": "passed",
+    "cross_page_fragments": "passed"
+  }
+}
