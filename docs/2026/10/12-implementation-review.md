@@ -51,3 +51,11 @@ Planning/audit records remain outside application publish content. Do not publis
 Separated the current Portfolio Architect, prior Engineering Manager, and Education SDET entries with confirmed dates and portfolio context. HR responsibilities sit under Engineering Manager; shared historical engineering/QA duties and every technology qualifier remain. Added employer jump links and corrected heading hierarchy; Academy roles now appear newest first. Prior employers, anchors, and original factual details remain intact.
 
 Release build passed with zero warnings/errors. Six targeted Chromium cases (three widths, both themes) passed for dates, role separation, anchor navigation, overflow, and JavaScript errors; see work-history-verification.json. The prior full browser/container suite describes the earlier modernization checkpoint; it was not repeated for this focused page change. The implementation manifest was refreshed.
+
+## Primary portrait follow-up
+
+Homepage and About Me now use the owner-supplied Michael_Carey_Large.jpg, copied unchanged from the supplied file. The earlier photo remains byte-identical. Homepage circular presentation positions the photo to keep the face and hair visible. Release build and four targeted Chromium cases (two pages, desktop/mobile) passed, including actual image dimensions 2941 × 3561 and no page overflow. See portrait-verification.json and portrait screenshots. The implementation manifest was refreshed; original portrait reference changes have explicit owner-authorized ledger dispositions.
+
+## Résumé link follow-up
+
+Removed the three remaining links to the résumé-history route from Explore, Experience, and Fun. Historical technical/personal details are preserved under TechnicalHistory; the previous historical route remains available without incoming page links. Resume.pdf remains byte-identical and has no links. Debug and Release builds passed. Rebuilt and restarted the existing local HTTPS preview on localhost:7035 / HTTP5085 so it serves the latest pages. Targeted checks confirmed zero résumé links on the affected pages and both local previews; preservation verification passed with zero unexplained losses. See resume-link-removal-verification.json. No production deployment was performed.

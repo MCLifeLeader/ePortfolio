@@ -25,7 +25,7 @@ p { max-width: 78ch; }
 .home-hero h1 { font-size: clamp(2.6rem, 5vw, 4.4rem); margin: .75rem 0; }
 .hero-role { font-size: 1.25rem; color: var(--muted); }
 .hero-role span { display: block; font-size: 1rem; }
-.hero-portrait { width: 240px; height: 240px; object-fit: cover; border-radius: 50%; border: 6px solid var(--surface); }
+.hero-portrait { width: 240px; height: 240px; object-fit: cover; object-position: center 30%; border-radius: 50%; border: 6px solid var(--surface); }
 .eyebrow { color: var(--accent); text-transform: uppercase; letter-spacing: .12em; font-weight: 650; font-size: .78rem; margin-bottom: 1rem; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.75rem; }
 .content-section { border-top: 1px solid var(--rule); padding: 2.5rem 0; }

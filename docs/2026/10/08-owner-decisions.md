@@ -32,3 +32,11 @@ The owner explicitly requested retaining LinkedIn and GitHub connections and lea
 ## Disclosure review
 
 Subsequently on October 8, 2026, the owner approved every item in the [employment accomplishments review](09-employment-accomplishments-review.md): “All of those look fine, proceed with using Employment accomplishments — sensitivity review.” All E01–E52 are cleared for use. The earlier R04 row records the decision state before this approval. Implementation and validation are recorded in [10-employment-integration.md](10-employment-integration.md). Production deployment has not been authorized or performed.
+
+## Primary portrait update
+
+The owner supplied Michael_Carey_Large.JPG and explicitly requested it as the primary image. Homepage and About Me now reference /content/images/Michael_Carey_Large.jpg. The supplied image is copied byte-for-byte; the earlier fbMichael_B_Carey.jpg remains unchanged as historical media. This supersedes the original two portrait references and their image-element records, while preserving the subject and alternative text.
+
+## Remove remaining résumé entry points
+
+The owner reiterated removal of résumé links. The running local pages had no Resume.pdf hyperlink, but Explore, Experience, and Fun still linked to /Experience/ResumeHistory. Those entry points were removed or redirected to the technical-experience page; the historical details remain discoverable under /Skills/TechnicalHistory, including personal achievements. Resume.pdf remains unchanged and disconnected. The previous historical page URL remains addressable for compatibility but has no page links.

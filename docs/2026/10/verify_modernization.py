@@ -114,6 +114,10 @@ def correction(row):
     """Narrow exceptions; original statement and corrected destination stay inspectable."""
     cid, value, source = row["ContentID"], row["OriginalInformation"], row["SourceFile"]
     low = value.lower()
+    if cid in {"PAGE-AboutMe-REF-001", "PAGE-AboutMe-ELEMENT-003", "PAGE-Index-REF-001", "PAGE-Index-ELEMENT-004"}:
+        replacement = "~/content/images/Michael_Carey_Large.jpg"
+        if replacement in read(ROOT / source) and (STATIC / "content/images/Michael_Carey_Large.jpg").is_file():
+            return "owner-replaced-portrait", "Owner supplied new primary portrait; original photo retained byte-identical, new image served from /content/images/Michael_Carey_Large.jpg."
     explicit = {
         "PAGE-AboutMe-TEXT-003": "R01: manager dates refined to February 2021–February 2026; education portfolio context retained.",
         "PAGE-AboutMe-TEXT-004": "R01: current formal title corrected to Sr. Software Architect (Portfolio Architect).",

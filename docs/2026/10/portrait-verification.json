@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "route": "/",
+      "width": 375,
+      "passed": true
+    },
+    {
+      "route": "/AboutMe",
+      "width": 375,
+      "passed": true
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "/AboutMe",
+      "width": 1440,
+      "passed": true
+    }
+  ],
+  "original_file_retained": true
+}

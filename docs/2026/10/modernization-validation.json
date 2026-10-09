@@ -20,9 +20,9 @@
     "verified-source-routes": 38,
     "verified-source-value": 38,
     "verified-source-text": 989,
-    "owner-authorized-exception": 22,
-    "verified-source-reference": 312,
-    "implemented-source-change": 172,
+    "owner-authorized-exception": 26,
+    "verified-source-reference": 310,
+    "implemented-source-change": 170,
     "implemented-editorial-change": 16,
     "verified-source-anchor": 30,
     "verified-byte-identity": 873,
@@ -514,7 +514,7 @@
           "status": 200
         },
         {
-          "path": "/content/images/fbMichael_B_Carey.jpg",
+          "path": "/content/images/Michael_Carey_Large.jpg",
           "status": 200
         },
         {
@@ -1349,7 +1349,7 @@
         "status": 200
       },
       {
-        "path": "/content/images/fbMichael_B_Carey.jpg",
+        "path": "/content/images/Michael_Carey_Large.jpg",
         "status": 200
       },
       {
