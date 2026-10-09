@@ -1,220 +1,58 @@
-/*
-  Update: Theme color variables and header backgrounds for light/dark mode.
-  - Light mode: Alice Blue background, light orange headers
-  - Dark mode: Keep background, dark orange headers
-*/
-html {
-    font-size: 14px;
-}
+/* Shared, accessible light and dark presentation. */
+:root { --bs-body-bg: #f8f9f7; --bs-body-color: #233244; --bs-link-color: #00665e; --bs-link-color-rgb: 0, 102, 94; --bs-link-hover-color-rgb: 0, 70, 63; --bs-link-hover-color: #00463f; --surface: #fff; --rule: #d3ddd9; --muted: #536374; --accent: #00665e; }
+[data-bs-theme="dark"] { --bs-body-bg: #111d2a; --bs-body-color: #e6edf2; --bs-link-color: #7ee1cf; --bs-link-color-rgb: 126, 225, 207; --bs-link-hover-color-rgb: 182, 244, 232; --bs-link-hover-color: #b6f4e8; --surface: #192938; --rule: #3e5362; --muted: #b7c7d3; --accent: #7ee1cf; }
+html { min-height: 100%; scroll-padding-top: 1rem; }
+body { min-height: 100vh; display: flex; flex-direction: column; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+a { text-underline-offset: .2em; overflow-wrap: anywhere; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid #db9700; outline-offset: 4px; }
+.skip-link { position: absolute; left: 1rem; top: -5rem; background: #fff; color: #102638; padding: .75rem 1rem; z-index: 1100; }
+.skip-link:focus { top: .5rem; }
+.site-header { background: #102638; color: #fff; }
+.navbar { padding: 1.1rem 0; }
+.navbar-brand { color: #fff; font-weight: 700; font-size: 1.25rem; white-space: normal; }
+.navbar-brand span { display: block; color: #a9c3cf; font-weight: 400; font-size: .8rem; letter-spacing: .06em; }
+.navbar .nav-link { color: #e2edf2; font-size: .94rem; padding: .75rem !important; }
+.navbar .nav-link:hover, .navbar .nav-link.active { color: #8fe8d9; text-decoration: underline; }
+.theme-control { display: flex; align-items: center; gap: .65rem; margin-left: 1.5rem; font-size: .85rem; white-space: nowrap; }
+.theme-control .form-check-input { margin: 0; cursor: pointer; width: 1.25rem; height: 1.25rem; }
+.site-main { flex: 1 0 auto; padding-top: 2.75rem; padding-bottom: 4rem; }
+h1, h2, h3, h4 { line-height: 1.2; font-weight: 650; letter-spacing: -.025em; }
+h1 { margin-bottom: 1.5rem; } h2 { margin-bottom: 1rem; } h3 { margin-bottom: .75rem; }
+p { max-width: 78ch; }
+.site-main .row { row-gap: 1.5rem; }
+.home-hero { display: grid; grid-template-columns: 1fr 240px; align-items: center; gap: 4rem; padding: 1.5rem 0 3.5rem; }
+.home-hero h1 { font-size: clamp(2.6rem, 5vw, 4.4rem); margin: .75rem 0; }
+.hero-role { font-size: 1.25rem; color: var(--muted); }
+.hero-role span { display: block; font-size: 1rem; }
+.hero-portrait { width: 240px; height: 240px; object-fit: cover; border-radius: 50%; border: 6px solid var(--surface); }
+.eyebrow { color: var(--accent); text-transform: uppercase; letter-spacing: .12em; font-weight: 650; font-size: .78rem; margin-bottom: 1rem; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.75rem; }
+.content-section { border-top: 1px solid var(--rule); padding: 2.5rem 0; }
+.feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 2rem; }
+.feature-grid article { border-left: 3px solid var(--rule); padding-left: 1.25rem; }
+.feature-grid h3 { font-size: 1.3rem; }
+.connection-list { display: flex; flex-wrap: wrap; gap: .75rem 1.75rem; list-style: none; padding: 0; }
+.btn-primary, .btn-site { background: #00665e; border-color: #00665e; color: #fff; }
+.btn-primary:hover, .btn-site:hover { background: #00463f; border-color: #00463f; color: #fff; }
+.btn-outline-primary { color: var(--bs-link-color); border-color: var(--bs-link-color); }
+.btn-outline-primary:hover { background: #00665e; border-color: #00665e; color: #fff; }
+.btn { white-space: normal; padding: .65rem 1rem; }
+.card { background: var(--surface); border-color: var(--rule); }
+.card-header, .div-header { background: #183e50 !important; color: #fff !important; font-weight: 650; padding: .85rem 1rem; }
+.list-group-item { background: var(--surface); border-color: var(--rule); color: var(--bs-body-color); }
+.list-group-item-info { background: #183e50; color: #fff; }
+.list-group-item-info a { color: #a1efde; }
+.table { --bs-table-bg: var(--surface); --bs-table-color: var(--bs-body-color); }
+.site-main img { max-width: 100%; height: auto; }
+.site-main .hero-portrait { height: 240px; }
+.site-footer { margin-top: auto; border-top: 1px solid var(--rule); padding: 1.75rem 0; color: var(--muted); }
+.footer-content { display: flex; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+.site-footer nav { display: flex; flex-wrap: wrap; gap: 1.25rem; }
+@media (max-width: 1199px) { .theme-control { margin: 1rem 0; } }
+@media (max-width: 767px) { .site-main { padding-top: 1.75rem; } .home-hero { grid-template-columns: 1fr; gap: 1.5rem; padding-top: 0; } .hero-portrait { grid-row: 1; width: 120px; } .site-main .hero-portrait { height: 120px; } .feature-grid { grid-template-columns: 1fr; } .site-main .col-6, .site-main .col-10 { width: 100%; } .site-main .col-2 { width: 30%; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }
 
-@media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-    min-height: 100%;
-}
-
-body {
-    min-height: 100vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: aliceblue;
-}
-
-main.site-main {
-    flex: 1 0 auto;
-    width: 100%;
-    padding-top: 1.5rem;
-    padding-bottom: 3rem;
-}
-
-main.site-main .row {
-    row-gap: 1.5rem;
-}
-
-main.site-main h2 {
-    margin-bottom: 0.5rem;
-}
-
-main.site-main h3,
-main.site-main h4 {
-    margin-bottom: 0.75rem;
-}
-
-main.site-main p,
-main.site-main ul,
-main.site-main ol {
-    margin-bottom: 1rem;
-}
-
-main.site-main .list-group {
-    margin-bottom: 0;
-}
-
-a {
-    color: cornflowerblue;
-}
-
-.btn-site {
-    background: #7dafff; /* softened blue for light mode */
-    color: #fff;
-    font-weight: bold;
-    margin: 2px 2px 2px 2px;
-    border: none;
-    transition: background 0.2s;
-}
-
-[data-bs-theme="light"] .btn,
-[data-bs-theme="light"] .btn-primary,
-[data-bs-theme="light"] .btn-site {
-    background-color: #5c94e6 !important;
-    color: #fff !important;
-    border: none;
-}
-
-[data-bs-theme="light"] .btn:hover,
-[data-bs-theme="light"] .btn-primary:hover,
-[data-bs-theme="light"] .btn-site:hover {
-    background-color: #7dafff !important;
-    color: #fff !important;
-}
-
-[data-bs-theme="dark"] {
-    --bs-body-bg: #181a1b;
-    --bs-body-color: #f8f9fa;
-    --bs-navbar-bg: #23272b;
-    --bs-navbar-color: #f8f9fa;
-    --bs-footer-bg: #23272b;
-    --bs-footer-color: #adb5bd;
-    --bs-header-bg: #003366; /* dark blue */
-    --bs-header-color: #fff;
-}
-
-[data-bs-theme="light"] {
-    --bs-body-bg: aliceblue;
-    --bs-body-color: #212529;
-    --bs-navbar-bg: #212529;
-    --bs-navbar-color: #fff;
-    --bs-footer-bg: #f8f9fa;
-    --bs-footer-color: #212529;
-    --bs-header-bg: #80bfff; /* slightly darker pastel blue */
-    --bs-header-color: #fff;
-}
-
-    [data-bs-theme="light"] .card-header,
-    [data-bs-theme="light"] .navbar,
-    [data-bs-theme="light"] header,
-    [data-bs-theme="light"] .div-header {
-        background-color: #80bfff !important; /* light pastel blue */
-        color: #fff !important;
-    }
-
-[data-bs-theme="dark"] .card-header,
-[data-bs-theme="dark"] .navbar,
-[data-bs-theme="dark"] header,
-[data-bs-theme="dark"] .div-header {
-    background-color: #003366 !important; /* dark blue */
-    color: #fff !important;
-}
-
-[data-bs-theme] body {
-    background-color: var(--bs-body-bg);
-    color: var(--bs-body-color);
-}
-
-footer {
-    background-color: var(--bs-footer-bg) !important;
-    color: var(--bs-footer-color) !important;
-}
-
-.site-footer {
-    margin-top: auto !important;
-}
-
-
-.navbar {
-    background-color: var(--bs-navbar-bg) !important;
-    color: var(--bs-navbar-color) !important;
-    font-weight: bold;
-}
-
-.navbar .nav-link,
-.navbar .navbar-brand,
-.navbar .navbar-text,
-.navbar *[class^="nav-"] {
-    color: #fff !important;
-    font-weight: bold;
-}
-
-.navbar .nav-link.active,
-.navbar .nav-link:focus,
-.navbar .nav-link:hover {
-    color: #ffd700 !important;
-    background-color: rgba(0,0,0,0.08);
-    font-weight: bold;
-}
-
-/* Dropdown menu background and text styling */
-
-/* Dropdown menu background matches navbar for both themes */
-.dropdown-menu {
-    background-color: var(--bs-navbar-bg) !important;
-    font-weight: bold;
-    border: none;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.05);
-}
-
-/* Ensure dropdown items are bold and white, and highlight on hover */
-.dropdown-item {
-    color: #fff !important;
-    font-weight: bold;
-    transition: background 0.2s, color 0.2s;
-}
-
-.dropdown-item:hover, .dropdown-item:focus {
-    background-color: #0056b3 !important;
-    color: #ffd700 !important;
-}
-
-/* Removed redundant .dropdown-item block (lines 151–160) */
-.navbar .nav-link {
-    color: var(--bs-navbar-color) !important;
-    transition: color 0.2s, background 0.2s;
-}
-
-.navbar .nav-link.active,
-.navbar .nav-link:focus,
-.navbar .nav-link:hover {
-    color: #ffd700 !important; /* Gold highlight for active/hover */
-    background-color: rgba(0,0,0,0.08);
-}
-
-/*
-  Add .div-header class for custom DIV headers to match card-header theming.
-*/
-.div-header {
-    font-weight: bold;
-    padding: 0.75rem 1.25rem;
-    border-bottom: 1px solid rgba(0,0,0,.125);
-    border-radius: 0.25rem 0.25rem 0 0;
-    background-color: var(--bs-header-bg) !important;
-    color: var(--bs-header-color) !important;
-}
-
-[data-bs-theme="dark"] .btn-primary {
-    background-color: var(--bs-header-bg) !important;
-    color: var(--bs-header-color) !important;
-    border: none;
-}
-[data-bs-theme="dark"] .btn-primary:hover, [data-bs-theme="dark"] .btn-primary:focus {
-    background-color: var(--bs-header-color) !important;
-    color: var(--bs-header-bg) !important;
-}
+/* Historical download buttons retain their labels with sufficient contrast. */
+.btn-site { background: #00665e !important; color: #fff !important; }
+.btn-site:hover { background: #00463f !important; }

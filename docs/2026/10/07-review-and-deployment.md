@@ -1,14 +1,14 @@
 # Review and deployment
 
-All tasks are open. The original brief requires explicit owner approval before production deployment. Prepare the complete reviewable implementation and evidence before requesting that approval.
+D01 is complete as a local review package. D02 and D03 remain pending; no production target/action is approved. The original brief requires explicit owner approval before production deployment. Prepare the complete reviewable implementation and evidence before requesting that approval.
 
 ## D01 — Reviewable change and outstanding decisions
 
-- [ ] Prepare the change in the dedicated implementation branch with a clear summary of resulting behavior.
-- [ ] Provide proposed/implemented site maps, migration ledger, preservation report, verification report, and significant technical/content changes.
-- [ ] Separate remaining factual/publication decisions from technical findings and excluded external/deployed checks.
-- [ ] Inspect the outgoing diff for accidental private planning material, unrelated user changes, and unexplained content deletion.
-- [ ] Record the intended deployable revision and recoverable previous version.
+- [x] Prepare the change in the dedicated implementation branch with a clear summary of resulting behavior.
+- [x] Provide proposed/implemented site maps, migration ledger, preservation report, verification report, and significant technical/content changes.
+- [x] Separate remaining factual/publication decisions from technical findings and excluded external/deployed checks.
+- [x] Inspect the outgoing diff for accidental private planning material, unrelated user changes, and unexplained content deletion.
+- [x] Record the intended deployable revision and recoverable previous version.
 
 **Outputs:** A concrete review package or draft PR, plus the final owner review list. Creating a remote PR/publishing repository content should follow the authorization available at execution time.
 

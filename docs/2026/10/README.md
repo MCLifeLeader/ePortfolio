@@ -1,6 +1,6 @@
 # ePortfolio modernization tasks
 
-Created October 8, 2026. This backlog breaks the modernization into reviewable tasks; it does not begin page restructuring. The local inventory is complete. **33 follow-up tasks remain open. R04 employment disclosure review is complete.**
+Created October 8, 2026. Implementation has begun in parallel threads after the fixed content inventory was completed. Content, technical foundations, navigation, and preservation verification are implemented. Local validation and the review package are complete; production deployment remains unauthorized.
 
 The fixed baseline is [the content audit](../../content-audit/README.md), including the [preservation matrix](../../content-audit/preservation-matrix.csv) and [owner review findings](../../content-audit/owner-review.md). Document links remain ignored. Deployed-site parity and external target availability are unverified and outside the current scope; do not mark them tested or follow those links without a changed instruction.
 
@@ -9,40 +9,40 @@ The fixed baseline is [the content audit](../../content-audit/README.md), includ
 | ID | Task | Status | Depends on |
 |---|---|---|---|
 | I01 | Local inventory and preservation proposals | Done | — |
-| R01 | Resolve role titles and transition dates | Current roles confirmed; contract title unanswered | I01 |
-| R02 | Resolve degree/resume discrepancy | Graduation year confirmed; application pending | I01 |
-| R03 | Resolve skill durations, levels, availability | Solicitation removal authorized; retain recorded skill levels | I01 |
+| R01 | Resolve role titles and transition dates | Applied; historical contract title retained unresolved | I01 |
+| R02 | Resolve degree/resume discrepancy | Done: 2020 graduation applied; old PDF retained disconnected | I01 |
+| R03 | Resolve skill durations, levels, availability | Done: solicitation removed; recorded levels retained | I01 |
 | R04 | Review employer/private AI claims and disclosure | Done: all 52 employment items approved and integrated | I01 |
-| R05 | Clarify quantitative outcome scope | Pipeline creation clarified; retain other historical wording | I01 |
-| R06 | Clarify Family Key timeline | Timeline confirmed; application pending | I01 |
-| R07 | Contextualize historical project status | No updates; historical treatment confirmed | I01 |
-| R08 | Preserve resume-only history and credential status | Credential wording confirmed; mapping/application pending | I01 |
-| F01 | Establish isolated implementation and recovery baseline | Open | I01 |
-| F02 | Align and verify existing .NET build/runtime configuration | Open | F01 |
-| F03 | Fix three local filename case mismatches | Open | F01 |
-| F04 | Repair malformed markup and preserve source encoding | Open | F01 |
-| A01 | Specify site map, navigation, route/anchor compatibility | Open | I01 |
-| A02 | Establish implementation traceability for every inventory ID | Open | A01 |
-| C01 | Draft Architecture & Governance content | Open | A02 |
-| C02 | Revise AI & Innovation content | Open | A02; R04 for affected claims |
-| C03 | Organize complete engineering and QA history | Open | A02; R03 for current levels |
-| C04 | Organize leadership, mentoring, and development material | Open | A02; R01/R05/R07/R08 where affected |
-| C05 | Organize every project and repository description | Open | A02; R05/R06/R07 where affected |
-| C06 | Reconcile professional experience | Open | A02; R01/R03/R05 where affected |
-| C07 | Organize education and coursework | Open | A02; R02 |
-| C08 | Preserve personal, entrepreneurial, and community content | Open | A02; R03/R07/R08 where affected |
-| C09 | Rewrite focused homepage | Open | C01–C08; R01/R05 for selected claims |
-| C10 | Update online resume and retain disconnected PDF | Open | C06/C07; R01/R02/R03/R08 |
-| U01 | Implement shared design, navigation, and themes | Open | F01/F02; A01/A02; content tasks for pages implemented |
-| U02 | Handle Contact, Privacy, and Error honestly | Open | F01/F02; A01/A02 |
-| U03 | Implement metadata and asset presentation | Open | U01; F03/F04; C09 |
-| V01 | Verify complete substantive preservation | Open | C01–C10; U01–U03 |
-| V02 | Verify local routes, anchors, and downloads | Open | U01–U03; F03 |
-| V03 | Verify accessibility, responsive layouts, and behavior | Open | U01–U03 |
-| V04 | Verify build, browser behavior, performance, and reports | Open | F02; V01–V03 |
-| D01 | Prepare reviewable change and final issue list | Open | V04 |
-| D02 | Obtain explicit production deployment approval | Open: approval required | D01 |
-| D03 | Deploy, verify, and retain rollback | Open | D02 |
+| R05 | Clarify quantitative outcome scope | Done: pipeline creation clarified | I01 |
+| R06 | Clarify Family Key timeline | Done: approximate dates and partnership closure applied | I01 |
+| R07 | Contextualize historical project status | Done: historical descriptions retained and contextualized | I01 |
+| R08 | Preserve resume-only history and credential status | Done: resume-only history preserved; credential date/current radio confirmed | I01 |
+| F01 | Establish isolated implementation and recovery baseline | Done: dedicated branch and recovery ZIP | I01 |
+| F02 | Align and verify existing .NET build/runtime configuration | Done: .NET 10 build/container; hosted workflows unexecuted | F01 |
+| F03 | Fix three local filename case mismatches | Done: PDF disconnected and image casing fixed | F01 |
+| F04 | Repair malformed markup and preserve source encoding | Done: quote/encoding corrected; text retained | F01 |
+| A01 | Specify site map, navigation, route/anchor compatibility | Done: site-map.md and Explore directory | I01 |
+| A02 | Establish implementation traceability for every inventory ID | Done: all 3,150 IDs mapped in migration-ledger.csv | A01 |
+| C01 | Draft Architecture & Governance content | Done: implemented with preserved supporting history | A02 |
+| C02 | Revise AI & Innovation content | Done: implemented with preserved supporting history | A02; R04 for affected claims |
+| C03 | Organize complete engineering and QA history | Done: implemented with preserved supporting history | A02; R03 for current levels |
+| C04 | Organize leadership, mentoring, and development material | Done: implemented with preserved supporting history | A02; R01/R05/R07/R08 where affected |
+| C05 | Organize every project and repository description | Done: implemented with preserved supporting history | A02; R05/R06/R07 where affected |
+| C06 | Reconcile professional experience | Done: implemented with preserved supporting history | A02; R01/R03/R05 where affected |
+| C07 | Organize education and coursework | Done: implemented with preserved supporting history | A02; R02 |
+| C08 | Preserve personal, entrepreneurial, and community content | Done: implemented with preserved supporting history | A02; R03/R07/R08 where affected |
+| C09 | Rewrite focused homepage | Done: implemented with preserved supporting history | C01–C08; R01/R05 for selected claims |
+| C10 | Update online resume and retain disconnected PDF | Done: implemented with preserved supporting history | C06/C07; R01/R02/R03/R08 |
+| U01 | Implement shared design, navigation, and themes | Done: implemented and browser-verified | F01/F02; A01/A02; content tasks for pages implemented |
+| U02 | Handle Contact, Privacy, and Error honestly | Done: implemented and browser-verified | F01/F02; A01/A02 |
+| U03 | Implement metadata and asset presentation | Done: implemented and browser-verified | U01; F03/F04; C09 |
+| V01 | Verify complete substantive preservation | Done: zero unexplained losses | C01–C10; U01–U03 |
+| V02 | Verify local routes, anchors, and downloads | Done: 49 current aliases / 30 original anchors / 77 assets pass | U01–U03; F03 |
+| V03 | Verify accessibility, responsive layouts, and behavior | Done: 516 layout cases and 52 interaction/targeted checks | U01–U03 |
+| V04 | Verify build, browser behavior, performance, and reports | Done: final build, container, browser, contrast, and preservation reports | F02; V01–V03 |
+| D01 | Prepare reviewable change and final issue list | Done: local review package; no remote publication | V04 |
+| D02 | Obtain explicit production deployment approval | Pending: explicit production approval required | D01 |
+| D03 | Deploy, verify, and retain rollback | Pending: depends on approved production target/action | D02 |
 
 ## Detailed task files
 
@@ -56,6 +56,12 @@ The fixed baseline is [the content audit](../../content-audit/README.md), includ
 - [08 — Owner decisions, October 8](08-owner-decisions.md)
 - [09 — Approved employment accomplishments](09-employment-accomplishments-review.md)
 - [10 — Employment content integration and validation](10-employment-integration.md)
+- [11 — Reading-list updates](11-reading-list-update.md)
+- [Implemented site map](site-map.md)
+- [Migration ledger](migration-ledger.csv)
+- [Preservation verification](traceability-work.md)
+- [Technical verification](technical-work.md)
+- [Implementation and final review](12-implementation-review.md)
 
 ## Execution rules
 

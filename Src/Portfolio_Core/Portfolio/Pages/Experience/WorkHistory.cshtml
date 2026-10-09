@@ -1,29 +1,39 @@
-﻿@page
+@page
 @model Portfolio.Pages.Experience.WorkHistoryModel
 @{
     ViewData["Title"] = "Work History";
+    ViewData["Description"] = "Michael B. Carey's career in portfolio architecture, engineering management, software development, quality assurance, and entrepreneurship.";
 }
 
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
+<h1>@ViewData["Title"]</h1>
+<p class="lead">Portfolio architecture and engineering leadership grounded in software development, quality assurance, and entrepreneurship.</p>
+<nav aria-label="Work history sections" class="mb-4"><ul class="connection-list">
+<li><a href="#LDSChurch03">Current employment</a></li><li><a href="#AcademyMortgage">Academy Mortgage</a></li><li><a href="#AGameEmpowerment">Entrepreneurship</a></li><li><a href="#LDSChurch02">Earlier experience</a></li></ul></nav>
 
 <div class="row">
     <div class="col-md-12">
-        <p>&nbsp;</p>
-    </div>
-    <div class="col-md-12">
-        <h3 id="LDSChurch03">Church of Jesus Christ of Latter-day Saints</h3>
-        <h4 id="PortfolioArchitect">Sr. Software Architect (Portfolio Architect): February 2026 - Present</h4>
+        <h2 id="LDSChurch03">Church of Jesus Christ of Latter-day Saints</h2>
+        <h3 id="PortfolioArchitect">Sr. Software Architect (Portfolio Architect)</h3>
+        <p class="text-body-secondary">February 2026 – Present · Pathway Education portfolio</p>
+        <p>I guide system architecture and technical direction for platforms that expand access to education globally, focusing on resilient, maintainable systems and alignment with organizational goals.</p>
         <p>
             My portfolio architecture work connects quality engineering, AI-assisted engineering, architecture governance,
             security, cloud modernization, and developer enablement across Global Education.
             <a asp-page="/Experience/EmploymentAccomplishments">Explore my employment accomplishments</a>
             for details on TAPIR, VISTA, Software Factory, enterprise AI architecture, and modernization work.
         </p>
-        <h4>Engineering Manager: February 2021 - February 2026</h4>
-        <h4>Sr. QA Automation Engineer - SDET - Contract: August 2020 - February 2021</h4>
-        <ul class="list-group">
+        <h3 id="EngineeringManager">Engineering Manager</h3>
+        <p class="text-body-secondary">February 2021 – February 2026 · Seminaries and Institutes Education portfolio</p>
+        <p>I led engineering teams responsible for applications supporting global religious education programs. My work centered on technical leadership, team development, and reliable platforms for educators and students worldwide.</p>
+        <ul class="list-group mb-4">
             <li class="list-group-item">Mentor, Guide, and Support Direct reports in a first line HR manager capacity</li>
+        </ul>
+        <h3 id="EducationSDET">Sr. QA Automation Engineer - SDET - Contract</h3>
+        <p class="text-body-secondary">August 2020 – February 2021</p>
+        <p>I returned to the Church's ICS Education division as an SDET Quality Assurance Contract Engineer before transitioning to the Engineering Manager role.</p>
+        <h4>Engineering and quality responsibilities across these prior roles</h4>
+        <p>The following responsibilities and technology experience span the prior Engineering Manager and contract roles.</p>
+        <ul class="list-group">
             <li class="list-group-item">Establish and maintain portfolio and ICS technical coding and usage standards including code reviews</li>
             <li class="list-group-item">Support teams with direct hands-on development with coding needs as a Sr. Software Engineer</li>
             <li class="list-group-item">Shared experience with team members in Agile Principles as related to Azure DevOps</li>
@@ -52,9 +62,9 @@
         </ul>
     </div>
     <div class="col-md-12">
-        <h3 id="AcademyMortgage">Academy Mortgage Corporation</h3>
-        <h4>Sr. Software Engineer: February 2017 - September 2018</h4>
-        <h4>IT-Manager: September 2018 - August 2020</h4>
+        <h2 id="AcademyMortgage">Academy Mortgage Corporation</h2>
+        <h3>IT-Manager: September 2018 - August 2020</h3>
+        <h3>Sr. Software Engineer: February 2017 - September 2018</h3>
         <ul class="list-group">
             <li class="list-group-item">Managing DevOps Team September 2018 - August 2020</li>
             <li class="list-group-item">Managing Quality Assurance Team April 2019 - August 2020</li>
@@ -102,9 +112,9 @@
         </ul>
     </div>
     <div class="col-md-12">
-        <h3 id="AGameEmpowerment">A-Game Empowerment</h3>
-        <h4>Business Owner / Entrepreneur / Sr. Software Engineer: August 2016 - Current</h4>
-        <h4></h4>
+        <h2 id="AGameEmpowerment">A-Game Empowerment</h2>
+        <h3>Business Owner / Entrepreneur / Sr. Software Engineer: August 2016 - Current</h3>
+        <p>Business ownership and project experience are recorded below; project plans retain their historical context.</p>
         <ul class="list-group">
             <li class="list-group-item">Custom Web and WebAPI Application Development</li>
             <li class="list-group-item">Responsive Mobile Web Design</li>
@@ -138,8 +148,8 @@
         </ul>
     </div>
     <div class="col-md-12">
-        <h3 id="LDSChurch02">Church of Jesus Christ of Latter-day Saints - Translation Services</h3>
-        <h4>Sr. QA Automation Engineer - SDET - Contract: November 2014 - November 2016</h4>
+        <h2 id="LDSChurch02">Church of Jesus Christ of Latter-day Saints - Translation Services</h2>
+        <h3>Sr. QA Automation Engineer - SDET - Contract: November 2014 - November 2016</h3>
         <ul class="list-group">
             <li class="list-group-item">LDS-TS: Organized and Applied Testing Discipline and Quality Assurance Guidelines</li>
             <li class="list-group-item">LDS-TS: Developed Test Plans for Manual and Automated Testing</li>
@@ -165,8 +175,8 @@
         </ul>
     </div>
     <div class="col-md-12">
-        <h3 id="SwipeClock">SwipeClock</h3>
-        <h4>Sr. Software Engineer: March 2013 - October 2014</h4>
+        <h2 id="SwipeClock">SwipeClock</h2>
+        <h3>Sr. Software Engineer: March 2013 - October 2014</h3>
         <ul class="list-group">
             <li class="list-group-item">Development Lead for team</li>
             <li class="list-group-item">Team Foundation Server Administrator</li>
@@ -190,8 +200,8 @@
         </ul>
     </div>
     <div class="col-md-12">
-        <h3 id="LDSChurch01">Church of Jesus Christ of Latter-day Saints - Translation Services</h3>
-        <h4>Sr. QA Automation Engineer - SDET - Contract: March 2011 - March 2013</h4>
+        <h2 id="LDSChurch01">Church of Jesus Christ of Latter-day Saints - Translation Services</h2>
+        <h3>Sr. QA Automation Engineer - SDET - Contract: March 2011 - March 2013</h3>
         <ul class="list-group">
             <li class="list-group-item">LDS-TS: Completed Product Release Cycle</li>
             <li class="list-group-item">LDS-TS: Manual and Automated Testing and Development of Test Cases</li>
@@ -214,8 +224,8 @@
         </ul>
     </div>
     <div class="col-md-12">
-        <h3 id="Microsoft">Microsoft Contracts (Multiple)</h3>
-        <h4>QA Automation Engineer - SDET: January 2008 - September 2010</h4>
+        <h2 id="Microsoft">Microsoft Contracts (Multiple)</h2>
+        <h3>QA Automation Engineer - SDET: January 2008 - September 2010</h3>
         <ul class="list-group">
             <li class="list-group-item">CRM: Ownership over test suite validating backward compatibility through WCF interface</li>
             <li class="list-group-item">CRM: Analyzing Stack Traces to determine software breaks, filing and verifying software bugs / fixes</li>
@@ -237,8 +247,8 @@
         </ul>
     </div>
     <div class="col-md-12">
-        <h3 id="CareyAndAssoc">Carey And Associates</h3>
-        <h4>Member Owner / Entrepreneur / Software Architect: April 2007 - May 2020</h4>
+        <h2 id="CareyAndAssoc">Carey And Associates</h2>
+        <h3>Member Owner / Entrepreneur / Software Architect: April 2007 - May 2020</h3>
         <ul class="list-group">
             <li class="list-group-item">Professional Consulting providing software architecture and solutions for business logic</li>
             <li class="list-group-item">Developed SOAP / REST Service to replicate data from a server to a Mobile Client</li>
@@ -266,8 +276,8 @@
         </ul>
     </div>
     <div class="col-md-12">
-        <h3 id="Kumusoft">Kumusoft</h3>
-        <h4>Member Owner / Entrepreneur / Software Engineer: January 2002 - September 2005</h4>
+        <h2 id="Kumusoft">Kumusoft</h2>
+        <h3>Member Owner / Entrepreneur / Software Engineer: January 2002 - September 2005</h3>
         <ul class="list-group">
             <li class="list-group-item">Developed web application for presentation of web based genealogical data</li>
             <li class="list-group-item">Implemented security and access control layer for user interaction with web based software</li>

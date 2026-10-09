@@ -1,6 +1,6 @@
 {
-  "name": "Startup Examples",
-  "image": "mcr.microsoft.com/dotnet/sdk:latest",
+  "name": "ePortfolio",
+  "image": "mcr.microsoft.com/dotnet/sdk:10.0",
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {},
     "ghcr.io/devcontainers/features/github-cli:1": {
@@ -15,8 +15,8 @@
     "ghcr.io/devcontainers/features/common-utils:2": {},
     "ghcr.io/devcontainers/features/dotnet:2": {
       "version": "none",
-      "dotnetRuntimeVersions": "8.0",
-      "aspNetCoreRuntimeVersions": "8.0"
+      "dotnetRuntimeVersions": "10.0",
+      "aspNetCoreRuntimeVersions": "10.0"
     }
   },
   "customizations": {
@@ -35,7 +35,7 @@
       ]
     }
   },
-  "postCreateCommand": "cd ./src && pwsh -File ./PostCreate.ps1",
+  "postCreateCommand": "dotnet restore Portfolio.sln",
   "hostRequirements": {
     "cpus": 4,
     "memory": "16gb",
@@ -43,6 +43,6 @@
   },
   "remoteEnv": {
     "DOTNET_MULTILEVEL_LOOKUP": "0",
-    "TARGET": "net8.0"
+    "TARGET": "net10.0"
   }
 }

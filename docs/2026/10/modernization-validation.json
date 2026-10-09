@@ -1,0 +1,1461 @@
+{
+  "baseline": "Fixed October 8 2026; never regenerated",
+  "baseline_sha256": {
+    "assets.json": "cac4d848cefd54ea2fbc24ec0e3b7ec0a11d3bee13180c0ce2b365d8a37e87d1",
+    "audit-summary.json": "39a3531736188fd10e62a2532f507c9b0c485362248f17e4aeda05ae5da8e669",
+    "baseline-source.json": "ccceceda9573fb4e2e62f879b410e2016b78d574c133c12edeb593d0c34b7174",
+    "build_inventory.py": "98d9b3b676546b2ea0e569eef5578144515191113b68baf674c70bdeb2c6da18",
+    "content-inventory.md": "be9489ef0bbae0464ebcd2120176de552a7efddcc9c1347dd71f7fdfd22b27ce",
+    "download-text.json": "72278e465ba3239889d6301e05fa69468b7bd5a3b910bf2a1bcd8295a0829f59",
+    "local-reference-findings.json": "63bd805ce14703dd95b929ab24608007ced648e5ab91a5b35e1f5f9288f48d1c",
+    "manifest.json": "dc0ad010a015d09c7b99c98f7636910bd9fe9632468f5b599577d5cf92744815",
+    "owner-review.md": "e02a915b70e5d4f81df605b8303cb4f6ddf736716f9543605337d24cbd7252c1",
+    "preservation-matrix.csv": "0a8534f0c2a4e8a0bf0ea90626b46cd6cd8ce82a25fb326a5f6099eadfb3fd50",
+    "README.md": "48d8b4f9d9670410de70f6b55913441df2b4b04f57741407d699dcaf17129fdd",
+    "routes.json": "94c347b9e3638f423d496eed8e23f7f5c8daab45e8e9d91989037ad3e13064e0"
+  },
+  "summary": {
+    "verified-source-identity": 65,
+    "baseline-retained": 483,
+    "verified-source-routes": 38,
+    "verified-source-value": 38,
+    "verified-source-text": 989,
+    "owner-authorized-exception": 22,
+    "verified-source-reference": 312,
+    "implemented-source-change": 172,
+    "implemented-editorial-change": 16,
+    "verified-source-anchor": 30,
+    "verified-byte-identity": 873,
+    "verified-source-markers": 112
+  },
+  "checks": [
+    {
+      "check": "all-baseline-IDs-mapped",
+      "passed": true,
+      "details": 3150
+    },
+    {
+      "check": "44-original-route-aliases",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "30-original-anchors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "52-approved-accomplishment-markers",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "zero-resume-PDF-page-links",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "LinkedIn-and-GitHub-retained",
+      "passed": true,
+      "details": "Source references only; external links not fetched."
+    },
+    {
+      "check": "active-internal-targets-and-case",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "all-original-pages-discoverable",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "runtime-error-utility-route",
+      "passed": true,
+      "details": "Error is a directly addressable runtime utility, intentionally outside browsing menus."
+    },
+    {
+      "check": "vendor-and-download-byte-identity",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "loopback-52-accomplishment-markers",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "loopback-zero-resume-links",
+      "passed": true,
+      "details": "All rendered routes inspected; PDF itself remains disconnected."
+    },
+    {
+      "check": "loopback-LinkedIn-and-GitHub",
+      "passed": true,
+      "details": "Rendered references retained; external targets never fetched."
+    },
+    {
+      "check": "loopback-active-fragment-targets",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "loopback-rendered-routes",
+      "passed": true,
+      "details": [
+        {
+          "route": "/",
+          "status": 200
+        },
+        {
+          "route": "/AboutMe",
+          "status": 200
+        },
+        {
+          "route": "/Architecture",
+          "status": 200
+        },
+        {
+          "route": "/College",
+          "status": 200
+        },
+        {
+          "route": "/College/Cit261",
+          "status": 200
+        },
+        {
+          "route": "/College/Cs313",
+          "status": 200
+        },
+        {
+          "route": "/College/Cs364",
+          "status": 200
+        },
+        {
+          "route": "/College/Index",
+          "status": 200
+        },
+        {
+          "route": "/Contact",
+          "status": 200
+        },
+        {
+          "route": "/Error",
+          "status": 200
+        },
+        {
+          "route": "/Experience",
+          "status": 200
+        },
+        {
+          "route": "/Experience/Education",
+          "status": 200
+        },
+        {
+          "route": "/Experience/EmploymentAccomplishments",
+          "status": 200
+        },
+        {
+          "route": "/Experience/Index",
+          "status": 200
+        },
+        {
+          "route": "/Experience/ResumeHistory",
+          "status": 200
+        },
+        {
+          "route": "/Experience/WorkHistory",
+          "status": 200
+        },
+        {
+          "route": "/Explore",
+          "status": 200
+        },
+        {
+          "route": "/Fun",
+          "status": 200
+        },
+        {
+          "route": "/Fun/HamRadioVHFGoKit",
+          "status": 200
+        },
+        {
+          "route": "/Fun/Index",
+          "status": 200
+        },
+        {
+          "route": "/Fun/SolarianLeague",
+          "status": 200
+        },
+        {
+          "route": "/Git",
+          "status": 200
+        },
+        {
+          "route": "/Index",
+          "status": 200
+        },
+        {
+          "route": "/Privacy",
+          "status": 200
+        },
+        {
+          "route": "/Projects",
+          "status": 200
+        },
+        {
+          "route": "/Projects/AGameEmpowerment",
+          "status": 200
+        },
+        {
+          "route": "/Projects/AdverTran",
+          "status": 200
+        },
+        {
+          "route": "/Projects/AzureServices",
+          "status": 200
+        },
+        {
+          "route": "/Projects/Encompass",
+          "status": 200
+        },
+        {
+          "route": "/Projects/FamilyKey",
+          "status": 200
+        },
+        {
+          "route": "/Projects/Index",
+          "status": 200
+        },
+        {
+          "route": "/Projects/MlmLinkup",
+          "status": 200
+        },
+        {
+          "route": "/Projects/RedheadMobile",
+          "status": 200
+        },
+        {
+          "route": "/Projects/Startup",
+          "status": 200
+        },
+        {
+          "route": "/Skills",
+          "status": 200
+        },
+        {
+          "route": "/Skills/AI",
+          "status": 200
+        },
+        {
+          "route": "/Skills/CPlus",
+          "status": 200
+        },
+        {
+          "route": "/Skills/CSharp",
+          "status": 200
+        },
+        {
+          "route": "/Skills/Database",
+          "status": 200
+        },
+        {
+          "route": "/Skills/DevOps",
+          "status": 200
+        },
+        {
+          "route": "/Skills/Index",
+          "status": 200
+        },
+        {
+          "route": "/Skills/Java",
+          "status": 200
+        },
+        {
+          "route": "/Skills/Leadership",
+          "status": 200
+        },
+        {
+          "route": "/Skills/QA",
+          "status": 200
+        },
+        {
+          "route": "/Skills/TechnicalHistory",
+          "status": 200
+        },
+        {
+          "route": "/Skills/Technologies",
+          "status": 200
+        },
+        {
+          "route": "/Skills/Web",
+          "status": 200
+        },
+        {
+          "route": "/Skills/WebApi",
+          "status": 200
+        },
+        {
+          "route": "/Tribute",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "check": "loopback-rendered-assets",
+      "passed": true,
+      "details": [
+        {
+          "path": "/content/documents/2018_Scrum_Master.pptx",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image002.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image003.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image004.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image005.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image007.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image008.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image009.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image010.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image011.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image012.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image013.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image014.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image015.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image016.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image017.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image018.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image019.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image021.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image022.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image023.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image024.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image025.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image027.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image028.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image031.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image033.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image034.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image036.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image037.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image040.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image041.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image042.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image043.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image044.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image045.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image046.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image047.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image048.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image050.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image051.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image052.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image053.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image054.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image055.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image056.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image058.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image059.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image060.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image062.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image063.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/Image064.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/fbMichael_B_Carey.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_AC_SL1000.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_AC_SL1001.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_AC_SL1002.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_AC_SL1020.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_AC_SL1500.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_ADMS-891-USB-2.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_AntennaTripod.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_KRS-V71-USB-2.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_Kenwood.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_Placeholder.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_PowerGate_Front.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_PowerGate_Side.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_SportsmanBox.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_Yeasu-FT891_HF50.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_ZWM-PS-CBL-6-0001.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_asr-ss-30m_xl.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/images/zzz_wmt-58315-1043_xb_xl.jpg",
+          "status": 200
+        },
+        {
+          "path": "/content/pdf/CS364_ECR.pdf",
+          "status": 200
+        },
+        {
+          "path": "/content/pdf/CS364_SDD.pdf",
+          "status": 200
+        },
+        {
+          "path": "/content/pdf/CS364_SRS.pdf",
+          "status": 200
+        },
+        {
+          "path": "/css/site.css",
+          "status": 200
+        },
+        {
+          "path": "/js/site.js",
+          "status": 200
+        },
+        {
+          "path": "/lib/bootstrap/css/bootstrap.min.css",
+          "status": 200
+        },
+        {
+          "path": "/lib/bootstrap/js/bootstrap.bundle.min.js",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "check": "loopback-rendered-preserved-text",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "loopback-original-anchors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "no-unexplained-mapping-losses",
+      "passed": true,
+      "details": 0
+    },
+    {
+      "check": "fixed-audit-files-unchanged-during-check",
+      "passed": true,
+      "details": "All fixed audit file hashes compared before and after verification."
+    }
+  ],
+  "unexplained_losses": [],
+  "changed_source_records": [
+    {
+      "ContentID": "PAGE-College-Cit261-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/College/Cit261.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-College-Cs313-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/College/Cs313.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-College-Cs364-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/College/Cs364.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-College-Index-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/College/Index.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Contact-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Contact.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Error-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Error.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Experience-Education-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Experience/Education.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Experience-Index-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Experience/Index.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Experience-WorkHistory-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Experience/WorkHistory.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Fun-HamRadioVHFGoKit-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Fun/HamRadioVHFGoKit.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Fun-Index-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Fun/Index.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Fun-SolarianLeague-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Fun/SolarianLeague.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Git-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Git.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Index-VALUE-001",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Index.cshtml",
+      "kind": "dynamic text"
+    },
+    {
+      "ContentID": "PAGE-Privacy-VALUE-001",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Privacy.cshtml",
+      "kind": "dynamic text"
+    },
+    {
+      "ContentID": "PAGE-Projects-AdverTran-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/AdverTran.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Projects-AGameEmpowerment-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/AGameEmpowerment.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Projects-AzureServices-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/AzureServices.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Projects-Encompass-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/Encompass.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Projects-FamilyKey-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/FamilyKey.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Projects-Index-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/Index.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Projects-MlmLinkup-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/MlmLinkup.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Projects-RedheadMobile-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/RedheadMobile.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Projects-Startup-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Projects/Startup.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "template"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout-META-001",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "metadata"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout-META-002",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "metadata"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout-META-003",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "metadata"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout-META-004",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "metadata"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout-META-005",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "metadata"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout-META-006",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "metadata"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout-META-007",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "metadata"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout-META-008",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "metadata"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout-META-009",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "metadata"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout-META-010",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "metadata"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout-META-011",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "metadata"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout-META-012",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "metadata"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout-META-013",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "metadata"
+    },
+    {
+      "ContentID": "PAGE-Shared-_Layout-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Skills-AI-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/AI.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Skills-CPlus-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/CPlus.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Skills-CSharp-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/CSharp.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Skills-Database-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Database.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Skills-DevOps-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/DevOps.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Skills-Index-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Index.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Skills-Java-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Java.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Skills-Leadership-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Leadership.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Skills-QA-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/QA.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Skills-Technologies-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Technologies.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Skills-Web-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/Web.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Skills-WebApi-BEHAVIOR",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Skills/WebApi.cshtml",
+      "kind": "behavior"
+    },
+    {
+      "ContentID": "SOURCE-001",
+      "source": ".devcontainer/devcontainer.json",
+      "kind": "supporting source"
+    },
+    {
+      "ContentID": "SOURCE-006",
+      "source": ".github/workflows/copilot-setup-steps.yml",
+      "kind": "supporting source"
+    },
+    {
+      "ContentID": "SOURCE-010",
+      "source": ".vscode/launch.json",
+      "kind": "supporting source"
+    },
+    {
+      "ContentID": "SOURCE-019",
+      "source": "Src/Portfolio_Core/Portfolio/Dockerfile",
+      "kind": "supporting source"
+    },
+    {
+      "ContentID": "SOURCE-050",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Index.cshtml.css",
+      "kind": "supporting source"
+    },
+    {
+      "ContentID": "SOURCE-072",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml.css",
+      "kind": "supporting source"
+    },
+    {
+      "ContentID": "SOURCE-109",
+      "source": "Src/Portfolio_Core/Portfolio/wwwroot/css/site.css",
+      "kind": "supporting source"
+    },
+    {
+      "ContentID": "SOURCE-110",
+      "source": "Src/Portfolio_Core/Portfolio/wwwroot/js/site.js",
+      "kind": "supporting source"
+    },
+    {
+      "ContentID": "SOURCE-112",
+      "source": "devops/Project-Build.yml",
+      "kind": "supporting source"
+    }
+  ],
+  "runtime": {
+    "performed": true,
+    "routes": [
+      {
+        "route": "/",
+        "status": 200
+      },
+      {
+        "route": "/AboutMe",
+        "status": 200
+      },
+      {
+        "route": "/Architecture",
+        "status": 200
+      },
+      {
+        "route": "/College",
+        "status": 200
+      },
+      {
+        "route": "/College/Cit261",
+        "status": 200
+      },
+      {
+        "route": "/College/Cs313",
+        "status": 200
+      },
+      {
+        "route": "/College/Cs364",
+        "status": 200
+      },
+      {
+        "route": "/College/Index",
+        "status": 200
+      },
+      {
+        "route": "/Contact",
+        "status": 200
+      },
+      {
+        "route": "/Error",
+        "status": 200
+      },
+      {
+        "route": "/Experience",
+        "status": 200
+      },
+      {
+        "route": "/Experience/Education",
+        "status": 200
+      },
+      {
+        "route": "/Experience/EmploymentAccomplishments",
+        "status": 200
+      },
+      {
+        "route": "/Experience/Index",
+        "status": 200
+      },
+      {
+        "route": "/Experience/ResumeHistory",
+        "status": 200
+      },
+      {
+        "route": "/Experience/WorkHistory",
+        "status": 200
+      },
+      {
+        "route": "/Explore",
+        "status": 200
+      },
+      {
+        "route": "/Fun",
+        "status": 200
+      },
+      {
+        "route": "/Fun/HamRadioVHFGoKit",
+        "status": 200
+      },
+      {
+        "route": "/Fun/Index",
+        "status": 200
+      },
+      {
+        "route": "/Fun/SolarianLeague",
+        "status": 200
+      },
+      {
+        "route": "/Git",
+        "status": 200
+      },
+      {
+        "route": "/Index",
+        "status": 200
+      },
+      {
+        "route": "/Privacy",
+        "status": 200
+      },
+      {
+        "route": "/Projects",
+        "status": 200
+      },
+      {
+        "route": "/Projects/AGameEmpowerment",
+        "status": 200
+      },
+      {
+        "route": "/Projects/AdverTran",
+        "status": 200
+      },
+      {
+        "route": "/Projects/AzureServices",
+        "status": 200
+      },
+      {
+        "route": "/Projects/Encompass",
+        "status": 200
+      },
+      {
+        "route": "/Projects/FamilyKey",
+        "status": 200
+      },
+      {
+        "route": "/Projects/Index",
+        "status": 200
+      },
+      {
+        "route": "/Projects/MlmLinkup",
+        "status": 200
+      },
+      {
+        "route": "/Projects/RedheadMobile",
+        "status": 200
+      },
+      {
+        "route": "/Projects/Startup",
+        "status": 200
+      },
+      {
+        "route": "/Skills",
+        "status": 200
+      },
+      {
+        "route": "/Skills/AI",
+        "status": 200
+      },
+      {
+        "route": "/Skills/CPlus",
+        "status": 200
+      },
+      {
+        "route": "/Skills/CSharp",
+        "status": 200
+      },
+      {
+        "route": "/Skills/Database",
+        "status": 200
+      },
+      {
+        "route": "/Skills/DevOps",
+        "status": 200
+      },
+      {
+        "route": "/Skills/Index",
+        "status": 200
+      },
+      {
+        "route": "/Skills/Java",
+        "status": 200
+      },
+      {
+        "route": "/Skills/Leadership",
+        "status": 200
+      },
+      {
+        "route": "/Skills/QA",
+        "status": 200
+      },
+      {
+        "route": "/Skills/TechnicalHistory",
+        "status": 200
+      },
+      {
+        "route": "/Skills/Technologies",
+        "status": 200
+      },
+      {
+        "route": "/Skills/Web",
+        "status": 200
+      },
+      {
+        "route": "/Skills/WebApi",
+        "status": 200
+      },
+      {
+        "route": "/Tribute",
+        "status": 200
+      }
+    ],
+    "assets": [
+      {
+        "path": "/content/documents/2018_Scrum_Master.pptx",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image002.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image003.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image004.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image005.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image007.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image008.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image009.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image010.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image011.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image012.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image013.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image014.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image015.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image016.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image017.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image018.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image019.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image021.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image022.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image023.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image024.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image025.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image027.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image028.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image031.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image033.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image034.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image036.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image037.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image040.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image041.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image042.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image043.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image044.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image045.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image046.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image047.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image048.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image050.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image051.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image052.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image053.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image054.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image055.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image056.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image058.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image059.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image060.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image062.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image063.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/Image064.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/fbMichael_B_Carey.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_AC_SL1000.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_AC_SL1001.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_AC_SL1002.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_AC_SL1020.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_AC_SL1500.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_ADMS-891-USB-2.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_AntennaTripod.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_KRS-V71-USB-2.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_Kenwood.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_Placeholder.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_PowerGate_Front.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_PowerGate_Side.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_SportsmanBox.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_Yeasu-FT891_HF50.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_ZWM-PS-CBL-6-0001.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_asr-ss-30m_xl.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/images/zzz_wmt-58315-1043_xb_xl.jpg",
+        "status": 200
+      },
+      {
+        "path": "/content/pdf/CS364_ECR.pdf",
+        "status": 200
+      },
+      {
+        "path": "/content/pdf/CS364_SDD.pdf",
+        "status": 200
+      },
+      {
+        "path": "/content/pdf/CS364_SRS.pdf",
+        "status": 200
+      },
+      {
+        "path": "/css/site.css",
+        "status": 200
+      },
+      {
+        "path": "/js/site.js",
+        "status": 200
+      },
+      {
+        "path": "/lib/bootstrap/css/bootstrap.min.css",
+        "status": 200
+      },
+      {
+        "path": "/lib/bootstrap/js/bootstrap.bundle.min.js",
+        "status": 200
+      }
+    ],
+    "text_losses": [],
+    "original_anchor_failures": []
+  },
+  "limitations": [
+    "Text comparison checks complete word/number sequences; does not prove factual accuracy, visual quality, or behavior.",
+    "Owner-corrected paragraph exceptions still require checking unaffected clauses.",
+    "Heading/metadata/control changes are classified as changes rather than falsely claiming byte preservation.",
+    "No external URL or document link has been opened."
+  ]
+}

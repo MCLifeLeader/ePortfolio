@@ -1,193 +1,29 @@
-﻿@page
+@page
 @model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
-<div class="container py-4">
-    <div class="row align-items-center mb-4">
-        <div class="col-md-3 text-center mb-3 mb-md-0">
-            <img class="img-fluid rounded shadow" src="~/content/images/fbMichael_B_Carey.jpg" title="Michael B. Carey" alt="Michael B. Carey" style="max-width: 180px;" />
-        </div>
-        <div class="col-md-9">
-            <h1 class="display-5 fw-bold mb-3">Michael B. Carey's ePortfolio</h1>
-            <p class="lead">Welcome to my <span class="fw-bold">Work in Progress</span> ePortfolio! I'm excited that you're here. Please look around—by the time you finish, you'll have a great idea of who I am and what I can offer!</p>
-            <p>Sr. Software Architect (Portfolio Architect), with a background in quality assurance, software development, and engineering management. <a asp-page="/Experience/EmploymentAccomplishments">Explore my employment accomplishments</a>.</p>
-            <p>I believe in being active in my community and local government. While not currently seeking office, I encourage everyone to stay informed. Check out <a class="fw-bold" href="https://citizenportal.ai/a/pbrq3z" rel="noopener" target="_blank">this AI-powered resource</a> to stay engaged!</p>
-        </div>
-    </div>
-    <div class="card shadow-sm mb-4">
-        <div class="card-header bg-primary text-white">
-            <h2 class="h5 mb-0">Technical Experience</h2>
-        </div>
-        <div class="card-body p-0">
-            <div class="table-responsive">
-                <table class="table table-striped mb-0">
-                    <thead class="table-light">
-                        <tr>
-                            <th>Years</th>
-                            <th>Technology</th>
-                            <th>Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>15+</td>
-                            <td>C# / .NET Framework / .NET Core</td>
-                            <td>Design and development of multi-tier and custom applications, including personal projects for continuing education.</td>
-                        </tr>
-                        <tr>
-                            <td>15+</td>
-                            <td>Development Tools</td>
-                            <td>Visual Studio, VS Code, SQL Server Management Studio (SSMS), Notepad++, Eclipse, Netbeans, Git, Azure DevOps, JIRA, Postman, etc.</td>
-                        </tr>
-                        <tr>
-                            <td>15+</td>
-                            <td>ASP.NET / API / MVC Razor / Blazor</td>
-                            <td>
-                                Implemented multiple different web based applications and APIs from inception to delivery.
-                                The addition of Blazor to my skill set is a recent addition and I am excited to see where it goes.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>10+</td>
-                            <td>SOHO Computer Networks</td>
-                            <td>Proficiency in setting up in home and small business networks. Includes Routers, Gateways, and Windows Servers.</td>
-                        </tr>
-                        <tr>
-                            <td>10+</td>
-                            <td>Operating Systems</td>
-                            <td>Windows Desktop and Server OS, Mac, Linux</td>
-                        </tr>
-                        <tr>
-                            <td>8+</td>
-                            <td>HTML / JavaScript / CSS / Bootstrap</td>
-                            <td>
-                                Use of HTML in the creation of ASP.NET web applications. Utilizing the features and functionality
-                                of JavaScript and Cascading Style Sheets for page layout.
-                                Though I have been working with front end technologies, my primary focus has been on the back end.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>8+</td>
-                            <td>SQL Server / T-SQL</td>
-                            <td>
-                                Design and development of databases, stored procedures, and functions. Proficient in writing complex queries and performance tuning.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>7+</td>
-                            <td>Azure Cloud</td>
-                            <td>
-                                I have experience with Azure DevOps and various Azure PaaS, SaaS technologies.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Technologies and Skills:</td>
-                            <td>
-                                <ul class="list-group">
-                                    <li class="list-group-item fw-bolder">⭐ASP.NET / API / MVC / Web Development</li>
-                                    <li class="list-group-item fw-bolder">⭐C# .Net Core / Framework</li>
-                                    <li class="list-group-item fw-bolder">⭐Web Services / RESTful</li>
-                                    <li class="list-group-item fw-bolder">⚡️Agile / Scrum / Kanban</li>
-                                    <li class="list-group-item fw-bolder">⚡️Azure / Service Bus / AI Services / Key Vault / Function &amp; Logic Apps / SQL / Application Services / Storage / API Gateway / etc.</li>
-                                    <li class="list-group-item fw-bolder">⚡️Azure DevOps / TFS</li>
-                                    <li class="list-group-item fw-bolder">⚡️Debugging and Troubleshooting</li>
-                                    <li class="list-group-item fw-bolder">⚡️GitHub</li>
-                                    <li class="list-group-item fw-bolder">⚡️JSON</li>
-                                    <li class="list-group-item fw-bolder">⚡️MS-SQL / T-SQL</li>
-                                    <li class="list-group-item fw-bolder">⚡️Quality Assurance</li>
-                                    <li class="list-group-item fw-bolder">⚡️Source Control / GIT / TFVS</li>
-                                    <li class="list-group-item fw-bolder">⚡️Visual Studio / VS Code / Other IDEs</li>
-                                    <li class="list-group-item fw-bolder">🔸Blazor C# .NET</li>
-                                    <li class="list-group-item fw-bolder">🔸Docker and Containers</li>
-                                    <li class="list-group-item fw-bolder">🔸GraphQL</li>
-                                    <li class="list-group-item fw-bolder">🔸HTML / JavaScript / CSS</li>
-                                    <li class="list-group-item fw-bolder">🔸OpenAI and GPTs</li>
-                                    <li class="list-group-item fw-bolder">🔸Performance Optimization</li>
-                                    <li class="list-group-item fw-bolder">🔸PowerShell / Automation</li>
-                                    <li class="list-group-item fw-bolder">🔸Selenium WebDriver</li>
-                                    <li class="list-group-item fw-bolder">🔸YAML</li>
-                                    <li class="list-group-item fw-bolder">C / C++</li>
-                                    <li class="list-group-item fw-bolder">IIS</li>
-                                    <li class="list-group-item fw-bolder">Java</li>
-                                    <li class="list-group-item fw-bolder">Jira</li>
-                                    <li class="list-group-item fw-bolder">Leading and Mentoring</li>
-                                    <li class="list-group-item fw-bolder">Networking / SOHO / DNS / VPN / Firewall & Security</li>
-                                    <li class="list-group-item fw-bolder">OpenAI / Chat-GPT / Azure AI Studio</li>
-                                    <li class="list-group-item fw-bolder">Operating Systems / Windows / Linux - Ubuntu / Mac</li>
-                                    <li class="list-group-item fw-bolder">React</li>
-                                    <li class="list-group-item fw-bolder">Terraform</li>
-                                    <li class="list-group-item fw-bolder">WordPress</li>
-                                    <li class="list-group-item fw-bolder">XML</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4 mb-4">
-            <div class="card shadow-sm">
-                <div class="card-header bg-info text-white">
-                    <h2 class="h5 mb-0">Employment Accomplishments</h2>
-                </div>
-                <div class="card-body">
-                    <p class="card-text">Explore my portfolio architecture, quality engineering, AI, governance, and modernization work.</p>
-                    <a class="btn btn-primary d-block mb-2" asp-page="/Experience/EmploymentAccomplishments">View Employment Accomplishments</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="card shadow-sm">
-                <div class="card-header bg-info text-white">
-                    <h2 class="h5 mb-0">Projects</h2>
-                </div>
-                <div class="card-body">
-                    <p class="card-text">I've had the opportunity to work on some amazing software applications.</p>
-                    <a class="btn btn-primary d-block mb-2" asp-area="" asp-page="/Projects/Index">View Projects</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="card shadow-sm">
-                <div class="card-header bg-info text-white">
-                    <h2 class="h5 mb-0">Skills</h2>
-                </div>
-                <div class="card-body">
-                    <p class="card-text">A curated list of many skills I possess.</p>
-                    <a class="btn btn-primary d-block mb-2" asp-area="" asp-page="/Skills/Index">View Skills</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="card shadow-sm">
-                <div class="card-header bg-info text-white">
-                    <h2 class="h5 mb-0">Experience</h2>
-                </div>
-                <div class="card-body">
-                    <p class="card-text">Personal experiences both inside and outside the workplace.</p>
-                    <a class="btn btn-primary d-block mb-2" asp-area="" asp-page="/Experience/Index">View Experience</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="card shadow-sm">
-                <div class="card-header bg-info text-white">
-                    <h2 class="h5 mb-0">Social Media</h2>
-                </div>
-                <div class="card-body">
-                    <a class="btn btn-primary d-block mb-2" href="https://www.linkedin.com/in/michael-carey-13899627/" target="_blank" rel="noopener">LinkedIn</a>
-                    <a class="btn btn-primary d-block mb-2" href="https://www.facebook.com/MCLifeLeader" target="_blank" rel="noopener">Facebook</a>
-                    <a class="btn btn-primary d-block mb-2" href="https://www.youtube.com/c/AgameempowermentIntl" target="_blank" rel="noopener">YouTube</a>
-                    <a class="btn btn-primary d-block mb-2" href="https://www.instagram.com/mclifeleader/" target="_blank" rel="noopener">Instagram</a>
-                    <a class="btn btn-primary d-block mb-2" href="https://twitter.com/mclifeleader" target="_blank" rel="noopener">Twitter</a>
-                    <a class="btn btn-primary d-block" href="https://github.com/MCLifeLeader" target="_blank" rel="noopener">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+@{ ViewData["Title"] = "Portfolio architecture and engineering leadership"; }
+<section class="home-hero">
+<div><p class="eyebrow">Architecture · Governance · Engineering leadership</p>
+<h1>Michael B. Carey</h1>
+<p class="hero-role">Sr. Software Architect <span>(Portfolio Architect)</span></p>
+<p class="lead">I connect technology strategy with the people and systems that deliver it.</p>
+<p>My foundation spans quality assurance, software development, and engineering management. Today, I guide portfolio architecture, enterprise governance, and practical modernization.</p>
+<div class="hero-actions"><a class="btn btn-primary" asp-page="/Architecture">Architecture &amp; Governance</a><a class="btn btn-outline-primary" asp-page="/Experience/EmploymentAccomplishments">Employment Accomplishments</a></div>
+</div><img class="hero-portrait" src="~/content/images/fbMichael_B_Carey.jpg" alt="Michael B. Carey" width="240" height="240" />
+</section>
+<section class="content-section"><p class="eyebrow">How I work</p><h2>Maintainable systems. Clear decisions. Strong teams.</h2>
+<p>I prioritize maintainability, correctness, and delivery speed—in that order. Clear domain boundaries, explicit contracts, incremental modernization, and early stakeholder alignment help teams make decisions they can sustain.</p>
+<a asp-page="/Architecture">Read my architecture and governance approach →</a></section>
+<section class="content-section"><p class="eyebrow">Professional practice</p><h2>Strategy grounded in delivery</h2>
+<div class="feature-grid">
+<article><h3>AI &amp; Innovation</h3><p>AI-assisted engineering, enterprise AI direction, and responsible experimentation with human accountability.</p><a asp-page="/Skills/AI">Explore AI work →</a></article>
+<article><h3>Engineering &amp; QA</h3><p>Software delivery, automation, cloud services, and quality engineering built on hands-on technical experience.</p><a asp-page="/Skills/Technologies">Explore engineering →</a></article>
+<article><h3>Leadership</h3><p>Guided autonomy, mentoring, transparent communication, and collaboration across teams and stakeholders.</p><a asp-page="/Skills/Leadership">Explore leadership →</a></article>
+</div></section>
+<section class="content-section"><h2>Selected work</h2>
+<p>I authored enterprise QA modernization strategies bringing together repository-owned testing, shared QA platform capabilities, end-to-end validation, and objective release governance. <a asp-page="/Experience/EmploymentAccomplishments" asp-fragment="quality-engineering">Read the quality engineering work</a>.</p>
+<p>I helped establish portfolio adoption guidance for AI-assisted engineering and governance models for AI-generated artifacts. <a asp-page="/Experience/EmploymentAccomplishments" asp-fragment="ai-engineering">Read the AI engineering work</a>.</p></section>
+<section class="content-section"><h2>Experience beyond a single role</h2>
+<p>My career, independent projects, education, entrepreneurship, and community interests shape how I approach technology and leadership.</p>
+<ul class="connection-list"><li><a asp-page="/Experience/WorkHistory">Work history</a></li><li><a asp-page="/Projects/Index">Projects</a></li><li><a asp-page="/Skills/Index">Skills</a></li><li><a asp-page="/Experience/Index">Experience</a></li><li><a asp-page="/Explore">Explore the full portfolio</a></li></ul>
+</section>
+<section class="content-section"><h2>Connect</h2><ul class="connection-list"><li><a href="https://www.linkedin.com/in/michael-carey-13899627/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://github.com/MCLifeLeader" target="_blank" rel="noopener">GitHub</a></li><li><a asp-page="/AboutMe" asp-fragment="connections">Social Media</a></li></ul></section>

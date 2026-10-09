@@ -1,5 +1,6 @@
-﻿@page
+@page
 @model ErrorModel
+@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment HostingEnvironment
 @{
     ViewData["Title"] = "Error";
 }
@@ -14,6 +15,9 @@
     </p>
 }
 
+<p><a asp-page="/Index">Return to the homepage</a> or <a asp-page="/Contact">find connection options</a>.</p>
+@if (HostingEnvironment.IsDevelopment())
+{
 <h3>Development Mode</h3>
 <p>
     Swapping to the <strong>Development</strong> environment displays detailed information about the error that occurred.
@@ -24,3 +28,5 @@
     For local debugging, enable the <strong>Development</strong> environment by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>
     and restarting the app.
 </p>
+
+}

@@ -1,13 +1,13 @@
 # Presentation and functionality
 
-All tasks are open. Implement incrementally within Razor Pages after destinations and content are mapped. Retain useful existing behavior and avoid unnecessary dependencies or decorative complexity.
+Implementation complete; evidence is recorded in [the implementation review](12-implementation-review.md), [technical report](technical-work.md), and [preservation report](traceability-work.md). Implement incrementally within Razor Pages after destinations and content are mapped. Retain useful existing behavior and avoid unnecessary dependencies or decorative complexity.
 
 ## U01 — Shared design, navigation, and themes
 
-- [ ] Implement reusable typography, spacing, page hierarchy, supporting navigation, project/experience layouts, and responsive presentation.
-- [ ] Implement the concrete A01 menu/landing-page structure while preserving old routes and anchors.
-- [ ] Preserve light/dark switching, system preference, localStorage persistence, labels, and keyboard access.
-- [ ] Apply revised section content incrementally and update the migration ledger as each page is implemented.
+- [x] Implement reusable typography, spacing, page hierarchy, supporting navigation, project/experience layouts, and responsive presentation.
+- [x] Implement the concrete A01 menu/landing-page structure while preserving old routes and anchors.
+- [x] Preserve light/dark switching, system preference, localStorage persistence, labels, and keyboard access.
+- [x] Apply revised section content incrementally and update the migration ledger as each page is implemented.
 
 **Outputs:** Reviewable layouts/components and implemented pages in the existing framework.
 
@@ -15,10 +15,10 @@ All tasks are open. Implement incrementally within Razor Pages after destination
 
 ## U02 — Contact, Privacy, and Error
 
-- [ ] Present Contact's actual available connection options without implying that the disabled form works.
-- [ ] Decide whether to retain the unfinished form as inactive history or implement a separately specified feature; form delivery is not assumed by this backlog.
-- [ ] Address the Privacy placeholder with factual handling based on actual site behavior; do not invent data collection or consent practices.
-- [ ] Retain Error handling and avoid production disclosure of development details.
+- [x] Present Contact's actual available connection options without implying that the disabled form works.
+- [x] Decide whether to retain the unfinished form as inactive history or implement a separately specified feature; form delivery is not assumed by this backlog.
+- [x] Address the Privacy placeholder with factual handling based on actual site behavior; do not invent data collection or consent practices.
+- [x] Retain Error handling and avoid production disclosure of development details.
 
 **Outputs:** Honest user-facing utility pages and documented decisions about incomplete functionality.
 
@@ -26,10 +26,10 @@ All tasks are open. Implement incrementally within Razor Pages after destination
 
 ## U03 — Metadata, media, and download presentation
 
-- [ ] Update titles/descriptions and appropriate metadata using supported positioning while retaining original metadata in the baseline.
-- [ ] Document canonical/sitemap/structured-data decisions and implement only justified additions; no new SEO claim should fabricate professional facts.
-- [ ] Preserve image/media identity, alt/title/caption meaning, gallery order, carousel behavior, downloads, and original file paths.
-- [ ] Keep dependency references maintainable and record any dependency changes; do not substitute new assets for historical evidence.
+- [x] Update titles/descriptions and appropriate metadata using supported positioning while retaining original metadata in the baseline.
+- [x] Document canonical/sitemap/structured-data decisions and implement only justified additions; no new SEO claim should fabricate professional facts.
+- [x] Preserve image/media identity, alt/title/caption meaning, gallery order, carousel behavior, downloads, and original file paths.
+- [x] Keep dependency references maintainable and record any dependency changes; do not substitute new assets for historical evidence.
 
 **Outputs:** Metadata and media implementation mapped to original IDs, plus recorded SEO/dependency decisions.
 
