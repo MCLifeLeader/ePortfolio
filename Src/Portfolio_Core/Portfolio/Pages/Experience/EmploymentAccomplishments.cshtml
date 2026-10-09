@@ -3,7 +3,7 @@
     ViewData["Title"] = "Employment Accomplishments";
 }
 
-<header class="page-header"><p class="page-kicker"><i class="bi bi-briefcase" aria-hidden="true"></i> Portfolio architecture &amp; engineering</p><h1>Employment Accomplishments</h1></header><div class="reading-layout"><nav class="section-nav" aria-label="Accomplishment sections"><p class="page-kicker">On this page</p><ul><li><a href="#software-delivery">Software Delivery and Systems Integration</a></li><li><a href="#quality-engineering">Quality Engineering and Automation</a></li><li><a href="#ai-engineering">AI-Assisted Engineering and Software Factory</a></li><li><a href="#enterprise-ai">Enterprise AI Architecture and Reuse</a></li><li><a href="#portfolio-governance">Portfolio Architecture and Engineering Governance</a></li><li><a href="#security">Security and Technology Onboarding</a></li><li><a href="#hosting-transition">Application Hosting Transition Planning and Security Remediation</a></li><li><a href="#cloud-devops">Cloud, DevOps, and Platform Engineering</a></li></ul><a asp-page="/Experience/Index">Back to experience</a></nav><div class="reading-main">
+<header class="page-header"><p class="page-kicker"><i class="bi bi-briefcase" aria-hidden="true"></i> Portfolio architecture &amp; engineering</p><h1>Employment Accomplishments</h1></header><div class="reading-layout"><nav class="section-nav" aria-label="Accomplishment sections"><p class="page-kicker">On this page</p><ul><li><a href="#software-delivery">Software Delivery and Systems Integration</a></li><li><a href="#quality-engineering">Quality Engineering and Automation</a></li><li><a href="#developer-enablement">Developer Toolbox and Engineering Enablement</a></li><li><a href="#ai-engineering">AI-Assisted Engineering and Software Factory</a></li><li><a href="#enterprise-ai">Enterprise AI Architecture and Reuse</a></li><li><a href="#portfolio-governance">Portfolio Architecture and Engineering Governance</a></li><li><a href="#security">Security and Technology Onboarding</a></li><li><a href="#hosting-transition">Application Hosting Transition Planning and Security Remediation</a></li><li><a href="#cloud-devops">Cloud, DevOps, and Platform Engineering</a></li></ul><a asp-page="/Experience/Index">Back to experience</a></nav><div class="reading-main">
 <p class="page-intro" data-accomplishment-ids="E49 E51 E52">
     My work across Global Education connects architecture, engineering, quality assurance, product leadership,
     AI strategy, governance, and security. I created reusable starter projects, automation scaffolding, and QA templates, and developed standards,
@@ -18,10 +18,30 @@
 
 <section aria-labelledby="software-delivery" class="content-panel prose">
     <h2 id="software-delivery">Software Delivery and Systems Integration</h2>
-    <p data-accomplishment-ids="E53">
-        I created starter template projects for C#/.NET and Node.js/React, providing reusable foundations
-        for application development.
+    <p data-accomplishment-ids="E58">
+        I have delivered full-stack production applications using these shared engineering resources.
+        The reusable starters capture working architecture, implementation patterns, and validation practices
+        that support product development.
     </p>
+    <h3 id="shared-application-templates">Shared Full-Stack Application Templates</h3>
+    <p data-accomplishment-ids="E53">
+        I created C#/.NET and Node.js/React starter projects that bring together ASP.NET Core APIs,
+        Next.js clients, shared .NET libraries, Aspire orchestration, QA automation, and delivery templates.
+        The broader application foundation includes authentication integration, Redis caching,
+        feature management, configuration validation, and configurable telemetry.
+    </p>
+    <h3 id="marketing-website-foundation">Marketing Website Foundation</h3>
+    <p data-accomplishment-ids="E53">
+        I built a focused marketing-site starter with feature-based boundaries, reusable UI components,
+        localization, and token-based light and dark themes. Its same-origin API proxy validates write payloads,
+        restricts upstream destinations, filters headers, limits payload sizes, applies timeouts,
+        and returns safe errors with trace correlation. Unit, client, and browser tests accompany the starter,
+        alongside runtime-only non-root container packaging and delivery templates.
+    </p>
+    <p><strong>Technologies:</strong> C#, .NET 10, ASP.NET Core, Node.js, Next.js, React, TypeScript,
+        .NET Aspire, Tailwind CSS, Headless UI, Zod, Storybook, NUnit, Selenium, Vitest,
+        OpenTelemetry, Redis, Auth0/OIDC, Docker, and Azure DevOps.</p>
+    <h3>Systems and API Integration</h3>
     <p data-accomplishment-ids="E55">
         I implemented integrations between internal systems and Zendesk, along with various API integrations
         and services to connect applications and support product functionality.
@@ -31,8 +51,24 @@
 <section aria-labelledby="quality-engineering" class="content-panel prose">
     <h2 id="quality-engineering">Quality Engineering and Automation</h2>
     <p data-accomplishment-ids="E56">
-        I was the primary developer of a QA automation framework, carrying out nearly all of its development.
+        I was the primary developer of a reusable .NET QA automation framework, carrying out nearly all
+        of its development. Its modular architecture supports API, browser, data, and container-backed test suites
+        through shared configuration, dependency injection, logging, and fixture lifecycles.
     </p>
+    <ul>
+        <li>Delivered named-site configuration and multi-browser execution across Selenium and Playwright,
+            with reusable page models and API test clients.</li>
+        <li>Implemented diagnostic capture, redaction, schema validation, screenshot evidence,
+            and HTML sequence reports to help teams investigate failures.</li>
+        <li>Built isolated container-backed validation environments with controlled resource lifecycles,
+            dynamic endpoints, API mocks, and OAuth/OIDC test flows.</li>
+        <li>Added schema-validated workflow specifications, application discovery, and test traceability
+            for AI-assisted authoring while keeping AI services separate from test execution.</li>
+        <li>Delivered reusable packages and browser execution tooling for consuming test suites.</li>
+    </ul>
+    <p><strong>Technologies:</strong> C#, .NET 8/9/10, NUnit, Selenium, Playwright, Testcontainers,
+        Docker/Podman, WireMock, Keycloak, OAuth/OIDC, SQL Server, NuGet, YAML, JSON Schema,
+        and Playwright MCP for application discovery.</p>
     <p data-accomplishment-ids="E01 E02 E03 E06 E08 E12 E50">
         I authored and drove enterprise QA modernization strategies for Global Education, bringing together
         repository-owned testing, shared QA platform capabilities, enterprise end-to-end validation, automated
@@ -51,6 +87,21 @@
         These strategies were documented in <cite>E2E Quality Engineering</cite>,
         <cite>Global Ed - QA Automation Overview</cite>, and <cite>Global Ed - QA Automation Roadmap</cite>.
     </p>
+</section>
+
+<section aria-labelledby="developer-enablement" class="content-panel prose">
+    <h2 id="developer-enablement">Developer Toolbox and Engineering Enablement</h2>
+    <p data-accomplishment-ids="E57">
+        I developed a shared developer toolbox that combines Dev Containers, local service emulators,
+        cross-platform setup and teardown scripts, and reusable AI engineering resources.
+        Consumer-repository bootstrap tooling preserves existing files while adding shared setup support.
+    </p>
+    <p>The toolbox provides local database, cache, storage, messaging, email, API-mocking, and telemetry
+        services. A canonical library of engineering instructions, roles, prompts, and skills supplies
+        synchronized adapters for GitHub Copilot, Codex, and Claude Code.</p>
+    <p><strong>Technologies:</strong> PowerShell, Bash, Dev Containers, Docker/Podman Compose,
+        SQL Server, PostgreSQL, Cosmos DB and DynamoDB emulators, Redis, Azurite, Azure Service Bus emulator,
+        WireMock, smtp4dev, Seq, OpenTelemetry, Azure DevOps pipeline templates, and GitHub Actions workflow definitions.</p>
 </section>
 
 <section aria-labelledby="ai-engineering" class="content-panel prose">
