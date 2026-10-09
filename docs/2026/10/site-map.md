@@ -110,6 +110,6 @@ New routes listed above are implementation targets; presence is checked below. T
 - Original content IDs and baseline fields stay in docs/content-audit; this separate ledger records implementation destinations.
 - Word/number matching tracks many-to-one reuse and one-to-many distribution across active public pages. Unmatched substantive text is reported, never called preserved merely because an archive exists.
 - Owner-authorized factual corrections and retired solicitation links cite the decision record. Resume.pdf remains byte-identical with no page link; document-only facts receive supporting historical treatment.
-- Vendor assets and document binaries use SHA-256 equality. Site CSS changes are classified separately and require visual checks.
+- Original media/document and unexempted asset binaries use SHA-256 equality. Only owner-authorized Bootstrap/jQuery-family upgrades or retirement have narrow exceptions tied to the final eight-file LibMan manifest. Site presentation changes require visual checks.
 - Inactive source, process requirements, and unapproved source context have private dispositions; they are not made public implicitly.
 - A source route/anchor match does not prove an HTTP result. Use verify_modernization.py with a running localhost site for runtime evidence.

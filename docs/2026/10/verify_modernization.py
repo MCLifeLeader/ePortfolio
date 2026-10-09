@@ -28,6 +28,11 @@ PAGES = APP / "Pages"
 STATIC = APP / "wwwroot"
 DECISION = "docs/2026/10/08-owner-decisions.md"
 TEXT_KINDS = {"text", "p", "li", "tr", "h1", "h2", "h3", "h4", "h5", "button", "title"}
+AUTHORIZED_VENDOR_DIRS = {"bootstrap", "jquery", "jquery-validate", "jquery-validation-unobtrusive"}
+RETIRED_VALIDATION_IDS = {
+    "PAGE-Shared-_ValidationScriptsPartial", "PAGE-Shared-_ValidationScriptsPartial-REF-001",
+    "PAGE-Shared-_ValidationScriptsPartial-REF-002", "PAGE-Shared-_ValidationScriptsPartial-BEHAVIOR",
+}
 
 
 def read(path):
@@ -119,6 +124,7 @@ def correction(row):
         if replacement in read(ROOT / source) and (STATIC / "content/images/Michael_Carey_Large.jpg").is_file():
             return "owner-replaced-portrait", "Owner supplied new primary portrait; original photo retained byte-identical, new image served from /content/images/Michael_Carey_Large.jpg."
     explicit = {
+        "PAGE-Experience-Education-TEXT-006": "R02: college chronology now ends in 2020, the owner-confirmed bachelor's graduation year.",
         "PAGE-AboutMe-TEXT-003": "R01: manager dates refined to February 2021–February 2026; education portfolio context retained.",
         "PAGE-AboutMe-TEXT-004": "R01: current formal title corrected to Sr. Software Architect (Portfolio Architect).",
         "PAGE-Skills-Leadership-TEXT-006": "R01: current formal title corrected to Sr. Software Architect (Portfolio Architect).",
@@ -214,6 +220,13 @@ def main():
     routes = {route: name for name, source in sources.items() for route in routes_for(ROOT / name, source)}
     route_by_source = {name: routes_for(ROOT / name, source) for name, source in sources.items()}
     approved = approved_sources()
+    libman = json.loads(read(APP / "libman.json"))
+    approved_libraries = {"bootstrap@5.3.8", "bootstrap-icons@1.13.2"}
+    vendor_manifest_valid = {x["library"] for x in libman["libraries"]} == approved_libraries
+    selected_vendor_paths = {
+        rel(APP / library["destination"] / filename)
+        for library in libman["libraries"] for filename in library.get("files", [])
+    }
     ledger, losses, notes = [], [], []
     fixed_hashes = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in AUDIT.iterdir() if p.is_file()}
 
@@ -229,7 +242,11 @@ def main():
         category, disposition, status = "public-content", "retain", "needs-review"
         finalfiles, finalroute, evidence = [source] if source else [], destination(source), ""
         exception = correction(row)
-        if kind == "owner brief":
+        if cid in RETIRED_VALIDATION_IDS:
+            category, disposition, status = "authorized-unused-infrastructure", "retire-unused-validation-partial", "owner-authorized-retirement"
+            finalfiles, finalroute = ["Src/Portfolio_Core/Portfolio/libman.json", DECISION], "Unused validation partial retired; no public route"
+            evidence = "Owner-authorized minimal LibMan cleanup: no page invokes this partial. Original source/reference records remain in fixed baseline."
+        elif kind == "owner brief":
             category, disposition, status = "private-process-requirement", "retain-private-baseline", "baseline-retained"
             finalfiles, finalroute = ["docs/content-audit/preservation-matrix.csv"], "Private process; no public destination"
             evidence = "Requirements retained verbatim; fulfillment tracked separately in task documents."
@@ -245,14 +262,25 @@ def main():
         elif kind in {"asset", "download text"}:
             asset = asset_by_path.get(source)
             unchanged = bool(asset and (ROOT / source).is_file() and hashlib.sha256((ROOT / source).read_bytes()).hexdigest() == asset["sha256"])
-            category = "vendor-dependency" if asset and asset.get("category") == "vendor asset" else "download-content" if kind == "download text" else "site-asset"
+            category = "vendor-dependency" if asset and asset.get("category", "").startswith("vendor") else "download-content" if kind == "download text" else "site-asset"
             finalroute = asset["public_path"] if asset else "Unknown asset"
             status, disposition, evidence = "verified-byte-identity" if unchanged else "needs-review", "retain-binary", "SHA-256 equals original asset manifest." if unchanged else "Original byte identity differs or file is missing."
+            vendor_prefix = rel(STATIC) + "/lib/"
+            vendor_dir = source[len(vendor_prefix):].split("/", 1)[0] if source.startswith(vendor_prefix) else ""
+            if category == "vendor-dependency" and vendor_dir in AUTHORIZED_VENDOR_DIRS and not unchanged and vendor_manifest_valid:
+                if source in selected_vendor_paths and (ROOT / source).is_file():
+                    category, disposition, status = "authorized-vendor-upgrade", "upgrade-selected-vendor-file", "owner-authorized-vendor-update"
+                    evidence = "Owner requested dependency upgrades; exact file selected by pinned Bootstrap 5.3.8 LibMan manifest. Original version/hash retained in fixed assets baseline. " + DECISION
+                elif source not in selected_vendor_paths and not (ROOT / source).exists():
+                    category, disposition, status = "authorized-vendor-retirement", "retire-unused-vendor-file", "owner-authorized-vendor-retirement"
+                    finalfiles, finalroute = ["Src/Portfolio_Core/Portfolio/libman.json", "docs/content-audit/assets.json"], "Retired public vendor path: " + asset["public_path"]
+                    evidence = "Owner requested minimal Bootstrap + Bootstrap Icons resources; unused file retired. Original vendor version/hash remains in fixed baseline; media/document byte identity is not exempted. " + DECISION
             if source.lower().endswith("/resume.pdf"):
                 disposition, category = "retain-disconnected-binary", "historical-resume"
                 finalroute = "File retained at /content/pdf/Resume.pdf; no page links"
                 evidence += " Owner explicitly disconnected the download."
             if source.endswith(("/css/site.css", "/js/site.js")) and not unchanged:
+                category = "site-presentation"
                 disposition, status, evidence = "update-site-presentation", "implemented-source-change", "Site CSS/theme JavaScript intentionally revised; visual and interaction validation required separately."
         elif kind == "inactive source":
             category, disposition, status = "inactive-source-history", "retain-private-baseline", "baseline-retained"
@@ -394,9 +422,14 @@ def main():
         queue.extend(shared_edges | route_links(owner) | set(route_by_source[owner]))
     undiscoverable = sorted(set(original_aliases) - reachable - {"/Error"})
     check("all-original-pages-discoverable", not undiscoverable, undiscoverable)
+    new_undiscoverable = sorted(set(routes) - reachable - {"/Error", "/Experience/ResumeHistory"})
+    check("new-supporting-pages-discoverable", not new_undiscoverable, new_undiscoverable)
     check("runtime-error-utility-route", "/Error" in routes, "Error is a directly addressable runtime utility, intentionally outside browsing menus.")
-    binary_failures = [r["ContentID"] for r in ledger if r["Category"] in {"vendor-dependency", "download-content", "historical-resume"} and r["ImplementationStatus"] != "verified-byte-identity"]
-    check("vendor-and-download-byte-identity", not binary_failures, binary_failures)
+    binary_failures = [r["ContentID"] for r in ledger if r["Category"] in {"vendor-dependency", "download-content", "historical-resume", "site-asset"} and r["ImplementationStatus"] != "verified-byte-identity"]
+    check("original-media-documents-and-unexempted-assets-byte-identity", not binary_failures, binary_failures)
+    actual_vendor_paths = {rel(p) for p in (STATIC / "lib").rglob("*") if p.is_file()}
+    check("authorized-minimal-LibMan-manifest", vendor_manifest_valid and len(selected_vendor_paths) == 8 and actual_vendor_paths == selected_vendor_paths,
+          {"libraries": [x["library"] for x in libman["libraries"]], "selected_files": sorted(selected_vendor_paths), "unexpected": sorted(actual_vendor_paths - selected_vendor_paths), "missing": sorted(selected_vendor_paths - actual_vendor_paths)})
     runtime = {"performed": False, "routes": [], "assets": [], "text_losses": []}
     if args.base_url:
         opener = urllib.request.build_opener(LoopbackRedirect())
@@ -416,6 +449,14 @@ def main():
             try:
                 with opener.open(local_url(base + target), timeout=15) as response:
                     runtime["assets"].append({"path": target, "status": response.status})
+                    if target.endswith(".css"):
+                        css = response.read().decode("utf-8")
+                        for match in re.finditer(r"url\(\s*['\"]?([^'\")\s]+)", css):
+                            css_url = urllib.parse.urljoin(base + target, match[1])
+                            if urllib.parse.urlsplit(css_url).path.lower().endswith((".woff", ".woff2")):
+                                local_url(css_url)
+                                with opener.open(css_url, timeout=15) as font_response:
+                                    runtime["assets"].append({"path": urllib.parse.urlsplit(css_url).path, "status": font_response.status, "dependency_of": target})
             except Exception as exc:
                 runtime["assets"].append({"path": target, "error": str(exc)})
         for item in ledger:
@@ -459,7 +500,7 @@ def main():
                   limitations=["Text comparison checks complete word/number sequences; does not prove factual accuracy, visual quality, or behavior.",
                                "Owner-corrected paragraph exceptions still require checking unaffected clauses.",
                                "Heading/metadata/control changes are classified as changes rather than falsely claiming byte preservation.",
-                               "No external URL or document link has been opened."])
+                               "Existing project/profile/document references were not opened; official dependency documentation was consulted for owner-requested library updates."])
     (OUT / args.report).write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     if args.write_ledger:
         with (OUT / "migration-ledger.csv").open("w", newline="", encoding="utf-8") as handle:
@@ -499,7 +540,7 @@ def write_map(oldroutes, anchors, routes, sources):
     lines += ["", "## Preservation and verification rules", "", "- Original content IDs and baseline fields stay in docs/content-audit; this separate ledger records implementation destinations.",
               "- Word/number matching tracks many-to-one reuse and one-to-many distribution across active public pages. Unmatched substantive text is reported, never called preserved merely because an archive exists.",
               "- Owner-authorized factual corrections and retired solicitation links cite the decision record. Resume.pdf remains byte-identical with no page link; document-only facts receive supporting historical treatment.",
-              "- Vendor assets and document binaries use SHA-256 equality. Site CSS changes are classified separately and require visual checks.",
+              "- Original media/document and unexempted asset binaries use SHA-256 equality. Only owner-authorized Bootstrap/jQuery-family upgrades or retirement have narrow exceptions tied to the final eight-file LibMan manifest. Site presentation changes require visual checks.",
               "- Inactive source, process requirements, and unapproved source context have private dispositions; they are not made public implicitly.",
               "- A source route/anchor match does not prove an HTTP result. Use verify_modernization.py with a running localhost site for runtime evidence.", ""]
     (OUT / "site-map.md").write_text("\n".join(lines), encoding="utf-8")

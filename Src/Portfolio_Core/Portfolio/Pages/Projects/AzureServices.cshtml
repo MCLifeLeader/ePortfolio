@@ -4,17 +4,21 @@
     ViewData["Title"] = "Azure Services";
 }
 
-<h1>@ViewData["Title"]</h1>
-<h3>@ViewData["Message"]</h3>
-
-<div class="row pt-3">
-    <div class="col-md-12">
-        <p>
+<header class="page-header">
+    <p class="page-kicker"><i class="bi bi-kanban" aria-hidden="true"></i> Enterprise engineering</p>
+    <h1>@ViewData["Title"]</h1>
+    <p class="page-intro">Messaging, automation, and data integration work for Academy Mortgage and independent services.</p>
+</header>
+<nav class="section-nav" aria-label="Related project pages"><a asp-page="/Projects/Index">All projects</a><a asp-page="/Git">Public repositories</a></nav>
+<div class="prose"><p>
             This project section will cover details around multiple projects that I either directly developed
             independently or collectively as a part of the development and delivery team at Academy Mortgage
             or for my own purposes related to my personal business activities.
         </p>
-        <h3>Academy Message Bus API</h3>
+        </div>
+<nav class="section-nav" aria-label="Project sections"><a href="#message-bus">Academy Message Bus API</a><a href="#email-automation">Amy Email API</a><a href="#loan-data-sync">Encompass (Dev Connect) Sync Service</a></nav>
+<section id="message-bus" class="content-panel prose">
+<h2>Academy Message Bus API</h2>
         <p>
             My development and implementation of a messaging service handler for Academy Mortgage was based
             on the needs to improve performance and get database specific data back to a client application
@@ -28,7 +32,9 @@
             further processing. This customization reduced our typical client wait time from 60 to well over
             120 seconds down to under 15 seconds for most requests.
         </p>
-        <h3>Amy Email API</h3>
+</section>
+<section id="email-automation" class="content-panel prose">
+<h2>Amy Email API</h2>
         <p>
             As a part of improving process and decreasing the time it takes from loan application to close.
             We now leverage various automation tools through a vendor to decrease human error and increase the
@@ -56,7 +62,10 @@
             other communication to clients and users. This also included sending out email messages with file
             attachments using Azure Blob Storage as the temporary file storage for those attachments.
         </p>
-        <h3>Encompass (Dev Connect) Sync Service</h3>
+</section>
+<section id="loan-data-sync" class="reading-layout">
+<article class="reading-main prose">
+<h2>Encompass (Dev Connect) Sync Service</h2>
         <p>
             This was primarily a proof of concept project to help develop replacement processes and technology
             of an aged data sync process using the older ESDK or Encompass SDK libraries and technology.
@@ -97,25 +106,28 @@
             from the JSON payload and store into our data warehouse for analysis processing and reporting for the
             executive teams.
         </p>
-        <p>
-            <ul class="list-group">
-                <li class="list-group-item list-group-item-info fw-bolder">ASP.NET</li>
-                <li class="list-group-item list-group-item-info fw-bolder">C#</li>
-                <li class="list-group-item list-group-item-info fw-bolder">.NET Core</li>
-                <li class="list-group-item list-group-item-info fw-bolder">MVC</li>
-                <li class="list-group-item list-group-item-info fw-bolder">Azure Function Applications</li>
-                <li class="list-group-item list-group-item-info fw-bolder">Azure Logic Applications</li>
-                <li class="list-group-item list-group-item-info fw-bolder">Azure Message Bus</li>
-                <li class="list-group-item list-group-item-info fw-bolder">RESTful API</li>
-                <li class="list-group-item list-group-item-info fw-bolder">JSON</li>
-                <li class="list-group-item list-group-item-info fw-bolder">Log4net</li>
-                <li class="list-group-item list-group-item-info fw-bolder">Active Directory</li>
-                <li class="list-group-item list-group-item-info fw-bolder">Java Web Token (JWT)</li>
-            </ul>
-        </p>
+
         <p>
             <a class="btn btn-info btn-site" href="https://api.agameempowerment.com/" target="_blank" rel="noopener">A-Game API Services >></a>
             <a class="btn btn-info btn-site" href="https://www.academymortgage.com/" target="_blank" rel="noopener">Academy Mortgage >></a>
         </p>
-    </div>
-</div>
+</article>
+<aside class="reading-aside content-panel" aria-label="Technology details">
+<h3>Technology</h3>
+
+<ul class="tag-list">
+                <li>ASP.NET</li>
+                <li>C#</li>
+                <li>.NET Core</li>
+                <li>MVC</li>
+                <li>Azure Function Applications</li>
+                <li>Azure Logic Applications</li>
+                <li>Azure Message Bus</li>
+                <li>RESTful API</li>
+                <li>JSON</li>
+                <li>Log4net</li>
+                <li>Active Directory</li>
+                <li>Java Web Token (JWT)</li>
+            </ul>
+</aside>
+</section>

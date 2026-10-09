@@ -1,0 +1,131 @@
+{
+  "base": "http://localhost:5187",
+  "scripts": [
+    "/lib/jquery/jquery.min.js",
+    "/lib/jquery-migrate/jquery-migrate.min.js",
+    "/lib/jquery-validate/jquery.validate.min.js",
+    "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+  ],
+  "external_network": "blocked",
+  "fixture": "isolated in-memory DOM; no form submission",
+  "checks": [
+    {
+      "name": "public-contact-remains-disabled",
+      "passed": true,
+      "actual": {
+        "forms": 0,
+        "submits": 0
+      }
+    },
+    {
+      "name": "unobtrusive-parse-and-legacy-api-compatibility",
+      "passed": true
+    },
+    {
+      "name": "required-empty-fields-rejected",
+      "passed": true,
+      "actual": {
+        "valid": false,
+        "errors": [
+          {
+            "field": "Name",
+            "message": "Name required"
+          },
+          {
+            "field": "Email",
+            "message": "Email required"
+          },
+          {
+            "field": "Password",
+            "message": "Password required"
+          },
+          {
+            "field": "Confirm",
+            "message": "Confirmation required"
+          }
+        ]
+      }
+    },
+    {
+      "name": "email-and-equalto-rejected",
+      "passed": true,
+      "actual": {
+        "valid": false,
+        "errors": [
+          {
+            "field": "Email",
+            "message": "Email invalid"
+          },
+          {
+            "field": "Confirm",
+            "message": "Passwords must match"
+          }
+        ]
+      }
+    },
+    {
+      "name": "valid-required-email-equalto-accepted",
+      "passed": true,
+      "actual": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "name": "bootstrap-css-icons-and-font-local-assets",
+      "passed": true,
+      "statuses": [
+        200,
+        200,
+        200
+      ]
+    },
+    {
+      "name": "no-javascript-errors",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "asset_responses": [
+    {
+      "url": "http://localhost:5187/lib/bootstrap/css/bootstrap.min.css",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:5187/lib/bootstrap/js/bootstrap.bundle.min.js",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:5187/lib/jquery/jquery.min.js",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:5187/lib/jquery-migrate/jquery-migrate.min.js",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:5187/lib/jquery-validate/jquery.validate.min.js",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:5187/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "status": 200
+    }
+  ],
+  "browser": "151.0.7922.34",
+  "versions": {
+    "jquery": "4.0.0",
+    "migrate": "4.0.2",
+    "validation": null,
+    "unobtrusive": "function",
+    "compatibility": {
+      "isFunction": "function",
+      "proxy": "function",
+      "parseJSON": "function"
+    },
+    "validation_file_header": "* jQuery Validation Plugin v1.22.1"
+  },
+  "checkpoint_passed": true,
+  "status": "Historical checkpoint superseded by removal of unused jQuery/validation libraries",
+  "final_state_report": "libman-cleanup-verification.json"
+}

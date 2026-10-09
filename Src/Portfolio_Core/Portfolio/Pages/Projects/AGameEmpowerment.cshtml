@@ -4,13 +4,16 @@
     ViewData["Title"] = "A Game Empowerment";
 }
 
-<h1>@ViewData["Title"]</h1>
-<p class="historical-context">Historical project description: plans, status, and technology references below reflect the recorded project period. No current status update has been supplied.</p>
-<h3>@ViewData["Message"]</h3>
-
-<div class="row pt-3">
-    <div class="col-md-12">
-        <h3>Develop Software and Mentoring 2016 - Present</h3>
+<header class="page-header">
+    <p class="page-kicker"><i class="bi bi-kanban" aria-hidden="true"></i> Independent software</p>
+    <h1>@ViewData["Title"]</h1>
+    <p class="page-intro">Custom SaaS development, educational services, and a recorded vision for technology-assisted mentoring.</p>
+    <p class="historical-context">Historical project description: plans, status, and technology references below reflect the recorded project period. No current status update has been supplied.</p>
+</header>
+<nav class="section-nav" aria-label="Related project pages"><a asp-page="/Projects/Index">All projects</a><a asp-page="/Git">Public repositories</a></nav>
+<section id="section-1" class="reading-layout">
+<article class="reading-main prose">
+<h2>Develop Software and Mentoring 2016 - Present</h2>
         <p>
             A Game Empowerment, LLC. is a custom development company that is creating custom SaaS solutions for a diverse clientele of
             entrepreneurs and personal development seekers of educational and self-betterment materials and services.
@@ -20,24 +23,26 @@
             use of technological advances in AI and Machine learning where by assisting the Mentor, Coach, or Councilor in their role helping to improve
             the lives of those clients they are guiding and helping day to day.
         </p>
-        <p>
-            Some of the Technologies utilized in its development:
-            <ul class="list-group">
-                <li class="list-group-item list-group-item-info fw-bolder">Azure Hosted</li>
-                <li class="list-group-item list-group-item-info fw-bolder">Azure Message Bus</li>
-                <li class="list-group-item list-group-item-info fw-bolder">C#.NET</li>
-                <li class="list-group-item list-group-item-info fw-bolder">Entity Framework, Unit of Work, Repository Models</li>
-                <li class="list-group-item list-group-item-info fw-bolder">PayPal Merchant API</li>
-                <li class="list-group-item list-group-item-info fw-bolder">RESTful API Web Service</li>
-                <li class="list-group-item list-group-item-info fw-bolder">Sendgrid</li>
-                <li class="list-group-item list-group-item-info fw-bolder">SQL Server</li>
-                <li class="list-group-item list-group-item-info fw-bolder">Twilio</li>
-                <li class="list-group-item list-group-item-info fw-bolder">WordPress</li>
-            </ul>
-        </p>
+
         <p>
             <a class="btn btn-info btn-site" href="https://AGameEmpowerment.com/" target="_blank" rel="noopener">AGameEmpowerment.com >></a>
             <a class="btn btn-info btn-site" href="https://api.AGameEmpowerment.com/" target="_blank" rel="noopener">api.AGameEmpowerment.com >></a>
         </p>
-    </div>
-</div>
+</article>
+<aside class="reading-aside content-panel" aria-label="Technology details">
+<h3>Technology</h3>
+<p>Some of the Technologies utilized in its development:</p>
+<ul class="tag-list">
+                <li>Azure Hosted</li>
+                <li>Azure Message Bus</li>
+                <li>C#.NET</li>
+                <li>Entity Framework, Unit of Work, Repository Models</li>
+                <li>PayPal Merchant API</li>
+                <li>RESTful API Web Service</li>
+                <li>Sendgrid</li>
+                <li>SQL Server</li>
+                <li>Twilio</li>
+                <li>WordPress</li>
+            </ul>
+</aside>
+</section>

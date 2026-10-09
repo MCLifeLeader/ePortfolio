@@ -9,9 +9,15 @@
         });
     }
     document.querySelectorAll('.navbar .nav-link').forEach(link => {
-        if (link.pathname.replace(/\/$/, '') === location.pathname.replace(/\/$/, '')) {
+        const target = link.pathname.replace(/\/$/, '').toLowerCase();
+        const current = location.pathname.replace(/\/$/, '').toLowerCase();
+        if (target === current) {
             link.classList.add('active');
             link.setAttribute('aria-current', 'page');
+        } else if ((target === '/skills/technologies' && current.startsWith('/skills/') && current !== '/skills/ai') ||
+                   (target === '/experience' && current.startsWith('/experience/')) ||
+                   (target === '/experience/index' && current.startsWith('/experience/'))) {
+            link.classList.add('active');
         }
     });
 })();

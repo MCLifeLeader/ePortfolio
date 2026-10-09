@@ -3,13 +3,9 @@
 @{
     ViewData["Title"] = "Quality Assurance";
 }
-
-<h1>@ViewData["Title"]</h1>
-<h3>@ViewData["Message"]</h3>
-
-<div class="row pt-3">
-    <div class="col-md-12">
-        <h3>Test Case Development</h3>
+<header class="page-header"><p class="page-kicker"><i class="bi bi-check2-square" aria-hidden="true"></i> Quality engineering</p><h1>@ViewData["Title"]</h1></header>
+<div class="reading-layout"><nav class="section-nav" aria-label="On this page"><h2>On this page</h2><ul><li><a href="#test-case-development">Test Case Development</a></li><li><a href="#filing-defects-bugs">Filing Defects / Bugs</a></li><li><a href="#manual-and-automated-testing">Manual and Automated Testing</a></li><li><a href="#selenium-webdriver">Selenium WebDriver</a></li></ul></nav><div class="reading-main"><section class="content-panel prose">
+<h2 id="test-case-development">Test Case Development</h2>
         <p>
             The basic premise behind the development of test cases is to cover the functional behavior of something, typically
             software, for verifying the functionality, quality, and usability meets design requirements. Test cases should
@@ -31,32 +27,31 @@
         <p>
             This list is not comprehensive but here are some key parts of a test case:
         </p>
-        <ul class="list-group">
-            <li class="list-group-item list-group-item-info fw-bolder">Test Case ID</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Summary Title</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Detailed description of the test case</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Test Case Steps which can include Shared Steps and expected result</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Related Automation Link or ID</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Attached Files</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Creator of the test case</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Date Test case was Created</li>
-            <li class="list-group-item list-group-item-info fw-bolder">
+        <ul>
+            <li>Test Case ID</li>
+            <li>Summary Title</li>
+            <li>Detailed description of the test case</li>
+            <li>Test Case Steps which can include Shared Steps and expected result</li>
+            <li>Related Automation Link or ID</li>
+            <li>Attached Files</li>
+            <li>Creator of the test case</li>
+            <li>Date Test case was Created</li>
+            <li>
                 State of the test case
-                <ul class="list-group">
-                    <li class="list-group-item list-group-item-info fw-bolder">Design</li>
-                    <li class="list-group-item list-group-item-info fw-bolder">Ready</li>
-                    <li class="list-group-item list-group-item-info fw-bolder">Closed</li>
+                <ul>
+                    <li>Design</li>
+                    <li>Ready</li>
+                    <li>Closed</li>
                 </ul>
             </li>
-            <li class="list-group-item list-group-item-info fw-bolder">Test Suite Relation Link or ID</li>
-            <li class="list-group-item list-group-item-info fw-bolder">User Story or Use Case Link or ID</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Discussion log</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Log of Pass / Fail of test case and when the test was executed</li>
+            <li>Test Suite Relation Link or ID</li>
+            <li>User Story or Use Case Link or ID</li>
+            <li>Discussion log</li>
+            <li>Log of Pass / Fail of test case and when the test was executed</li>
         </ul>
         <br />
-    </div>
-    <div class="col-md-12">
-        <h3>Filing Defects / Bugs</h3>
+</section><section class="content-panel prose">
+<h2 id="filing-defects-bugs">Filing Defects / Bugs</h2>
         <p>
             The process for filing defects or bugs will depend on the company or department that you are in.
             One of the most important aspects of filing defects is the ability to communicate the steps necessary
@@ -78,40 +73,40 @@
             responsible for setting the severity of the defect and the product owner set the priority for fixing the
             defect. Listed below was the basic severity breakdown that we used when classifying defects.
         </p>
-        <ul class="list-group">
-            <li class="list-group-item">
+        <ul>
+            <li>
                 Severity 1
-                <ul class="list-group">
-                    <li class="list-group-item list-group-item-info fw-bolder">
+                <ul>
+                    <li>
                         Completely broken and unable to proceed and the functionality of the software is non-functional.
                         There is a code stack trace with exception details, or the functionality does not work at all.
                         This would also extend to translations that are offensive or completely wrong.
                     </li>
                 </ul>
             </li>
-            <li class="list-group-item">
+            <li>
                 Severity 2
-                <ul class="list-group">
-                    <li class="list-group-item list-group-item-info fw-bolder">
+                <ul>
+                    <li>
                         The functionality is badly broken from a UX / UI perspective. There is a work around for the
                         user but may involve support manually making changes in the database or working with the user
                         one on one to work past the broken point.
                     </li>
                 </ul>
             </li>
-            <li class="list-group-item">
+            <li>
                 Severity 3
-                <ul class="list-group">
-                    <li class="list-group-item list-group-item-info fw-bolder">
+                <ul>
+                    <li>
                         The functionality is working but not optimally. There is a relatively easy work around that
                         the user can be trained to follow. This would also be the defect level for most UX / UI issues.
                     </li>
                 </ul>
             </li>
-            <li class="list-group-item">
+            <li>
                 Severity 4
-                <ul class="list-group">
-                    <li class="list-group-item list-group-item-info fw-bolder">
+                <ul>
+                    <li>
                         Minor UI / UX issue and would include grammatical issues such as spelling or punctuation
                         that is incorrect.
                     </li>
@@ -119,10 +114,9 @@
             </li>
         </ul>
         <br />
-    </div>
-    <div class="col-md-12">
-        <h3>Manual and Automated Testing</h3>
-        <h4>Manual Testing</h4>
+</section><section class="content-panel prose">
+<h2 id="manual-and-automated-testing">Manual and Automated Testing</h2>
+        <h3>Manual Testing</h3>
         <p>
             This is the process of having an individual or group of people test for defects in software. This can be
             done by an engineer who is trained in the discipline of Quality Assurance or it could be completed by
@@ -142,7 +136,7 @@
             often done before the software is complete and shipped so that UX / UI engineers can determine how a
             particular product should be designed to create the best experience for the customer.
         </p>
-        <h4>Automated Testing</h4>
+        <h3>Automated Testing</h3>
         <p>
             This is primarily the process of taking the manual test steps that were developed in each test case and
             leveraging software to automate the script in a repeatable fashion. The execution and testable steps can
@@ -164,9 +158,8 @@
             the application’s user interface. These tests are designed to validate positive and negative logic
             paths within a method or function set to validate the behavior of individual code modules or blocks.
         </p>
-    </div>
-    <div class="col-md-12">
-        <h3>Selenium WebDriver</h3>
+</section><section class="content-panel prose">
+<h2 id="selenium-webdriver">Selenium WebDriver</h2>
         <p>
             As test automation relates to my career and experience. The use of Selenium WebDriver has been my primary
             platform for executing RPA vs web applications. My preferred method of developing Selenium based tests is
@@ -180,22 +173,14 @@
         <p>
             Please click the External Link to my GitHub account to see my Selenium code example developed in C#.
         </p>
-    </div>
-    <div class="col-md-6">
-        <h3>Summary</h3>
-        <ul class="list-group">
-            <li class="list-group-item list-group-item-info fw-bolder">Custom Quality Assurance Frameworks</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Defect Reporting and Tracking</li>
-            <li class="list-group-item list-group-item-info fw-bolder">MS SQL</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Ranorex - C#</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Selenium WebDriver - C#</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Test Case Development</li>
-            <li class="list-group-item list-group-item-info fw-bolder">Test Plans</li>
-            <li class="list-group-item list-group-item-info fw-bolder">UX / UI validation</li>
-        </ul>
-    </div>
-    <div class="col-md-6">
-        <h3>External Links</h3>
-        <a class="btn btn-site" href="https://github.com/MCLifeLeader/SeleniumExample" target="_blank" rel="noopener">GitHub SeleniumExample &gt;&gt;</a><br />
-    </div>
-</div>
+</section></div><aside class="reading-aside"><section class="content-panel prose"><h2>Summary</h2>
+        <ul class="tag-list">
+            <li>Custom Quality Assurance Frameworks</li>
+            <li>Defect Reporting and Tracking</li>
+            <li>MS SQL</li>
+            <li>Ranorex - C#</li>
+            <li>Selenium WebDriver - C#</li>
+            <li>Test Case Development</li>
+            <li>Test Plans</li>
+            <li>UX / UI validation</li>
+        </ul></section><section class="content-panel prose"><h2>External Links</h2><ul class="resource-list"><li><a href="https://github.com/MCLifeLeader/SeleniumExample" target="_blank" rel="noopener">GitHub SeleniumExample &gt;&gt;</a></li></ul></section></aside></div>

@@ -3,34 +3,23 @@
 @{
     ViewData["Title"] = "Skills";
 }
-
-<h1>@ViewData["Title"]</h1>
-<h3>@ViewData["Message"]</h3>
-<section aria-labelledby="capabilities"><h2 id="capabilities">Engineering, architecture, and leadership</h2><p>My background connects quality assurance, full stack software development, engineering management, architecture governance, and portfolio architecture. The detailed pages retain my technical history, proficiency distinctions, leadership development, and practical AI work.</p><p><a asp-page="/Architecture">Architecture &amp; Governance</a> · <a asp-page="/Skills/TechnicalHistory">Recorded technical experience</a> · <a asp-page="/Git">Repository descriptions</a></p></section>
-
-<div class="row pt-3">
-    <div class="col-md-12">
-        <p>&nbsp;</p>
-    </div>
-    <div class="col-md-4">
-        <h3>Technologies</h3>
+<header class="page-header"><p class="page-kicker"><i class="bi bi-code-slash" aria-hidden="true"></i> Capabilities</p><h1>@ViewData["Title"]</h1></header>
+<div class="prose"><section aria-labelledby="capabilities"><h2 id="capabilities">Engineering, architecture, and leadership</h2><p>My background connects quality assurance, full stack software development, engineering management, architecture governance, and portfolio architecture. The detailed pages retain my technical history, proficiency distinctions, leadership development, and practical AI work.</p><p><a asp-page="/Architecture">Architecture &amp; Governance</a> · <a asp-page="/Skills/TechnicalHistory">Recorded technical experience</a> · <a asp-page="/Git">Repository descriptions</a></p></section></div><div class="project-grid"><section class="project-card prose">
+<h2>Technologies</h2>
         <p>This is a deeper dive into the technologies and skills that I have learned and developed.</p>
         <p>
             <a class="btn btn-info btn-site" asp-area="" asp-page="/Skills/Technologies">Learn more >></a>
         </p>
-    </div>
-    <div class="col-md-4">
-        <h3>AI Technologies</h3>
+</section><section class="project-card prose">
+<h2>AI Technologies</h2>
         <p>This highlights my AI product work, AI-assisted engineering workflow, and practical use of modern AI tooling.</p>
         <p>
             <a class="btn btn-info btn-site" asp-area="" asp-page="/Skills/AI">Learn more >></a>
         </p>
-    </div>
-    <div class="col-md-4">
-        <h3>Leadership</h3>
+</section><section class="project-card prose">
+<h2>Leadership</h2>
         <p>This details the leadership skills and training that I have learned and applied.</p>
         <p>
             <a class="btn btn-info btn-site" asp-area="" asp-page="/Skills/Leadership">Learn more >></a>
         </p>
-    </div>
-</div>
+</section></div>

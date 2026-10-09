@@ -1,0 +1,49 @@
+{
+  "Date": "2026-10-08",
+  "Libraries": 2,
+  "Files": 8,
+  "RetainedFilesByteIdentical": true,
+  "ReferencesRemaining": [],
+  "Checks": [
+    {
+      "File": "bootstrap-icons/font/bootstrap-icons.min.css",
+      "Passed": true,
+      "SHA256": "79C99C1A1E0E937F808A58165728B7ED00800F02EF5EFCFCD10DFE71464E675D"
+    },
+    {
+      "File": "bootstrap-icons/font/fonts/bootstrap-icons.woff",
+      "Passed": true,
+      "SHA256": "24929E8A44DA027588F833D4E82240EE734BD65BF962B08B0545AF58A9CE80FA"
+    },
+    {
+      "File": "bootstrap/js/bootstrap.bundle.min.js",
+      "Passed": true,
+      "SHA256": "E4FD49181388C48EC5040BD3FE66F57C29C8E67FCD8502B3354B96EC7AB47CC7"
+    },
+    {
+      "File": "bootstrap-icons/font/fonts/bootstrap-icons.woff2",
+      "Passed": true,
+      "SHA256": "2B7689746F87E0BEEAE25338BC021DD2515C2F6F003F3D3D064D878D380B2150"
+    },
+    {
+      "File": "bootstrap/js/bootstrap.bundle.min.js.map",
+      "Passed": true,
+      "SHA256": "C61123E58CC0A4B65D737BA070C485911B3DBEC6D7B802BDF6628395ABD9C08B"
+    },
+    {
+      "File": "bootstrap-icons/LICENSE",
+      "Passed": true,
+      "SHA256": "0FB3E11BD57E896C5A512AFD64864D28A37DE45D19835016C87CA1AD19EAD969"
+    },
+    {
+      "File": "bootstrap/css/bootstrap.min.css.map",
+      "Passed": true,
+      "SHA256": "48144FAF6AA0FB3CD2CE748D9730238F888F4AB715F05DABD1C9AF2C5671988A"
+    },
+    {
+      "File": "bootstrap/css/bootstrap.min.css",
+      "Passed": true,
+      "SHA256": "D85327D99C7A3EE1F9B5D0500D1370ACEA3AD2DB39C163C2F51F232BAEDBDEDE"
+    }
+  ]
+}

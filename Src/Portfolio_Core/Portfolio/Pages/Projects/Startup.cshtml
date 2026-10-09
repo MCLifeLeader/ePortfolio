@@ -4,12 +4,14 @@
     ViewData["Title"] = "Startup Examples";
 }
 
-<h1>@ViewData["Title"]</h1>
-<h3>@ViewData["Message"]</h3>
-
-<div class="row pt-3">
-    <div class="col-md-12">
-        <h3>Application Startup</h3>
+<header class="page-header">
+    <p class="page-kicker"><i class="bi bi-kanban" aria-hidden="true"></i> Developer foundations</p>
+    <h1>@ViewData["Title"]</h1>
+    <p class="page-intro">Application architecture examples drawn from practical software engineering experience.</p>
+</header>
+<nav class="section-nav" aria-label="Related project pages"><a asp-page="/Projects/Index">All projects</a><a asp-page="/Git">Public repositories</a></nav>
+<section id="section-1" class="content-panel prose">
+<h2>Application Startup</h2>
         <p>
             This is a personal project that I have undertaken to create example applications that demonstrate, what I believe, is a nice way
             to structure an application. The project architecture and layout is based on my years of experience and learning from other
@@ -21,5 +23,4 @@
         <p>
             <a class="btn btn-site" href="https://github.com/MCLifeLeader/DotNetProjectStartup" target="_blank" rel="noopener">GitHub Project &gt;&gt;</a>
         </p>
-    </div>
-</div>
+</section>

@@ -4,12 +4,14 @@
     ViewData["Title"] = "CIT 261";
 }
 
-<h1>@ViewData["Title"]</h1>
-<h3>@ViewData["Message"]</h3>
-
-<div class="row">
-    <div class="col-md-12">
-        <h3>CIT 261 Personal Project 2017</h3>
+<header class="page-header"><p class="page-kicker"><i class="bi bi-mortarboard" aria-hidden="true"></i> Coursework case study</p><h1>@ViewData["Title"]</h1>
+@if (ViewData["Message"] is string pageMessage && !string.IsNullOrWhiteSpace(pageMessage))
+{
+<p class="page-intro">@pageMessage</p>
+}
+</header><div class="reading-layout"><nav class="section-nav" aria-label="Coursework sections"><p class="page-kicker">On this page</p><ul><li><a href="#personal-project">CIT 261 Personal Project 2017</a></li><li><a href="#team-project">CIT 261 Team Project</a></li></ul><a asp-page="/College/Index">Back to coursework</a></nav><div class="reading-main">
+    <section class="content-panel prose" id="personal-project">
+        <h2>CIT 261 Personal Project 2017</h2>
         <p>
             CIT 261 Project work space represents knowledge gained during a BYU-Idaho web programming and development class. This class primarily covered
             the use of vanilla JavaScript and CSS to create various changes and manipulations to the DOM. This class exposed me to a number of features
@@ -18,16 +20,16 @@
         <p>
             Through this class I gained a much better understanding of the JavaScript language and its functional use in web development and design.
             A few of the most prominent features that were most interesting and useful to me are as follows:
-            <ul class="list-group">
-                <li class="list-group-item list-group-item-info fw-bolder">JSON.Parse</li>
-                <li class="list-group-item list-group-item-info fw-bolder">JSON.Stringify</li>
-                <li class="list-group-item list-group-item-info fw-bolder">localstorage</li>
-                <li class="list-group-item list-group-item-info fw-bolder">sessionStorage</li>
-                <li class="list-group-item list-group-item-info fw-bolder">console.log</li>
-                <li class="list-group-item list-group-item-info fw-bolder">document.getElementById</li>
-                <li class="list-group-item list-group-item-info fw-bolder">AJAX</li>
+            </p>
+<ul class="tag-list">
+                <li >JSON.Parse</li>
+                <li >JSON.Stringify</li>
+                <li >localstorage</li>
+                <li >sessionStorage</li>
+                <li >console.log</li>
+                <li >document.getElementById</li>
+                <li >AJAX</li>
             </ul>
-        </p>
         <p>
             Lastly, gaining a solid understanding of how the DOM functions and can be manipulated was deeply interesting to me. Adding and removing
             objects to the DOM, updating existing objects, and working with the JSON data that is then used to modify the DOM was quite exciting.
@@ -35,15 +37,15 @@
         </p>
         @*
             <p>
-                 <a class="btn btn-info btn-site" href="http://dev.mbcarey.com/web/cit261" target="_blank" rel="noopener">CIT 261 Site >></a> 
+                 <a class="btn btn-info btn-site" href="http://dev.mbcarey.com/web/cit261" target="_blank" rel="noopener">CIT 261 Site >></a>
             </p>
         *@
-    </div>
-    <div class="col-md-12">
-        <h3>CIT 261 Team Project</h3>
+    </section>
+    <section class="content-panel prose" id="team-project">
+        <h2>CIT 261 Team Project</h2>
         <p>
             CIT 261 Team Project was the class final. The foundation of the mathematics behind the project was adapted from
-            Jens T. Satre - <a href="http://www.satellite-calculations.com">http://www.satellite-calculations.com</a> original work 
+            Jens T. Satre - <a href="http://www.satellite-calculations.com">http://www.satellite-calculations.com</a> original work
             for calculating satellite position using TLE data.
         </p>
         <p>
@@ -56,5 +58,5 @@
             <a class="btn btn-info btn-site" href="https://github.com/MCLifeLeader/CIT261Team" target="_blank" rel="noopener">GitHub CIT 261 Team Project >></a>
             @*  <a class="btn btn-info btn-site" href="http://dev.mbcarey.com/Web/cit261Team" target="_blank" rel="noopener">CIT 261 Team Project >></a> *@
         </p>
-    </div>
-</div>
+    </section>
+</div><aside class="reading-aside"></aside></div>

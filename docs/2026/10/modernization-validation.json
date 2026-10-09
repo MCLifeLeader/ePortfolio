@@ -15,17 +15,20 @@
     "routes.json": "94c347b9e3638f423d496eed8e23f7f5c8daab45e8e9d91989037ad3e13064e0"
   },
   "summary": {
-    "verified-source-identity": 65,
+    "verified-source-identity": 62,
     "baseline-retained": 483,
     "verified-source-routes": 38,
-    "verified-source-value": 38,
+    "verified-source-value": 37,
     "verified-source-text": 989,
-    "owner-authorized-exception": 26,
-    "verified-source-reference": 310,
-    "implemented-source-change": 170,
-    "implemented-editorial-change": 16,
+    "owner-authorized-exception": 27,
+    "verified-source-reference": 308,
+    "implemented-source-change": 172,
     "verified-source-anchor": 30,
-    "verified-byte-identity": 873,
+    "implemented-editorial-change": 15,
+    "owner-authorized-retirement": 4,
+    "verified-byte-identity": 598,
+    "owner-authorized-vendor-retirement": 271,
+    "owner-authorized-vendor-update": 4,
     "verified-source-markers": 112
   },
   "checks": [
@@ -70,14 +73,41 @@
       "details": []
     },
     {
+      "check": "new-supporting-pages-discoverable",
+      "passed": true,
+      "details": []
+    },
+    {
       "check": "runtime-error-utility-route",
       "passed": true,
       "details": "Error is a directly addressable runtime utility, intentionally outside browsing menus."
     },
     {
-      "check": "vendor-and-download-byte-identity",
+      "check": "original-media-documents-and-unexempted-assets-byte-identity",
       "passed": true,
       "details": []
+    },
+    {
+      "check": "authorized-minimal-LibMan-manifest",
+      "passed": true,
+      "details": {
+        "libraries": [
+          "bootstrap@5.3.8",
+          "bootstrap-icons@1.13.2"
+        ],
+        "selected_files": [
+          "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap-icons/LICENSE",
+          "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap-icons/font/bootstrap-icons.min.css",
+          "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap-icons/font/fonts/bootstrap-icons.woff",
+          "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap-icons/font/fonts/bootstrap-icons.woff2",
+          "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap.min.css",
+          "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/css/bootstrap.min.css.map",
+          "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/js/bootstrap.bundle.min.js",
+          "Src/Portfolio_Core/Portfolio/wwwroot/lib/bootstrap/js/bootstrap.bundle.min.js.map"
+        ],
+        "unexpected": [],
+        "missing": []
+      }
     },
     {
       "check": "loopback-52-accomplishment-markers",
@@ -606,6 +636,20 @@
           "status": 200
         },
         {
+          "path": "/lib/bootstrap-icons/font/bootstrap-icons.min.css",
+          "status": 200
+        },
+        {
+          "path": "/lib/bootstrap-icons/font/fonts/bootstrap-icons.woff2",
+          "status": 200,
+          "dependency_of": "/lib/bootstrap-icons/font/bootstrap-icons.min.css"
+        },
+        {
+          "path": "/lib/bootstrap-icons/font/fonts/bootstrap-icons.woff",
+          "status": 200,
+          "dependency_of": "/lib/bootstrap-icons/font/bootstrap-icons.min.css"
+        },
+        {
           "path": "/lib/bootstrap/css/bootstrap.min.css",
           "status": 200
         },
@@ -657,6 +701,11 @@
       "ContentID": "PAGE-College-Index-BEHAVIOR",
       "source": "Src/Portfolio_Core/Portfolio/Pages/College/Index.cshtml",
       "kind": "behavior"
+    },
+    {
+      "ContentID": "PAGE-Contact-VALUE-002",
+      "source": "Src/Portfolio_Core/Portfolio/Pages/Contact.cshtml",
+      "kind": "dynamic text"
     },
     {
       "ContentID": "PAGE-Contact-BEHAVIOR",
@@ -921,6 +970,11 @@
     {
       "ContentID": "SOURCE-072",
       "source": "Src/Portfolio_Core/Portfolio/Pages/Shared/_Layout.cshtml.css",
+      "kind": "supporting source"
+    },
+    {
+      "ContentID": "SOURCE-107",
+      "source": "Src/Portfolio_Core/Portfolio/libman.json",
       "kind": "supporting source"
     },
     {
@@ -1441,6 +1495,20 @@
         "status": 200
       },
       {
+        "path": "/lib/bootstrap-icons/font/bootstrap-icons.min.css",
+        "status": 200
+      },
+      {
+        "path": "/lib/bootstrap-icons/font/fonts/bootstrap-icons.woff2",
+        "status": 200,
+        "dependency_of": "/lib/bootstrap-icons/font/bootstrap-icons.min.css"
+      },
+      {
+        "path": "/lib/bootstrap-icons/font/fonts/bootstrap-icons.woff",
+        "status": 200,
+        "dependency_of": "/lib/bootstrap-icons/font/bootstrap-icons.min.css"
+      },
+      {
         "path": "/lib/bootstrap/css/bootstrap.min.css",
         "status": 200
       },
@@ -1456,6 +1524,6 @@
     "Text comparison checks complete word/number sequences; does not prove factual accuracy, visual quality, or behavior.",
     "Owner-corrected paragraph exceptions still require checking unaffected clauses.",
     "Heading/metadata/control changes are classified as changes rather than falsely claiming byte preservation.",
-    "No external URL or document link has been opened."
+    "Existing project/profile/document references were not opened; official dependency documentation was consulted for owner-requested library updates."
   ]
 }

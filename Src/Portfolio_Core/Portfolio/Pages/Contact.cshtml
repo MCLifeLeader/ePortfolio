@@ -1,36 +1,11 @@
 @page
 @model Portfolio.Pages.ContactModel
-@{
-    ViewData["Title"] = "Contact";
-  
-    string statusMessage = (string)ViewData["Message"]!;
-    if (string.IsNullOrEmpty(statusMessage))
-    {
-        statusMessage = string.Empty;
-    }
-    bool messageSuccess = statusMessage.Contains("Message Sent");
-
-    ViewData["Message"] = "Coming Soon";
-}
-
-<h1>@ViewData["Title"]</h1>
-<p>The contact form is not currently available. You can connect with me through LinkedIn or explore my work on GitHub.</p>
-<ul class="connection-list"><li><a href="https://www.linkedin.com/in/michael-carey-13899627/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://github.com/MCLifeLeader" target="_blank" rel="noopener">GitHub</a></li></ul>
-
-
-<div class="row justify-content-md-center justify-content-center">
-    <div class="col-11 col-md-8 col-lg-6 col-xl-5">
-        @if (messageSuccess)
-        {
-            <div class="alert-success rounded"><h4>@statusMessage</h4></div>
-        }
-        else
-        {
-            <div class="alert-warning rounded"><h4>@statusMessage</h4></div>
-        }
-    </div>
-</div>
-
+@{ ViewData["Title"] = "Contact"; }
+<header class="page-header"><p class="page-kicker"><i class="bi bi-chat-dots" aria-hidden="true"></i> Start a conversation</p><h1>Contact</h1><p class="page-intro">Connect with me and explore my work.</p></header>
+<div class="reading-layout"><div class="reading-main"><p>The contact form is not currently available. You can connect with me through LinkedIn or explore my work on GitHub.</p>
+<div class="project-grid"><section class="project-card"><h2>LinkedIn</h2><p>Professional experience and connections.</p><a class="btn btn-primary" href="https://www.linkedin.com/in/michael-carey-13899627/" target="_blank" rel="noopener">LinkedIn</a></section>
+<section class="project-card"><h2>GitHub</h2><p>Repositories and hands-on engineering work.</p><a class="btn btn-primary" href="https://github.com/MCLifeLeader" target="_blank" rel="noopener">GitHub</a></section></div></div>
+<aside class="reading-aside"><section class="content-panel"><h2>Explore further</h2><ul class="resource-list"><li><a asp-page="/Architecture">Architecture &amp; Governance</a></li><li><a asp-page="/Experience/WorkHistory">Work history</a></li><li><a asp-page="/AboutMe" asp-fragment="connections">More connections</a></li></ul></section></aside></div>
 @* <div class="bg-dark rounded">
     <div class="row justify justify-content-center">
         <div class="col-11 col-md-8 col-lg-6 col-xl-5">

@@ -4,23 +4,25 @@
   "libraries": [
     {
       "provider": "cdnjs",
-      "library": "bootstrap@5.3.3",
-      "destination": "wwwroot/lib/bootstrap/"
+      "library": "bootstrap@5.3.8",
+      "destination": "wwwroot/lib/bootstrap/",
+      "files": [
+        "css/bootstrap.min.css",
+        "css/bootstrap.min.css.map",
+        "js/bootstrap.bundle.min.js",
+        "js/bootstrap.bundle.min.js.map"
+      ]
     },
     {
-      "provider": "cdnjs",
-      "library": "jquery@3.7.1",
-      "destination": "wwwroot/lib/jquery/"
-    },
-    {
-      "provider": "cdnjs",
-      "library": "jquery-validation-unobtrusive@3.2.10",
-      "destination": "wwwroot/lib/jquery-validation-unobtrusive/"
-    },
-    {
-      "provider": "cdnjs",
-      "library": "jquery-validate@1.20.0",
-      "destination": "wwwroot/lib/jquery-validate/"
+      "provider": "unpkg",
+      "library": "bootstrap-icons@1.13.2",
+      "destination": "wwwroot/lib/bootstrap-icons/",
+      "files": [
+        "font/bootstrap-icons.min.css",
+        "font/fonts/bootstrap-icons.woff",
+        "font/fonts/bootstrap-icons.woff2",
+        "LICENSE"
+      ]
     }
   ]
 }

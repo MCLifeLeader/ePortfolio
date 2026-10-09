@@ -25,7 +25,7 @@ The ledger explicitly separates active public prose from source infrastructure, 
 
 The original homepage technology table and list move to `/Skills/TechnicalHistory` with their recorded durations and proficiency distinctions. Civic text and social references move to `/AboutMe`. The current reading additions supplement the original reading categories. LinkedIn and GitHub remain referenced.
 
-Every vendor asset and original document uses the audit SHA-256 identity. The original Resume.pdf remains byte-identical and deliberately disconnected from all page links. Its source extraction is retained with that explicit historical disposition; the new resume-history page supplies supporting context. The site CSS and theme JavaScript are intentional presentation changes and are classified separately from binary preservation.
+Original media, documents, and unexempted vendor assets use the audit SHA-256 identity. The owner's subsequent minimal LibMan instruction narrowly authorizes upgrades/retirement within the original Bootstrap/jQuery-family vendor directories and retirement of the unused validation partial. The final manifest selects exactly eight Bootstrap/Bootstrap Icons files. The original Resume.pdf remains byte-identical and deliberately disconnected from all page links. Its source extraction is retained with that explicit historical disposition; the new resume-history page supplies supporting context. The site CSS and theme JavaScript are intentional presentation changes and are classified separately from binary preservation.
 
 ## Explicit corrections and changes
 
@@ -39,9 +39,9 @@ An initial loopback run found a genuine 404 for generated `Portfolio.styles.css`
 
 ## Final verification result
 
-The final command ran against the rebuilt site at `http://localhost:5187` and exited successfully: **3,150 mapped IDs, zero unexplained losses, and zero failed checks**. All 49 current route aliases returned HTTP 200, including the 44 original aliases. All 30 original anchors and all 52 approved accomplishment markers appeared in rendered output. All 77 linked local assets returned HTTP 200. No rendered page linked Resume.pdf; LinkedIn and GitHub were retained. All fixed audit files had identical hashes before and after the check.
+The final command ran against the rebuilt site at `http://localhost:5187` and exited successfully: **3,150 mapped IDs, zero unexplained losses, and zero failed checks**. All 49 current route aliases returned HTTP 200, including the 44 original aliases. All 30 original anchors and all 52 approved accomplishment markers appeared in rendered output. All 80 local asset/font requests returned HTTP 200. No rendered page linked Resume.pdf; LinkedIn and GitHub were retained. All fixed audit files had identical hashes before and after the check.
 
-The implementation statuses distinguish 989 complete source-text matches, 873 byte-identity records, 112 approved-source-to-accomplishment mappings, 22 owner-authorized exceptions, 16 editorial changes, 172 infrastructure/behavior/presentation source changes, and the remaining original routes, anchors, references, values, unchanged source, or private baseline records. These categories do not imply every record is public prose or that every changed behavior has been independently tested.
+Following the complete page-layout and minimal LibMan passes, the implementation statuses distinguish 989 complete source-text matches, 598 byte-identity records, 112 approved-source-to-accomplishment mappings, 27 owner-authorized content/presentation exceptions, four selected vendor upgrades, 271 unused vendor retirements, four unused-validation-partial retirements, 15 editorial changes, 172 infrastructure/behavior/presentation source changes, and the remaining original routes, anchors, references, values, unchanged source, or private baseline records. The latest rebuilt-site report passes all 22 preservation checks. These categories do not imply every record is public prose or that every changed behavior has been independently tested.
 
 ## Limits of the evidence
 

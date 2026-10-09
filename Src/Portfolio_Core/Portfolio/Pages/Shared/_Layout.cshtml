@@ -6,25 +6,26 @@
 <meta name="description" content="@(ViewData["Description"] ?? "Michael B. Carey's portfolio: portfolio architecture, enterprise governance, technology strategy, engineering leadership, and the experience behind the work.")" />
 <script>try { const t = localStorage.getItem('theme'); document.documentElement.setAttribute('data-bs-theme', t === 'dark' || t === 'light' ? t : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')); } catch { document.documentElement.setAttribute('data-bs-theme', matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); }</script>
 <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.min.css" asp-append-version="true" />
 <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
-<body>
+<body class="portfolio-site">
 <a class="skip-link" href="#main-content">Skip to content</a>
 <header class="site-header"><nav class="navbar navbar-expand-xl navbar-dark" aria-label="Main navigation"><div class="container">
 <a class="navbar-brand" asp-page="/Index">Michael B. Carey<span>Portfolio Architect</span></a>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 <div id="main-navigation" class="collapse navbar-collapse">
 <ul class="navbar-nav ms-auto">
-<li class="nav-item"><a class="nav-link" asp-page="/Architecture">Architecture</a></li>
-<li class="nav-item"><a class="nav-link" asp-page="/Skills/AI">AI &amp; Innovation</a></li>
-<li class="nav-item"><a id="SkillsDropDown" class="nav-link" asp-page="/Skills/Technologies">Engineering</a></li>
-<li class="nav-item"><a id="ExperienceDropDown" class="nav-link" asp-page="/Experience/Index">Experience</a></li>
-<li class="nav-item"><a class="nav-link" asp-page="/Explore">Explore</a></li>
+<li class="nav-item"><a class="nav-link" asp-page="/Architecture"><i class="bi bi-diagram-3" aria-hidden="true"></i> Architecture</a></li>
+<li class="nav-item"><a class="nav-link" asp-page="/Skills/AI"><i class="bi bi-stars" aria-hidden="true"></i> AI &amp; Innovation</a></li>
+<li class="nav-item"><a id="SkillsDropDown" class="nav-link" asp-page="/Skills/Technologies"><i class="bi bi-code-slash" aria-hidden="true"></i> Engineering</a></li>
+<li class="nav-item"><a id="ExperienceDropDown" class="nav-link" asp-page="/Experience/Index"><i class="bi bi-briefcase" aria-hidden="true"></i> Experience</a></li>
+<li class="nav-item"><a class="nav-link" asp-page="/Explore"><i class="bi bi-compass" aria-hidden="true"></i> Explore</a></li>
 </ul>
 <div class="theme-control"><label id="themeLabel" for="themeToggle">Dark mode</label><input class="form-check-input" type="checkbox" role="switch" id="themeToggle" aria-label="Dark mode" /></div>
 </div></div></nav></header>
 <main id="main-content" class="container site-main" tabindex="-1">@RenderBody()</main>
-<footer class="site-footer"><div class="container footer-content"><span>&copy; @DateTime.UtcNow.Year Michael B. Carey</span><nav aria-label="Footer navigation"><a id="ProjectsDropDown" asp-page="/Projects/Index">Projects</a><a id="CollegeDropDown" asp-page="/Experience/Education">Education</a><a asp-page="/Explore">Explore</a><a asp-page="/Contact">Contact</a><a asp-page="/Privacy">Privacy</a></nav></div></footer>
+<footer class="site-footer"><div class="container footer-content"><span>&copy; @DateTime.UtcNow.Year Michael B. Carey</span><nav aria-label="Footer navigation"><a id="ProjectsDropDown" asp-page="/Projects/Index">Projects</a><a id="CollegeDropDown" asp-page="/Experience/Education">Education</a><a asp-page="/Explore"><i class="bi bi-compass" aria-hidden="true"></i> Explore</a><a asp-page="/Contact">Contact</a><a asp-page="/Privacy">Privacy</a></nav></div></footer>
 <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
 @RenderSection("Scripts", required: false)

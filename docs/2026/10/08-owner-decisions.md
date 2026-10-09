@@ -40,3 +40,12 @@ The owner supplied Michael_Carey_Large.JPG and explicitly requested it as the pr
 ## Remove remaining résumé entry points
 
 The owner reiterated removal of résumé links. The running local pages had no Resume.pdf hyperlink, but Explore, Experience, and Fun still linked to /Experience/ResumeHistory. Those entry points were removed or redirected to the technical-experience page; the historical details remain discoverable under /Skills/TechnicalHistory, including personal achievements. Resume.pdf remains unchanged and disconnected. The previous historical page URL remains addressable for compatibility but has no page links.
+
+## Library and icon update
+
+The owner explicitly requested Bootstrap Icons and updates to Bootstrap, jQuery, and the LibMan-managed libraries. Dependency upgrades supersede byte-identity preservation for the affected wwwroot/lib/bootstrap, jquery, jquery-validate, and jquery-validation-unobtrusive vendor assets only; original versions/hashes remain in the fixed baseline. Historical document/media binaries remain unchanged. New libraries are restored locally and pinned in libman.json. Bootstrap Icons decorate existing visible labels, and jQuery Migrate is scoped to the validation partial to support the remaining unobtrusive-validator legacy APIs. No contact form is enabled.
+## Final client-library scope and image presentation
+
+The owner authorized removing unused LibMan resources while retaining Bootstrap and Bootstrap Icons. The final manifest contains Bootstrap 5.3.8 and Bootstrap Icons 1.13.2, with eight required files. Unused jQuery, migration and validation libraries and the unused validation partial are retired. This supersedes the intermediate library upgrade; original inventory records remain intact. Bootstrap navigation and galleries remain available.
+
+The owner requested appealing, responsive image styling. Portraits use rounded frames, while article photos and diagrams retain their proportions with consistent borders, spacing and shadows. Gallery images remain contained within their frames. Intrinsic image dimensions and asynchronous decoding were added to the radio article without changing image files, alternative text or gallery order.

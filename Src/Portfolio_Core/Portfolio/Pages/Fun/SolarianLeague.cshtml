@@ -4,12 +4,14 @@
     ViewData["Title"] = "Solarian League";
 }
 
-<h1>@ViewData["Title"]</h1>
-<h3>@ViewData["Message"]</h3>
-
-<div class="row pt-3">
-    <div class="col-md-12">
-        <h3>Blazor Web Assembly Project</h3>
+<header class="page-header"><p class="page-kicker"><i class="bi bi-controller" aria-hidden="true"></i> Personal project / Blazor learning</p><h1>@ViewData["Title"]</h1>
+@if (ViewData["Message"] is string pageMessage && !string.IsNullOrWhiteSpace(pageMessage))
+{
+<p class="page-intro">@pageMessage</p>
+}
+</header><div class="reading-layout"><nav class="section-nav" aria-label="Personal project sections"><p class="page-kicker">On this page</p><ul><li><a href="#project-story">Project story</a></li></ul><a asp-page="/Fun/Index">Back to personal projects</a></nav><div class="reading-main">
+    <section class="content-panel prose" id="project-story">
+        <h2>Blazor Web Assembly Project</h2>
         <p>
             This project is a fun project that I have been working on for a while. That combines my love of the Honor Harrington series by David Weber
             and my enjoyment of playing World Of Warcraft. This project is a web application that is designed to be a home page for my
@@ -23,16 +25,16 @@
         </p>
         <p>
             Some of the Technologies utilized in its development:
-            <ul class="list-group">
-                <li class="list-group-item list-group-item-info fw-bolder">Azure Hosted Static Web Page</li>
-                <li class="list-group-item list-group-item-info fw-bolder">Azure Function App</li>
-                <li class="list-group-item list-group-item-info fw-bolder">Bootstrap</li>
-                <li class="list-group-item list-group-item-info fw-bolder">C#.NET, Blazor, WebAsm, SPA</li>
-                <li class="list-group-item list-group-item-info fw-bolder">Discord</li>
+            </p>
+<ul class="tag-list">
+                <li >Azure Hosted Static Web Page</li>
+                <li >Azure Function App</li>
+                <li >Bootstrap</li>
+                <li >C#.NET, Blazor, WebAsm, SPA</li>
+                <li >Discord</li>
             </ul>
-        </p>
         <p>
             <a class="btn btn-info btn-site" href="https://SolarianLeague.com/" target="_blank" rel="noopener">SolarianLeague.com >></a>
         </p>
-    </div>
-</div>
+    </section>
+</div><aside class="reading-aside"></aside></div>

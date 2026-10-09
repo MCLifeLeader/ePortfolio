@@ -1,5 +1,7 @@
 # Implementation review — October 8, 2026
 
+The later page-by-page layout update, final library cleanup and responsive image treatment are documented in [14 — Layout modernization review](14-layout-modernization-review.md). Its evidence supersedes the presentation and dependency checkpoints below.
+
 The modernization is implemented in the existing ASP.NET Core Razor Pages application on `feature/mbc/2026/10/08/history-update`. The original content audit was completed before restructuring and remains unchanged. No commit, push, remote PR, or production deployment was performed by this task.
 
 ## Resulting content and behavior

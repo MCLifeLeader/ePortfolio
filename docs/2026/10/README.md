@@ -62,6 +62,7 @@ The fixed baseline is [the content audit](../../content-audit/README.md), includ
 - [Preservation verification](traceability-work.md)
 - [Technical verification](technical-work.md)
 - [Implementation and final review](12-implementation-review.md)
+- [Page layout modernization and final review](14-layout-modernization-review.md)
 
 ## Execution rules
 

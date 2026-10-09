@@ -1,19 +1,20 @@
 @page
 @{ ViewData["Title"] = "Technical experience record"; }
-<h1>Technical experience record</h1>
+<header class="page-header"><p class="page-kicker"><i class="bi bi-clock-history" aria-hidden="true"></i> Engineering history</p><h1>Technical experience record</h1></header>
+<div class="reading-layout"><nav class="section-nav" aria-label="On this page"><h2>On this page</h2><ul><li><a href="#portfolio-experience">Technical Experience</a></li><li><a href="#historical-record">Historical Technical and Personal Record</a></li><li><a href="#qualifications">Earlier qualifications summary</a></li><li><a href="#technical-record">Recorded technical experience</a></li><li><a href="#employment-details">Earlier employment details</a></li><li><a href="#achievements">Personal achievements and development</a></li></ul></nav><div class="reading-main">
 <p>These recorded durations and proficiency descriptions preserve the earlier portfolio snapshot. They have not been increased or reassessed. Explore <a asp-page="/Skills/Technologies">engineering and quality assurance</a> for the wider context.</p>
-    <div class="card shadow-sm mb-4">
-        <div class="card-header bg-primary text-white">
-            <h2 class="h5 mb-0">Technical Experience</h2>
+    <div class="content-panel prose">
+        <div class="record-heading">
+            <h2 id="portfolio-experience">Technical Experience</h2>
         </div>
-        <div class="card-body p-0">
+        <div class="record-body">
             <div class="table-responsive">
-                <table class="table table-striped mb-0">
+                <table class="table table-striped"><caption>Recorded portfolio experience and proficiency descriptions</caption>
                     <thead class="table-light">
                         <tr>
-                            <th>Years</th>
-                            <th>Technology</th>
-                            <th>Description</th>
+                            <th scope="col">Years</th>
+                            <th scope="col">Technology</th>
+                            <th scope="col">Description</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -72,41 +73,41 @@
                             <td></td>
                             <td>Technologies and Skills:</td>
                             <td>
-                                <ul class="list-group">
-                                    <li class="list-group-item fw-bolder">⭐ASP.NET / API / MVC / Web Development</li>
-                                    <li class="list-group-item fw-bolder">⭐C# .Net Core / Framework</li>
-                                    <li class="list-group-item fw-bolder">⭐Web Services / RESTful</li>
-                                    <li class="list-group-item fw-bolder">⚡️Agile / Scrum / Kanban</li>
-                                    <li class="list-group-item fw-bolder">⚡️Azure / Service Bus / AI Services / Key Vault / Function &amp; Logic Apps / SQL / Application Services / Storage / API Gateway / etc.</li>
-                                    <li class="list-group-item fw-bolder">⚡️Azure DevOps / TFS</li>
-                                    <li class="list-group-item fw-bolder">⚡️Debugging and Troubleshooting</li>
-                                    <li class="list-group-item fw-bolder">⚡️GitHub</li>
-                                    <li class="list-group-item fw-bolder">⚡️JSON</li>
-                                    <li class="list-group-item fw-bolder">⚡️MS-SQL / T-SQL</li>
-                                    <li class="list-group-item fw-bolder">⚡️Quality Assurance</li>
-                                    <li class="list-group-item fw-bolder">⚡️Source Control / GIT / TFVS</li>
-                                    <li class="list-group-item fw-bolder">⚡️Visual Studio / VS Code / Other IDEs</li>
-                                    <li class="list-group-item fw-bolder">🔸Blazor C# .NET</li>
-                                    <li class="list-group-item fw-bolder">🔸Docker and Containers</li>
-                                    <li class="list-group-item fw-bolder">🔸GraphQL</li>
-                                    <li class="list-group-item fw-bolder">🔸HTML / JavaScript / CSS</li>
-                                    <li class="list-group-item fw-bolder">🔸OpenAI and GPTs</li>
-                                    <li class="list-group-item fw-bolder">🔸Performance Optimization</li>
-                                    <li class="list-group-item fw-bolder">🔸PowerShell / Automation</li>
-                                    <li class="list-group-item fw-bolder">🔸Selenium WebDriver</li>
-                                    <li class="list-group-item fw-bolder">🔸YAML</li>
-                                    <li class="list-group-item fw-bolder">C / C++</li>
-                                    <li class="list-group-item fw-bolder">IIS</li>
-                                    <li class="list-group-item fw-bolder">Java</li>
-                                    <li class="list-group-item fw-bolder">Jira</li>
-                                    <li class="list-group-item fw-bolder">Leading and Mentoring</li>
-                                    <li class="list-group-item fw-bolder">Networking / SOHO / DNS / VPN / Firewall & Security</li>
-                                    <li class="list-group-item fw-bolder">OpenAI / Chat-GPT / Azure AI Studio</li>
-                                    <li class="list-group-item fw-bolder">Operating Systems / Windows / Linux - Ubuntu / Mac</li>
-                                    <li class="list-group-item fw-bolder">React</li>
-                                    <li class="list-group-item fw-bolder">Terraform</li>
-                                    <li class="list-group-item fw-bolder">WordPress</li>
-                                    <li class="list-group-item fw-bolder">XML</li>
+                                <ul class="tag-list">
+                                    <li>⭐ASP.NET / API / MVC / Web Development</li>
+                                    <li>⭐C# .Net Core / Framework</li>
+                                    <li>⭐Web Services / RESTful</li>
+                                    <li>⚡️Agile / Scrum / Kanban</li>
+                                    <li>⚡️Azure / Service Bus / AI Services / Key Vault / Function &amp; Logic Apps / SQL / Application Services / Storage / API Gateway / etc.</li>
+                                    <li>⚡️Azure DevOps / TFS</li>
+                                    <li>⚡️Debugging and Troubleshooting</li>
+                                    <li>⚡️GitHub</li>
+                                    <li>⚡️JSON</li>
+                                    <li>⚡️MS-SQL / T-SQL</li>
+                                    <li>⚡️Quality Assurance</li>
+                                    <li>⚡️Source Control / GIT / TFVS</li>
+                                    <li>⚡️Visual Studio / VS Code / Other IDEs</li>
+                                    <li>🔸Blazor C# .NET</li>
+                                    <li>🔸Docker and Containers</li>
+                                    <li>🔸GraphQL</li>
+                                    <li>🔸HTML / JavaScript / CSS</li>
+                                    <li>🔸OpenAI and GPTs</li>
+                                    <li>🔸Performance Optimization</li>
+                                    <li>🔸PowerShell / Automation</li>
+                                    <li>🔸Selenium WebDriver</li>
+                                    <li>🔸YAML</li>
+                                    <li>C / C++</li>
+                                    <li>IIS</li>
+                                    <li>Java</li>
+                                    <li>Jira</li>
+                                    <li>Leading and Mentoring</li>
+                                    <li>Networking / SOHO / DNS / VPN / Firewall & Security</li>
+                                    <li>OpenAI / Chat-GPT / Azure AI Studio</li>
+                                    <li>Operating Systems / Windows / Linux - Ubuntu / Mac</li>
+                                    <li>React</li>
+                                    <li>Terraform</li>
+                                    <li>WordPress</li>
+                                    <li>XML</li>
                                 </ul>
                             </td>
                         </tr>
@@ -117,8 +118,8 @@
     </div>
 
 
-<section class="content-section">
-<h2>Historical Technical and Personal Record</h2>
+<section class="content-panel prose">
+<h2 id="historical-record">Historical Technical and Personal Record</h2>
 <p class="lead">This supporting record preserves details from my earlier résumé. Its document metadata is dated August 30, 2022. Durations and qualifications below are historical snapshots and have not been recalculated.</p>
 <p>For the current chronology, see my <a asp-page="/Experience/WorkHistory">work history</a> and <a asp-page="/Experience/Education">education</a>. I graduated with my Software Engineering bachelor's degree in 2020. My Engineering Manager role ran from February 2021 to February 2026; I became Sr. Software Architect (Portfolio Architect) in February 2026.</p>
 <section aria-labelledby="qualifications">
@@ -179,3 +180,4 @@
 </section>
 
 </section>
+</div><aside class="reading-aside"></aside></div>
