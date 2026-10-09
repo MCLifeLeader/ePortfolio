@@ -1,0 +1,4 @@
+interface:
+  display_name: "Website to Wiki Sync"
+  short_description: "Sync portfolio content to its GitHub wiki"
+  default_prompt: "Use $website-wiki-sync to synchronize this portfolio website with its GitHub wiki and verify the result."
